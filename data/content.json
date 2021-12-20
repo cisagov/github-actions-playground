@@ -1,0 +1,15 @@
+{
+  "skeletons": [
+    {
+      "description": "The base skeleton repository.",
+      "name": "skeleton-generic",
+      "url": "https://github.com/cisagov/skeleton-generic"
+    },
+    {
+      "description": "The base skeleton for Python projects.",
+      "name": "skeleton-python-library",
+      "url": "https://github.com/cisagov/skeleton-python-library"
+    }
+  ],
+  "version": "1.0"
+}
