@@ -6,6 +6,9 @@ on:
     branches:
       - testing/commit_on_merge_base
 
+env:
+  WORKING_BRANCH_NAME: automatic/update_json_file
+
 jobs:
   update_json:
     runs-on: ubuntu-latest
@@ -23,10 +26,28 @@ jobs:
         run: pip install --upgrade --requirement scripts/requirements.txt
       - name: Generate a JSON from the manually maintained YAML file
         run: python3 scripts/generate_json.py data/content.yml data/content.json
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Configure git
+        run: |
+          git config user.name ${{ github.actor }}
+          git config user.email ${{ github.actor }}@github.com
+      - id: commit-json-for-testing
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Generate an updated JSON file
           commit_user_name: ${{ github.actor }}
           commit_user_email: ${{ github.actor }}@github.com
           add_options: "-f"
           file_pattern: data/content.json
+          refs: ${{ env.WORKING_BRANCH_NAME }}
+      - uses: lewagon/wait-on-check-action@v1
+        with:
+          check-name: build
+          ref: ${{ env.WORKING_BRANCH_NAME }}
+          repo-token: ${{ github.token }}
+        if: steps.commit-json-for-testing.changes_detected
+      - name: Merge the testing branch
+        run: |
+          git switch ${{ github.ref_name }}
+          git merge ${{ env.WORKING_BRANCH_NAME }}
+          git push
+          git push -d origin ${{ env.WORKING_BRANCH_NAME }}
