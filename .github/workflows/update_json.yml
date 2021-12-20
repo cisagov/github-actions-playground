@@ -29,3 +29,5 @@ jobs:
           commit_user_name: ${{ env.GITHUB_ACTOR }}
           commit_user_email: ${{ env.GITHUB_ACTOR }}@github.com
           add_options: "-f data/content.json"
+          # We need this because the output file is in .gitignore
+          skip_dirty_check: true
