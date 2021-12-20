@@ -28,6 +28,7 @@ jobs:
           commit_message: Generate an updated JSON file
           commit_user_name: ${{ github.actor }}
           commit_user_email: ${{ github.actor }}@github.com
-          add_options: "-f data/content.json"
+          add_options: "-f"
+          file_pattern: data/content.json
           # We need this because the output file is in .gitignore
           skip_dirty_check: true
