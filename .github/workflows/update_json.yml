@@ -23,6 +23,8 @@ jobs:
         run: pip install --upgrade --requirement scripts/requirements.txt
       - name: Generate a JSON from the manually maintained YAML file
         run: python3 scripts/generate_json.py data/content.yml data/content.json
+      - name: Remove the .gitignore file so the generated JSON can be commited
+        run: rm .gitignore
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Generate an updated JSON file
