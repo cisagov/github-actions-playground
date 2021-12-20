@@ -30,5 +30,3 @@ jobs:
           commit_user_email: ${{ github.actor }}@github.com
           add_options: "-f"
           file_pattern: data/content.json
-          # We need this because the output file is in .gitignore
-          skip_dirty_check: true

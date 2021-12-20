@@ -2,9 +2,6 @@
 # Files already tracked by Git are not affected.
 # See: https://git-scm.com/docs/gitignore
 
-## Repo Specific ##
-data/content.json
-
 ## Python ##
 __pycache__
 .mypy_cache
