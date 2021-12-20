@@ -1,0 +1,6 @@
+---
+version: "1.0"
+skeletons:
+  - name: skeleton-generic
+    description: The base skeleton repository.
+    url: https://github.com/cisagov/skeleton-generic

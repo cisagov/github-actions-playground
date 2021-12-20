@@ -1,0 +1,30 @@
+---
+name: Update Skeleton JSON
+
+on:
+  push:
+    branches:
+      - testing/commit_on_merge_base
+
+jobs:
+  update_json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.CISAGOVBOT_PAT }}
+      - id: setup-python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.10"
+      - name: Update Python base packages
+        run: python -m pip install --upgrade pip setuptools wheel
+      - name: Install dependencies
+        run: pip install --upgrade --requirement scripts/requirements.txt
+      - name: Generate a JSON from the manually maintained YAML file
+        run: python3 scripts/generate_json.py data/content.yml data/content.json
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update JSON file
+          commit_user_name: JSON Auto-Update
+          add_options: "data/content.json"
