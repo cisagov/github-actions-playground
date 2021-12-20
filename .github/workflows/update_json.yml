@@ -26,8 +26,8 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Generate an updated JSON file
-          commit_user_name: ${{ env.GITHUB_ACTOR }}
-          commit_user_email: ${{ env.GITHUB_ACTOR }}@github.com
+          commit_user_name: ${{ github.actor }}
+          commit_user_email: ${{ github.actor }}@github.com
           add_options: "-f data/content.json"
           # We need this because the output file is in .gitignore
           skip_dirty_check: true
