@@ -4,3 +4,6 @@ skeletons:
   - name: skeleton-generic
     description: The base skeleton repository.
     url: https://github.com/cisagov/skeleton-generic
+  - name: skeleton-python-library
+    description: The base skeleton for Python projects.
+    url: https://github.com/cisagov/skeleton-python-library
