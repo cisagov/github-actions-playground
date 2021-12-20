@@ -28,4 +28,4 @@ jobs:
           commit_message: Generate an updated JSON file
           commit_user_name: ${{ env.GITHUB_ACTOR }}
           commit_user_email: ${{ env.GITHUB_ACTOR }}@github.com
-          add_options: "data/content.json"
+          add_options: "-f data/content.json"
