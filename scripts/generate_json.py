@@ -52,8 +52,11 @@ def main():
         args.json_file_path, "w"
     ) as out_file:
         data = yaml.safe_load(in_file)
+        logging.info('Loaded data from "%s"', args.yaml_file_path)
         out_file.write(json.dumps(data, indent=2, sort_keys=True))
         out_file.write("\n")
+
+    logging.info('Wrote data to "%s"', args.json_file_path)
 
 
 if __name__ == "__main__":
