@@ -25,6 +25,7 @@ jobs:
         run: python3 scripts/generate_json.py data/content.yml data/content.json
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update JSON file
-          commit_user_name: JSON Auto-Update
+          commit_message: Generate an updated JSON file
+          commit_user_name: ${{ env.GITHUB_ACTOR }}
+          commit_user_email: ${{ env.GITHUB_ACTOR }}@github.com
           add_options: "data/content.json"
