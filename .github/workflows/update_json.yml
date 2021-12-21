@@ -39,13 +39,14 @@ jobs:
           add_options: "-f"
           file_pattern: data/content.json
           refs: ${{ env.WORKING_BRANCH_NAME }}
-      - uses: lewagon/wait-on-check-action@v1
+      - uses: lewagon/wait-on-check-action@v1.0.0
+        if: steps.commit-json-for-testing.changes_detected
         with:
           check-name: build
           ref: ${{ env.WORKING_BRANCH_NAME }}
           repo-token: ${{ github.token }}
-        if: steps.commit-json-for-testing.changes_detected
       - name: Merge the testing branch
+        if: steps.commit-json-for-testing.changes_detected
         run: |
           git switch ${{ github.ref_name }}
           git merge ${{ env.WORKING_BRANCH_NAME }}
