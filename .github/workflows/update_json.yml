@@ -40,6 +40,17 @@ jobs:
           commit_user_name: ${{ github.actor }}
           commit_user_email: ${{ github.actor }}@github.com
           file_pattern: data/content.json
+      - name: Manually check for Actions status on the temporary branch
+        uses: octokit/request-action@v2.x
+        id: manual_check
+        with:
+          route: GET /repos/{owner}/{repo}/commits/{ref}/check-suites
+          owner: cisagov
+          repo: github-actions-playground
+          ref: ${{ env.WORKING_BRANCH_NAME }}
+          check_name: lint
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - uses: lewagon/wait-on-check-action@v1.0.0
         if: steps.commit-json-for-testing.outputs.changes_detected
         with:
