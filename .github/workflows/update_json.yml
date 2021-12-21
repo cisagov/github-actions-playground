@@ -40,6 +40,10 @@ jobs:
           commit_user_name: ${{ github.actor }}
           commit_user_email: ${{ github.actor }}@github.com
           file_pattern: data/content.json
+      - name: Debugging output
+        run: |
+          echo "${{ steps.commit-json-for-testing.changes_detected }}"
+          echo "${{ toJson(steps.commit-json-for-testing) }}"
       - uses: lewagon/wait-on-check-action@v1.0.0
         if: steps.commit-json-for-testing.changes_detected
         with:
