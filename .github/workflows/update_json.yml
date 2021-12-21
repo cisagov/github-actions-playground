@@ -7,7 +7,7 @@ on:
       - testing/commit_on_merge_base
 
 env:
-  WORKING_BRANCH_NAME: automatic/update_json_file
+  WORKING_BRANCH_NAME: update_json_file
 
 jobs:
   update_json:
