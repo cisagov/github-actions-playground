@@ -7,3 +7,6 @@ skeletons:
   - name: skeleton-python-library
     description: The base skeleton for Python projects.
     url: https://github.com/cisagov/skeleton-python-library
+  - name: skeleton-packer
+    description: The base skeleton for Packer projects.
+    url: https://github.com/cisagov/skeleton-packer
