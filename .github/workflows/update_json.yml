@@ -37,8 +37,8 @@ jobs:
           commit_message: Generate an updated JSON file
           commit_user_name: ${{ github.actor }}
           commit_user_email: ${{ github.actor }}@github.com
-          add_options: "-f"
           file_pattern: data/content.json
+          push_options: "--set-upstream origin"
       - uses: lewagon/wait-on-check-action@v1.0.0
         if: steps.commit-json-for-testing.changes_detected
         with:
