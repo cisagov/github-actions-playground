@@ -43,7 +43,7 @@ jobs:
       - uses: lewagon/wait-on-check-action@v1.0.0
         if: steps.commit-json-for-testing.outputs.changes_detected
         with:
-          check-name: build
+          check-name: lint
           ref: ${{ env.WORKING_BRANCH_NAME }}
           repo-token: ${{ github.token }}
       - name: Merge the testing branch
