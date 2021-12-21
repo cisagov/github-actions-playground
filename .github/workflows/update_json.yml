@@ -40,9 +40,19 @@ jobs:
           commit_user_name: ${{ github.actor }}
           commit_user_email: ${{ github.actor }}@github.com
           file_pattern: data/content.json
-      - name: Manually check for Actions status on the temporary branch
+      - name: Manually check for Actions status on the temp branch (no name)
         uses: octokit/request-action@v2.x
-        id: manual_check
+        id: manual_check_no_name
+        with:
+          route: GET /repos/{owner}/{repo}/commits/{ref}/check-suites
+          owner: cisagov
+          repo: github-actions-playground
+          ref: ${{ env.WORKING_BRANCH_NAME }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Manually check for Actions status on the temp branch (with name)
+        uses: octokit/request-action@v2.x
+        id: manual_check_with_name
         with:
           route: GET /repos/{owner}/{repo}/commits/{ref}/check-suites
           owner: cisagov
