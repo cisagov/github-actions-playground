@@ -44,7 +44,7 @@ jobs:
         uses: octokit/request-action@v2.x
         id: manual_check_no_name
         with:
-          route: GET /repos/{owner}/{repo}/commits/{ref}/check-suites
+          route: GET /repos/{owner}/{repo}/commits/{ref}/check-runs
           owner: cisagov
           repo: github-actions-playground
           ref: ${{ env.WORKING_BRANCH_NAME }}
@@ -54,7 +54,7 @@ jobs:
         uses: octokit/request-action@v2.x
         id: manual_check_with_name
         with:
-          route: GET /repos/{owner}/{repo}/commits/{ref}/check-suites
+          route: GET /repos/{owner}/{repo}/commits/{ref}/check-runs
           owner: cisagov
           repo: github-actions-playground
           ref: ${{ env.WORKING_BRANCH_NAME }}
