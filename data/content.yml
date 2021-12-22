@@ -1,6 +1,9 @@
 ---
 version: "1.0"
 skeletons:
+  - name: skeleton-ansible-role
+    description: The base skeleton for Ansible role projects.
+    url: https://github.com/cisagov/skeleton-ansible-role
   - name: skeleton-docker
     description: The base skeleton for Docker project.
     url: https://github.com/cisagov/skeleton-docker
