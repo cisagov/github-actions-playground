@@ -29,6 +29,11 @@
       "description": "The base skeleton for Packer projects.",
       "name": "skeleton-packer",
       "url": "https://github.com/cisagov/skeleton-packer"
+    },
+    {
+      "description": "The base skeleton for Terraform projects.",
+      "name": "skeleton-tf-module",
+      "url": "https://github.com/cisagov/skeleton-tf-module"
     }
   ],
   "version": "1.0"
