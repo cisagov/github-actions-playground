@@ -50,6 +50,9 @@ jobs:
           ref: ${{ env.WORKING_BRANCH_NAME }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
+      - run: echo "$OUTPUTS"
+        env:
+          OUTPUTS: ${{ toJson(steps.manual_check_no_name.outputs) }}
       - name: Manually check for Actions status on the temp branch (with name)
         uses: octokit/request-action@v2.x
         id: manual_check_with_name
@@ -61,6 +64,9 @@ jobs:
           check_name: lint
         env:
           GITHUB_TOKEN: ${{ github.token }}
+      - run: echo "$OUTPUTS"
+        env:
+          OUTPUTS: ${{ toJson(steps.manual_check_with_name.outputs) }}
       - uses: lewagon/wait-on-check-action@v1.0.0
         if: steps.commit-json-for-testing.outputs.changes_detected
         with:
