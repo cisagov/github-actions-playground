@@ -15,6 +15,9 @@ jobs:
     outputs:
       # If changes are detected then a JSON will be pushed.
       json_pushed: ${{ steps.commit-json-for-testing.outputs.changes_detected }}
+    env:
+      GIT_USER: ${{ fromJson(secrets.GIT_AUTHOR_INFORMATION).user.name }}
+      GIT_EMAIL: ${{ fromJson(secrets.GIT_AUTHOR_INFORMATION).user.email }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -36,21 +39,24 @@ jobs:
         with:
           branch: ${{ env.WORKING_BRANCH_NAME }}
           commit_message: Generate an updated JSON file
-          commit_user_name: ${{ github.actor }}
-          commit_user_email: ${{ github.actor }}@github.com
+          commit_user_name: ${{ env.GIT_USER }}
+          commit_user_email: ${{ env.GIT_EMAIL }}
           file_pattern: data/content.json
   merge_json:
     runs-on: ubuntu-latest
     needs: update_json
     if: needs.update_json.outputs.json_pushed == 'true'
+    env:
+      GIT_USER: ${{ fromJson(secrets.GIT_AUTHOR_INFORMATION).user.name }}
+      GIT_EMAIL: ${{ fromJson(secrets.GIT_AUTHOR_INFORMATION).user.email }}
     steps:
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.CISAGOVBOT_PAT }}
       - name: Configure git
         run: |
-          git config user.name ${{ github.actor }}
-          git config user.email ${{ github.actor }}@github.com
+          git config user.name "${{ env.GIT_USER }}"
+          git config user.email "${{ env.GIT_EMAIL }}"
       - uses: lewagon/wait-on-check-action@v1.0.0
         with:
           check-name: lint
