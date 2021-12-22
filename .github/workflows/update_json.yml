@@ -2,7 +2,7 @@
 name: Update Skeleton JSON
 
 on:
-  pull_request:
+  push:
     branches:
       - testing/commit_on_merge_base
 
@@ -12,7 +12,6 @@ env:
 jobs:
   update_json:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == 'true'
     outputs:
       # If changes are detected then a JSON will be pushed.
       json_pushed: ${{ steps.commit-json-for-testing.outputs.changes_detected }}
