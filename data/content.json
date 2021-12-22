@@ -6,6 +6,11 @@
       "url": "https://github.com/cisagov/skeleton-ansible-role"
     },
     {
+      "description": "The base skeleton for Ansible role projects that need a test user.",
+      "name": "skeleton-ansible-role-with-test-user",
+      "url": "https://github.com/cisagov/skeleton-ansible-role-with-test-user"
+    },
+    {
       "description": "The base skeleton for Docker project.",
       "name": "skeleton-docker",
       "url": "https://github.com/cisagov/skeleton-docker"
