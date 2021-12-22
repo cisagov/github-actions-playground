@@ -18,6 +18,8 @@ jobs:
     env:
       GIT_USER: ${{ fromJson(secrets.GIT_AUTHOR_INFORMATION).user.name }}
       GIT_EMAIL: ${{ fromJson(secrets.GIT_AUTHOR_INFORMATION).user.email }}
+    # Don't run if we're seeing a push to add an updated JSON
+    if: github.actor != fromJson(secrets.GIT_AUTHOR_INFORMATION).user.name
     steps:
       - uses: actions/checkout@v2
         with:
