@@ -1,6 +1,11 @@
 {
   "skeletons": [
     {
+      "description": "The base skeleton for Ansible role projects.",
+      "name": "skeleton-ansible-role",
+      "url": "https://github.com/cisagov/skeleton-ansible-role"
+    },
+    {
       "description": "The base skeleton for Docker project.",
       "name": "skeleton-docker",
       "url": "https://github.com/cisagov/skeleton-docker"
