@@ -4,6 +4,10 @@ skeletons:
   - name: skeleton-ansible-role
     description: The base skeleton for Ansible role projects.
     url: https://github.com/cisagov/skeleton-ansible-role
+  - name: skeleton-ansible-role-with-test-user
+    description: "The base skeleton for Ansible role projects that need a test
+      user."
+    url: https://github.com/cisagov/skeleton-ansible-role-with-test-user
   - name: skeleton-docker
     description: The base skeleton for Docker project.
     url: https://github.com/cisagov/skeleton-docker
