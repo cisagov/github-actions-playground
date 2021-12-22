@@ -20,3 +20,6 @@ skeletons:
   - name: skeleton-packer
     description: The base skeleton for Packer projects.
     url: https://github.com/cisagov/skeleton-packer
+  - name: skeleton-tf-module
+    description: The base skeleton for Terraform projects.
+    url: https://github.com/cisagov/skeleton-tf-module
