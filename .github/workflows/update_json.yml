@@ -18,7 +18,7 @@ jobs:
       # If changes are detected then a JSON will be pushed.
       json_pushed: ${{ steps.commit-json-for-testing.outputs.changes_detected }}
     # Don't run if we're seeing a push to add an updated JSON
-    if: github.actor != env.GIT_USER
+    if: github.actor != ${{ env.GIT_USER }}
     steps:
       - uses: actions/checkout@v2
         with:
