@@ -9,6 +9,11 @@
       "description": "The base skeleton for Python projects.",
       "name": "skeleton-python-library",
       "url": "https://github.com/cisagov/skeleton-python-library"
+    },
+    {
+      "description": "The base skeleton for Packer projects.",
+      "name": "skeleton-packer",
+      "url": "https://github.com/cisagov/skeleton-packer"
     }
   ],
   "version": "1.0"
