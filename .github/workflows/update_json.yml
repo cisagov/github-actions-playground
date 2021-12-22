@@ -58,7 +58,8 @@ jobs:
           repo-token: ${{ github.token }}
       - name: Merge the testing branch
         run: |
-          git merge ${{ env.WORKING_BRANCH_NAME }}
+          git fetch --all
+          git merge origin/${{ env.WORKING_BRANCH_NAME }}
           git push
       - name: Cleanup testing branch
         run: git push -d origin ${{ env.WORKING_BRANCH_NAME }}
