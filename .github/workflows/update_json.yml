@@ -51,33 +51,6 @@ jobs:
         run: |
           git config user.name ${{ github.actor }}
           git config user.email ${{ github.actor }}@github.com
-      - name: Manually check for Actions status on the temp branch (no name)
-        uses: octokit/request-action@v2.x
-        id: manual_check_no_name
-        with:
-          route: GET /repos/{owner}/{repo}/commits/{ref}/check-runs
-          owner: cisagov
-          repo: github-actions-playground
-          ref: ${{ env.WORKING_BRANCH_NAME }}
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-      - run: echo "$OUTPUTS"
-        env:
-          OUTPUTS: ${{ toJson(steps.manual_check_no_name.outputs) }}
-      - name: Manually check for Actions status on the temp branch (with name)
-        uses: octokit/request-action@v2.x
-        id: manual_check_with_name
-        with:
-          route: GET /repos/{owner}/{repo}/commits/{ref}/check-runs
-          owner: cisagov
-          repo: github-actions-playground
-          ref: ${{ env.WORKING_BRANCH_NAME }}
-          check_name: lint
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-      - run: echo "$OUTPUTS"
-        env:
-          OUTPUTS: ${{ toJson(steps.manual_check_with_name.outputs) }}
       - uses: lewagon/wait-on-check-action@v1.0.0
         with:
           check-name: lint
