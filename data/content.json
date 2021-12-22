@@ -1,6 +1,11 @@
 {
   "skeletons": [
     {
+      "description": "The base skeleton for Docker project.",
+      "name": "skeleton-docker",
+      "url": "https://github.com/cisagov/skeleton-docker"
+    },
+    {
       "description": "The base skeleton repository.",
       "name": "skeleton-generic",
       "url": "https://github.com/cisagov/skeleton-generic"
