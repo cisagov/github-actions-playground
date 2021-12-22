@@ -1,6 +1,9 @@
 ---
 version: "1.0"
 skeletons:
+  - name: skeleton-docker
+    description: The base skeleton for Docker project.
+    url: https://github.com/cisagov/skeleton-docker
   - name: skeleton-generic
     description: The base skeleton repository.
     url: https://github.com/cisagov/skeleton-generic
