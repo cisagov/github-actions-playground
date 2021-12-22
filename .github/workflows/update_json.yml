@@ -43,6 +43,7 @@ jobs:
           commit_message: Generate an updated JSON file
           commit_user_name: ${{ env.GIT_USER }}
           commit_user_email: ${{ env.GIT_EMAIL }}
+          commit_author: ${{ env.GIT_USER }} <${{ env.GIT_EMAIL }}>
           file_pattern: data/content.json
   merge_json:
     runs-on: ubuntu-latest
