@@ -32,6 +32,8 @@ jobs:
     outputs:
       # If changes are detected then a commit will have been pushed
       updated_list: ${{ steps.commit-for-testing.outputs.changes_detected }}
+      # The name of the branch used for testing
+      testing_branch: ${{ steps.testing-branch.outputs.name }}
     # Don't run if we're seeing an update push
     if: github.actor != needs.setup.outputs.git_user
     steps:
@@ -50,7 +52,8 @@ jobs:
           path: |
             ${{ env.PIP_CACHE_DIR }}
           key: "${{ env.BASE_CACHE_KEY }}\
-            ${{ hashFiles('.github/workflows/update_software_list.yml') }}"
+            ${{ hashFiles('.github/workflows/update_software_list.yml') }}-\
+            ${{ hashFiles('config/requirements.txt') }}"
           restore-keys: |
             ${{ env.BASE_CACHE_KEY }}
       - name: Update Python base packages
@@ -65,10 +68,16 @@ jobs:
         run: yml2md normalized.yml > table_data.md
       - name: Generate a new software list from the updated data
         run: md-from-template config/SOFTWARE-LIST.tpl.md table_data.md > SOFTWARE-LIST.md
+      - id: testing-branch
+        name: Setup the branch used for testing
+        run: echo "::set-output name=name::$BASE_BRANCH/$COMMIT_SHA"
+        with:
+          BASE_BRANCH: ${{ env.WORKING_BRANCH_NAME }}
+          COMMIT_SHA: ${{ github.sha }}
       - id: commit-for-testing
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          branch: ${{ env.WORKING_BRANCH_NAME }}
+          branch: ${{ steps.testing-branch.outputs.name }}
           commit_message: Update the software list
           commit_user_name: ${{ needs.setup.outputs.git_user }}
           commit_user_email: ${{ needs.setup.outputs.git_email }}
@@ -91,7 +100,7 @@ jobs:
       - uses: lewagon/wait-on-check-action@v1.0.0
         with:
           check-name: lint
-          ref: ${{ env.WORKING_BRANCH_NAME }}
+          ref: ${{ needs.generate_list_update.outputs.testing_branch }}
           repo-token: ${{ github.token }}
       - name: Merge the testing branch
         run: |
