@@ -18,50 +18,51 @@ This list was initially populated using information from the following sources:
 - SwitHak
 
 | Vendor | Product | Affected Versions | Patched Versions | Status | Vendor Links | Notes | References | Reporter | Last Updated |
-| ------ | ------- | ----------------- | ---------------- | ------ | ----------- | ----- | ---------- | -------- | ------------ |
-| 1Password | 1Password |  |  | Unknown | [link](https://www.reddit.com/r/1Password/comments/rea7dd/comment/hoe41ci) |  |  | cisagov | 2021-12-20 |
-| 2n |  |  |  | Unknown | [link](https://www.2n.com/cs_CZ/novinky/produkty-2n-neohrozuje-zranitelnost-cve-2021-44228-komponenty-log4j-2) |  |  | cisagov | 2021-12-23 |
-| 3CX |  |  |  | Unknown | [link](https://www.3cx.com/community/threads/log4j-vulnerability-cve-2021-44228.86436/#post-407911) |  |  | cisagov | 2021-12-23 |
+| ------ | ------- | ----------------- | ---------------- | ------ | ------------ | ----- | ---------- | -------- | ------------ |
+| 1Password | All products |  |  | Unknown | [link](https://support.1password.com/kb/202112/) |  |  | cisagov | 2021-12-23 |
+| 2n |  |  |  | Unknown | [link](https://www.2n.com/cs_CZ/novinky/produkty-2n-neohrozuje-zranitelnost-cve-2021-44228-komponenty-log4j-2) |  |  | cisagov | 2021-12-30 |
+| 3CX |  |  |  | Unknown | [link](https://www.3cx.com/community/threads/log4j-vulnerability-cve-2021-44228.86436/#post-407911) |  |  | cisagov | 2021-12-30 |
 | 3M Health Information Systems | CGS |  |  | Unknown | [link](https://support.3mhis.com/app/account/updates/ri/5210) | This advisory is available to customer only and has not been reviewed by CISA. |  | cisagov | 2021-12-15 |
-| 7-Zip |  |  |  | Unknown | [link](https://sourceforge.net/p/sevenzip/discussion/45797/thread/b977bbd4d1) |  |  | cisagov | 2021-12-23 |
-| ABB |  |  |  | Unknown | [link](https://search.abb.com/library/Download.aspx?DocumentID=9ADB012621&amp;LanguageCode=en&amp;DocumentPartId=&amp;Action=Launch) |  |  | cisagov | 2021-12-23 |
-| ABB | ABB Remote Service | ABB Remote Platform (RAP) |  | Affected |  |  |  | cisagov | 2021-12-23 |
-| ABB | AlarmInsight Cloud | AlarmInsight KPI Dashboards 1.0.0 |  | Affected |  |  |  | cisagov | 2021-12-23 |
-| ABB | B&amp;R Products | See Vendor Advisory |  | Affected | [link](https://www.br-automation.com/downloads_br_productcatalogue/assets/1639507581859-en-original-1.0.pdf) |  |  | cisagov | 2021-12-23 |
-| Abbott |  |  |  | Unknown | [link](https://www.abbott.com/policies/cybersecurity/apache-Log4j.html) |  |  | cisagov | 2021-12-30 |
-| Abnormal Security | Abnormal Security |  |  | Unknown | [link](https://abnormalsecurity.com/blog/attackers-use-email-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Accellence |  |  |  | Unknown | [link](https://www.accellence.de/en/articles/national-vulnerability-database-62) |  |  | cisagov | 2021-12-23 |
+| 7-Zip |  |  |  | Unknown | [link](https://sourceforge.net/p/sevenzip/discussion/45797/thread/b977bbd4d1) |  |  | cisagov | 2021-12-30 |
+| ABB |  |  |  | Unknown | [link](https://search.abb.com/library/Download.aspx?DocumentID=9ADB012621&amp;LanguageCode=en&amp;DocumentPartId=&amp;Action=Launch) |  |  | cisagov | 2021-12-30 |
+| ABB | ABB Remote Service | ABB Remote Platform (RAP) |  | Affected |  |  |  | cisagov | 2021-12-30 |
+| ABB | AlarmInsight Cloud | AlarmInsight KPI Dashboards 1.0.0 |  | Affected |  |  |  | cisagov | 2021-12-30 |
+| ABB | B&amp;R Products | See Vendor Advisory |  | Affected | [link](https://www.br-automation.com/downloads_br_productcatalogue/assets/1639507581859-en-original-1.0.pdf) |  |  | cisagov | 2021-12-30 |
+| Abbott |  |  |  | Unknown | [link](https://www.abbott.com/policies/cybersecurity/apache-Log4j.html) |  |  | cisagov | 2021-12-15 |
+| Abnormal Security | Abnormal Security |  |  | Unknown | [link](https://abnormalsecurity.com/blog/attackers-use-email-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Accellence |  |  |  | Unknown | [link](https://www.accellence.de/en/articles/national-vulnerability-database-62) |  |  | cisagov | 2021-12-30 |
 | Accellion | Kiteworks |  | v7.6 release | Fixed | [link](https://www.kiteworks.com/kiteworks-news/log4shell-apache-vulnerability-what-kiteworks-customers-need-to-know/) | &quot;As a precaution, Kiteworks released a 7.6.1 Hotfix software update to address the vulnerability. This patch release adds the mitigation for CVE-2021-44228 contained in the Solr package as recommended by Apache Solr group. Specifically, it updates the Log4j library to a non-vulnerable version on CentOS 7 systems as well as adds the recommended option “$SOLR_OPTS -Dlog4j2.formatMsgNoLookups=true” to disable the possible attack vector on both CentOS 6 and CentOS 7.&quot; |  | cisagov | 2021-12-16 |
-| Acquia |  |  |  | Unknown | [link](https://support.acquia.com/hc/en-us/articles/4415823329047-Apache-log4j-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Acronis |  |  |  | Unknown | [link](https://security-advisory.acronis.com/advisories/SEC-3859) |  |  | cisagov | 2021-12-23 |
-| ActiveState |  |  |  | Unknown | [link](https://www.activestate.com/blog/activestate-statement-java-log4j-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| Adaptec |  |  |  | Unknown | [link](https://ask.adaptec.com/app/answers/detail/a_id/17523/kw/log4j) |  |  | cisagov | 2021-12-23 |
-| Addigy |  |  |  | Unknown | [link](https://addigy.com/blog/addigy-and-apaches-log4j2-cve-2021-44228-status/) |  |  | cisagov | 2021-12-23 |
-| Adeptia |  |  |  | Unknown | [link](https://support.adeptia.com/hc/en-us/articles/4412815509524-CVE-2021-44228-Log4j2-Vulnerability-Mitigation-) |  |  | cisagov | 2021-12-23 |
-| Adobe ColdFusion |  |  |  | Unknown | [link](https://helpx.adobe.com/coldfusion/kb/log4j-vulnerability-coldfusion.html) |  |  | cisagov | 2021-12-23 |
-| ADP |  |  |  | Unknown | [link](https://www.adp.com/about-adp/data-security/alerts/adp-vulnerability-statement-apache-log4j-vulnerability-cve-2021-44228.aspx) |  |  | cisagov | 2021-12-23 |
+| Acquia |  |  |  | Unknown | [link](https://support.acquia.com/hc/en-us/articles/4415823329047-Apache-log4j-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Acronis |  |  |  | Unknown | [link](https://security-advisory.acronis.com/advisories/SEC-3859) |  |  | cisagov | 2021-12-30 |
+| ActiveState |  |  |  | Unknown | [link](https://www.activestate.com/blog/activestate-statement-java-log4j-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| Adaptec |  |  |  | Unknown | [link](https://ask.adaptec.com/app/answers/detail/a_id/17523/kw/log4j) |  |  | cisagov | 2021-12-30 |
+| Addigy |  |  |  | Unknown | [link](https://addigy.com/blog/addigy-and-apaches-log4j2-cve-2021-44228-status/) |  |  | cisagov | 2021-12-30 |
+| Adeptia |  |  |  | Unknown | [link](https://support.adeptia.com/hc/en-us/articles/4412815509524-CVE-2021-44228-Log4j2-Vulnerability-Mitigation-) |  |  | cisagov | 2021-12-30 |
+| Adobe ColdFusion |  |  |  | Unknown | [link](https://helpx.adobe.com/coldfusion/kb/log4j-vulnerability-coldfusion.html) |  |  | cisagov | 2021-12-30 |
+| ADP |  |  |  | Unknown | [link](https://www.adp.com/about-adp/data-security/alerts/adp-vulnerability-statement-apache-log4j-vulnerability-cve-2021-44228.aspx) |  |  | cisagov | 2021-12-30 |
 | Advanced Systems Concepts (formally Jscape) | Active MFT |  |  | Unknown | [link](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-14 |
 | Advanced Systems Concepts (formally Jscape) | MFT |  |  | Unknown | [link](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-14 |
 | Advanced Systems Concepts (formally Jscape) | MFT Gateway |  |  | Unknown | [link](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-14 |
 | Advanced Systems Concepts (formally Jscape) | MFT Server |  |  | Unknown | [link](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-14 |
-| AFAS Software |  |  |  | Unknown | [link](https://help.afas.nl/vraagantwoord/NL/SE/120439.htm) |  |  | cisagov | 2021-12-23 |
-| AFHCAN Global LLC | AFHCANcart |  |  | Not Affected | [link](https://afhcan.org/support.aspx) |  |  | cisagov | 2021-12-23 |
-| AFHCAN Global LLC | AFHCANmobile |  |  | Not Affected | [link](https://afhcan.org/support.aspx) |  |  | cisagov | 2021-12-23 |
-| AFHCAN Global LLC | AFHCANServer |  |  | Not Affected | [link](https://afhcan.org/support.aspx) |  |  | cisagov | 2021-12-23 |
-| AFHCAN Global LLC | AFHCANsuite |  |  | Not Affected | [link](https://afhcan.org/support.aspx) |  |  | cisagov | 2021-12-23 |
-| AFHCAN Global LLC | AFHCANupdate |  |  | Not Affected | [link](https://afhcan.org/support.aspx) |  |  | cisagov | 2021-12-23 |
-| AFHCAN Global LLC | AFHCANweb |  |  | Not Affected | [link](https://afhcan.org/support.aspx) |  |  | cisagov | 2021-12-23 |
-| Agilysys |  |  |  | Unknown | [link](https://info.agilysys.com/webmail/76642/2001127877/c3fda575e2313fac1f6a203dc6fc1db2439c3db0da22bde1b6c1b6747d7f0e2f) |  |  | cisagov | 2021-12-23 |
+| AFAS Software |  |  |  | Unknown | [link](https://help.afas.nl/vraagantwoord/NL/SE/120439.htm) |  |  | cisagov | 2021-12-30 |
+| AFHCAN Global LLC | AFHCANcart |  |  | Not Affected | [link](https://afhcan.org/support.aspx) |  |  | cisagov | 2021-12-30 |
+| AFHCAN Global LLC | AFHCANmobile |  |  | Not Affected | [link](https://afhcan.org/support.aspx) |  |  | cisagov | 2021-12-30 |
+| AFHCAN Global LLC | AFHCANServer |  |  | Not Affected | [link](https://afhcan.org/support.aspx) |  |  | cisagov | 2021-12-30 |
+| AFHCAN Global LLC | AFHCANsuite |  |  | Not Affected | [link](https://afhcan.org/support.aspx) |  |  | cisagov | 2021-12-30 |
+| AFHCAN Global LLC | AFHCANupdate |  |  | Not Affected | [link](https://afhcan.org/support.aspx) |  |  | cisagov | 2021-12-30 |
+| AFHCAN Global LLC | AFHCANweb |  |  | Not Affected | [link](https://afhcan.org/support.aspx) |  |  | cisagov | 2021-12-30 |
+| Agilysys |  |  |  | Unknown | [link](https://info.agilysys.com/webmail/76642/2001127877/c3fda575e2313fac1f6a203dc6fc1db2439c3db0da22bde1b6c1b6747d7f0e2f) |  |  | cisagov | 2021-12-30 |
 | Akamai | SIEM Splunk Connector | All |  | Affected | [link](https://splunkbase.splunk.com/app/4310/) | v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities |  | cisagov | 2021-12-15 |
-| Alcatel |  |  |  | Unknown | [link](https://dokuwiki.alu4u.com/doku.php?id=log4j) |  |  | cisagov | 2021-12-23 |
-| Alertus |  |  |  | Unknown | [link](https://help.alertus.com/s/article/Security-Advisory-Log4Shell-Vulnerability?language=en_US) |  |  | cisagov | 2021-12-23 |
-| Alexion |  |  |  | Unknown | [link](https://alexion.nl/blog/alexion-crm-niet-vatbaar-voor-log4shell) |  |  | cisagov | 2021-12-23 |
-| Alfresco |  |  |  | Unknown | [link](https://hub.alfresco.com/t5/alfresco-content-services-blog/cve-2021-44228-related-to-apache-log4j-security-advisory/ba-p/310717) |  |  | cisagov | 2021-12-23 |
-| AlienVault |  |  |  | Unknown | [link](https://success.alienvault.com/s/article/are-USM-Anywhere-or-USM-Central-vulnerable-to-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Alphatron Medical |  |  |  | Unknown | [link](https://www.alphatronmedical.com/home.html) |  |  | cisagov | 2021-12-23 |
+| Alcatel |  |  |  | Unknown | [link](https://dokuwiki.alu4u.com/doku.php?id=log4j) |  |  | cisagov | 2021-12-30 |
+| Alertus |  |  |  | Unknown | [link](https://help.alertus.com/s/article/Security-Advisory-Log4Shell-Vulnerability?language=en_US) |  |  | cisagov | 2021-12-30 |
+| Alexion |  |  |  | Unknown | [link](https://alexion.nl/blog/alexion-crm-niet-vatbaar-voor-log4shell) |  |  | cisagov | 2021-12-30 |
+| Alfresco |  |  |  | Unknown | [link](https://hub.alfresco.com/t5/alfresco-content-services-blog/cve-2021-44228-related-to-apache-log4j-security-advisory/ba-p/310717) |  |  | cisagov | 2021-12-30 |
+| AlienVault |  |  |  | Unknown | [link](https://success.alienvault.com/s/article/are-USM-Anywhere-or-USM-Central-vulnerable-to-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Alphatron Medical |  |  |  | Unknown | [link](https://www.alphatronmedical.com/home.html) |  |  | cisagov | 2021-12-30 |
+| Amazon | Athena |  |  | Unknown | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-30 |
 | Amazon | AWS |  |  | Not Affected |  | Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 [AWS Forum](https://forums.aws.amazon.com/thread.jspa?threadID=323611). AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2 |  | cisagov | 2021-12-15 |
 | Amazon | AWS API Gateway |  | All | Fixed | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-20 |
-| Amazon | AWS CloudHSM | &lt; 3.4.1. |  | Affected | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) |  |  | cisagov | 2021-12-23 |
+| Amazon | AWS CloudHSM | &lt; 3.4.1. |  | Affected | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) |  |  | cisagov | 2021-12-30 |
 | Amazon | AWS Connect |  | All | Fixed | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | Vendors recommend evaluating components of the environment outside of the Amazon Connect service boundary, which may require separate/additional customer mitigation |  | cisagov | 2021-12-23 |
 | Amazon | AWS DynamoDB |  | Unknown | Fixed | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-17 |
 | Amazon | AWS EKS, ECS, Fargate | Unknown |  | Affected | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | To help mitigate the impact of the open-source Apache “Log4j2&quot; utility (CVE-2021-44228 and CVE-2021-45046) security issues on customers’ containers, Amazon EKS, Amazon ECS, and AWS Fargate are deploying a Linux-based update (hot-patch). This hot-patch will require customer opt-in to use, and disables JNDI lookups from the Log4J2 library in customers’ containers. These updates are available as an Amazon Linux package for Amazon ECS customers, as a DaemonSet for Kubernetes users on AWS, and will be in supported AWS Fargate platform versions |  | cisagov | 2021-12-16 |
@@ -69,18 +70,27 @@ This list was initially populated using information from the following sources:
 | Amazon | AWS ELB |  | Unknown | Fixed | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-16 |
 | Amazon | AWS Inspector |  | Unknown | Fixed | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-17 |
 | Amazon | AWS Kinesis Data Stream | Unknown |  | Affected | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | We are actively patching all sub-systems that use Log4j2 by applying updates. The Kinesis Client Library (KCL) version 2.X and the Kinesis Producer Library (KPL) are not impacted. For customers using KCL 1.x, we have released an updated version and we strongly recommend that all KCL version 1.x customers upgrade to KCL version 1.14.5 (or higher) |  | cisagov | 2021-12-14 |
-| Amazon | AWS Lambda | Unknown |  | Affected | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) |  |  | cisagov | 2021-12-23 |
+| Amazon | AWS Lambda | Unknown |  | Affected | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) |  |  | cisagov | 2021-12-30 |
+| Amazon | AWS Lambda | Unknown |  | Affected | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) |  |  | cisagov | 2021-12-30 |
 | Amazon | AWS RDS |  | Unknown | Fixed | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | Amazon RDS and Amazon Aurora have been updated to mitigate the issues identified in CVE-2021-44228 |  | cisagov | 2021-12-17 |
 | Amazon | AWS S3 |  | Unknown | Fixed | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-14 |
 | Amazon | AWS SNS |  | Unknown | Fixed | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | Amazon SNS systems that serve customer traffic are patched against the Log4j2 issue. We are working to apply the Log4j2 patch to sub-systems that operate separately from SNS’s systems that serve customer traffic |  | cisagov | 2021-12-14 |
 | Amazon | AWS SQS |  | Unknown | Fixed | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-15 |
+| Amazon | CloudFront |  |  | Unknown | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-30 |
+| Amazon | CloudWatch |  |  | Unknown | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-30 |
 | Amazon | EC2 |  |  | Not Affected | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-15 |
-| Amazon | OpenSearch | Unknown |  | Affected | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) |  |  | cisagov | 2021-12-23 |
-| Amazon | Translate |  |  | Unknown | [link](https://aws.amazon.com/translate/) | Service not identified on [AWS Log4j Security Bulletin](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  | cisagov | 2021-12-23 |
+| Amazon | ELB |  |  | Unknown | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-30 |
+| Amazon | KMS |  |  | Unknown | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-30 |
+| Amazon | OpenSearch | Unknown |  | Affected | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) |  |  | cisagov | 2021-12-30 |
+| Amazon | RDS |  |  | Unknown | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-30 |
+| Amazon | Route 53 |  |  | Unknown | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-30 |
+| Amazon | S3 |  |  | Unknown | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-30 |
+| Amazon | Translate |  |  | Unknown | [link](https://aws.amazon.com/translate/) | Service not identified on [AWS Log4j Security Bulletin](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  | cisagov | 2021-12-30 |
+| Amazon | VPC |  |  | Unknown | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-30 |
 | AMD | All |  |  | Unknown | [link](https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1034) | Currently, no AMD products have been identified as affected.  AMD is continuing its analysis. |  | cisagov | 2021-12-22 |
 | Anaconda | Anaconda |  |  | Not Affected | [link](https://docs.conda.io/projects/conda/en/latest/index.html) |  |  | cisagov | 2021-12-21 |
 | Apache | ActiveMQ Artemis |  |  | Not Affected | [link](https://activemq.apache.org/news/cve-2021-44228) | ActiveMQ Artemis does not use Log4j for logging. However, Log4j 1.2.17 is included in the Hawtio-based web console application archive (i.e. [web/console.war/WEB-INF/lib](web/console.war/WEB-INF/lib)). Although this version of Log4j is not impacted by CVE-2021-44228 future versions of Artemis will be updated so that the Log4j jar is no longer included in the web console application archive. See [ARTEMIS-3612](https://issues.apache.org/jira/browse/ARTEMIS-3612) for more information on that task. |  | cisagov | 2021-12-21 |
-| Apache | Airflow |  |  | Unknown | [link](https://github.com/apache/airflow/tree/main/airflow) | Airflow is written in Python |  | cisagov | 2021-12-23 |
+| Apache | Airflow |  |  | Unknown | [link](https://github.com/apache/airflow/tree/main/airflow) | Airflow is written in Python |  | cisagov | 2021-12-30 |
 | Apache | Camel | 3.14.1.3.11.5,3.7.7 |  | Affected | [link](https://camel.apache.org/blog/2021/12/log4j2/) | Apache Camel does not directly depend on Log4j 2, so we are not affected by CVE-2021-44228.If you explicitly added the Log4j 2 dependency to your own applications, make sure to upgrade.Apache Camel does use log4j during testing itself, and therefore you can find that we have been using log4j v2.13.3 release in our latest LTS releases Camel 3.7.6, 3.11.4. |  | cisagov | 2021-12-13 |
 | Apache | Camel 2 |  |  | Unknown | [link](https://camel.apache.org/blog/2021/12/log4j2/) |  |  | cisagov | 2021-12-13 |
 | Apache | Camel JBang | &lt;=3.1.4 |  | Affected | [link](https://camel.apache.org/blog/2021/12/log4j2/) |  |  | cisagov | 2021-12-13 |
@@ -91,28 +101,28 @@ This list was initially populated using information from the following sources:
 | Apache | Druid | &lt; druid 0.22.0 |  | Affected | [link](https://github.com/apache/druid/releases/tag/druid-0.22.1) |  |  | cisagov | 2021-12-12 |
 | Apache | Flink |  | &lt; 1.14.2,1.13.5,1.12.7,1.11.6 | Fixed | [link](https://flink.apache.org/2021/12/10/log4j-cve.html) | To clarify and avoid confusion: The 1.14.1 / 1.13.4 / 1.12.6 / 1.11.5 releases, which were supposed to only contain a Log4j upgrade to 2.15.0, were skipped because CVE-2021-45046 was discovered during the release publication. The new 1.14.2 / 1.13.5 / 1.12.7 / 1.11.6 releases include a version upgrade for Log4j to version 2.16.0 to address CVE-2021-44228 and CVE-2021-45046. | [https://flink.apache.org/news/2021/12/16/log4j-patch-releases.html](https://flink.apache.org/news/2021/12/16/log4j-patch-releases.html) | cisagov | 2021-12-12 |
 | Apache | Kafka |  |  | Not Affected | [link](https://kafka.apache.org/cve-list) | The current DB lists Apache Kafka as impacted. Apache Kafka uses Log4jv1, not v2. |  | cisagov | 2021-12-14 |
-| Apache | Kafka | Unknown |  | Affected | [link](https://logging.apache.org/log4j/2.x/security.html) | Only vulnerable in certain configuration(s) |  | cisagov | 2021-12-23 |
-| Apache | Log4j | &lt; 2.15.0 |  | Affected | [link](https://logging.apache.org/log4j/2.x/security.html) |  |  | cisagov | 2021-12-23 |
+| Apache | Kafka | Unknown |  | Affected | [link](https://logging.apache.org/log4j/2.x/security.html) | Only vulnerable in certain configuration(s) |  | cisagov | 2021-12-30 |
+| Apache | Log4j | &lt; 2.15.0 |  | Affected | [link](https://logging.apache.org/log4j/2.x/security.html) |  |  | cisagov | 2021-12-30 |
 | Apache | Solr |  | 7.4.0 to 7.7.3,8.0.0 to 8.11.0 | Fixed | [link](https://solr.apache.org/security.html#apache-solr-affected-by-apache-log4j-cve-2021-44228) | Update to 8.11.1 or apply fixes as described in Solr security advisory | [Apache Solr 8.11.1 downloads](https://solr.apache.org/downloads.html) | cisagov | 2021-12-16 |
 | Apache | Struts 2 | Versions before 2.5.28.1 |  | Affected | [link](https://struts.apache.org/announce-2021) | The Apache Struts group is pleased to announce that Struts 2.5.28.1 is available as a “General Availability” release. The GA designation is our highest quality grade. This release addresses Log4j vulnerability CVE-2021-45046 by using the latest Log4j 2.12.2 version (Java 1.7 compatible). | [Apache Struts Release Downloads](https://struts.apache.org/download.cgi#struts-ga) | cisagov | 2021-12-21 |
 | Apache | Tomcat | 9.0.x |  | Affected | [link](https://tomcat.apache.org/security-9.html) | Apache Tomcat 9.0.x has no dependency on any version of log4j. Web applications deployed on Apache Tomcat may have a dependency on log4j. You should seek support from the application vendor in this instance. It is possible to configure Apache Tomcat 9.0.x to use log4j 2.x for Tomcat's internal logging. This requires explicit configuration and the addition of the log4j 2.x library. Anyone who has switched Tomcat's internal logging to log4j 2.x is likely to need to address this vulnerability. In most cases, disabling the problematic feature will be the simplest solution. Exactly how to do that depends on the exact version of log4j 2.x being used. Details are provided on the [log4j 2.x security page](https://logging.apache.org/log4j/2.x/security.html) |  | cisagov | 2021-12-21 |
 | APC by Schneider Electric | Powerchute Business Edition |  | v9.5,v10.0.1,v10.0.2,v10.0.3,v10.0.4 | Fixed | [link](https://community.exchange.se.com/t5/APC-UPS-Data-Center-Backup/Log4-versions-used-in-Powerchute-vulnerable/m-p/379866/highlight/true#M47345) | Mitigation instructions to remove the affected class. |  | cisagov | 2021-12-15 |
 | APC by Schneider Electric | Powerchute Network Shutdown |  | 4.2,4.3,4.4,4.4.1 | Fixed | [link](https://community.exchange.se.com/t5/APC-UPS-Data-Center-Backup/Log4-versions-used-in-Powerchute-vulnerable/m-p/379866/highlight/true#M47345) | Mitigation instructions to remove the affected class. |  | cisagov | 2021-12-15 |
-| Apereo | CAS | 6.3.x &amp; 6.4.x |  | Affected | [link](https://apereo.github.io/2021/12/11/log4j-vuln/) |  |  | cisagov | 2021-12-23 |
-| Apereo | Opencast | &lt; 9.10,&lt; 10.6 |  | Affected | [link](https://github.com/opencast/opencast/security/advisories/GHSA-mf4f-j588-5xm8) |  |  | cisagov | 2021-12-23 |
-| Apigee |  |  |  | Unknown | [link](https://status.apigee.com/incidents/3cgzb0q2r10p) |  |  | cisagov | 2021-12-23 |
-| Apollo |  |  |  | Unknown | [link](https://community.apollographql.com/t/log4j-vulnerability/2214) |  |  | cisagov | 2021-12-23 |
-| Appdynamics |  |  |  | Unknown | [link](https://docs.appdynamics.com/display/PAA/Security+Advisory%3A+Apache+Log4j+Vulnerability) |  |  | cisagov | 2021-12-23 |
+| Apereo | CAS | 6.3.x &amp; 6.4.x |  | Affected | [link](https://apereo.github.io/2021/12/11/log4j-vuln/) |  |  | cisagov | 2021-12-30 |
+| Apereo | Opencast | &lt; 9.10,&lt; 10.6 |  | Affected | [link](https://github.com/opencast/opencast/security/advisories/GHSA-mf4f-j588-5xm8) |  |  | cisagov | 2021-12-30 |
+| Apigee |  |  |  | Unknown | [link](https://status.apigee.com/incidents/3cgzb0q2r10p) |  |  | cisagov | 2021-12-30 |
+| Apollo |  |  |  | Unknown | [link](https://community.apollographql.com/t/log4j-vulnerability/2214) |  |  | cisagov | 2021-12-30 |
+| Appdynamics |  |  |  | Unknown | [link](https://docs.appdynamics.com/display/PAA/Security+Advisory%3A+Apache+Log4j+Vulnerability) |  |  | cisagov | 2021-12-30 |
 | Appeon | PowerBuilder | Appeon PowerBuilder 2017-2021 regardless of product edition |  | Affected |  |  |  | cisagov | 2021-12-15 |
-| AppGate |  |  |  | Unknown | [link](https://www.appgate.com/blog/appgate-sdp-unaffected-by-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
+| AppGate |  |  |  | Unknown | [link](https://www.appgate.com/blog/appgate-sdp-unaffected-by-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
 | Appian | Appian Platform |  | All | Fixed | [link](https://community.appian.com/support/w/kb/2511/kb-2204-information-about-the-log4j2-security-vulnerabilities-cve-2021-44228-cve-2021-45046) |  |  | cisagov | 2021-12-22 |
 | Application Performance Ltd | DBMarlin | Not Affected |  | Affected |  |  |  | cisagov | 2021-12-15 |
 | Application Performance Ltd | DBMarlin |  |  | Unknown | [link](https://docs.dbmarlin.com/docs/faqs/frequently-asked-questions/?_ga=2.72968147.1563671049.1639624574-1296952804.1639624574#apache-log4j-vulnerability-cve-2021-4428) |  |  | cisagov | 2021-12-15 |
-| APPSHEET |  |  |  | Unknown | [link](https://community.appsheet.com/t/appsheet-statement-on-log4j-vulnerability-cve-2021-44228/59976) |  |  | cisagov | 2021-12-23 |
-| Aptible | Aptible | ElasticSearch 5.x |  | Affected | [link](https://status.aptible.com/incidents/gk1rh440h36s?u=zfbcrbt2lkv4) |  |  | cisagov | 2021-12-23 |
-| Aqua Security |  |  |  | Unknown | [link](https://docs.google.com/document/d/e/2PACX-1vSmFR3oHPXOih1wENKd7RXn0dsHzgPUe91jJwDTsaVxJtcJEroktWNLq7BMUx9v7oDZRHqLVgkJnqCm/pub) |  |  | cisagov | 2021-12-23 |
+| APPSHEET |  |  |  | Unknown | [link](https://community.appsheet.com/t/appsheet-statement-on-log4j-vulnerability-cve-2021-44228/59976) |  |  | cisagov | 2021-12-30 |
+| Aptible | Aptible | ElasticSearch 5.x |  | Affected | [link](https://status.aptible.com/incidents/gk1rh440h36s?u=zfbcrbt2lkv4) |  |  | cisagov | 2021-12-30 |
+| Aqua Security |  |  |  | Unknown | [link](https://docs.google.com/document/d/e/2PACX-1vSmFR3oHPXOih1wENKd7RXn0dsHzgPUe91jJwDTsaVxJtcJEroktWNLq7BMUx9v7oDZRHqLVgkJnqCm/pub) |  |  | cisagov | 2021-12-30 |
 | Arbiter Systems | All |  |  | Unknown | [link](https://www.arbiter.com/news/index.php?id=4403) |  |  | cisagov | 2021-12-22 |
-| Arca Noae |  |  |  | Unknown | [link](https://www.arcanoae.com/apache-log4j-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
+| Arca Noae |  |  |  | Unknown | [link](https://www.arcanoae.com/apache-log4j-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
 | Arcserve | Arcserve Backup |  |  | Not Affected | [link](https://support.storagecraft.com/s/article/Log4J-Update) |  | [https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US) | cisagov | 2021-12-14 |
 | Arcserve | Arcserve Continuous Availability |  |  | Not Affected | [link](https://support.storagecraft.com/s/article/Log4J-Update) |  | [https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US) | cisagov | 2021-12-14 |
 | Arcserve | Arcserve Email Archiving |  |  | Not Affected | [link](https://support.storagecraft.com/s/article/Log4J-Update) |  | [https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US) | cisagov | 2021-12-14 |
@@ -121,27 +131,27 @@ This list was initially populated using information from the following sources:
 | Arcserve | ShadowXafe |  |  | Not Affected | [link](https://support.storagecraft.com/s/article/Log4J-Update) |  | [https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US) | cisagov | 2021-12-14 |
 | Arcserve | Solo |  |  | Not Affected | [link](https://support.storagecraft.com/s/article/Log4J-Update) |  | [https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US) | cisagov | 2021-12-14 |
 | Arcserve | StorageCraft OneXafe |  |  | Not Affected | [link](https://support.storagecraft.com/s/article/Log4J-Update) |  | [https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US) | cisagov | 2021-12-14 |
-| ArcticWolf |  |  |  | Unknown | [link](https://arcticwolf.com/resources/blog/log4j) |  |  | cisagov | 2021-12-23 |
-| Arduino |  |  |  | Unknown | [link](https://support.arduino.cc/hc/en-us/articles/4412377144338-Arduino-s-response-to-Log4j2-vulnerability-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Ariba |  |  |  | Unknown | [link](https://connectsupport.ariba.com/sites#announcements-display&amp;/Event/908469) |  |  | cisagov | 2021-12-23 |
-| Arista |  |  |  | Unknown | [link](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |  |  | cisagov | 2021-12-23 |
-| Aruba Networks |  |  |  | Unknown | [link](https://asp.arubanetworks.com/notifications/Tm90aWZpY2F0aW9uOjEwMTQ0;notificationCategory=Security) |  |  | cisagov | 2021-12-23 |
-| Ataccama |  |  |  | Unknown | [link](https://www.ataccama.com/files/log4j2-vulnerability-cve-2021-44228-fix.pdf) |  |  | cisagov | 2021-12-23 |
-| Atera |  |  |  | Unknown | [link](https://www.reddit.com/r/atera/comments/rh7xb1/apache_log4j_2_security_advisory_update/) |  |  | cisagov | 2021-12-23 |
-| Atlassian | Bamboo Server &amp; Data Center |  |  | Not Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product may be affected by a related but lower severity vulnerability if running in a specific non-default configuration. |  | cisagov | 2021-12-23 |
-| Atlassian | Bitbucket Server &amp; Data Center | All |  | Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product is not vulnerable to remote code execution but may leak information due to the bundled Elasticsearch component being vulnerable. |  | cisagov | 2021-12-23 |
-| Atlassian | Confluence Server &amp; Data Center |  |  | Not Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product may be affected by a related but lower severity vulnerability if running in a specific non-default configuration. |  | cisagov | 2021-12-23 |
-| Atlassian | Crowd Server &amp; Data Center |  |  | Not Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product may be affected by a related but lower severity vulnerability if running in a specific non-default configuration. |  | cisagov | 2021-12-23 |
-| Atlassian | Crucible |  |  | Not Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product may be affected by a related but lower severity vulnerability if running in a specific non-default configuration. |  | cisagov | 2021-12-23 |
-| Atlassian | Fisheye |  |  | Not Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product may be affected by a related but lower severity vulnerability if running in a specific non-default configuration. |  | cisagov | 2021-12-23 |
-| Atlassian | Jira Server &amp; Data Center |  |  | Not Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product may be affected by a related but lower severity vulnerability if running in a specific non-default configuration. |  | cisagov | 2021-12-23 |
-| Attivo networks |  |  |  | Unknown | [link](https://www.attivonetworks.com/wp-content/uploads/2021/12/Log4j_Vulnerability-Advisory-211213-4.pdf) |  |  | cisagov | 2021-12-23 |
-| AudioCodes |  |  |  | Unknown | [link](https://services.audiocodes.com/app/answers/kbdetail/a_id/2225) |  |  | cisagov | 2021-12-23 |
+| ArcticWolf |  |  |  | Unknown | [link](https://arcticwolf.com/resources/blog/log4j) |  |  | cisagov | 2021-12-30 |
+| Arduino |  |  |  | Unknown | [link](https://support.arduino.cc/hc/en-us/articles/4412377144338-Arduino-s-response-to-Log4j2-vulnerability-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Ariba |  |  |  | Unknown | [link](https://connectsupport.ariba.com/sites#announcements-display&amp;/Event/908469) |  |  | cisagov | 2021-12-30 |
+| Arista |  |  |  | Unknown | [link](https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070) |  |  | cisagov | 2021-12-30 |
+| Aruba Networks |  |  |  | Unknown | [link](https://asp.arubanetworks.com/notifications/Tm90aWZpY2F0aW9uOjEwMTQ0;notificationCategory=Security) |  |  | cisagov | 2021-12-30 |
+| Ataccama |  |  |  | Unknown | [link](https://www.ataccama.com/files/log4j2-vulnerability-cve-2021-44228-fix.pdf) |  |  | cisagov | 2021-12-30 |
+| Atera |  |  |  | Unknown | [link](https://www.reddit.com/r/atera/comments/rh7xb1/apache_log4j_2_security_advisory_update/) |  |  | cisagov | 2021-12-30 |
+| Atlassian | Bamboo Server &amp; Data Center |  |  | Not Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product may be affected by a related but lower severity vulnerability if running in a specific non-default configuration. |  | cisagov | 2021-12-30 |
+| Atlassian | Bitbucket Server &amp; Data Center | All |  | Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product is not vulnerable to remote code execution but may leak information due to the bundled Elasticsearch component being vulnerable. |  | cisagov | 2021-12-30 |
+| Atlassian | Confluence Server &amp; Data Center |  |  | Not Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product may be affected by a related but lower severity vulnerability if running in a specific non-default configuration. |  | cisagov | 2021-12-30 |
+| Atlassian | Crowd Server &amp; Data Center |  |  | Not Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product may be affected by a related but lower severity vulnerability if running in a specific non-default configuration. |  | cisagov | 2021-12-30 |
+| Atlassian | Crucible |  |  | Not Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product may be affected by a related but lower severity vulnerability if running in a specific non-default configuration. |  | cisagov | 2021-12-30 |
+| Atlassian | Fisheye |  |  | Not Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product may be affected by a related but lower severity vulnerability if running in a specific non-default configuration. |  | cisagov | 2021-12-30 |
+| Atlassian | Jira Server &amp; Data Center |  |  | Not Affected | [link](https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html) | This product may be affected by a related but lower severity vulnerability if running in a specific non-default configuration. |  | cisagov | 2021-12-30 |
+| Attivo networks |  |  |  | Unknown | [link](https://www.attivonetworks.com/wp-content/uploads/2021/12/Log4j_Vulnerability-Advisory-211213-4.pdf) |  |  | cisagov | 2021-12-30 |
+| AudioCodes |  |  |  | Unknown | [link](https://services.audiocodes.com/app/answers/kbdetail/a_id/2225) |  |  | cisagov | 2021-12-30 |
 | Autodesk |  |  |  | Unknown | [link](https://knowledge.autodesk.com/support/autocad/troubleshooting/caas/sfdcarticles/sfdcarticles/CVE-2021-44228.html) | Autodesk is continuing to perform a thorough investigation in relation to the recently discovered Apache Log4j security vulnerabilities. We continue to implement several mitigating factors for our products including patching, network firewall blocks, and updated detection signatures to reduce the threat of this vulnerability and enhance our ability to quickly respond to potential malicious activity. We have not identified any compromised systems in the Autodesk environment due to this vulnerability, at this time. This is an ongoing investigation and we will provide updates on the [Autodesk Trust Center as we learn more](https://www.autodesk.com/trust/overview). |  | cisagov | 2021-12-21 |
-| Automox |  |  |  | Unknown | [link](https://blog.automox.com/log4j-critical-vulnerability-scores-a-10) |  |  | cisagov | 2021-12-23 |
-| Autopsy |  |  |  | Unknown | [link](https://www.autopsy.com/autopsy-and-log4j-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| Auvik |  |  |  | Unknown | [link](https://status.auvik.com/incidents/58bfngkz69mj) |  |  | cisagov | 2021-12-23 |
-| Avantra SYSLINK |  |  |  | Unknown | [link](https://support.avantra.com/support/solutions/articles/44002291388-cve-2021-44228-log4j-2-vulnerability) |  |  | cisagov | 2021-12-23 |
+| Automox |  |  |  | Unknown | [link](https://blog.automox.com/log4j-critical-vulnerability-scores-a-10) |  |  | cisagov | 2021-12-30 |
+| Autopsy |  |  |  | Unknown | [link](https://www.autopsy.com/autopsy-and-log4j-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| Auvik |  |  |  | Unknown | [link](https://status.auvik.com/incidents/58bfngkz69mj) |  |  | cisagov | 2021-12-30 |
+| Avantra SYSLINK |  |  |  | Unknown | [link](https://support.avantra.com/support/solutions/articles/44002291388-cve-2021-44228-log4j-2-vulnerability) |  |  | cisagov | 2021-12-30 |
 | Avaya | Avaya Analytics | 3.5,3.6,3.6.1,3.7,4 |  | Affected | [link](https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609) |  |  | cisagov | 2021-12-14 |
 | Avaya | Avaya Aura for OneCloud Private |  |  | Unknown | [link](https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609) | Avaya is scanning and monitoring its OneCloud Private environments as part of its management activities.  Avaya will continue to monitor this fluid situation and remediations will be made as patches become available, in accordance with appropriate change processes. |  | cisagov | 2021-12-14 |
 | Avaya | Avaya Aura® Application Enablement Services | 8.1.3.2,8.1.3.3,10.1 |  | Affected | [link](https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609) |  | [PSN020551u](https://download.avaya.com/css/public/documents/101079386) | cisagov | 2021-12-14 |
@@ -171,19 +181,19 @@ This list was initially populated using information from the following sources:
 | Avaya | Interaction Center | 7.3.9 |  | Affected | [link](https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609) |  |  | cisagov | 2021-12-14 |
 | Avaya | IP Office™ Platform | 11.0.4,11.1,11.1.1,11.1.2 |  | Affected | [link](https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609) |  |  | cisagov | 2021-12-14 |
 | Avaya | Proactive Outreach Manager | 3.1.2,3.1.3,4,4.0.1 |  | Affected | [link](https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609) |  |  | cisagov | 2021-12-14 |
-| AVEPOINT |  |  |  | Unknown | [link](https://www.avepoint.com/company/java-zero-day-vulnerability-notification) |  |  | cisagov | 2021-12-23 |
-| AVM |  |  |  | Unknown | [link](https://avm.de/service/aktuelle-sicherheitshinweise/#Schwachstelle%20im%20Java-Projekt%20%E2%80%9Elog4j%E2%80%9C) |  |  | cisagov | 2021-12-23 |
-| AvTech RoomAlert |  |  |  | Unknown | [link](https://avtech.com/articles/23124/java-exploit-room-alert-link/) |  |  | cisagov | 2021-12-23 |
-| AWS New |  |  |  | Unknown | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-23 |
-| AXON |  |  |  | Unknown | [link](https://my.axon.com/s/trust/response-to-log4j2-vuln?language=en_US) |  |  | cisagov | 2021-12-23 |
-| AXS Guard |  |  |  | Unknown | [link](https://www.axsguard.com/en_US/blog/security-news-4/log4j-vulnerability-77) |  |  | cisagov | 2021-12-23 |
-| Axways Applications |  |  |  | Unknown | [link](https://support.axway.com/news/1331/lang/en) |  |  | cisagov | 2021-12-23 |
+| AVEPOINT |  |  |  | Unknown | [link](https://www.avepoint.com/company/java-zero-day-vulnerability-notification) |  |  | cisagov | 2021-12-30 |
+| AVM |  |  |  | Unknown | [link](https://avm.de/service/aktuelle-sicherheitshinweise/#Schwachstelle%20im%20Java-Projekt%20%E2%80%9Elog4j%E2%80%9C) |  |  | cisagov | 2021-12-30 |
+| AvTech RoomAlert |  |  |  | Unknown | [link](https://avtech.com/articles/23124/java-exploit-room-alert-link/) |  |  | cisagov | 2021-12-30 |
+| AWS New |  |  |  | Unknown | [link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | cisagov | 2021-12-30 |
+| AXON |  |  |  | Unknown | [link](https://my.axon.com/s/trust/response-to-log4j2-vuln?language=en_US) |  |  | cisagov | 2021-12-30 |
+| AXS Guard |  |  |  | Unknown | [link](https://www.axsguard.com/en_US/blog/security-news-4/log4j-vulnerability-77) |  |  | cisagov | 2021-12-30 |
+| Axways Applications |  |  |  | Unknown | [link](https://support.axway.com/news/1331/lang/en) |  |  | cisagov | 2021-12-30 |
 | B&amp;R Industrial Automation | APROL |  |  | Unknown | [link](https://www.br-automation.com/downloads_br_productcatalogue/assets/1639507581859-en-original-1.0.pdf) |  |  | cisagov | 2021-12-16 |
-| BackBox |  |  |  | Unknown | [link](https://updates.backbox.com/V6.5/Docs/CVE-2021-44228.pdf) |  |  | cisagov | 2021-12-23 |
-| Balbix |  |  |  | Unknown | [link](https://www.balbix.com/blog/broad-exposure-to-log4shell-cve-2021-44228-highlights-how-the-attack-surface-has-exploded/) |  |  | cisagov | 2021-12-23 |
-| Baramundi Products |  |  |  | Unknown | [link](https://forum.baramundi.com/index.php?threads/baramundi-produkte-von-log4shell-schwachstelle-in-log4j-nicht-betroffen.12539/#post-62875) |  |  | cisagov | 2021-12-23 |
-| Barco |  |  |  | Unknown | [link](https://www.barco.com/en/support/knowledge-base/kb12495) |  |  | cisagov | 2021-12-23 |
-| Barracuda |  |  |  | Unknown | [link](https://www.barracuda.com/company/legal/trust-center) |  |  | cisagov | 2021-12-23 |
+| BackBox |  |  |  | Unknown | [link](https://updates.backbox.com/V6.5/Docs/CVE-2021-44228.pdf) |  |  | cisagov | 2021-12-30 |
+| Balbix |  |  |  | Unknown | [link](https://www.balbix.com/blog/broad-exposure-to-log4shell-cve-2021-44228-highlights-how-the-attack-surface-has-exploded/) |  |  | cisagov | 2021-12-30 |
+| Baramundi Products |  |  |  | Unknown | [link](https://forum.baramundi.com/index.php?threads/baramundi-produkte-von-log4shell-schwachstelle-in-log4j-nicht-betroffen.12539/#post-62875) |  |  | cisagov | 2021-12-30 |
+| Barco |  |  |  | Unknown | [link](https://www.barco.com/en/support/knowledge-base/kb12495) |  |  | cisagov | 2021-12-30 |
+| Barracuda |  |  |  | Unknown | [link](https://www.barracuda.com/company/legal/trust-center) |  |  | cisagov | 2021-12-30 |
 | Baxter |  |  |  | Unknown | [link](https://www.baxter.com/sites/g/files/ebysai746/files/2021-12/Apache_Log4j_Vulnerability.pdf) |  |  | cisagov | 2021-12-20 |
 | BBraun | APEX® Compounder |  |  | Unknown | [link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) |  |  | cisagov | 2021-12-20 |
 | BBraun | DoseTrac® Server, DoseLink™ Server, and Space® Online Suite Server software |  |  | Unknown | [link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) |  |  | cisagov | 2021-12-20 |
@@ -214,119 +224,120 @@ This list was initially populated using information from the following sources:
 | Beijer Electronics | Nexto modular PLC |  |  | Unknown | [link](https://www05.beijerelectronics.com/en/news---events/news/2021/Important___information___regarding___Log4Shell) |  |  | cisagov | 2021-12-22 |
 | Beijer Electronics | Nexto Xpress compact controller |  |  | Unknown | [link](https://www05.beijerelectronics.com/en/news---events/news/2021/Important___information___regarding___Log4Shell) |  |  | cisagov | 2021-12-22 |
 | Beijer Electronics | WARP Engineering Studio |  |  | Unknown | [link](https://www05.beijerelectronics.com/en/news---events/news/2021/Important___information___regarding___Log4Shell) |  |  | cisagov | 2021-12-22 |
-| Bender |  |  |  | Unknown | [link](https://www.bender.de/en/cert) |  |  | cisagov | 2021-12-23 |
-| Best Practical Request Tracker (RT) and Request Tracker for Incident Response (RTIR) |  |  |  | Unknown | [link](https://bestpractical.com/blog/2021/12/request-tracker-rt-and-request-tracker-for-incident-response-rtir-do-not-use-log4j) |  |  | cisagov | 2021-12-23 |
-| BeyondTrust Bomgar |  |  |  | Unknown | [link](https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542) |  |  | cisagov | 2021-12-23 |
+| Bender |  |  |  | Unknown | [link](https://www.bender.de/en/cert) |  |  | cisagov | 2021-12-30 |
+| Best Practical Request Tracker (RT) and Request Tracker for Incident Response (RTIR) |  |  |  | Unknown | [link](https://bestpractical.com/blog/2021/12/request-tracker-rt-and-request-tracker-for-incident-response-rtir-do-not-use-log4j) |  |  | cisagov | 2021-12-30 |
+| BeyondTrust Bomgar |  |  |  | Unknown | [link](https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542) |  |  | cisagov | 2021-12-30 |
 | BeyondTrust | Privilege Management Cloud |  | Unknown | Fixed | [link](https://www.beyondtrust.com/blog/entry/security-advisory-apache-log4j2-cve-2021-44228-log4shell) |  |  | cisagov | 2021-12-17 |
 | BeyondTrust | Privilege Management Reporting in BeyondInsight |  | 21.2 | Fixed | [link](https://www.beyondtrust.com/blog/entry/security-advisory-apache-log4j2-cve-2021-44228-log4shell) |  |  | cisagov | 2021-12-17 |
 | BeyondTrust | Secure Remote Access appliances |  |  | Not Affected | [link](https://www.beyondtrust.com/blog/entry/security-advisory-apache-log4j2-cve-2021-44228-log4shell) |  |  | cisagov | 2021-12-17 |
 | BioMerieux |  |  |  | Unknown | [link](https://www.biomerieux.com/en/cybersecurity-data-privacy) |  |  | cisagov | 2021-12-22 |
-| BisectHosting |  |  |  | Unknown | [link](https://www.bisecthosting.com/clients/index.php?rp=/knowledgebase/205/Java-Log4j-Vulnerability.html) |  |  | cisagov | 2021-12-23 |
-| BitDefender |  |  |  | Unknown | [link](https://businessinsights.bitdefender.com/security-advisory-bitdefender-response-to-critical-0-day-apache-log4j2-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BitNami By VMware |  |  |  | Unknown | [link](https://docs.bitnami.com/general/security/security-2021-12-10/) |  |  | cisagov | 2021-12-23 |
-| BitRise |  |  |  | Unknown | [link](https://blog.bitrise.io/post/bitrises-response-to-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Bitwarden |  |  |  | Unknown | [link](https://community.bitwarden.com/t/log4j-log4shell-cve-is-bitwarden-affected-due-to-docker-image/36177/2) |  |  | cisagov | 2021-12-23 |
-| Biztory | Fivetran |  |  | Unknown | [link](https://www.biztory.com/blog/apache-log4j2-vulnerability) |  | Vendor review indicated Fivetran is not vulnerable to Log4j2 | cisagov | 2021-12-23 |
-| Black Kite |  |  |  | Unknown | [link](https://blackkite.com/log4j-rce-vulnerability-log4shell-puts-millions-at-risk/) |  |  | cisagov | 2021-12-23 |
-| Blancco |  |  |  | Unknown | [link](https://support.blancco.com/display/NEWS/2021/12/12/CVE-2021-44228+-+Critical+vulnerability+in+Apache+Log4j+library) |  |  | cisagov | 2021-12-23 |
-| Blumira |  |  |  | Unknown | [link](https://www.blumira.com/cve-2021-44228-log4shell/) |  |  | cisagov | 2021-12-23 |
-| BMC | Bladelogic Database Automation |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC AMI Ops |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC AMI Products |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Compuware |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Automation Console |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Business Workflows |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Client Management |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Cloud Cost |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Cloud Security |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix CMDB |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Continuous Optimization |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Control-M |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Digital Workplace |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Discovery |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix ITSM |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Knowledge Management |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Operations Management with AIOps |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Platform |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix platform |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Remediate |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Remediate |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Remedyforce |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | BMC Helix Virtual Agent |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | Cloud Lifecycle Management |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | Control-M |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | Footprints |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | MainView Middleware Administrator |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | MainView Middleware Monitor |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | Remedy ITSM (IT Service Management) |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | SmartIT |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | Track-It! |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | TrueSight Automation for Networks |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | TrueSight Automation for Servers |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | TrueSight Capacity Optimization |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | TrueSight Infrastructure Management |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | TrueSight Operations Management |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
-| BMC | TrueSight Orchestration |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-23 |
+| BisectHosting |  |  |  | Unknown | [link](https://www.bisecthosting.com/clients/index.php?rp=/knowledgebase/205/Java-Log4j-Vulnerability.html) |  |  | cisagov | 2021-12-30 |
+| BitDefender |  |  |  | Unknown | [link](https://businessinsights.bitdefender.com/security-advisory-bitdefender-response-to-critical-0-day-apache-log4j2-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BitNami By VMware |  |  |  | Unknown | [link](https://docs.bitnami.com/general/security/security-2021-12-10/) |  |  | cisagov | 2021-12-30 |
+| BitRise |  |  |  | Unknown | [link](https://blog.bitrise.io/post/bitrises-response-to-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Bitwarden |  |  |  | Unknown | [link](https://community.bitwarden.com/t/log4j-log4shell-cve-is-bitwarden-affected-due-to-docker-image/36177/2) |  |  | cisagov | 2021-12-30 |
+| Biztory | Fivetran |  |  | Unknown | [link](https://www.biztory.com/blog/apache-log4j2-vulnerability) |  | Vendor review indicated Fivetran is not vulnerable to Log4j2 | cisagov | 2021-12-30 |
+| Black Kite |  |  |  | Unknown | [link](https://blackkite.com/log4j-rce-vulnerability-log4shell-puts-millions-at-risk/) |  |  | cisagov | 2021-12-30 |
+| Blancco |  |  |  | Unknown | [link](https://support.blancco.com/display/NEWS/2021/12/12/CVE-2021-44228+-+Critical+vulnerability+in+Apache+Log4j+library) |  |  | cisagov | 2021-12-30 |
+| Blumira |  |  |  | Unknown | [link](https://www.blumira.com/cve-2021-44228-log4shell/) |  |  | cisagov | 2021-12-30 |
+| BMC | Bladelogic Database Automation |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC AMI Ops |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC AMI Products |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Compuware |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Automation Console |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Business Workflows |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Client Management |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Cloud Cost |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Cloud Security |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix CMDB |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Continuous Optimization |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Control-M |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Digital Workplace |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Discovery |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix ITSM |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Knowledge Management |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Operations Management with AIOps |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Platform |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix platform |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Remediate |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Remediate |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Remedyforce |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | BMC Helix Virtual Agent |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | Cloud Lifecycle Management |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | Control-M |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | Footprints |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | MainView Middleware Administrator |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | MainView Middleware Monitor |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | Remedy ITSM (IT Service Management) |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | SmartIT |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | Track-It! |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | TrueSight Automation for Networks |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | TrueSight Automation for Servers |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | TrueSight Capacity Optimization |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | TrueSight Infrastructure Management |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | TrueSight Operations Management |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
+| BMC | TrueSight Orchestration |  |  | Unknown | [link](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) |  |  | cisagov | 2021-12-30 |
 | Bosch |  |  |  | Unknown | [link](https://bosch-iot-suite.com/news/apache-log4j-rce-vulnerability/) |  |  | cisagov | 2021-12-22 |
 | Boston Scientific |  |  |  | Unknown | [link](https://www.bostonscientific.com/content/dam/bostonscientific/corporate/product-security/bsc_statement_on_apache_log4j-v1.pdf) |  |  | cisagov | 2021-12-20 |
-| Box |  |  |  | Unknown | [link](https://blog.box.com/boxs-statement-recent-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Brainworks |  |  |  | Unknown | [link](https://www.brainworks.de/log4j-exploit-kerio-connect-workaround/) |  |  | cisagov | 2021-12-23 |
-| BrightSign |  |  |  | Unknown | [link](https://brightsign.atlassian.net/wiki/spaces/DOC/pages/370679198/Security+Statement+Log4J+Meltdown+and+Spectre+Vulnerabilities#SecurityStatement%3ALog4J%2CMeltdownandSpectreVulnerabilities-JavaApacheLog4j) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Advanced Secure Gateway (ASG) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Automic Automation |  |  | Unknown | [link](https://knowledge.broadcom.com/external/article?articleId=230308) |  |  | cisagov | 2021-12-23 |
-| Broadcom | BCAAA |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | CA Advanced Authentication | 9.1 |  | Affected |  |  |  | cisagov | 2021-12-23 |
-| Broadcom | CA Risk Authentication |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
-| Broadcom | CA Strong Authentication |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
-| Broadcom | Cloud Workload Protection (CWP) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Cloud Workload Protection for Storage (CWP:S) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | CloudSOC Cloud Access Security Broker (CASB) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Content Analysis (CA) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Critical System Protection (CSP) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Data Center Security (DCS) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Data Loss Prevention (DLP) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Email Security Service (ESS) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Ghost Solution Suite (GSS) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | HSM Agent |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Industrial Control System Protection (ICSP) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Integrated Cyber Defense Manager (ICDm) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Integrated Secure Gateway (ISG) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | IT Management Suite |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Layer7 API Developer Portal |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Layer7 API Gateway |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Layer7 Mobile API Gateway |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Management Center (MC) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | PacketShaper (PS) S-Series |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | PolicyCenter (PC) S-Series |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Privileged Access Manager |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Privileged Access Manager Server Control |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Privileged Identity Manager |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | ProxySG |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Reporter |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Secure Access Cloud (SAC) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Security Analytics (SA) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | SiteMinder (CA Single Sign-On) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | SSL Visibility (SSLV) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Symantec Control Compliance Suite (CCS) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Symantec Directory |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Symantec Endpoint Detection and Response (EDR) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Symantec Endpoint Encryption (SEE) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Symantec Endpoint Protection (SEP) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Symantec Endpoint Protection (SEP) for Mobile |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Symantec Endpoint Protection Manager (SEPM) | 14.3 |  | Affected | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Symantec Identity Governance and Administration (IGA) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Symantec Mail Security for Microsoft Exchange (SMSMSE) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Symantec Messaging Gateway (SMG) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Symantec PGP Solutions |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Symantec Protection Engine (SPE) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Symantec Protection for SharePoint Servers (SPSS) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | VIP |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | VIP Authentication Hub |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Web Isolation (WI) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | Web Security Service (WSS) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| Broadcom | WebPulse |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-23 |
-| C4b XPHONE |  |  |  | Unknown | [link](https://www.c4b.com/de/news/log4j.php) |  |  | cisagov | 2021-12-23 |
-| Camunda |  |  |  | Unknown | [link](https://forum.camunda.org/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228/31910) |  |  | cisagov | 2021-12-23 |
+| Box |  |  |  | Unknown | [link](https://blog.box.com/boxs-statement-recent-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Brainworks |  |  |  | Unknown | [link](https://www.brainworks.de/log4j-exploit-kerio-connect-workaround/) |  |  | cisagov | 2021-12-30 |
+| BrightSign |  |  |  | Unknown | [link](https://brightsign.atlassian.net/wiki/spaces/DOC/pages/370679198/Security+Statement+Log4J+Meltdown+and+Spectre+Vulnerabilities#SecurityStatement%3ALog4J%2CMeltdownandSpectreVulnerabilities-JavaApacheLog4j) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Advanced Secure Gateway (ASG) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Automic Automation |  |  | Unknown | [link](https://knowledge.broadcom.com/external/article?articleId=230308) |  |  | cisagov | 2021-12-30 |
+| Broadcom | BCAAA |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | CA Advanced Authentication | 9.1 |  | Affected |  |  |  | cisagov | 2021-12-30 |
+| Broadcom | CA Risk Authentication |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
+| Broadcom | CA Strong Authentication |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
+| Broadcom | Cloud Workload Protection (CWP) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Cloud Workload Protection for Storage (CWP:S) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | CloudSOC Cloud Access Security Broker (CASB) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Content Analysis (CA) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Critical System Protection (CSP) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Data Center Security (DCS) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Data Loss Prevention (DLP) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Email Security Service (ESS) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Ghost Solution Suite (GSS) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | HSM Agent |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Industrial Control System Protection (ICSP) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Integrated Cyber Defense Manager (ICDm) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Integrated Secure Gateway (ISG) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | IT Management Suite |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Layer7 API Developer Portal |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Layer7 API Gateway |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Layer7 Mobile API Gateway |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Management Center (MC) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | PacketShaper (PS) S-Series |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | PolicyCenter (PC) S-Series |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Privileged Access Manager |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Privileged Access Manager Server Control |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Privileged Identity Manager |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | ProxySG |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Reporter |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Secure Access Cloud (SAC) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Security Analytics (SA) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | SiteMinder (CA Single Sign-On) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | SSL Visibility (SSLV) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Symantec Control Compliance Suite (CCS) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Symantec Directory |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Symantec Endpoint Detection and Response (EDR) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Symantec Endpoint Encryption (SEE) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Symantec Endpoint Protection (SEP) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Symantec Endpoint Protection (SEP) for Mobile |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Symantec Endpoint Protection Manager (SEPM) | 14.3 |  | Affected | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Symantec Identity Governance and Administration (IGA) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Symantec Mail Security for Microsoft Exchange (SMSMSE) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Symantec Messaging Gateway (SMG) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Symantec PGP Solutions |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Symantec Protection Engine (SPE) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Symantec Protection for SharePoint Servers (SPSS) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | VIP |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | VIP Authentication Hub |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Web Isolation (WI) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | Web Security Service (WSS) |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| Broadcom | WebPulse |  |  | Unknown | [link](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) |  |  | cisagov | 2021-12-30 |
+| C4b XPHONE |  |  |  | Unknown | [link](https://www.c4b.com/de/news/log4j.php) |  |  | cisagov | 2021-12-30 |
+| Campbell Scientific | All |  |  | Unknown | [link](https://s.campbellsci.com/documents/us/miscellaneous/log4j2-vulnerability.pdf) |  |  | cisagov | 2021-12-23 |
+| Camunda |  |  |  | Unknown | [link](https://forum.camunda.org/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228/31910) |  |  | cisagov | 2021-12-30 |
 | Canary Labs | All |  |  | Unknown | [link](https://helpcenter.canarylabs.com/t/83hjjk0/log4j-vulnerability) |  |  | cisagov | 2021-12-22 |
 | Canon | Alphenix (Angio Workstation) |  |  | Unknown | [link](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) |  |  | cisagov | 2021-12-22 |
 | Canon | CT Medical Imaging Products |  |  | Unknown | [link](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) |  |  | cisagov | 2021-12-22 |
@@ -337,145 +348,147 @@ This list was initially populated using information from the following sources:
 | Canon | Vitrea Advanced 7.x |  |  | Unknown | [link](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) |  |  | cisagov | 2021-12-22 |
 | Canon | XR Medical Imaging Products |  |  | Unknown | [link](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) |  |  | cisagov | 2021-12-22 |
 | CapStorm | Copystorm |  |  | Unknown |  |  |  | cisagov | 2021-12-22 |
-| CarbonBlack |  |  |  | Unknown | [link](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) |  |  | cisagov | 2021-12-23 |
+| CarbonBlack |  |  |  | Unknown | [link](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) |  |  | cisagov | 2021-12-30 |
 | Carestream |  |  |  | Unknown | [link](https://www.carestream.com/en/us/services-and-support/cybersecurity-and-privacy) |  |  | cisagov | 2021-12-20 |
-| CAS genesisWorld |  |  |  | Unknown | [link](https://helpdesk.cas.de/CASHelpdesk/FAQDetails.aspx?gguid=0x79F9E881EE3C46C1A71BE9EB3E480446) |  |  | cisagov | 2021-12-23 |
-| Cato Networks |  |  |  | Unknown | [link](https://www.catonetworks.com/blog/cato-networks-rapid-response-to-the-apache-log4j-remote-code-execution-vulnerability/) |  |  | cisagov | 2021-12-23 |
+| CAS genesisWorld |  |  |  | Unknown | [link](https://helpdesk.cas.de/CASHelpdesk/FAQDetails.aspx?gguid=0x79F9E881EE3C46C1A71BE9EB3E480446) |  |  | cisagov | 2021-12-30 |
+| Cato Networks |  |  |  | Unknown | [link](https://www.catonetworks.com/blog/cato-networks-rapid-response-to-the-apache-log4j-remote-code-execution-vulnerability/) |  |  | cisagov | 2021-12-30 |
 | Cepheid | C360 |  |  | Unknown | [link](https://www.cepheid.com/en_US/legal/product-security-updates) |  |  | cisagov | 2021-12-20 |
 | Cepheid | GeneXpert |  |  | Unknown | [link](https://www.cepheid.com/en_US/legal/product-security-updates) |  |  | cisagov | 2021-12-20 |
-| Cerberus FTP |  |  |  | Unknown | [link](https://support.cerberusftp.com/hc/en-us/articles/4412448183571-Cerberus-is-not-affected-by-CVE-2021-44228-log4j-0-day-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Chaser Systems | discrimiNAT Firewall |  |  | Not Affected | [link](https://chasersystems.com/discrimiNAT/blog/log4shell-and-its-traces-in-a-network-egress-filter/#are-chasers-products-affected) |  |  | cisagov | 2021-12-23 |
-| Check Point | CloudGuard |  |  | Not Affected | [link](https://supportcontent.checkpoint.com/solutions?id=sk176865) |  |  | cisagov | 2021-12-23 |
-| Check Point | Harmony Endpoint &amp; Harmony Mobile |  |  | Not Affected | [link](https://supportcontent.checkpoint.com/solutions?id=sk176865) |  |  | cisagov | 2021-12-23 |
-| Check Point | Infinity Portal |  |  | Unknown | [link](https://supportcontent.checkpoint.com/solutions?id=sk176865) |  |  | cisagov | 2021-12-23 |
-| Check Point | Quantum Security Management |  |  | Not Affected | [link](https://supportcontent.checkpoint.com/solutions?id=sk176865) | Where used, uses the 1.8.0\_u241 version of the JRE that protects against this attack by default. |  | cisagov | 2021-12-23 |
-| Check Point | SMB |  |  | Not Affected | [link](https://supportcontent.checkpoint.com/solutions?id=sk176865) |  |  | cisagov | 2021-12-23 |
-| Check Point | ThreatCloud |  |  | Unknown | [link](https://supportcontent.checkpoint.com/solutions?id=sk176865) |  |  | cisagov | 2021-12-23 |
-| CheckMK |  |  |  | Unknown | [link](https://forum.checkmk.com/t/checkmk-not-affected-by-log4shell/28643/3) |  |  | cisagov | 2021-12-23 |
-| Ciphermail |  |  |  | Unknown | [link](https://www.ciphermail.com/blog/ciphermail-gateway-and-webmail-messenger-are-not-vulnerable-to-cve-2021-44228.html) |  |  | cisagov | 2021-12-23 |
-| CIS |  |  |  | Unknown | [link](https://cisecurity.atlassian.net/servicedesk/customer/portal/15/article/2434301961) |  |  | cisagov | 2021-12-23 |
-| Cisco | AppDynamics |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco ACI Multi-Site Orchestrator |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco ACI Virtual Edge |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Adaptive Security Appliance (ASA) Software |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Advanced Web Security Reporting Application |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco AMP Virtual Private Cloud Appliance |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco AnyConnect Secure Mobility Client |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Application Policy Infrastructure Controller (APIC) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco ASR 5000 Series Routers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Broadcloud Calling |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco BroadWorks |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Catalyst 9800 Series Wireless Controllers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco CloudCenter Suite Admin |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco CloudCenter Workload Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Cognitive Intelligence |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Common Services Platform Collector |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Computer Telephony Integration Object Server (CTIOS) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Connected Grid Device Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Connected Mobile Experiences |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Connectivity |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Contact Center Domain Manager (CCDM) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Contact Center Management Portal (CCMP) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Crosswork Change Automation |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco CX Cloud Agent Software |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Data Center Network Manager (DCNM) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Defense Orchestrator |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco DNA Assurance |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco DNA Center |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco DNA Spaces |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Elastic Services Controller (ESC) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Emergency Responder |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Enterprise Chat and Email |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Enterprise NFV Infrastructure Software (NFVIS) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Evolved Programmable Network Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Extensible Network Controller (XNC) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Finesse |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Firepower Management Center |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Firepower Threat Defense (FTD) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco GGSN Gateway GPRS Support Node |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco HyperFlex System |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Identity Services Engine (ISE) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Integrated Management Controller (IMC) Supervisor |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Intersight |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Intersight Virtual Appliance |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco IOS and IOS XE Software |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco IoT Field Network Director (formerly Cisco Connected Grid Network Management System) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco IoT Operations Dashboard |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco IOx Fog Director |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco IP Services Gateway (IPSG) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Kinetic for Cities |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco MDS 9000 Series Multilayer Switches |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Meeting Server |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco MME Mobility Management Entity |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Modeling Labs |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Network Assessment (CNA) Tool |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Network Assurance Engine |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Network Convergence System 2000 Series |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Network Planner |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Network Services Orchestrator (NSO) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Nexus 5500 Platform Switches |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Nexus 5600 Platform Switches |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Nexus 6000 Series Switches |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Nexus 7000 Series Switches |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Nexus 9000 Series Fabric Switches in Application Centric Infrastructure (ACI) mode |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Nexus Dashboard (formerly Cisco Application Services Engine) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Nexus Data Broker |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Nexus Insights |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Optical Network Planner |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Packaged Contact Center Enterprise |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Paging Server |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Paging Server (InformaCast) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco PDSN/HA Packet Data Serving Node and Home Agent |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco PGW Packet Data Network Gateway |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Policy Suite |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Prime Central for Service Providers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Prime Collaboration Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Prime Collaboration Provisioning |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Prime Infrastructure |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Prime License Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Prime Network |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Prime Optical for Service Providers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Prime Provisioning |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Prime Service Catalog |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Registered Envelope Service |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco SD-WAN vEdge 1000 Series Routers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco SD-WAN vEdge 2000 Series Routers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco SD-WAN vEdge 5000 Series Routers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco SD-WAN vEdge Cloud Router Platform |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco SD-WAN vManage |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Secure Network Analytics (SNA), formerly Stealthwatch |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco SocialMiner |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco System Architecture Evolution Gateway (SAEGW) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco TelePresence Management Suite |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco UCS Director |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco UCS Performance Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Umbrella |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Unified Attendant Console Advanced |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Unified Attendant Console Business Edition |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Unified Attendant Console Department Edition |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Unified Attendant Console Enterprise Edition |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Unified Attendant Console Premium Edition |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Unified Communications Manager Cloud |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Unified Contact Center Enterprise |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Unified Contact Center Enterprise - Live Data server |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Unified Contact Center Express |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Unified Intelligent Contact Management Enterprise |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Unified SIP Proxy Software |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Video Surveillance Operations Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Virtual Topology System - Virtual Topology Controller (VTC) VM |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Virtualized Voice Browser |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Vision Dynamic Signage Director |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco WAN Automation Engine (WAE) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Web Security Appliance (WSA) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Webex Cloud-Connected UC (CCUC) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Webex Meetings Server |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Webex Teams |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Cisco Wide Area Application Services (WAAS) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Duo |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | DUO network gateway (on-prem/self-hosted) |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
-| Cisco | duo network gateway (on-prem/self-hosted) |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
-| Cisco | Exony Virtualized Interaction Manager (VIM) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
-| Cisco | Managed Services Accelerator (MSX) Network Access Control Service |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-23 |
+| Cerberus FTP |  |  |  | Unknown | [link](https://support.cerberusftp.com/hc/en-us/articles/4412448183571-Cerberus-is-not-affected-by-CVE-2021-44228-log4j-0-day-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Chaser Systems | discrimiNAT Firewall |  |  | Not Affected | [link](https://chasersystems.com/discrimiNAT/blog/log4shell-and-its-traces-in-a-network-egress-filter/#are-chasers-products-affected) |  |  | cisagov | 2021-12-30 |
+| Check Point | CloudGuard |  |  | Not Affected | [link](https://supportcontent.checkpoint.com/solutions?id=sk176865) |  |  | cisagov | 2021-12-30 |
+| Check Point | Harmony Endpoint &amp; Harmony Mobile |  |  | Not Affected | [link](https://supportcontent.checkpoint.com/solutions?id=sk176865) |  |  | cisagov | 2021-12-30 |
+| Check Point | Infinity Portal |  |  | Unknown | [link](https://supportcontent.checkpoint.com/solutions?id=sk176865) |  |  | cisagov | 2021-12-30 |
+| Check Point | Quantum Security Gateway |  |  | Not Affected | [link](https://supportcontent.checkpoint.com/solutions?id=sk176865) |  |  | cisagov | 2021-12-30 |
+| Check Point | Quantum Security Management |  |  | Not Affected | [link](https://supportcontent.checkpoint.com/solutions?id=sk176865) | Where used, uses the 1.8.0\_u241 version of the JRE that protects against this attack by default. |  | cisagov | 2021-12-30 |
+| Check Point | SMB |  |  | Not Affected | [link](https://supportcontent.checkpoint.com/solutions?id=sk176865) |  |  | cisagov | 2021-12-30 |
+| Check Point | ThreatCloud |  |  | Unknown | [link](https://supportcontent.checkpoint.com/solutions?id=sk176865) |  |  | cisagov | 2021-12-30 |
+| CheckMK |  |  |  | Unknown | [link](https://forum.checkmk.com/t/checkmk-not-affected-by-log4shell/28643/3) |  |  | cisagov | 2021-12-30 |
+| Ciphermail |  |  |  | Unknown | [link](https://www.ciphermail.com/blog/ciphermail-gateway-and-webmail-messenger-are-not-vulnerable-to-cve-2021-44228.html) |  |  | cisagov | 2021-12-30 |
+| CircleCI | CircleCI |  |  | Unknown | [link](https://discuss.circleci.com/t/circleci-log4j-information-cve-2021-4422) |  |  | cisagov | 2021-12-21 |
+| CIS |  |  |  | Unknown | [link](https://cisecurity.atlassian.net/servicedesk/customer/portal/15/article/2434301961) |  |  | cisagov | 2021-12-30 |
+| Cisco | AppDynamics |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco ACI Multi-Site Orchestrator |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco ACI Virtual Edge |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Adaptive Security Appliance (ASA) Software |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Advanced Web Security Reporting Application |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco AMP Virtual Private Cloud Appliance |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco AnyConnect Secure Mobility Client |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Application Policy Infrastructure Controller (APIC) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco ASR 5000 Series Routers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Broadcloud Calling |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco BroadWorks |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Catalyst 9800 Series Wireless Controllers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco CloudCenter Suite Admin |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco CloudCenter Workload Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Cognitive Intelligence |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Common Services Platform Collector |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Computer Telephony Integration Object Server (CTIOS) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Connected Grid Device Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Connected Mobile Experiences |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Connectivity |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Contact Center Domain Manager (CCDM) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Contact Center Management Portal (CCMP) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Crosswork Change Automation |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco CX Cloud Agent Software |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Data Center Network Manager (DCNM) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Defense Orchestrator |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco DNA Assurance |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco DNA Center |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco DNA Spaces |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Elastic Services Controller (ESC) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Emergency Responder |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Enterprise Chat and Email |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Enterprise NFV Infrastructure Software (NFVIS) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Evolved Programmable Network Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Extensible Network Controller (XNC) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Finesse |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Firepower Management Center |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Firepower Threat Defense (FTD) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco GGSN Gateway GPRS Support Node |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco HyperFlex System |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Identity Services Engine (ISE) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Integrated Management Controller (IMC) Supervisor |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Intersight |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Intersight Virtual Appliance |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco IOS and IOS XE Software |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco IoT Field Network Director (formerly Cisco Connected Grid Network Management System) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco IoT Operations Dashboard |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco IOx Fog Director |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco IP Services Gateway (IPSG) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Kinetic for Cities |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco MDS 9000 Series Multilayer Switches |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Meeting Server |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco MME Mobility Management Entity |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Modeling Labs |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Network Assessment (CNA) Tool |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Network Assurance Engine |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Network Convergence System 2000 Series |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Network Planner |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Network Services Orchestrator (NSO) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Nexus 5500 Platform Switches |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Nexus 5600 Platform Switches |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Nexus 6000 Series Switches |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Nexus 7000 Series Switches |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Nexus 9000 Series Fabric Switches in Application Centric Infrastructure (ACI) mode |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Nexus Dashboard (formerly Cisco Application Services Engine) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Nexus Data Broker |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Nexus Insights |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Optical Network Planner |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Packaged Contact Center Enterprise |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Paging Server |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Paging Server (InformaCast) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco PDSN/HA Packet Data Serving Node and Home Agent |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco PGW Packet Data Network Gateway |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Policy Suite |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Prime Central for Service Providers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Prime Collaboration Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Prime Collaboration Provisioning |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Prime Infrastructure |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Prime License Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Prime Network |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Prime Optical for Service Providers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Prime Provisioning |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Prime Service Catalog |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Registered Envelope Service |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco SD-WAN vEdge 1000 Series Routers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco SD-WAN vEdge 2000 Series Routers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco SD-WAN vEdge 5000 Series Routers |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco SD-WAN vEdge Cloud Router Platform |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco SD-WAN vManage |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Secure Network Analytics (SNA), formerly Stealthwatch |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco SocialMiner |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco System Architecture Evolution Gateway (SAEGW) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco TelePresence Management Suite |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco UCS Director |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco UCS Performance Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Umbrella |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Unified Attendant Console Advanced |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Unified Attendant Console Business Edition |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Unified Attendant Console Department Edition |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Unified Attendant Console Enterprise Edition |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Unified Attendant Console Premium Edition |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Unified Communications Manager Cloud |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Unified Contact Center Enterprise |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Unified Contact Center Enterprise - Live Data server |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Unified Contact Center Express |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Unified Intelligent Contact Management Enterprise |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Unified SIP Proxy Software |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Video Surveillance Operations Manager |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Virtual Topology System - Virtual Topology Controller (VTC) VM |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Virtualized Voice Browser |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Vision Dynamic Signage Director |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco WAN Automation Engine (WAE) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Web Security Appliance (WSA) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Webex Cloud-Connected UC (CCUC) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Webex Meetings Server |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Webex Teams |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Cisco Wide Area Application Services (WAAS) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Duo |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | DUO network gateway (on-prem/self-hosted) |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
+| Cisco | duo network gateway (on-prem/self-hosted) |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
+| Cisco | Exony Virtualized Interaction Manager (VIM) |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
+| Cisco | Managed Services Accelerator (MSX) Network Access Control Service |  |  | Unknown | [link](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  |  | cisagov | 2021-12-30 |
 | Citrix | Citrix ADC (NetScaler ADC) and Citrix Gateway (NetScaler Gateway) |  |  | Not Affected | [link](https://support.citrix.com/article/CTX335705) | Citrix continues to investigate any potential impact on Citrix-managed cloud services. If, as the investigation continues, any Citrix-managed services are found to be affected by this issue, Citrix will take immediate action to remediate the problem. Customers using Citrix-managed cloud services do not need to take any action. |  | cisagov | 2021-12-21 |
 | Citrix | Citrix Application Delivery Management (NetScaler MAS) |  |  | Not Affected | [link](https://support.citrix.com/article/CTX335705) | Citrix continues to investigate any potential impact on Citrix-managed cloud services. If, as the investigation continues, any Citrix-managed services are found to be affected by this issue, Citrix will take immediate action to remediate the problem. Customers using Citrix-managed cloud services do not need to take any action. |  | cisagov | 2021-12-21 |
 | Citrix | Citrix Cloud Connector |  |  | Unknown | [link](https://support.citrix.com/article/CTX335705) | Citrix continues to investigate any potential impact on Citrix-managed cloud services. If, as the investigation continues, any Citrix-managed services are found to be affected by this issue, Citrix will take immediate action to remediate the problem. Customers using Citrix-managed cloud services do not need to take any action. |  | cisagov | 2021-12-21 |
@@ -488,64 +501,64 @@ This list was initially populated using information from the following sources:
 | Citrix | Citrix Virtual Apps and Desktops (XenApp &amp; XenDesktop) |  |  | Unknown | [link](https://support.citrix.com/article/CTX335705) | IMPACTED: Linux VDA (non-LTSR versions only)- CVE-2021-44228 and CVE-2021-45046: Customers are advised to apply the latest update as soon as possible to reduce the risk of exploitation. [Linux Virtual Delivery Agent 2112](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/linux-vda-2112.html). See the [Citrix Statement](https://support.citrix.com/article/CTX335705) for additional mitigations. For CVE-2021-45105: Investigation has shown that Linux VDA is not impacted. Nonetheless, the Linux VDA 2112 has been updated (21.12.0.30, released December 20th) to contain Apache log4j version 2.17.0. NOT IMPACTED: Linux VDA LTSR all versions; All other CVAD components. |  | cisagov | 2021-12-21 |
 | Citrix | Citrix Workspace App |  |  | Not Affected | [link](https://support.citrix.com/article/CTX335705) | Citrix continues to investigate any potential impact on Citrix-managed cloud services. If, as the investigation continues, any Citrix-managed services are found to be affected by this issue, Citrix will take immediate action to remediate the problem. Customers using Citrix-managed cloud services do not need to take any action. |  | cisagov | 2021-12-21 |
 | Citrix | ShareFile Storage Zones Controller |  |  | Unknown | [link](https://support.citrix.com/article/CTX335705) | Citrix continues to investigate any potential impact on Citrix-managed cloud services. If, as the investigation continues, any Citrix-managed services are found to be affected by this issue, Citrix will take immediate action to remediate the problem. Customers using Citrix-managed cloud services do not need to take any action. |  | cisagov | 2021-12-21 |
-| Claris |  |  |  | Unknown | [link](https://support.claris.com/s/article/CVE-2021-44228-Apache-Log4j-Vulnerability-and-Claris-products?language=en_US) |  |  | cisagov | 2021-12-23 |
-| Cloudera | AM2CM Tool |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Ambari | Only versions 2.x,1.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Arcadia Enterprise | Only version 7.1.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | CDH, HDP, and HDF | Only version 6.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | CDP Operational Database (COD) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | CDP Private Cloud Base | Only version 7.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | CDS 3 Powered by Apache Spark | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | CDS 3.2 for GPUs | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Cybersecurity Platform | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Data Engineering (CDE) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Data Engineering (CDE) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Data Flow (CFM) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Data Science Workbench (CDSW) | Only versions 2.x,3.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Data Visualization (CDV) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Data Warehouse (CDW) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Data Warehouse (CDW) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera DataFlow (CDF) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Edge Management (CEM) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Enterprise | Only version 6.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Flow Management (CFM) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Machine Learning (CML) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Machine Learning (CML) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Manager (Including Backup Disaster Recovery (BDR) and Replication Manager) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Manager (Including Backup Disaster Recovery (BDR) and Replication Manager) | Only versions 7.0.x,7.1.x,7.2.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Manager (Including Backup Disaster Recovery (BDR)) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Runtime (including Cloudera Data Hub and all Data Hub templates) | Only versions 7.0.x,7.1.x,7.2.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Stream Processing (CSP) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Streaming Analytics (CSA) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Cloudera Streaming Analytics (CSA) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Data Analytics Studio (DAS) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Data Catalog |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Data Lifecycle Manager (DLM) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Data Steward Studio (DSS) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Hortonworks Data Flow (HDF) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Hortonworks Data Platform (HDP) | Only versions 7.1.x,2.7.x,2.6.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Hortonworks DataPlane Platform |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Management Console | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Management Console for CDP Public Cloud |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Replication Manager |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | SmartSense |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Workload Manager |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Workload XM | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| Cloudera | Workload XM (SaaS) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-23 |
-| CloudFlare |  |  |  | Unknown | [link](https://blog.cloudflare.com/cve-2021-44228-log4j-rce-0-day-mitigation/) |  |  | cisagov | 2021-12-23 |
-| Cloudian HyperStore |  |  |  | Unknown | [link](https://cloudian-support.force.com/s/article/SECURITY-Cloudian-HyperStore-Log4j-vulnerability-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Cloudogu | Ecosystem | All |  | Affected | [link](https://community.cloudogu.com/t/security-vulnerability-log4shell-cve-2021-44228/417) |  |  | cisagov | 2021-12-23 |
-| Cloudogu | SCM-Manager |  |  | Unknown | [link](https://scm-manager.org/blog/posts/2021-12-13-log4shell/) |  |  | cisagov | 2021-12-23 |
-| Cloudron |  |  |  | Unknown | [link](https://forum.cloudron.io/topic/6153/log4j-and-log4j2-library-vulnerability?lang=en-US) |  |  | cisagov | 2021-12-23 |
-| Clover |  |  |  | Unknown | [link](https://community.clover.com/articles/35868/apache-log4j-vulnerability-cve-2021-44228.html) |  |  | cisagov | 2021-12-23 |
+| Claris |  |  |  | Unknown | [link](https://support.claris.com/s/article/CVE-2021-44228-Apache-Log4j-Vulnerability-and-Claris-products?language=en_US) |  |  | cisagov | 2021-12-30 |
+| Cloudera | AM2CM Tool |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Ambari | Only versions 2.x,1.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Arcadia Enterprise | Only version 7.1.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | CDH, HDP, and HDF | Only version 6.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | CDP Operational Database (COD) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | CDP Private Cloud Base | Only version 7.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | CDS 3 Powered by Apache Spark | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | CDS 3.2 for GPUs | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Cybersecurity Platform | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Data Engineering (CDE) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Data Engineering (CDE) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Data Flow (CFM) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Data Science Workbench (CDSW) | Only versions 2.x,3.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Data Visualization (CDV) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Data Warehouse (CDW) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Data Warehouse (CDW) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera DataFlow (CDF) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Edge Management (CEM) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Enterprise | Only version 6.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Flow Management (CFM) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Machine Learning (CML) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Machine Learning (CML) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Manager (Including Backup Disaster Recovery (BDR) and Replication Manager) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Manager (Including Backup Disaster Recovery (BDR) and Replication Manager) | Only versions 7.0.x,7.1.x,7.2.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Manager (Including Backup Disaster Recovery (BDR)) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Runtime (including Cloudera Data Hub and all Data Hub templates) | Only versions 7.0.x,7.1.x,7.2.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Stream Processing (CSP) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Streaming Analytics (CSA) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Cloudera Streaming Analytics (CSA) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Data Analytics Studio (DAS) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Data Catalog |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Data Lifecycle Manager (DLM) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Data Steward Studio (DSS) | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Hortonworks Data Flow (HDF) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Hortonworks Data Platform (HDP) | Only versions 7.1.x,2.7.x,2.6.x |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Hortonworks DataPlane Platform |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Management Console | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Management Console for CDP Public Cloud |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Replication Manager |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | SmartSense |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Workload Manager |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Workload XM | All versions |  | Affected | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| Cloudera | Workload XM (SaaS) |  |  | Unknown | [link](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) |  |  | cisagov | 2021-12-30 |
+| CloudFlare |  |  |  | Unknown | [link](https://blog.cloudflare.com/cve-2021-44228-log4j-rce-0-day-mitigation/) |  |  | cisagov | 2021-12-30 |
+| Cloudian HyperStore |  |  |  | Unknown | [link](https://cloudian-support.force.com/s/article/SECURITY-Cloudian-HyperStore-Log4j-vulnerability-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Cloudogu | Ecosystem | All |  | Affected | [link](https://community.cloudogu.com/t/security-vulnerability-log4shell-cve-2021-44228/417) |  |  | cisagov | 2021-12-30 |
+| Cloudogu | SCM-Manager |  |  | Unknown | [link](https://scm-manager.org/blog/posts/2021-12-13-log4shell/) |  |  | cisagov | 2021-12-30 |
+| Cloudron |  |  |  | Unknown | [link](https://forum.cloudron.io/topic/6153/log4j-and-log4j2-library-vulnerability?lang=en-US) |  |  | cisagov | 2021-12-30 |
+| Clover |  |  |  | Unknown | [link](https://community.clover.com/articles/35868/apache-log4j-vulnerability-cve-2021-44228.html) |  |  | cisagov | 2021-12-30 |
 | Code42 | Code42 App |  | 8.8.1 | Fixed | [link](https://success.code42.com/hc/en-us/articles/4416158712343-RELEASE-NOTIFICATION-Code42-Vulnerability-Mitigation-for-CVE-2021-44228-and-other-updates) |  |  | cisagov | 2021-12-22 |
 | Code42 | Crashplan |  | 8.8,possibly prior versions | Fixed | [link](https://success.code42.com/hc/en-us/articles/4416158712343-RELEASE-NOTIFICATION-Code42-Vulnerability-Mitigation-for-CVE-2021-44228-and-other-updates) | I think, they don't specify in the notice, but we know that they released an updated Crashplan client. Possibly prior versions affected. |  | cisagov | 2021-12-16 |
-| CodeBeamer |  |  |  | Unknown | [link](https://codebeamer.com/cb/wiki/19872365) |  |  | cisagov | 2021-12-23 |
-| Codesys |  |  |  | Unknown | [link](https://www.codesys.com/news-events/news/article/log4j-not-used-in-codesys.html) |  |  | cisagov | 2021-12-23 |
-| Cohesity |  |  |  | Unknown | [link](https://support.cohesity.com/s/article/Security-Advisory-Apache-Log4j-Remote-Code-Execution-RCE-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| CommVault |  |  |  | Unknown | [link](https://documentation.commvault.com/v11/essential/146231_security_vulnerability_and_reporting.html) |  |  | cisagov | 2021-12-23 |
-| Concourse | Concourse |  |  | Unknown | [link](https://github.com/concourse/concourse/discussions/7887) |  |  | cisagov | 2021-12-23 |
-| ConcreteCMS.com |  |  |  | Unknown | [link](https://www.concretecms.com/about/blog/security/concrete-log4j-zero-day-exploit) |  |  | cisagov | 2021-12-23 |
+| CodeBeamer |  |  |  | Unknown | [link](https://codebeamer.com/cb/wiki/19872365) |  |  | cisagov | 2021-12-30 |
+| Codesys |  |  |  | Unknown | [link](https://www.codesys.com/news-events/news/article/log4j-not-used-in-codesys.html) |  |  | cisagov | 2021-12-30 |
+| Cohesity |  |  |  | Unknown | [link](https://support.cohesity.com/s/article/Security-Advisory-Apache-Log4j-Remote-Code-Execution-RCE-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| CommVault |  |  |  | Unknown | [link](https://documentation.commvault.com/v11/essential/146231_security_vulnerability_and_reporting.html) |  |  | cisagov | 2021-12-30 |
+| Concourse | Concourse |  |  | Unknown | [link](https://github.com/concourse/concourse/discussions/7887) |  |  | cisagov | 2021-12-30 |
+| ConcreteCMS.com |  |  |  | Unknown | [link](https://www.concretecms.com/about/blog/security/concrete-log4j-zero-day-exploit) |  |  | cisagov | 2021-12-30 |
 | Confluent | Confluent Cloud |  | N/A | Fixed | [link](https://support.confluent.io/hc/en-us/articles/4412615410580-CVE-2021-44228-log4j2-vulnerability#impact-to-connectors) |  |  | cisagov | 2021-12-17 |
 | Confluent | Confluent ElasticSearch Sink Connector | &lt;11.1.7 |  | Affected | [link](https://support.confluent.io/hc/en-us/articles/4412615410580-CVE-2021-44228-log4j2-vulnerability#impact-to-connectors) |  |  | cisagov | 2021-12-17 |
 | Confluent | Confluent for Kubernetes |  |  | Not Affected | [link](https://support.confluent.io/hc/en-us/articles/4412615410580-CVE-2021-44228-log4j2-vulnerability#impact-to-connectors) |  |  | cisagov | 2021-12-17 |
@@ -556,30 +569,30 @@ This list was initially populated using information from the following sources:
 | Confluent | Confluent Platform | &lt;7.0.1 |  | Affected | [link](https://support.confluent.io/hc/en-us/articles/4412615410580-CVE-2021-44228-log4j2-vulnerability#impact-to-connectors) |  |  | cisagov | 2021-12-17 |
 | Confluent | Confluent Splunk Sink Connector | &lt;2.05 |  | Affected | [link](https://support.confluent.io/hc/en-us/articles/4412615410580-CVE-2021-44228-log4j2-vulnerability#impact-to-connectors) |  |  | cisagov | 2021-12-17 |
 | Confluent | Confluent VMWare Tanzu GemFire Sink Connector | &lt;1.0.8 |  | Affected | [link](https://support.confluent.io/hc/en-us/articles/4412615410580-CVE-2021-44228-log4j2-vulnerability#impact-to-connectors) |  |  | cisagov | 2021-12-17 |
-| Connect2id |  |  |  | Unknown | [link](https://connect2id.com/blog/connect2id-server-12-5-1) |  |  | cisagov | 2021-12-23 |
-| ConnectWise |  |  |  | Unknown | [link](https://www.connectwise.com/company/trust/advisories) |  |  | cisagov | 2021-12-23 |
-| ContrastSecurity |  |  |  | Unknown | [link](https://support.contrastsecurity.com/hc/en-us/articles/4412612486548) |  |  | cisagov | 2021-12-23 |
-| ControlUp |  |  |  | Unknown | [link](https://status.controlup.com/incidents/qqyvh7b1dz8k) |  |  | cisagov | 2021-12-23 |
-| COPADATA |  |  |  | Unknown | [link](https://www.copadata.com/en/support-services/knowledge-base-faq/pare-products-in-the-zenon-product-family-affect-4921/) |  |  | cisagov | 2021-12-23 |
-| CouchBase |  |  |  | Unknown | [link](https://forums.couchbase.com/t/ann-elasticsearch-connector-4-3-3-4-2-13-fixes-log4j-vulnerability/32402) |  |  | cisagov | 2021-12-23 |
-| CPanel |  |  |  | Unknown | [link](https://forums.cpanel.net/threads/log4j-cve-2021-44228-does-it-affect-cpanel.696249/) |  |  | cisagov | 2021-12-23 |
-| Cradlepoint |  |  |  | Unknown | [link](https://cradlepoint.com/vulnerability-alerts/cve-2021-44228-apache-log4j-security-vulnerabilities/) |  |  | cisagov | 2021-12-23 |
+| Connect2id |  |  |  | Unknown | [link](https://connect2id.com/blog/connect2id-server-12-5-1) |  |  | cisagov | 2021-12-30 |
+| ConnectWise |  |  |  | Unknown | [link](https://www.connectwise.com/company/trust/advisories) |  |  | cisagov | 2021-12-30 |
+| ContrastSecurity |  |  |  | Unknown | [link](https://support.contrastsecurity.com/hc/en-us/articles/4412612486548) |  |  | cisagov | 2021-12-30 |
+| ControlUp |  |  |  | Unknown | [link](https://status.controlup.com/incidents/qqyvh7b1dz8k) |  |  | cisagov | 2021-12-30 |
+| COPADATA |  |  |  | Unknown | [link](https://www.copadata.com/en/support-services/knowledge-base-faq/pare-products-in-the-zenon-product-family-affect-4921/) |  |  | cisagov | 2021-12-30 |
+| CouchBase |  |  |  | Unknown | [link](https://forums.couchbase.com/t/ann-elasticsearch-connector-4-3-3-4-2-13-fixes-log4j-vulnerability/32402) |  |  | cisagov | 2021-12-30 |
+| CPanel |  |  |  | Unknown | [link](https://forums.cpanel.net/threads/log4j-cve-2021-44228-does-it-affect-cpanel.696249/) |  |  | cisagov | 2021-12-30 |
+| Cradlepoint |  |  |  | Unknown | [link](https://cradlepoint.com/vulnerability-alerts/cve-2021-44228-apache-log4j-security-vulnerabilities/) |  |  | cisagov | 2021-12-30 |
 | Crestron |  |  |  | Unknown | [link](https://www.crestron.com/Security/Security_Advisories/Apache-Log4j) |  |  | cisagov | 2021-12-20 |
-| CrushFTP |  |  |  | Unknown | [link](https://www.crushftp.com/download.html) |  |  | cisagov | 2021-12-23 |
-| CryptShare |  |  |  | Unknown | [link](https://www.cryptshare.com/en/support/cryptshare-support/#c67572) |  |  | cisagov | 2021-12-23 |
+| CrushFTP |  |  |  | Unknown | [link](https://www.crushftp.com/download.html) |  |  | cisagov | 2021-12-30 |
+| CryptShare |  |  |  | Unknown | [link](https://www.cryptshare.com/en/support/cryptshare-support/#c67572) |  |  | cisagov | 2021-12-30 |
 | CyberArk | Privileged Threat Analytics (PTA) |  | N/A | Fixed | [link](https://cyberark-customers.force.com/s/article/Critical-Vulnerability-CVE-2021-44228) |  | This advisory is available to customers only and has not been reviewed by CISA. | cisagov | 2021-12-14 |
-| Cybereason |  |  |  | Unknown | [link](https://www.cybereason.com/blog/cybereason-solutions-are-not-impacted-by-apache-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| CyberRes |  |  |  | Unknown | [link](https://community.microfocus.com/cyberres/b/sws-22/posts/summary-of-cyberres-impact-from-log4j-or-logshell-logjam-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| DarkTrace |  |  |  | Unknown | [link](https://customerportal.darktrace.com/inside-the-soc/get-article/201) |  |  | cisagov | 2021-12-23 |
-| Dassault Systèmes |  |  |  | Unknown | [link](https://kb.dsxclient.3ds.com/mashup-ui/page/resultqa?id=QA00000102301e) |  |  | cisagov | 2021-12-23 |
-| Databricks |  |  |  | Unknown | [link](https://docs.google.com/document/d/e/2PACX-1vREjwZk17BAHGwj5Phizi4DPFS9EIUbAMX-CswlgbFwqwKXNKZC8MrT-L6wUgfIChsSHtvd_QD3-659/pub) |  |  | cisagov | 2021-12-23 |
-| Datadog | Datadog Agent |  | &gt;=6.17.0,&lt;=6.32.2,&gt;=7.17.0,&lt;=7.32.2 | Fixed | [link](https://www.datadoghq.com/log4j-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| Dataminer |  |  |  | Unknown | [link](https://community.dataminer.services/responding-to-log4shell-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| Datev |  |  |  | Unknown | [link](https://www.datev-community.de/t5/Freie-Themen/Log4-J-Schwachstelle/m-p/258185/highlight/true#M14308) |  |  | cisagov | 2021-12-23 |
-| Datto |  |  |  | Unknown | [link](https://www.datto.com/blog/dattos-response-to-log4shell) |  |  | cisagov | 2021-12-23 |
-| dCache.org |  |  |  | Unknown | [link](https://www.dcache.org/post/log4j-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| Debian |  |  |  | Unknown | [link](https://security-tracker.debian.org/tracker/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Deepinstinct |  |  |  | Unknown | [link](https://www.deepinstinct.com/blog/log4shell-cve-2021-44228-what-you-need-to-know) |  |  | cisagov | 2021-12-23 |
+| Cybereason |  |  |  | Unknown | [link](https://www.cybereason.com/blog/cybereason-solutions-are-not-impacted-by-apache-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| CyberRes |  |  |  | Unknown | [link](https://community.microfocus.com/cyberres/b/sws-22/posts/summary-of-cyberres-impact-from-log4j-or-logshell-logjam-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| DarkTrace |  |  |  | Unknown | [link](https://customerportal.darktrace.com/inside-the-soc/get-article/201) |  |  | cisagov | 2021-12-30 |
+| Dassault Systèmes |  |  |  | Unknown | [link](https://kb.dsxclient.3ds.com/mashup-ui/page/resultqa?id=QA00000102301e) |  |  | cisagov | 2021-12-30 |
+| Databricks |  |  |  | Unknown | [link](https://docs.google.com/document/d/e/2PACX-1vREjwZk17BAHGwj5Phizi4DPFS9EIUbAMX-CswlgbFwqwKXNKZC8MrT-L6wUgfIChsSHtvd_QD3-659/pub) |  |  | cisagov | 2021-12-30 |
+| Datadog | Datadog Agent |  | &gt;=6.17.0,&lt;=6.32.2,&gt;=7.17.0,&lt;=7.32.2 | Fixed | [link](https://www.datadoghq.com/log4j-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| Dataminer |  |  |  | Unknown | [link](https://community.dataminer.services/responding-to-log4shell-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| Datev |  |  |  | Unknown | [link](https://www.datev-community.de/t5/Freie-Themen/Log4-J-Schwachstelle/m-p/258185/highlight/true#M14308) |  |  | cisagov | 2021-12-30 |
+| Datto |  |  |  | Unknown | [link](https://www.datto.com/blog/dattos-response-to-log4shell) |  |  | cisagov | 2021-12-30 |
+| dCache.org |  |  |  | Unknown | [link](https://www.dcache.org/post/log4j-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| Debian |  |  |  | Unknown | [link](https://security-tracker.debian.org/tracker/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Deepinstinct |  |  |  | Unknown | [link](https://www.deepinstinct.com/blog/log4shell-cve-2021-44228-what-you-need-to-know) |  |  | cisagov | 2021-12-30 |
 | Dell | &quot;Dell EMC PowerMax VMAX VMAX3 and VMAX AFA&quot; |  |  | Not Affected | [link](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) |  |  | cisagov | 2021-12-15 |
 | Dell | &quot;Dell EMC PowerSwitch Z9264F-ON BMC Dell EMC PowerSwitch Z9432F-ON BMC&quot; |  |  | Not Affected | [link](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) |  |  | cisagov | 2021-12-15 |
 | Dell | Alienware Command Center |  |  | Not Affected | [link](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) |  |  | cisagov | 2021-12-15 |
@@ -827,10 +840,10 @@ This list was initially populated using information from the following sources:
 | Dell | Wyse Proprietary OS (ThinOS) |  |  | Not Affected | [link](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) |  |  | cisagov | 2021-12-15 |
 | Dell | Wyse Windows Embedded Suite |  |  | Not Affected | [link](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) |  |  | cisagov | 2021-12-15 |
 | Deltares | Delft-FEWS |  | &gt;2018.02 | Fixed | [link](https://publicwiki.deltares.nl/display/FEWSDOC/Delft-FEWS+and+Log4J+vulnerability) | Mitigations Only |  | cisagov | 2021-12-22 |
-| Denequa |  |  |  | Unknown | [link](https://denequa.de/log4j-information.html) |  |  | cisagov | 2021-12-23 |
-| Device42 |  |  |  | Unknown | [link](https://blog.device42.com/2021/12/13/log4j-zero-day/) |  |  | cisagov | 2021-12-23 |
-| Devolutions | All products |  |  | Unknown | [link](https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/) |  |  | cisagov | 2021-12-23 |
-| Diebold Nixdorf |  |  |  | Unknown | [link](https://www.dieboldnixdorf.com/en-us/apache) |  |  | cisagov | 2021-12-23 |
+| Denequa |  |  |  | Unknown | [link](https://denequa.de/log4j-information.html) |  |  | cisagov | 2021-12-30 |
+| Device42 |  |  |  | Unknown | [link](https://blog.device42.com/2021/12/13/log4j-zero-day/) |  |  | cisagov | 2021-12-30 |
+| Devolutions | All products |  |  | Unknown | [link](https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/) |  |  | cisagov | 2021-12-30 |
+| Diebold Nixdorf |  |  |  | Unknown | [link](https://www.dieboldnixdorf.com/en-us/apache) |  |  | cisagov | 2021-12-30 |
 | Digi International | AnywhereUSB Manager |  |  | Unknown | [link](https://www.digi.com/resources/security) |  |  | cisagov | 2021-12-21 |
 | Digi International | ARMT |  |  | Unknown | [link](https://www.digi.com/resources/security) |  |  | cisagov | 2021-12-21 |
 | Digi International | Aview |  |  | Unknown | [link](https://www.digi.com/resources/security) |  |  | cisagov | 2021-12-21 |
@@ -870,13 +883,13 @@ This list was initially populated using information from the following sources:
 | Digi International | Lighthouse |  |  | Unknown | [link](https://www.digi.com/resources/security) |  |  | cisagov | 2021-12-21 |
 | Digi International | Realport |  |  | Unknown | [link](https://www.digi.com/resources/security) |  |  | cisagov | 2021-12-21 |
 | Digi International | Remote Hub Config Utility |  |  | Unknown | [link](https://www.digi.com/resources/security) |  |  | cisagov | 2021-12-21 |
-| Digicert |  |  |  | Unknown | [link](https://knowledge.digicert.com/alerts/digicert-log4j-response.html) |  |  | cisagov | 2021-12-23 |
-| Digital AI |  |  |  | Unknown | [link](https://support.digital.ai/hc/en-us/articles/4412377686674-Log4J-Vulnerability-to-Zero-Day-Exploit-and-Digital-ai#overview-0-1) |  |  | cisagov | 2021-12-23 |
-| DNSFilter |  |  |  | Unknown | [link](https://www.dnsfilter.com/blog/dnsfilter-response-to-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Docker |  |  |  | Unknown | [link](https://www.docker.com/blog/apache-log4j-2-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| Docusign |  |  |  | Unknown | [link](https://www.docusign.com/trust/alerts/alert-docusign-statement-on-the-log4j2-vulnerability) |  |  | cisagov | 2021-12-23 |
+| Digicert |  |  |  | Unknown | [link](https://knowledge.digicert.com/alerts/digicert-log4j-response.html) |  |  | cisagov | 2021-12-30 |
+| Digital AI |  |  |  | Unknown | [link](https://support.digital.ai/hc/en-us/articles/4412377686674-Log4J-Vulnerability-to-Zero-Day-Exploit-and-Digital-ai#overview-0-1) |  |  | cisagov | 2021-12-30 |
+| DNSFilter |  |  |  | Unknown | [link](https://www.dnsfilter.com/blog/dnsfilter-response-to-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Docker |  |  |  | Unknown | [link](https://www.docker.com/blog/apache-log4j-2-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| Docusign |  |  |  | Unknown | [link](https://www.docusign.com/trust/alerts/alert-docusign-statement-on-the-log4j2-vulnerability) |  |  | cisagov | 2021-12-30 |
 | DrayTek | Vigor Routers, Access Points, Switches, VigorACS Central Management Software, MyVigor Platform |  |  | Unknown | [link](https://www.draytek.com/about/security-advisory/log4shell-vulnerability-(cve-2021-44228)/) |  |  | cisagov | 2021-12-15 |
-| DSpace |  |  |  | Unknown | [link](https://groups.google.com/g/dspace-community/c/Fa4VdjiiNyE) |  |  | cisagov | 2021-12-23 |
+| DSpace |  |  |  | Unknown | [link](https://groups.google.com/g/dspace-community/c/Fa4VdjiiNyE) |  |  | cisagov | 2021-12-30 |
 | Dynatrace | ActiveGate |  |  | Unknown | [link](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) |  |  | cisagov | 2021-12-21 |
 | Dynatrace | Dynatrace Extensions |  |  | Unknown | [link](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | Please see Dynatrace Communication for details |  | cisagov | 2021-12-21 |
 | Dynatrace | FedRamp SAAS |  |  | Unknown | [link](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) |  |  | cisagov | 2021-12-21 |
@@ -885,12 +898,12 @@ This list was initially populated using information from the following sources:
 | Dynatrace | SAAS |  |  | Unknown | [link](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) |  |  | cisagov | 2021-12-21 |
 | Dynatrace | Synthetic Private ActiveGate |  |  | Unknown | [link](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | Please see Dynatrace Communication for details |  | cisagov | 2021-12-21 |
 | Dynatrace | Synthetic public locations |  |  | Unknown | [link](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) |  |  | cisagov | 2021-12-21 |
-| EasyRedmine |  |  |  | Unknown | [link](https://www.easyredmine.com/news/easy-redmine-application-is-not-affected-by-the-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Eaton | Undisclosed | Undisclosed |  | Affected | [link](https://www.eaton.com/content/dam/eaton/company/news-insights/cybersecurity/security-bulletins/Eaton-Security-Bulletin%20log4j_CVE_2021_44228_v1.0_Legal-Approved.pdf) | Doesn't openly disclose what products are affected or not for quote 'security purposes'. Needs email registration. No workaround provided due to registration wall. |  | cisagov | 2021-12-23 |
-| EclecticIQ |  |  |  | Unknown | [link](https://docs.eclecticiq.com/security-advisories/security-issues-and-mitigation-actions/eiq-2021-0016-2) |  |  | cisagov | 2021-12-23 |
-| Eclipse Foundation |  |  |  | Unknown | [link](https://wiki.eclipse.org/Eclipse_and_log4j2_vulnerability_(CVE-2021-44228)) |  |  | cisagov | 2021-12-23 |
-| EFI |  |  |  | Unknown | [link](https://communities.efi.com/s/article/Are-Fiery-Servers-vulnerable-to-CVE-2021-44228-Apache-Log4j2?language=en_US) |  |  | cisagov | 2021-12-23 |
-| EGroupware |  |  |  | Unknown | [link](https://help.egroupware.org/t/uk-de-statement-log4j-log4shell/76430) |  |  | cisagov | 2021-12-23 |
+| EasyRedmine |  |  |  | Unknown | [link](https://www.easyredmine.com/news/easy-redmine-application-is-not-affected-by-the-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Eaton | Undisclosed | Undisclosed |  | Affected | [link](https://www.eaton.com/content/dam/eaton/company/news-insights/cybersecurity/security-bulletins/Eaton-Security-Bulletin%20log4j_CVE_2021_44228_v1.0_Legal-Approved.pdf) | Doesn't openly disclose what products are affected or not for quote 'security purposes'. Needs email registration. No workaround provided due to registration wall. |  | cisagov | 2021-12-30 |
+| EclecticIQ |  |  |  | Unknown | [link](https://docs.eclecticiq.com/security-advisories/security-issues-and-mitigation-actions/eiq-2021-0016-2) |  |  | cisagov | 2021-12-30 |
+| Eclipse Foundation |  |  |  | Unknown | [link](https://wiki.eclipse.org/Eclipse_and_log4j2_vulnerability_(CVE-2021-44228)) |  |  | cisagov | 2021-12-30 |
+| EFI |  |  |  | Unknown | [link](https://communities.efi.com/s/article/Are-Fiery-Servers-vulnerable-to-CVE-2021-44228-Apache-Log4j2?language=en_US) |  |  | cisagov | 2021-12-30 |
+| EGroupware |  |  |  | Unknown | [link](https://help.egroupware.org/t/uk-de-statement-log4j-log4shell/76430) |  |  | cisagov | 2021-12-30 |
 | Elastic | APM Java Agent |  |  | Unknown | [link](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |  |  | cisagov | 2021-12-15 |
 | Elastic | APM Server |  |  | Unknown | [link](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |  |  | cisagov | 2021-12-15 |
 | Elastic | Beats |  |  | Unknown | [link](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |  |  | cisagov | 2021-12-15 |
@@ -909,7 +922,7 @@ This list was initially populated using information from the following sources:
 | Elastic | Kibana |  |  | Unknown | [link](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |  |  | cisagov | 2021-12-15 |
 | Elastic | Logstash | &lt;6.8.21,&lt;7.16.1 |  | Affected | [link](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |  |  | cisagov | 2021-12-15 |
 | Elastic | Machine Learning |  |  | Unknown | [link](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |  |  | cisagov | 2021-12-15 |
-| ElasticSearch | all products |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
+| ElasticSearch | all products |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
 | Elastic | Swiftype |  |  | Unknown | [link](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |  |  | cisagov | 2021-12-15 |
 | Ellucian | Admin |  |  | Unknown | [link](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue) |  |  | cisagov | 2021-12-17 |
 | Ellucian | Banner Analytics |  |  | Unknown | [link](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue) |  |  | cisagov | 2021-12-17 |
@@ -1029,95 +1042,95 @@ This list was initially populated using information from the following sources:
 | Emerson | Vortex and Magmeter Transmitters |  |  | Unknown | [link](https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf) |  |  | cisagov | 2021-12-17 |
 | Emerson | WCM SWGM |  |  | Unknown | [link](https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf) |  |  | cisagov | 2021-12-17 |
 | Emerson | WCM SWGM |  |  | Unknown | [link](https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf) |  |  | cisagov | 2021-12-17 |
-| EnterpriseDT |  |  |  | Unknown | [link](https://enterprisedt.com/blogs/announcements/enterprisedt-does-not-use-log4j/) |  |  | cisagov | 2021-12-23 |
-| ESET |  |  |  | Unknown | [link](https://support.eset.com/en/alert8188-information-regarding-the-log4j2-vulnerability) |  |  | cisagov | 2021-12-23 |
+| EnterpriseDT |  |  |  | Unknown | [link](https://enterprisedt.com/blogs/announcements/enterprisedt-does-not-use-log4j/) |  |  | cisagov | 2021-12-30 |
+| ESET |  |  |  | Unknown | [link](https://support.eset.com/en/alert8188-information-regarding-the-log4j2-vulnerability) |  |  | cisagov | 2021-12-30 |
 | ESRI | ArcGIS Data Store |  | All | Fixed | [link](https://www.esri.com/arcgis-blog/products/arcgis-enterprise/administration/arcgis-software-and-cve-2021-44228-aka-log4shell-aka-logjam/) | Requires script remediation.  ESRI has created scripts to remove the JndiLookup class, but has not issued patches to upgrade the Log4j versions |  | cisagov | 2021-12-17 |
 | ESRI | ArcGIS Enterprise |  | All | Fixed | [link](https://www.esri.com/arcgis-blog/products/arcgis-enterprise/administration/arcgis-software-and-cve-2021-44228-aka-log4shell-aka-logjam/) | Requires script remediation.  ESRI has created scripts to remove the JndiLookup class, but has not issued patches to upgrade the Log4j versions |  | cisagov | 2021-12-17 |
 | ESRI | ArcGIS GeoEvent Server |  | All | Fixed | [link](https://www.esri.com/arcgis-blog/products/arcgis-enterprise/administration/arcgis-software-and-cve-2021-44228-aka-log4shell-aka-logjam/) | Requires script remediation.  ESRI has created scripts to remove the JndiLookup class, but has not issued patches to upgrade the Log4j versions |  | cisagov | 2021-12-17 |
 | ESRI | ArcGIS Server |  | All | Fixed | [link](https://www.esri.com/arcgis-blog/products/arcgis-enterprise/administration/arcgis-software-and-cve-2021-44228-aka-log4shell-aka-logjam/) | Requires script remediation.  ESRI has created scripts to remove the JndiLookup class, but has not issued patches to upgrade the Log4j versions |  | cisagov | 2021-12-17 |
 | ESRI | ArcGIS Workflow Manager Server |  | All | Fixed | [link](https://www.esri.com/arcgis-blog/products/arcgis-enterprise/administration/arcgis-software-and-cve-2021-44228-aka-log4shell-aka-logjam/) | Requires script remediation.  ESRI has created scripts to remove the JndiLookup class, but has not issued patches to upgrade the Log4j versions |  | cisagov | 2021-12-17 |
 | ESRI | Portal for ArcGIS |  | All | Fixed | [link](https://www.esri.com/arcgis-blog/products/arcgis-enterprise/administration/arcgis-software-and-cve-2021-44228-aka-log4shell-aka-logjam/) | Requires script remediation.  ESRI has created scripts to remove the JndiLookup class, but has not issued patches to upgrade the Log4j versions |  | cisagov | 2021-12-17 |
-| Estos |  |  |  | Unknown | [link](https://support.estos.de/de/sicherheitshinweise/estos-von-kritischer-schwachstelle-in-log4j-cve-2021-44228-nicht-betroffen) |  |  | cisagov | 2021-12-23 |
-| Evolveum Midpoint |  |  |  | Unknown | [link](https://evolveum.com/midpoint-not-vulnerable-to-log4shell/) |  |  | cisagov | 2021-12-23 |
-| Ewon |  |  |  | Unknown | [link](https://hmsnetworks.blob.core.windows.net/www/docs/librariesprovider10/downloads-monitored/manuals/release-notes/ecatcher_releasenotes.txt?sfvrsn=4f054ad7_42) |  |  | cisagov | 2021-12-23 |
-| Exabeam |  |  |  | Unknown | [link](https://community.exabeam.com/s/discussions?t=1639379479381) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-23 |
-| Exact |  |  |  | Unknown | [link](https://www.exact.com/news/general-statement-apache-leak) |  |  | cisagov | 2021-12-23 |
-| Exivity |  |  |  | Unknown | [link](https://docs.exivity.com/getting-started/releases/announcements#announcement-regarding-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
+| Estos |  |  |  | Unknown | [link](https://support.estos.de/de/sicherheitshinweise/estos-von-kritischer-schwachstelle-in-log4j-cve-2021-44228-nicht-betroffen) |  |  | cisagov | 2021-12-30 |
+| Evolveum Midpoint |  |  |  | Unknown | [link](https://evolveum.com/midpoint-not-vulnerable-to-log4shell/) |  |  | cisagov | 2021-12-30 |
+| Ewon |  |  |  | Unknown | [link](https://hmsnetworks.blob.core.windows.net/www/docs/librariesprovider10/downloads-monitored/manuals/release-notes/ecatcher_releasenotes.txt?sfvrsn=4f054ad7_42) |  |  | cisagov | 2021-12-30 |
+| Exabeam |  |  |  | Unknown | [link](https://community.exabeam.com/s/discussions?t=1639379479381) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-30 |
+| Exact |  |  |  | Unknown | [link](https://www.exact.com/news/general-statement-apache-leak) |  |  | cisagov | 2021-12-30 |
+| Exivity |  |  |  | Unknown | [link](https://docs.exivity.com/getting-started/releases/announcements#announcement-regarding-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
 | ExtraHop | Reveal(x) | &lt;=8.4.6,&lt;=8.5.3,&lt;=8.6.4 |  | Affected | [link](https://forums.extrahop.com/t/extrahop-update-on-log4shell/8148) | Versions &gt;8.4.7, &gt;8.5.4, &gt;8.6.5 and &gt;=8.7 are fixed. |  | cisagov | 2021-12-21 |
-| eXtreme Hosting |  |  |  | Unknown | [link](https://extremehosting.nl/log4shell-log4j/) |  |  | cisagov | 2021-12-23 |
-| Extreme Networks |  |  |  | Unknown | [link](https://extremeportal.force.com/ExtrArticleDetail?an=000100806) |  |  | cisagov | 2021-12-23 |
-| Extron |  |  |  | Unknown | [link](https://www.extron.com/featured/Security-at-Extron/extron-security) |  |  | cisagov | 2021-12-23 |
-| F-Secure | Elements Connector |  |  | Unknown | [link](https://community.f-secure.com/common-business-en/kb/articles/9226-the-log4j-vulnerability-cve-2021-44228-which-f-secure-products-are-affected-what-it-means-what-steps-should-you-take) |  |  | cisagov | 2021-12-23 |
-| F-Secure | Endpoint Proxy | 13-15 |  | Affected | [link](https://status.f-secure.com/incidents/sk8vmr0h34pd) |  |  | cisagov | 2021-12-23 |
-| F-Secure | Messaging Security Gateway |  |  | Unknown | [link](https://community.f-secure.com/common-business-en/kb/articles/9226-the-log4j-vulnerability-cve-2021-44228-which-f-secure-products-are-affected-what-it-means-what-steps-should-you-take) |  |  | cisagov | 2021-12-23 |
-| F-Secure | Policy Manager | 13-15 |  | Affected | [link](https://status.f-secure.com/incidents/sk8vmr0h34pd) |  |  | cisagov | 2021-12-23 |
-| F-Secure | Policy Manager Proxy | 13-15 |  | Affected | [link](https://status.f-secure.com/incidents/sk8vmr0h34pd) |  |  | cisagov | 2021-12-23 |
-| F5 | BIG-IP (all modules) |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-23 |
-| F5 | BIG-IQ Centralized Management |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-23 |
-| F5 | F5OS |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-23 |
-| F5 | NGINX App Protect |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-23 |
-| F5 | NGINX Controller |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-23 |
-| F5 | NGINX Ingress Controller |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-23 |
-| F5 | NGINX Instance Manager |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-23 |
-| F5 | NGINX Open Source |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-23 |
-| F5 | NGINX Plus |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-23 |
-| F5 | NGINX Service Mesh |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-23 |
-| F5 | NGINX Unit |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-23 |
-| F5 | Traffix SDC | 5.x (5.2.0 CF1,5.1.0 CF-30 - 5.1.0 CF-33) |  | Affected | [link](https://support.f5.com/csp/article/K19026212) | Vulnerable components: EMS-ELK components (Fluentd + Elastic Search + Kibana), Element Management System |  | cisagov | 2021-12-23 |
-| FAST LTA |  |  |  | Unknown | [link](https://blog.fast-lta.de/en/log4j2-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Fastly |  |  |  | Unknown | [link](https://www.fastly.com/blog/digging-deeper-into-log4shell-0day-rce-exploit-found-in-log4j) |  |  | cisagov | 2021-12-23 |
+| eXtreme Hosting |  |  |  | Unknown | [link](https://extremehosting.nl/log4shell-log4j/) |  |  | cisagov | 2021-12-30 |
+| Extreme Networks |  |  |  | Unknown | [link](https://extremeportal.force.com/ExtrArticleDetail?an=000100806) |  |  | cisagov | 2021-12-30 |
+| Extron |  |  |  | Unknown | [link](https://www.extron.com/featured/Security-at-Extron/extron-security) |  |  | cisagov | 2021-12-30 |
+| F-Secure | Elements Connector |  |  | Unknown | [link](https://community.f-secure.com/common-business-en/kb/articles/9226-the-log4j-vulnerability-cve-2021-44228-which-f-secure-products-are-affected-what-it-means-what-steps-should-you-take) |  |  | cisagov | 2021-12-30 |
+| F-Secure | Endpoint Proxy | 13-15 |  | Affected | [link](https://status.f-secure.com/incidents/sk8vmr0h34pd) |  |  | cisagov | 2021-12-30 |
+| F-Secure | Messaging Security Gateway |  |  | Unknown | [link](https://community.f-secure.com/common-business-en/kb/articles/9226-the-log4j-vulnerability-cve-2021-44228-which-f-secure-products-are-affected-what-it-means-what-steps-should-you-take) |  |  | cisagov | 2021-12-30 |
+| F-Secure | Policy Manager | 13-15 |  | Affected | [link](https://status.f-secure.com/incidents/sk8vmr0h34pd) |  |  | cisagov | 2021-12-30 |
+| F-Secure | Policy Manager Proxy | 13-15 |  | Affected | [link](https://status.f-secure.com/incidents/sk8vmr0h34pd) |  |  | cisagov | 2021-12-30 |
+| F5 | BIG-IP (all modules) |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-30 |
+| F5 | BIG-IQ Centralized Management |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-30 |
+| F5 | F5OS |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-30 |
+| F5 | NGINX App Protect |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-30 |
+| F5 | NGINX Controller |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-30 |
+| F5 | NGINX Ingress Controller |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-30 |
+| F5 | NGINX Instance Manager |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-30 |
+| F5 | NGINX Open Source |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-30 |
+| F5 | NGINX Plus |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-30 |
+| F5 | NGINX Service Mesh |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-30 |
+| F5 | NGINX Unit |  |  | Not Affected | [link](https://support.f5.com/csp/article/K19026212) |  |  | cisagov | 2021-12-30 |
+| F5 | Traffix SDC | 5.x (5.2.0 CF1,5.1.0 CF-30 - 5.1.0 CF-33) |  | Affected | [link](https://support.f5.com/csp/article/K19026212) | Vulnerable components: EMS-ELK components (Fluentd + Elastic Search + Kibana), Element Management System |  | cisagov | 2021-12-30 |
+| FAST LTA |  |  |  | Unknown | [link](https://blog.fast-lta.de/en/log4j2-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Fastly |  |  |  | Unknown | [link](https://www.fastly.com/blog/digging-deeper-into-log4shell-0day-rce-exploit-found-in-log4j) |  |  | cisagov | 2021-12-30 |
 | FedEx | Ship Manager Software | Unknown |  | Affected | [link](https://www.fedex.com/en-us/shipping/ship-manager/software.html#tab-4) | Note: FedEx is aware of the issue related to the Log4j Remote Code Execution vulnerability affecting various Apache products. We are actively assessing the situation and taking necessary action as appropriate. As a result, we are temporarily unable to provide a link to download the FedEx Ship Manager software or generate product keys needed for registration of FedEx Ship Manager software. We are working to have this resolved as quickly as possible and apologize for the inconvenience. For related questions or the most updated information, customers should check FedEx Updates for Apache Log4j Issue or contact their Customer Technology representative. |  | cisagov | 2021-12-15 |
 | Fiix | Fiix CMMS Core |  | v5 | Fixed | [link](https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605) | The product has been updated to Log4j version 2.15. An additional patch is being developed to update to 2.16. No user interaction is required. |  | cisagov | 2021-12-15 |
-| FileCap |  |  |  | Unknown | [link](https://mailchi.mp/3f82266e0717/filecap-update-version-511) |  |  | cisagov | 2021-12-23 |
-| FileCatalyst |  |  |  | Unknown | [link](https://support.filecatalyst.com/index.php/Knowledgebase/Article/View/advisory-log4j-zero-day-security-vulnerability) |  |  | cisagov | 2021-12-23 |
-| FileCloud |  |  |  | Unknown | [link](https://www.getfilecloud.com/supportdocs/display/cloud/Advisory+2021-12-2+Impact+of+Apache+Log4j2+Vulnerability+on+FileCloud+Customers) |  |  | cisagov | 2021-12-23 |
-| FileWave |  |  |  | Unknown | [link](https://kb.filewave.com/display/KB/Security+Notice:+Apache+log4j+Vulnerability+CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| FINVI |  |  |  | Unknown | [link](https://finvi.com/support/) |  |  | cisagov | 2021-12-23 |
-| FireDaemon |  |  |  | Unknown | [link](https://kb.firedaemon.com/support/solutions/articles/4000178630) |  |  | cisagov | 2021-12-23 |
+| FileCap |  |  |  | Unknown | [link](https://mailchi.mp/3f82266e0717/filecap-update-version-511) |  |  | cisagov | 2021-12-30 |
+| FileCatalyst |  |  |  | Unknown | [link](https://support.filecatalyst.com/index.php/Knowledgebase/Article/View/advisory-log4j-zero-day-security-vulnerability) |  |  | cisagov | 2021-12-30 |
+| FileCloud |  |  |  | Unknown | [link](https://www.getfilecloud.com/supportdocs/display/cloud/Advisory+2021-12-2+Impact+of+Apache+Log4j2+Vulnerability+on+FileCloud+Customers) |  |  | cisagov | 2021-12-30 |
+| FileWave |  |  |  | Unknown | [link](https://kb.filewave.com/display/KB/Security+Notice:+Apache+log4j+Vulnerability+CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| FINVI |  |  |  | Unknown | [link](https://finvi.com/support/) |  |  | cisagov | 2021-12-30 |
+| FireDaemon |  |  |  | Unknown | [link](https://kb.firedaemon.com/support/solutions/articles/4000178630) |  |  | cisagov | 2021-12-30 |
 | Fisher &amp; Paykel Healthcare |  |  |  | Unknown | [link](https://www.fphcare.com/us/our-company/contact-us/product-security/) |  |  | cisagov | 2021-12-21 |
-| Flexagon |  |  |  | Unknown | [link](https://flexagon.com/what-is-the-impact-of-log4j-vulnerability-cve-2021-44228-on-flexdeploy/) |  |  | cisagov | 2021-12-23 |
-| Flexera |  |  |  | Unknown | [link](https://community.flexera.com/t5/Community-Notices/Flexera-s-response-to-Apache-Log4j-2-remote-code-execution/ba-p/216934) |  |  | cisagov | 2021-12-23 |
-| Forcepoint | DLP Manager |  |  | Unknown | [link](https://support.forcepoint.com/s/login/?ec=302&amp;startURL=%2Fs%2F) |  |  | cisagov | 2021-12-23 |
-| Forcepoint | Forcepoint Cloud Security Gateway (CSG) |  |  | Unknown | [link](https://support.forcepoint.com/s/login/?ec=302&amp;startURL=%2Fs%2F) |  |  | cisagov | 2021-12-23 |
-| Forcepoint | Next Generation Firewall (NGFW) |  |  | Unknown | [link](https://support.forcepoint.com/s/login/?ec=302&amp;startURL=%2Fs%2F) |  |  | cisagov | 2021-12-23 |
-| Forcepoint | Next Generation Firewall, NGFW VPN Client, Forcepoint User ID service and Sidewinder |  |  | Unknown | [link](https://support.forcepoint.com/s/login/?ec=302&amp;startURL=%2Fs%2F) |  |  | cisagov | 2021-12-23 |
-| Forcepoint | One Endpoint |  |  | Unknown | [link](https://support.forcepoint.com/s/login/?ec=302&amp;startURL=%2Fs%2F) |  |  | cisagov | 2021-12-23 |
-| Forcepoint | Security Manager (Web, Email and DLP) |  |  | Unknown | [link](https://support.forcepoint.com/s/login/?ec=302&amp;startURL=%2Fs%2F) |  |  | cisagov | 2021-12-23 |
-| Forescout |  |  |  | Unknown | [link](https://forescout.force.com/support/s/article/Important-security-information-related-to-Apache-Log4j-utility-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| ForgeRock | Autonomous Identity |  |  | Unknown | [link](https://backstage.forgerock.com/knowledge/kb/book/b21824339#1_bzBa) | all other ForgeRock products Not vulnerable |  | cisagov | 2021-12-23 |
-| Fortinet | FortiAIOps |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiAnalyzer |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiAnalyzer Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiAP |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiAuthenticator |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiCASB |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiConvertor |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiDeceptor |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiEDR Agent |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiEDR Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiGate Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiGSLB Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiMail |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiManager |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiManager Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiNAC |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiNAC |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiOS (includes FortiGate &amp; FortiWiFi) |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiPhish Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiPolicy |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiPortal |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiRecorder |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiSIEM |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiSOAR |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiSwicth Cloud in FortiLANCloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiSwitch &amp; FortiSwitchManager |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiToken Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiVoice |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | FortiWeb Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| Fortinet | ShieldX |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-23 |
-| FTAPI |  |  |  | Unknown | [link](https://www.ftapi.com/blog/kritische-sicherheitslucke-in-log4j-ftapi-reagiert/#) |  |  | cisagov | 2021-12-23 |
-| Fujitsu |  |  |  | Unknown | [link](https://support.ts.fujitsu.com/ProductSecurity/content/Fujitsu-PSIRT-PSS-IS-2021-121000-Security-Notice-SF.pdf) |  |  | cisagov | 2021-12-23 |
-| FusionAuth | FusionAuth |  |  | Not Affected | [link](https://fusionauth.io/blog/2021/12/10/log4j-fusionauth/) |  |  | cisagov | 2021-12-23 |
+| Flexagon |  |  |  | Unknown | [link](https://flexagon.com/what-is-the-impact-of-log4j-vulnerability-cve-2021-44228-on-flexdeploy/) |  |  | cisagov | 2021-12-30 |
+| Flexera |  |  |  | Unknown | [link](https://community.flexera.com/t5/Community-Notices/Flexera-s-response-to-Apache-Log4j-2-remote-code-execution/ba-p/216934) |  |  | cisagov | 2021-12-30 |
+| Forcepoint | DLP Manager |  |  | Unknown | [link](https://support.forcepoint.com/s/login/?ec=302&amp;startURL=%2Fs%2F) |  |  | cisagov | 2021-12-30 |
+| Forcepoint | Forcepoint Cloud Security Gateway (CSG) |  |  | Unknown | [link](https://support.forcepoint.com/s/login/?ec=302&amp;startURL=%2Fs%2F) |  |  | cisagov | 2021-12-30 |
+| Forcepoint | Next Generation Firewall (NGFW) |  |  | Unknown | [link](https://support.forcepoint.com/s/login/?ec=302&amp;startURL=%2Fs%2F) |  |  | cisagov | 2021-12-30 |
+| Forcepoint | Next Generation Firewall, NGFW VPN Client, Forcepoint User ID service and Sidewinder |  |  | Unknown | [link](https://support.forcepoint.com/s/login/?ec=302&amp;startURL=%2Fs%2F) |  |  | cisagov | 2021-12-30 |
+| Forcepoint | One Endpoint |  |  | Unknown | [link](https://support.forcepoint.com/s/login/?ec=302&amp;startURL=%2Fs%2F) |  |  | cisagov | 2021-12-30 |
+| Forcepoint | Security Manager (Web, Email and DLP) |  |  | Unknown | [link](https://support.forcepoint.com/s/login/?ec=302&amp;startURL=%2Fs%2F) |  |  | cisagov | 2021-12-30 |
+| Forescout |  |  |  | Unknown | [link](https://forescout.force.com/support/s/article/Important-security-information-related-to-Apache-Log4j-utility-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| ForgeRock | Autonomous Identity |  |  | Unknown | [link](https://backstage.forgerock.com/knowledge/kb/book/b21824339#1_bzBa) | all other ForgeRock products Not vulnerable |  | cisagov | 2021-12-30 |
+| Fortinet | FortiAIOps |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiAnalyzer |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiAnalyzer Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiAP |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiAuthenticator |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiCASB |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiConvertor |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiDeceptor |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiEDR Agent |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiEDR Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiGate Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiGSLB Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiMail |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiManager |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiManager Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiNAC |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiNAC |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiOS (includes FortiGate &amp; FortiWiFi) |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiPhish Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiPolicy |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiPortal |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiRecorder |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiSIEM |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiSOAR |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiSwicth Cloud in FortiLANCloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiSwitch &amp; FortiSwitchManager |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiToken Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiVoice |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | FortiWeb Cloud |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| Fortinet | ShieldX |  |  | Unknown | [link](https://www.fortiguard.com/psirt/FG-IR-21-245) |  |  | cisagov | 2021-12-30 |
+| FTAPI |  |  |  | Unknown | [link](https://www.ftapi.com/blog/kritische-sicherheitslucke-in-log4j-ftapi-reagiert/#) |  |  | cisagov | 2021-12-30 |
+| Fujitsu |  |  |  | Unknown | [link](https://support.ts.fujitsu.com/ProductSecurity/content/Fujitsu-PSIRT-PSS-IS-2021-121000-Security-Notice-SF.pdf) |  |  | cisagov | 2021-12-30 |
+| FusionAuth | FusionAuth |  |  | Not Affected | [link](https://fusionauth.io/blog/2021/12/10/log4j-fusionauth/) |  |  | cisagov | 2021-12-30 |
 | GE Digital |  |  |  | Unknown | [link](https://digitalsupport.ge.com/communities/en_US/Alert/GE-Security-Advisories) | This advisory is available to customers only and has not been reviewed by CISA. |  | cisagov | 2021-12-22 |
 | GE Digital Grid |  |  |  | Unknown | [link](https://digitalenergy.service-now.com/csm?id=kb_category&amp;kb_category=b8bc715b879c89103f22a93e0ebb3585) | This advisory is available to customers only and has not been reviewed by CISA. |  | cisagov | 2021-12-22 |
 | GE Gas Power | Asset Performance Management (APM) |  |  | Unknown | [link](https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2021-12-21_Log4J_Vulnerability-GE_Gas_Power_Holding_Statement.pdf) | GE verifying workaround. |  | cisagov | 2021-12-22 |
@@ -1126,20 +1139,20 @@ This list was initially populated using information from the following sources:
 | GE Gas Power | Control Server |  |  | Unknown | [link](https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2021-12-21_Log4J_Vulnerability-GE_Gas_Power_Holding_Statement.pdf) | The Control Server is Affected via vCenter. There is a fix for vCenter. Please see below. GE verifying the vCenter fix as proposed by the vendor. |  | cisagov | 2021-12-22 |
 | GE Gas Power | Tag Mapping Service |  |  | Unknown | [link](https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2021-12-21_Log4J_Vulnerability-GE_Gas_Power_Holding_Statement.pdf) | Vulnerability fixed. No user actions necessary. Updated to log4j 2.16 |  | cisagov | 2021-12-22 |
 | GE Healthcare |  |  |  | Unknown | [link](https://securityupdate.gehealthcare.com) | This advisory is not available at the time of this review, due to maintence on the GE Healthcare website. |  | cisagov | 2021-12-22 |
-| Gearset |  |  |  | Unknown | [link](https://docs.gearset.com/en/articles/5806813-gearset-log4j-statement-dec-2021) |  |  | cisagov | 2021-12-23 |
-| Genesys |  |  |  | Unknown | [link](https://www.genesys.com/blog/post/genesys-update-on-the-apache-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
-| GeoServer |  |  |  | Unknown | [link](http://geoserver.org/announcements/2021/12/13/logj4-rce-statement.html) |  |  | cisagov | 2021-12-23 |
-| Gerrit code review |  |  |  | Unknown | [link](https://www.gerritcodereview.com/2021-12-13-log4j-statement.html) |  |  | cisagov | 2021-12-23 |
-| GFI |  |  |  | Unknown | [link](https://techtalk.gfi.com/impact-of-log4j-vulnerability-on-gfi/) |  |  | cisagov | 2021-12-23 |
-| Ghidra |  |  |  | Unknown | [link](https://github.com/NationalSecurityAgency/ghidra/blob/2c73c72f0ba2720c6627be4005a721a5ebd64b46/README.md#warning) |  |  | cisagov | 2021-12-23 |
+| Gearset |  |  |  | Unknown | [link](https://docs.gearset.com/en/articles/5806813-gearset-log4j-statement-dec-2021) |  |  | cisagov | 2021-12-30 |
+| Genesys |  |  |  | Unknown | [link](https://www.genesys.com/blog/post/genesys-update-on-the-apache-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
+| GeoServer |  |  |  | Unknown | [link](http://geoserver.org/announcements/2021/12/13/logj4-rce-statement.html) |  |  | cisagov | 2021-12-30 |
+| Gerrit code review |  |  |  | Unknown | [link](https://www.gerritcodereview.com/2021-12-13-log4j-statement.html) |  |  | cisagov | 2021-12-30 |
+| GFI |  |  |  | Unknown | [link](https://techtalk.gfi.com/impact-of-log4j-vulnerability-on-gfi/) |  |  | cisagov | 2021-12-30 |
+| Ghidra |  |  |  | Unknown | [link](https://github.com/NationalSecurityAgency/ghidra/blob/2c73c72f0ba2720c6627be4005a721a5ebd64b46/README.md#warning) |  |  | cisagov | 2021-12-30 |
 | Gigamon | Fabric Manager | &lt;5.13.01.02 |  | Affected | [link](https://community.gigamon.com/gigamoncp/s/my-gigamon) | Updates available via the Gigamon Support Portal. This advisory available to customers only and has not been reviewed by CISA. |  | cisagov | 2021-12-21 |
 | GitHub | GitHub |  | GitHub.com and GitHub Enterprise Cloud | Fixed | [link](https://github.blog/2021-12-13-githubs-response-to-log4j-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-17 |
-| GitLab |  |  |  | Unknown | [link](https://forum.gitlab.com/t/cve-2021-4428/62763) |  |  | cisagov | 2021-12-23 |
-| Globus |  |  |  | Unknown | [link](https://groups.google.com/a/globus.org/g/discuss/c/FJK0q0NoUC4) |  |  | cisagov | 2021-12-23 |
+| GitLab |  |  |  | Unknown | [link](https://forum.gitlab.com/t/cve-2021-4428/62763) |  |  | cisagov | 2021-12-30 |
+| Globus |  |  |  | Unknown | [link](https://groups.google.com/a/globus.org/g/discuss/c/FJK0q0NoUC4) |  |  | cisagov | 2021-12-30 |
 | GoAnywhere | Gateway | &lt; 2.8.4 |  | Affected | [link](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) |  |  | cisagov | 2021-12-18 |
 | GoAnywhere | MFT | &lt; 6.8.6 |  | Affected | [link](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) |  |  | cisagov | 2021-12-18 |
 | GoAnywhere | MFT Agents | &lt; 1.6.5 |  | Affected | [link](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) |  |  | cisagov | 2021-12-18 |
-| GoCD |  |  |  | Unknown | [link](https://www.gocd.org/2021/12/14/log4j-vulnerability.html) |  |  | cisagov | 2021-12-23 |
+| GoCD |  |  |  | Unknown | [link](https://www.gocd.org/2021/12/14/log4j-vulnerability.html) |  |  | cisagov | 2021-12-30 |
 | Google Cloud | Access Transparency |  |  | Unknown | [link](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. |  | cisagov | 2021-12-21 |
 | Google Cloud | Actifio |  |  | Unknown | [link](https://cloud.google.com/log4j2-security-advisory) | Actifio has identified limited exposure to the Log4j 2 vulnerability and has released a hotfix to address this vulnerability. Visit [https://now.actifio.com](https://now.actifio.com) for the full statement and to obtain the hotfix (available to Actifio customers only). |  | cisagov | 2021-12-21 |
 | Google Cloud | AI Platform Data Labeling |  |  | Unknown | [link](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. |  | cisagov | 2021-12-21 |
@@ -1193,6 +1206,7 @@ This list was initially populated using information from the following sources:
 | Google Cloud | Cloud Network Address Translation (NAT) |  |  | Unknown | [link](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. |  | cisagov | 2021-12-20 |
 | Google Cloud | Cloud Profiler |  |  | Unknown | [link](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. |  | cisagov | 2021-12-21 |
 | Google Cloud | Cloud Router |  |  | Unknown | [link](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. |  | cisagov | 2021-12-20 |
+| Google Cloud | Cloud Run |  |  | Unknown | [link](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. Customers may have introduced a separate logging solution that uses Log4j 2. We strongly encourage customers who manage Cloud Run environments to identify components dependent on Log4j 2 and update them to the latest version. |  | cisagov | 2021-12-21 |
 | Google Cloud | Cloud Run for Anthos |  |  | Unknown | [link](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046.  Customers may have introduced a separate logging solution that uses Log4j 2. We strongly encourage customers who manage Cloud Run for Anthos environments to identify components dependent on Log4j 2 and update them to the latest version. |  | cisagov | 2021-12-21 |
 | Google Cloud | Cloud Scheduler |  |  | Unknown | [link](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. |  | cisagov | 2021-12-21 |
 | Google Cloud | Cloud SDK |  |  | Unknown | [link](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. |  | cisagov | 2021-12-21 |
@@ -1268,38 +1282,39 @@ This list was initially populated using information from the following sources:
 | Google Cloud | Virtual Private Cloud |  |  | Unknown | [link](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. |  | cisagov | 2021-12-20 |
 | Google Cloud | Web Security Scanner |  |  | Unknown | [link](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. |  | cisagov | 2021-12-21 |
 | Google Cloud | Workflows |  |  | Unknown | [link](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. |  | cisagov | 2021-12-21 |
-| Gradle | Gradle |  |  | Unknown | [link](https://blog.gradle.org/log4j-vulnerability) | Gradle Scala Compiler Plugin depends upon log4j-core but it is not used. |  | cisagov | 2021-12-23 |
-| Gradle | Gradle Enterprise | &lt; 2021.3.6 |  | Affected | [link](https://security.gradle.com/advisory/2021-11) |  |  | cisagov | 2021-12-23 |
-| Gradle | Gradle Enterprise Build Cache Node | &lt; 10.1 |  | Affected | [link](https://security.gradle.com/advisory/2021-11) |  |  | cisagov | 2021-12-23 |
-| Gradle | Gradle Enterprise Test Distribution Agent | &lt; 1.6.2 |  | Affected | [link](https://security.gradle.com/advisory/2021-11) |  |  | cisagov | 2021-12-23 |
-| Grafana |  |  |  | Unknown | [link](https://grafana.com/blog/2021/12/14/grafana-labs-core-products-not-impacted-by-log4j-cve-2021-44228-and-related-vulnerabilities/) |  |  | cisagov | 2021-12-23 |
-| Grandstream |  |  |  | Unknown | [link](https://blog.grandstream.com/press-releases/grandstream-products-unaffected-by-log4j-vulnerability?hsLang=en) |  |  | cisagov | 2021-12-23 |
-| Gravitee.io |  |  |  | Unknown | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Gravitee | Access Management |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Gravitee | Access Management |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Gravitee | Alert Engine |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Gravitee | Alert Engine |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Gravitee | API Management |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Gravitee | API Management |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Gravitee | Cockpit |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Gravwell |  |  |  | Unknown | [link](https://www.gravwell.io/blog/cve-2021-44228-log4j-does-not-impact-gravwell-products) |  |  | cisagov | 2021-12-23 |
-| Graylog | Graylog Server | All versions &gt;= 1.2.0 and &lt;= 4.2.2 |  | Affected | [link](https://www.graylog.org/post/graylog-update-for-log4j) |  |  | cisagov | 2021-12-23 |
-| GreenShot |  |  |  | Unknown | [link](https://greenshot.atlassian.net/browse/BUG-2871) |  |  | cisagov | 2021-12-23 |
-| Guidewire |  |  |  | Unknown | [link](https://community.guidewire.com/s/article/Update-to-customers-who-have-questions-about-the-use-of-log4j-in-Guidewire-products) |  |  | cisagov | 2021-12-23 |
-| HAProxy |  |  |  | Unknown | [link](https://www.haproxy.com/blog/december-2021-log4shell-mitigation/) |  |  | cisagov | 2021-12-23 |
-| HarmanPro AMX |  |  |  | Unknown | [link](https://help.harmanpro.com/apache-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
-| HashiCorp | Boundary |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| HashiCorp | Consul |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| HashiCorp | Consul Enterprise |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| HashiCorp | Nomad |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| HashiCorp | Nomad Enterprise |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| HashiCorp | Packer |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| HashiCorp | Terraform |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| HashiCorp | Terraform Enterprise |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| HashiCorp | Vagrant |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| HashiCorp | Vault |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| HashiCorp | Vault Enterprise |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| HashiCorp | Waypoint |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
+| Gradle | Gradle |  |  | Unknown | [link](https://blog.gradle.org/log4j-vulnerability) | Gradle Scala Compiler Plugin depends upon log4j-core but it is not used. |  | cisagov | 2021-12-30 |
+| Gradle | Gradle Enterprise | &lt; 2021.3.6 |  | Affected | [link](https://security.gradle.com/advisory/2021-11) |  |  | cisagov | 2021-12-30 |
+| Gradle | Gradle Enterprise Build Cache Node | &lt; 10.1 |  | Affected | [link](https://security.gradle.com/advisory/2021-11) |  |  | cisagov | 2021-12-30 |
+| Gradle | Gradle Enterprise Test Distribution Agent | &lt; 1.6.2 |  | Affected | [link](https://security.gradle.com/advisory/2021-11) |  |  | cisagov | 2021-12-30 |
+| Grafana |  |  |  | Unknown | [link](https://grafana.com/blog/2021/12/14/grafana-labs-core-products-not-impacted-by-log4j-cve-2021-44228-and-related-vulnerabilities/) |  |  | cisagov | 2021-12-30 |
+| Grandstream |  |  |  | Unknown | [link](https://blog.grandstream.com/press-releases/grandstream-products-unaffected-by-log4j-vulnerability?hsLang=en) |  |  | cisagov | 2021-12-30 |
+| Gravitee.io |  |  |  | Unknown | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Gravitee | Access Management |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Gravitee | Access Management |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Gravitee | Alert Engine |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Gravitee | Alert Engine |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Gravitee | API Management |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Gravitee | API Management |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Gravitee | Cockpit |  |  | Not Affected | [link](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Gravwell |  |  |  | Unknown | [link](https://www.gravwell.io/blog/cve-2021-44228-log4j-does-not-impact-gravwell-products) |  |  | cisagov | 2021-12-30 |
+| Graylog | Graylog Server | All versions &gt;= 1.2.0 and &lt;= 4.2.2 |  | Affected | [link](https://www.graylog.org/post/graylog-update-for-log4j) |  |  | cisagov | 2021-12-30 |
+| GreenShot |  |  |  | Unknown | [link](https://greenshot.atlassian.net/browse/BUG-2871) |  |  | cisagov | 2021-12-30 |
+| GSA | Cloud.gov |  |  | Unknown | [link](https://cloud.gov/2021/12/14/log4j-buildpack-updates/) |  |  | cisagov | 2021-12-21 |
+| Guidewire |  |  |  | Unknown | [link](https://community.guidewire.com/s/article/Update-to-customers-who-have-questions-about-the-use-of-log4j-in-Guidewire-products) |  |  | cisagov | 2021-12-30 |
+| HAProxy |  |  |  | Unknown | [link](https://www.haproxy.com/blog/december-2021-log4shell-mitigation/) |  |  | cisagov | 2021-12-30 |
+| HarmanPro AMX |  |  |  | Unknown | [link](https://help.harmanpro.com/apache-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
+| HashiCorp | Boundary |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| HashiCorp | Consul |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| HashiCorp | Consul Enterprise |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| HashiCorp | Nomad |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| HashiCorp | Nomad Enterprise |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| HashiCorp | Packer |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| HashiCorp | Terraform |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| HashiCorp | Terraform Enterprise |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| HashiCorp | Vagrant |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| HashiCorp | Vault |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| HashiCorp | Vault Enterprise |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| HashiCorp | Waypoint |  |  | Unknown | [link](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
 | HCL Software | BigFix Compliance |  | 2.0.1 - 2.0.4 | Fixed | [link](https://support.hcltechsw.com/csm?id=kb_article&amp;sysparm_article=KB0095486) | Not Affected for related CVE-2021-45046 | [Forum post with more specifics](https://forum.bigfix.com/t/bigfix-compliance-has-a-remediation-for-log4j-vulnerability-cve-2021-44228/40197) | cisagov | 2021-12-15 |
 | HCL Software | BigFix Insights |  |  | Not Affected | [link](https://support.hcltechsw.com/csm?id=kb_article&amp;sysparm_article=KB0095486) | Not Affected for related CVE-2021-45046 |  | cisagov | 2021-12-15 |
 | HCL Software | BigFix Insights for Vulnerability Remediation |  |  | Not Affected | [link](https://support.hcltechsw.com/csm?id=kb_article&amp;sysparm_article=KB0095486) | Not Affected for related CVE-2021-45046 |  | cisagov | 2021-12-15 |
@@ -1307,12 +1322,12 @@ This list was initially populated using information from the following sources:
 | HCL Software | BigFix Lifecycle |  |  | Not Affected | [link](https://support.hcltechsw.com/csm?id=kb_article&amp;sysparm_article=KB0095486) | Not Affected for related CVE-2021-45046 |  | cisagov | 2021-12-15 |
 | HCL Software | BigFix Mobile |  |  | Not Affected | [link](https://support.hcltechsw.com/csm?id=kb_article&amp;sysparm_article=KB0095486) | Not Affected for related CVE-2021-45046 |  | cisagov | 2021-12-15 |
 | HCL Software | BigFix Patch |  |  | Not Affected | [link](https://support.hcltechsw.com/csm?id=kb_article&amp;sysparm_article=KB0095486) | Not Affected for related CVE-2021-45046 |  | cisagov | 2021-12-15 |
-| HelpSystems Clearswift |  |  |  | Unknown | [link](https://community.helpsystems.com/kb-nav/kb-article/?id=37becc1c-255c-ec11-8f8f-6045bd006687) |  |  | cisagov | 2021-12-23 |
+| HelpSystems Clearswift |  |  |  | Unknown | [link](https://community.helpsystems.com/kb-nav/kb-article/?id=37becc1c-255c-ec11-8f8f-6045bd006687) |  |  | cisagov | 2021-12-30 |
 | HENIX | Squash TM |  | 1.21.7 - 1.22.9,2.0.3 - 2.1.5,2.2.0 - 3.0.2 | Fixed | [link](https://tm-en.doc.squashtest.com/v3/downloads.html#download-previous-versions) |  |  | cisagov | 2021-12-23 |
-| Hexagon |  |  |  | Unknown | [link](https://supportsi.hexagon.com/help/s/article/Security-Vulnerability-CVE-2021-44228-log4j-2?language=en_US) |  |  | cisagov | 2021-12-23 |
-| Hikvision |  |  |  | Unknown | [link](https://video.xortec.de/media/pdf/87/e8/03/kw50_Update-for-Apache-Log4j2-Issue-Hikvision_official.pdf) |  |  | cisagov | 2021-12-23 |
-| Hitachi Energy | eSOMS |  |  | Unknown | [link](https://www.hitachienergy.com/offering/solutions/cybersecurity/alerts-and-notifications) |  |  | cisagov | 2021-12-23 |
-| Hitachi Vantara |  |  |  | Unknown | [link](https://knowledge.hitachivantara.com/Support_Information/Hitachi_Vantara_Security_Advisories/CVE-2021-44228_-_Apache_Log4j2) |  |  | cisagov | 2021-12-23 |
+| Hexagon |  |  |  | Unknown | [link](https://supportsi.hexagon.com/help/s/article/Security-Vulnerability-CVE-2021-44228-log4j-2?language=en_US) |  |  | cisagov | 2021-12-30 |
+| Hikvision |  |  |  | Unknown | [link](https://video.xortec.de/media/pdf/87/e8/03/kw50_Update-for-Apache-Log4j2-Issue-Hikvision_official.pdf) |  |  | cisagov | 2021-12-30 |
+| Hitachi Energy | eSOMS |  |  | Unknown | [link](https://www.hitachienergy.com/offering/solutions/cybersecurity/alerts-and-notifications) |  |  | cisagov | 2021-12-30 |
+| Hitachi Vantara |  |  |  | Unknown | [link](https://knowledge.hitachivantara.com/Support_Information/Hitachi_Vantara_Security_Advisories/CVE-2021-44228_-_Apache_Log4j2) |  |  | cisagov | 2021-12-30 |
 | HOLOGIC | Advanced Workflow Manager (AWM) |  |  | Unknown | [link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | While the Hologic software itself does not utilize Java/Log4J, the installed APC PowerChute UPS with Business Edition v9.5 software installed may. APC is still assessing its PowerChute software to determine if it is vulnerable. |  | cisagov | 2021-12-20 |
 | HOLOGIC | Affirm Prone Biopsy System |  |  | Unknown | [link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) |  |  | cisagov | 2021-12-20 |
 | HOLOGIC | Brevera Breast Biopsy System |  |  | Unknown | [link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) |  |  | cisagov | 2021-12-20 |
@@ -1330,7 +1345,7 @@ This list was initially populated using information from the following sources:
 | HOLOGIC | Trident HD Specimen Radiography System |  |  | Unknown | [link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) |  |  | cisagov | 2021-12-20 |
 | HOLOGIC | Unifi Workspace |  |  | Unknown | [link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | While the Hologic software itself does not utilize Java/Log4J, the installed APC PowerChute UPS with Business Edition v9.5 software installed may. APC is still assessing its PowerChute software to determine if it is vulnerable. |  | cisagov | 2021-12-20 |
 | HOLOGIC | Windows Selenia Mammography System |  |  | Unknown | [link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) |  |  | cisagov | 2021-12-20 |
-| Honeywell |  |  |  | Unknown | [link](https://www.honeywell.com/us/en/press/2021/12/honeywells-statement-on-java-apache-log4j-logging-framework-vulnerability) |  |  | cisagov | 2021-12-23 |
+| Honeywell |  |  |  | Unknown | [link](https://www.honeywell.com/us/en/press/2021/12/honeywells-statement-on-java-apache-log4j-logging-framework-vulnerability) |  |  | cisagov | 2021-12-30 |
 | HPE | 3PAR StoreServ Arrays |  |  | Unknown | [link](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&amp;docId=a00120086en_us) | Support Communication Cross Reference ID: SIK7387 |  | cisagov | 2021-12-12 |
 | HPE | AirWave Management Platform |  |  | Unknown | [link](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&amp;docId=a00120086en_us) | Support Communication Cross Reference ID: SIK7387 |  | cisagov | 2021-12-12 |
 | HPE | Alletra 6000 |  |  | Unknown | [link](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&amp;docId=a00120086en_us) | Support Communication Cross Reference ID: SIK7387 |  | cisagov | 2021-12-12 |
@@ -1465,12 +1480,12 @@ This list was initially populated using information from the following sources:
 | HP | Teradici Management Console |  | &lt; 21.10.3 | Fixed | [link](https://support.hp.com/us-en/document/ish_5268006-5268030-16) |  |  | cisagov | 2021-12-17 |
 | HP | Teradici PCoIP Connection Manager |  | &lt; 21.03.6,&lt; 20.07.4 | Fixed | [link](https://support.hp.com/us-en/document/ish_5268006-5268030-16) |  |  | cisagov | 2021-12-17 |
 | HP | Teradici PCoIP License Server |  |  | Unknown | [link](https://support.hp.com/us-en/document/ish_5268006-5268030-16) |  |  | cisagov | 2021-12-17 |
-| Huawei |  |  |  | Unknown | [link](https://www.huawei.com/en/psirt/security-notices/huawei-sn-20211210-01-log4j2-en) |  |  | cisagov | 2021-12-23 |
-| Hubspot |  |  |  | Unknown | [link](https://community.hubspot.com/t5/APIs-Integrations/Log4J-day-zero-exploit-CVE-2021-44228/td-p/541949) |  |  | cisagov | 2021-12-23 |
-| I-Net software |  |  |  | Unknown | [link](https://faq.inetsoftware.de/t/statement-about-cve-2021-44228-log4j-vulnerability-concerning-i-net-software-products/269/3) |  |  | cisagov | 2021-12-23 |
-| I2P |  |  |  | Unknown | [link](https://geti2p.net/en/blog/post/2021/12/11/i2p-unaffected-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| IBA-AG |  |  |  | Unknown | [link](https://www.iba-ag.com/en/security) |  |  | cisagov | 2021-12-23 |
-| Ibexa |  |  |  | Unknown | [link](https://developers.ibexa.co/security-advisories/cve-2021-44228-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
+| Huawei |  |  |  | Unknown | [link](https://www.huawei.com/en/psirt/security-notices/huawei-sn-20211210-01-log4j2-en) |  |  | cisagov | 2021-12-30 |
+| Hubspot |  |  |  | Unknown | [link](https://community.hubspot.com/t5/APIs-Integrations/Log4J-day-zero-exploit-CVE-2021-44228/td-p/541949) |  |  | cisagov | 2021-12-30 |
+| I-Net software |  |  |  | Unknown | [link](https://faq.inetsoftware.de/t/statement-about-cve-2021-44228-log4j-vulnerability-concerning-i-net-software-products/269/3) |  |  | cisagov | 2021-12-30 |
+| I2P |  |  |  | Unknown | [link](https://geti2p.net/en/blog/post/2021/12/11/i2p-unaffected-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| IBA-AG |  |  |  | Unknown | [link](https://www.iba-ag.com/en/security) |  |  | cisagov | 2021-12-30 |
+| Ibexa |  |  |  | Unknown | [link](https://developers.ibexa.co/security-advisories/cve-2021-44228-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
 | IBM | Analytics Engine |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | App Configuration |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | App Connect |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
@@ -1481,8 +1496,8 @@ This list was initially populated using information from the following sources:
 | IBM | Aspera Enterprise |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Aspera fasp.io |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Bare Metal Servers |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
-| IBM | BigFix Compliance |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
-| IBM | BigFix Inventory | VM Manager Tool &amp; SAP Tool |  | Affected |  | To verify if your instance is affected, go to the lib subdirectory of the tool (BESClient/LMT/SAPTOOL and BESClient/LMT/VMMAN) and check what version of log4j is included. Version is included in the name of the library. |  | cisagov | 2021-12-23 |
+| IBM | BigFix Compliance |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
+| IBM | BigFix Inventory | VM Manager Tool &amp; SAP Tool |  | Affected |  | To verify if your instance is affected, go to the lib subdirectory of the tool (BESClient/LMT/SAPTOOL and BESClient/LMT/VMMAN) and check what version of log4j is included. Version is included in the name of the library. |  | cisagov | 2021-12-30 |
 | IBM | Block Storage |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Block Storage for VPC |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Block Storage Snapshots for VPC |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
@@ -1576,7 +1591,7 @@ This list was initially populated using information from the following sources:
 | IBM | Load Balancer for VPC |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Log Analysis |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Managed VMware Service |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
-| IBM | Management Extender for VMware vCenter |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
+| IBM | Management Extender for VMware vCenter |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
 | IBM | Mass Data Migration |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Maximo EAM SaaS |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Message Hub |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
@@ -1597,14 +1612,14 @@ This list was initially populated using information from the following sources:
 | IBM | Rational Developer for AIX and Linux |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Rational Developer for i |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Red Hat OpenShift on IBM Cloud |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
-| IBM | Resilient |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
+| IBM | Resilient |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
 | IBM | Robotic Process Automation |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | SAN Volume Controller and Storwize Family |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Satellite Infrastructure Service |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Schematics |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Secrets Manager |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Secure Gateway |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
-| IBM | Server Automation |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
+| IBM | Server Automation |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
 | IBM | Spectrum Archive Library Edition |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Spectrum Discover |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Spectrum Protect Client Management Service |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
@@ -1661,11 +1676,11 @@ This list was initially populated using information from the following sources:
 | IBM | vRealize Operations and Log Insight |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | IBM | Workload Automation |  |  | Unknown | [link](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) |  |  | cisagov | 2021-12-15 |
 | ICONICS | All |  |  | Unknown | [link](https://iconics.com/News/Press-Releases/2021/ICONICS-Not-Subject-to-Apache-Log4j-Vulnerability) |  |  | cisagov | 2021-12-21 |
-| IFS |  |  |  | Unknown | [link](https://community.ifs.com/announcements-278/urgent-bulletin-ifs-advisory-ifs-products-services-and-log4j-cve-2021-44228-16436) |  |  | cisagov | 2021-12-23 |
-| IGEL |  |  |  | Unknown | [link](https://kb.igel.com/securitysafety/en/isn-2021-11-ums-log4j-vulnerability-54086712.html) |  |  | cisagov | 2021-12-23 |
-| Ignite Realtime |  |  |  | Unknown | [link](https://discourse.igniterealtime.org/t/openfire-4-6-5-released/91108) |  |  | cisagov | 2021-12-23 |
-| iGrafx |  |  |  | Unknown | [link](https://www.igrafx.com/igrafx-thwarts-log4j-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| Illuminated Cloud |  |  |  | Unknown | [link](https://illuminatedcloud.blogspot.com/2021/12/illuminated-cloud-2-and-log4j-security.html) |  |  | cisagov | 2021-12-23 |
+| IFS |  |  |  | Unknown | [link](https://community.ifs.com/announcements-278/urgent-bulletin-ifs-advisory-ifs-products-services-and-log4j-cve-2021-44228-16436) |  |  | cisagov | 2021-12-30 |
+| IGEL |  |  |  | Unknown | [link](https://kb.igel.com/securitysafety/en/isn-2021-11-ums-log4j-vulnerability-54086712.html) |  |  | cisagov | 2021-12-30 |
+| Ignite Realtime |  |  |  | Unknown | [link](https://discourse.igniterealtime.org/t/openfire-4-6-5-released/91108) |  |  | cisagov | 2021-12-30 |
+| iGrafx |  |  |  | Unknown | [link](https://www.igrafx.com/igrafx-thwarts-log4j-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| Illuminated Cloud |  |  |  | Unknown | [link](https://illuminatedcloud.blogspot.com/2021/12/illuminated-cloud-2-and-log4j-security.html) |  |  | cisagov | 2021-12-30 |
 | Illumio | C-VEN |  |  | Unknown | [link](https://support.illumio.com/knowledge-base/articles/Customer-Security-Advisory-on-log4j-RCE-CVE-2021-44228.html) |  |  | cisagov | 2021-12-16 |
 | Illumio | CLI |  |  | Unknown | [link](https://support.illumio.com/knowledge-base/articles/Customer-Security-Advisory-on-log4j-RCE-CVE-2021-44228.html) |  |  | cisagov | 2021-12-16 |
 | Illumio | CloudSecure |  |  | Unknown | [link](https://support.illumio.com/knowledge-base/articles/Customer-Security-Advisory-on-log4j-RCE-CVE-2021-44228.html) |  |  | cisagov | 2021-12-16 |
@@ -1679,16 +1694,16 @@ This list was initially populated using information from the following sources:
 | Illumio | QRadar App |  |  | Unknown | [link](https://support.illumio.com/knowledge-base/articles/Customer-Security-Advisory-on-log4j-RCE-CVE-2021-44228.html) |  |  | cisagov | 2021-12-16 |
 | Illumio | Splunk App |  |  | Unknown | [link](https://support.illumio.com/knowledge-base/articles/Customer-Security-Advisory-on-log4j-RCE-CVE-2021-44228.html) |  |  | cisagov | 2021-12-16 |
 | Illumio | VEN |  |  | Unknown | [link](https://support.illumio.com/knowledge-base/articles/Customer-Security-Advisory-on-log4j-RCE-CVE-2021-44228.html) |  |  | cisagov | 2021-12-16 |
-| IManage |  |  |  | Unknown | [link](https://help.imanage.com/hc/en-us/articles/4412696236699-ADVISORY-Security-vulnerability-CVE-2021-44228-in-third-party-component-Apache-Log4j2#h_3164fa6c-4717-4aa1-b2dc-d14d4112595e) |  |  | cisagov | 2021-12-23 |
-| Imperva |  |  |  | Unknown | [link](https://www.imperva.com/blog/how-were-protecting-customers-staying-ahead-of-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| Inductive Automation |  |  |  | Unknown | [link](https://support.inductiveautomation.com/hc/en-us/articles/4416204541709-Regarding-CVE-2021-44228-Log4j-RCE-0-day) |  |  | cisagov | 2021-12-23 |
-| IndustrialDefender |  |  |  | Unknown | [link](https://www.industrialdefender.com/cve-2021-44228-log4j/) |  |  | cisagov | 2021-12-23 |
-| infinidat |  |  |  | Unknown | [link](https://support.infinidat.com/hc/en-us/articles/4413483145489-INFINIDAT-Support-Announcement-2021-010-Log4Shell-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| InfluxData |  |  |  | Unknown | [link](https://www.influxdata.com/blog/apache-log4j-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| Infoblox |  |  |  | Unknown | [link](https://support.infoblox.com/articles/Knowledge/Infoblox-NIOS-and-BloxOne-products-not-vulnerable-to-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Informatica |  |  |  | Unknown | [link](https://network.informatica.com/community/informatica-network/blog/2021/12/10/log4j-vulnerability-update) |  |  | cisagov | 2021-12-23 |
-| Instana |  |  |  | Unknown | [link](https://status.instana.io/incidents/4zgcd2gzf4jw) |  |  | cisagov | 2021-12-23 |
-| Instructure |  |  |  | Unknown | [link](https://community.canvaslms.com/t5/Community-Users/Instructure-amp-the-Apache-Log4j2-Vulnerability/ba-p/501907) |  |  | cisagov | 2021-12-23 |
+| IManage |  |  |  | Unknown | [link](https://help.imanage.com/hc/en-us/articles/4412696236699-ADVISORY-Security-vulnerability-CVE-2021-44228-in-third-party-component-Apache-Log4j2#h_3164fa6c-4717-4aa1-b2dc-d14d4112595e) |  |  | cisagov | 2021-12-30 |
+| Imperva |  |  |  | Unknown | [link](https://www.imperva.com/blog/how-were-protecting-customers-staying-ahead-of-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| Inductive Automation |  |  |  | Unknown | [link](https://support.inductiveautomation.com/hc/en-us/articles/4416204541709-Regarding-CVE-2021-44228-Log4j-RCE-0-day) |  |  | cisagov | 2021-12-30 |
+| IndustrialDefender |  |  |  | Unknown | [link](https://www.industrialdefender.com/cve-2021-44228-log4j/) |  |  | cisagov | 2021-12-30 |
+| infinidat |  |  |  | Unknown | [link](https://support.infinidat.com/hc/en-us/articles/4413483145489-INFINIDAT-Support-Announcement-2021-010-Log4Shell-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| InfluxData |  |  |  | Unknown | [link](https://www.influxdata.com/blog/apache-log4j-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| Infoblox |  |  |  | Unknown | [link](https://support.infoblox.com/articles/Knowledge/Infoblox-NIOS-and-BloxOne-products-not-vulnerable-to-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Informatica |  |  |  | Unknown | [link](https://network.informatica.com/community/informatica-network/blog/2021/12/10/log4j-vulnerability-update) |  |  | cisagov | 2021-12-30 |
+| Instana |  |  |  | Unknown | [link](https://status.instana.io/incidents/4zgcd2gzf4jw) |  |  | cisagov | 2021-12-30 |
+| Instructure |  |  |  | Unknown | [link](https://community.canvaslms.com/t5/Community-Users/Instructure-amp-the-Apache-Log4j2-Vulnerability/ba-p/501907) |  |  | cisagov | 2021-12-30 |
 | Intel | Audio Development Kit |  |  | Unknown | [link](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) |  |  | cisagov | 2021-12-16 |
 | Intel | Computer Vision Annotation Tool maintained by Intel |  |  | Unknown | [link](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) |  |  | cisagov | 2021-12-16 |
 | Intel | Datacenter Manager |  |  | Unknown | [link](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) |  |  | cisagov | 2021-12-16 |
@@ -1701,38 +1716,38 @@ This list was initially populated using information from the following sources:
 | Internet Systems Consortium(ISC) | BIND 9 |  |  | Not Affected | [link](https://www.isc.org/blogs/2021-log4j/) | no JAVA Code |  | cisagov | 2021-12-17 |
 | Internet Systems Consortium(ISC) | ISC DHCP, aka dhcpd |  |  | Not Affected | [link](https://www.isc.org/blogs/2021-log4j/) | no JAVA Code |  | cisagov | 2021-12-17 |
 | Internet Systems Consortium(ISC) | Kea DHCP |  |  | Not Affected | [link](https://www.isc.org/blogs/2021-log4j/) | no JAVA Code |  | cisagov | 2021-12-17 |
-| InterSystems |  |  |  | Unknown | [link](https://www.intersystems.com/gt/apache-log4j2/) |  |  | cisagov | 2021-12-23 |
-| Intland | codebeamer | &lt;= 20.11-SP11,&lt;= 21.09-SP3 |  | Affected | [link](https://codebeamer.com/cb/wiki/19872365) | A fix has been released for [20.11](https://codebeamer.com/cb/wiki/13134438) and [21.09](https://codebeamer.com/cb/wiki/19418497), but not yet for [21.04](https://codebeamer.com/cb/wiki/16937839) |  | cisagov | 2021-12-23 |
-| IPRO | Netgovern |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
-| iRedMail |  |  |  | Unknown | [link](https://forum.iredmail.org/topic18605-log4j-cve202144228.html) |  |  | cisagov | 2021-12-23 |
-| Ironnet |  |  |  | Unknown | [link](https://www.ironnet.com/blog/ironnet-security-notifications-related-to-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
-| ISLONLINE |  |  |  | Unknown | [link](https://blog.islonline.com/2021/12/13/isl-online-is-not-affected-by-log4shell-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| Ivanti |  |  |  | Unknown | [link](https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US) |  |  | cisagov | 2021-12-23 |
-| Jamasoftware |  |  |  | Unknown | [link](https://community.jamasoftware.com/communities/community-home/digestviewer/viewthread?MessageKey=06d26f9c-2abe-4c10-93d4-c0f6c8a01b22&amp;CommunityKey=c9d20d4c-5bb6-4f19-92eb-e7cee0942d51&amp;tab=digestviewer#bm06d26f9c-2abe-4c10-93d4-c0f6c8a01b22) |  |  | cisagov | 2021-12-23 |
-| Jamf | Jamf Pro | 10.31.0 – 10.34.0 |  | Affected | [link](https://docs.jamf.com/technical-articles/Mitigating_the_Apache_Log4j_2_Vulnerability.html) |  |  | cisagov | 2021-12-23 |
-| Jaspersoft |  |  |  | Unknown | [link](https://community.jaspersoft.com/wiki/apache-log4j-vulnerability-update-jaspersoft-products) |  |  | cisagov | 2021-12-23 |
-| Jedox |  |  |  | Unknown | [link](https://www.jedox.com/en/trust/) |  |  | cisagov | 2021-12-23 |
-| Jenkins | CI/CD Core |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
+| InterSystems |  |  |  | Unknown | [link](https://www.intersystems.com/gt/apache-log4j2/) |  |  | cisagov | 2021-12-30 |
+| Intland | codebeamer | &lt;= 20.11-SP11,&lt;= 21.09-SP3 |  | Affected | [link](https://codebeamer.com/cb/wiki/19872365) | A fix has been released for [20.11](https://codebeamer.com/cb/wiki/13134438) and [21.09](https://codebeamer.com/cb/wiki/19418497), but not yet for [21.04](https://codebeamer.com/cb/wiki/16937839) |  | cisagov | 2021-12-30 |
+| IPRO | Netgovern |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
+| iRedMail |  |  |  | Unknown | [link](https://forum.iredmail.org/topic18605-log4j-cve202144228.html) |  |  | cisagov | 2021-12-30 |
+| Ironnet |  |  |  | Unknown | [link](https://www.ironnet.com/blog/ironnet-security-notifications-related-to-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
+| ISLONLINE |  |  |  | Unknown | [link](https://blog.islonline.com/2021/12/13/isl-online-is-not-affected-by-log4shell-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| Ivanti |  |  |  | Unknown | [link](https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US) |  |  | cisagov | 2021-12-30 |
+| Jamasoftware |  |  |  | Unknown | [link](https://community.jamasoftware.com/communities/community-home/digestviewer/viewthread?MessageKey=06d26f9c-2abe-4c10-93d4-c0f6c8a01b22&amp;CommunityKey=c9d20d4c-5bb6-4f19-92eb-e7cee0942d51&amp;tab=digestviewer#bm06d26f9c-2abe-4c10-93d4-c0f6c8a01b22) |  |  | cisagov | 2021-12-30 |
+| Jamf | Jamf Pro | 10.31.0 – 10.34.0 |  | Affected | [link](https://docs.jamf.com/technical-articles/Mitigating_the_Apache_Log4j_2_Vulnerability.html) |  |  | cisagov | 2021-12-30 |
+| Jaspersoft |  |  |  | Unknown | [link](https://community.jaspersoft.com/wiki/apache-log4j-vulnerability-update-jaspersoft-products) |  |  | cisagov | 2021-12-30 |
+| Jedox |  |  |  | Unknown | [link](https://www.jedox.com/en/trust/) |  |  | cisagov | 2021-12-30 |
+| Jenkins | CI/CD Core |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
 | Jenkins | Plugins |  |  | Unknown | [link](https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/) | [Instructions to test your installations in announcement](https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/) |  | cisagov | 2021-12-16 |
-| JetBrains | All .NET tools (ReSharper, Rider, ReSharper C++, dotTrace, dotMemory, dotCover, dotPeek) |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-23 |
-| Jetbrains | Code With Me |  | Unknown | Fixed | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-23 |
-| JetBrains | Datalore |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-23 |
-| JetBrains | Floating license server |  | 30211 | Fixed | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-23 |
-| JetBrains | Gateway |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-23 |
-| JetBrains | Hub |  | 2021.1.14080 | Fixed | [link](https://blog.jetbrains.com/hub/2021/12/14/hub-update-regarding-log4j2-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| JetBrains | IntelliJ platform based IDEs (AppCode, CLion, DataGrip, DataSpell, GoLand, IntelliJ IDEA Ultimate/Community/Edu, PhpStorm, PyCharm Professional/Community/Edu, Rider, RubyMine, WebStorm) |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-23 |
-| JetBrains | Kotlin |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-23 |
-| JetBrains | Ktor |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-23 |
-| JetBrains | MPS |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-23 |
-| JetBrains | Space |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-23 |
-| JetBrains | TeamCity |  |  | Not Affected | [link](https://youtrack.jetbrains.com/issue/TW-74298) |  |  | cisagov | 2021-12-23 |
-| JetBrains | ToolBox |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-23 |
-| JetBrains | UpSource |  | 2020.1.1952 | Fixed | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-23 |
-| JetBrains | YouTrack InCloud |  | Unknown | Fixed | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-23 |
-| JetBrains | YouTrack Standalone |  | 2021.4.35970 | Fixed | [link](https://blog.jetbrains.com/youtrack/2021/12/youtrack-update-regarding-log4j2-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| JFROG |  |  |  | Unknown | [link](https://jfrog.com/knowledge-base/general-jfrog-services-are-not-affected-by-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| Jitsi |  |  |  | Unknown | [link](https://github.com/jitsi/security-advisories/blob/4e1ab58585a8a0593efccce77d5d0e22c5338605/advisories/JSA-2021-0004.md) |  |  | cisagov | 2021-12-23 |
-| Jitterbit |  |  |  | Unknown | [link](https://success.jitterbit.com/display/DOC/Mitigating+the+Apache+Log4j2+JNDI+Vulnerability) |  |  | cisagov | 2021-12-23 |
+| JetBrains | All .NET tools (ReSharper, Rider, ReSharper C++, dotTrace, dotMemory, dotCover, dotPeek) |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-30 |
+| Jetbrains | Code With Me |  | Unknown | Fixed | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-30 |
+| JetBrains | Datalore |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-30 |
+| JetBrains | Floating license server |  | 30211 | Fixed | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-30 |
+| JetBrains | Gateway |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-30 |
+| JetBrains | Hub |  | 2021.1.14080 | Fixed | [link](https://blog.jetbrains.com/hub/2021/12/14/hub-update-regarding-log4j2-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| JetBrains | IntelliJ platform based IDEs (AppCode, CLion, DataGrip, DataSpell, GoLand, IntelliJ IDEA Ultimate/Community/Edu, PhpStorm, PyCharm Professional/Community/Edu, Rider, RubyMine, WebStorm) |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-30 |
+| JetBrains | Kotlin |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-30 |
+| JetBrains | Ktor |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-30 |
+| JetBrains | MPS |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-30 |
+| JetBrains | Space |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-30 |
+| JetBrains | TeamCity |  |  | Not Affected | [link](https://youtrack.jetbrains.com/issue/TW-74298) |  |  | cisagov | 2021-12-30 |
+| JetBrains | ToolBox |  |  | Not Affected | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-30 |
+| JetBrains | UpSource |  | 2020.1.1952 | Fixed | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-30 |
+| JetBrains | YouTrack InCloud |  | Unknown | Fixed | [link](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |  |  | cisagov | 2021-12-30 |
+| JetBrains | YouTrack Standalone |  | 2021.4.35970 | Fixed | [link](https://blog.jetbrains.com/youtrack/2021/12/youtrack-update-regarding-log4j2-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| JFROG |  |  |  | Unknown | [link](https://jfrog.com/knowledge-base/general-jfrog-services-are-not-affected-by-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| Jitsi |  |  |  | Unknown | [link](https://github.com/jitsi/security-advisories/blob/4e1ab58585a8a0593efccce77d5d0e22c5338605/advisories/JSA-2021-0004.md) |  |  | cisagov | 2021-12-30 |
+| Jitterbit |  |  |  | Unknown | [link](https://success.jitterbit.com/display/DOC/Mitigating+the+Apache+Log4j2+JNDI+Vulnerability) |  |  | cisagov | 2021-12-30 |
 | Johnson Controls | BCPro |  |  | Not Affected | [link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) |  |  | cisagov | 2021-12-21 |
 | Johnson Controls | CEM AC2000 |  |  | Not Affected | [link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) |  |  | cisagov | 2021-12-21 |
 | Johnson Controls | CEM Hardware Products |  |  | Not Affected | [link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) |  |  | cisagov | 2021-12-21 |
@@ -1761,30 +1776,30 @@ This list was initially populated using information from the following sources:
 | Johnson Controls | victor/ C•CURE‐9000 Unified |  |  | Not Affected | [link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) |  |  | cisagov | 2021-12-21 |
 | Johnson Controls | victor/ C•CURE‐9000 Unified |  |  | Not Affected | [link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) |  |  | cisagov | 2021-12-21 |
 | Johnson Controls | VideoEdge |  |  | Not Affected | [link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) |  |  | cisagov | 2021-12-21 |
-| Journyx |  |  |  | Unknown | [link](https://community.journyx.com/support/solutions/articles/9000209044-apache-log4j-2-vulnerability-cve-2021-44228-) |  |  | cisagov | 2021-12-23 |
-| jPOS | (ISO-8583) bridge |  |  | Not Affected | [link](https://github.com/jpos/jPOS/commit/d615199a1bdd35c35d63c07c10fd0bdbbc96f625) |  |  | cisagov | 2021-12-23 |
-| Jump Desktop |  |  |  | Unknown | [link](https://support.jumpdesktop.com/hc/en-us/articles/4416720395021-Log4j-CVE-2021-44228-CVE-2021-45046-Statement) |  |  | cisagov | 2021-12-23 |
-| Juniper Networks |  |  |  | Unknown | [link](https://kb.juniper.net/InfoCenter/index?page=content&amp;id=JSA11259) |  |  | cisagov | 2021-12-23 |
-| Justice Systems |  |  |  | Unknown | [link](https://www.justicesystems.com/services/support/) |  |  | cisagov | 2021-12-23 |
-| K15t |  |  |  | Unknown | [link](https://help.k15t.com/k15t-apps-and-log4shell-193401141.html) |  |  | cisagov | 2021-12-23 |
-| K6 |  |  |  | Unknown | [link](https://k6.io/blog/k6-products-not-impacted-by-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| Karakun |  |  |  | Unknown | [link](https://board.karakun.com/viewtopic.php?f=21&amp;t=8351) |  |  | cisagov | 2021-12-23 |
-| Kaseya |  |  |  | Unknown | [link](https://helpdesk.kaseya.com/hc/en-gb/articles/4413449967377-Log4j2-Vulnerability-Assessment) |  |  | cisagov | 2021-12-23 |
-| Keeper Security |  |  |  | Unknown | [link](https://www.keepersecurity.com/blog/2021/12/15/public-notice-regarding-the-apache-foundation-log4j-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| KEMP |  |  |  | Unknown | [link](https://support.kemptechnologies.com/hc/en-us/articles/4416430695437-CVE-2021-44228-Log4j2-Exploit) |  |  | cisagov | 2021-12-23 |
-| KEMP 2 |  |  |  | Unknown | [link](https://support.kemptechnologies.com/hc/en-us/articles/4416473820045-Progress-Kemp-LoadMaster-protects-from-security-vulnerability-Apache-Log4j-2-CVE-2021-44228-) |  |  | cisagov | 2021-12-23 |
-| Kofax |  |  |  | Unknown | [link](https://knowledge.kofax.com/MFD_Productivity/SafeCom/Product_Information/SafeCom_and_Log4j_vulnerability_(CVE-2021-44228)) |  |  | cisagov | 2021-12-23 |
-| Konica Minolta |  |  |  | Unknown | [link](https://www.konicaminolta.de/de-de/support/log4j) |  |  | cisagov | 2021-12-23 |
-| Kronos UKG |  |  |  | Unknown | [link](https://community.kronos.com/s/feed/0D54M00004wJKHiSAO?language=en_US) |  |  | cisagov | 2021-12-23 |
-| Kyberna |  |  |  | Unknown | [link](https://www.kyberna.com/detail/log4j-sicherheitsluecke) |  |  | cisagov | 2021-12-23 |
-| L-Soft |  |  |  | Unknown | [link](http://www.lsoft.com/news/log4jinfo.asp) |  |  | cisagov | 2021-12-23 |
-| L3Harris Geospatial |  |  |  | Unknown | [link](https://www.l3harrisgeospatial.com/Support/Self-Help-Tools/Help-Articles/Help-Articles-Detail/ArtMID/10220/ArticleID/24141/Impact-of-Log4j-Java-Security-Vulnerability-CVE-2021-44228-on-L3Harris-Geospatial-software) |  |  | cisagov | 2021-12-23 |
-| Lancom Systems |  |  |  | Unknown | [link](https://www.lancom-systems.com/service-support/instant-help/general-security-information/) |  |  | cisagov | 2021-12-23 |
-| Lansweeper |  |  |  | Unknown | [link](https://www.lansweeper.com/vulnerability/critical-log4j-vulnerability-affects-millions-of-applications/) |  |  | cisagov | 2021-12-23 |
-| Laserfiche |  |  |  | Unknown | [link](https://answers.laserfiche.com/questions/194037/Do-any-Laserfiche-products-use-the-Apache-log4j-library#194038) |  |  | cisagov | 2021-12-23 |
-| LastPass |  |  |  | Unknown | [link](https://support.logmeininc.com/lastpass/help/log4j-vulnerability-faq-for-lastpass-universal-proxy) |  |  | cisagov | 2021-12-23 |
-| LaunchDarkly |  |  |  | Unknown | [link](https://launchdarkly.com/blog/audit-shows-systems-unaffected-by-log4j/) |  |  | cisagov | 2021-12-23 |
-| Leanix |  |  |  | Unknown | [link](https://www.leanix.net/en/blog/log4j-vulnerability-log4shell) |  |  | cisagov | 2021-12-23 |
+| Journyx |  |  |  | Unknown | [link](https://community.journyx.com/support/solutions/articles/9000209044-apache-log4j-2-vulnerability-cve-2021-44228-) |  |  | cisagov | 2021-12-30 |
+| jPOS | (ISO-8583) bridge |  |  | Not Affected | [link](https://github.com/jpos/jPOS/commit/d615199a1bdd35c35d63c07c10fd0bdbbc96f625) |  |  | cisagov | 2021-12-30 |
+| Jump Desktop |  |  |  | Unknown | [link](https://support.jumpdesktop.com/hc/en-us/articles/4416720395021-Log4j-CVE-2021-44228-CVE-2021-45046-Statement) |  |  | cisagov | 2021-12-30 |
+| Juniper Networks |  |  |  | Unknown | [link](https://kb.juniper.net/InfoCenter/index?page=content&amp;id=JSA11259) |  |  | cisagov | 2021-12-30 |
+| Justice Systems |  |  |  | Unknown | [link](https://www.justicesystems.com/services/support/) |  |  | cisagov | 2021-12-30 |
+| K15t |  |  |  | Unknown | [link](https://help.k15t.com/k15t-apps-and-log4shell-193401141.html) |  |  | cisagov | 2021-12-30 |
+| K6 |  |  |  | Unknown | [link](https://k6.io/blog/k6-products-not-impacted-by-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| Karakun |  |  |  | Unknown | [link](https://board.karakun.com/viewtopic.php?f=21&amp;t=8351) |  |  | cisagov | 2021-12-30 |
+| Kaseya |  |  |  | Unknown | [link](https://helpdesk.kaseya.com/hc/en-gb/articles/4413449967377-Log4j2-Vulnerability-Assessment) |  |  | cisagov | 2021-12-30 |
+| Keeper Security |  |  |  | Unknown | [link](https://www.keepersecurity.com/blog/2021/12/15/public-notice-regarding-the-apache-foundation-log4j-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| KEMP |  |  |  | Unknown | [link](https://support.kemptechnologies.com/hc/en-us/articles/4416430695437-CVE-2021-44228-Log4j2-Exploit) |  |  | cisagov | 2021-12-30 |
+| KEMP 2 |  |  |  | Unknown | [link](https://support.kemptechnologies.com/hc/en-us/articles/4416473820045-Progress-Kemp-LoadMaster-protects-from-security-vulnerability-Apache-Log4j-2-CVE-2021-44228-) |  |  | cisagov | 2021-12-30 |
+| Kofax |  |  |  | Unknown | [link](https://knowledge.kofax.com/MFD_Productivity/SafeCom/Product_Information/SafeCom_and_Log4j_vulnerability_(CVE-2021-44228)) |  |  | cisagov | 2021-12-30 |
+| Konica Minolta |  |  |  | Unknown | [link](https://www.konicaminolta.de/de-de/support/log4j) |  |  | cisagov | 2021-12-30 |
+| Kronos UKG |  |  |  | Unknown | [link](https://community.kronos.com/s/feed/0D54M00004wJKHiSAO?language=en_US) |  |  | cisagov | 2021-12-30 |
+| Kyberna |  |  |  | Unknown | [link](https://www.kyberna.com/detail/log4j-sicherheitsluecke) |  |  | cisagov | 2021-12-30 |
+| L-Soft |  |  |  | Unknown | [link](http://www.lsoft.com/news/log4jinfo.asp) |  |  | cisagov | 2021-12-30 |
+| L3Harris Geospatial |  |  |  | Unknown | [link](https://www.l3harrisgeospatial.com/Support/Self-Help-Tools/Help-Articles/Help-Articles-Detail/ArtMID/10220/ArticleID/24141/Impact-of-Log4j-Java-Security-Vulnerability-CVE-2021-44228-on-L3Harris-Geospatial-software) |  |  | cisagov | 2021-12-30 |
+| Lancom Systems |  |  |  | Unknown | [link](https://www.lancom-systems.com/service-support/instant-help/general-security-information/) |  |  | cisagov | 2021-12-30 |
+| Lansweeper |  |  |  | Unknown | [link](https://www.lansweeper.com/vulnerability/critical-log4j-vulnerability-affects-millions-of-applications/) |  |  | cisagov | 2021-12-30 |
+| Laserfiche |  |  |  | Unknown | [link](https://answers.laserfiche.com/questions/194037/Do-any-Laserfiche-products-use-the-Apache-log4j-library#194038) |  |  | cisagov | 2021-12-30 |
+| LastPass |  |  |  | Unknown | [link](https://support.logmeininc.com/lastpass/help/log4j-vulnerability-faq-for-lastpass-universal-proxy) |  |  | cisagov | 2021-12-30 |
+| LaunchDarkly |  |  |  | Unknown | [link](https://launchdarkly.com/blog/audit-shows-systems-unaffected-by-log4j/) |  |  | cisagov | 2021-12-30 |
+| Leanix |  |  |  | Unknown | [link](https://www.leanix.net/en/blog/log4j-vulnerability-log4shell) |  |  | cisagov | 2021-12-30 |
 | Leica BIOSYSTEMS | Aperio AT2 |  |  | Unknown | [link](https://www.leicabiosystems.com/about/product-security/) |  |  | cisagov | 2021-12-21 |
 | Leica BIOSYSTEMS | Aperio AT2 DX |  |  | Unknown | [link](https://www.leicabiosystems.com/about/product-security/) |  |  | cisagov | 2021-12-21 |
 | Leica BIOSYSTEMS | Aperio CS2 |  |  | Unknown | [link](https://www.leicabiosystems.com/about/product-security/) |  |  | cisagov | 2021-12-21 |
@@ -1859,29 +1874,29 @@ This list was initially populated using information from the following sources:
 | Lenovo | XClarity Mobile (LXCM) |  |  | Unknown | [link](https://support.lenovo.com/ca/en/product_security/len-76573) |  |  | cisagov | 2021-12-14 |
 | Lenovo | XClarity Orchestrator (LXCO) |  |  | Unknown | [link](https://support.lenovo.com/ca/en/product_security/len-76573) |  |  | cisagov | 2021-12-14 |
 | Lenovo | XClarity Provisioning Manager (LXPM) |  |  | Unknown | [link](https://support.lenovo.com/ca/en/product_security/len-76573) |  |  | cisagov | 2021-12-14 |
-| LeoStream |  |  |  | Unknown | [link](https://support.leostream.com/support/discussions/topics/66000507567) |  |  | cisagov | 2021-12-23 |
-| Let's Encrypt |  |  |  | Unknown | [link](https://community.letsencrypt.org/t/log4j-vulnerability-cve-2021-44228/167464) |  |  | cisagov | 2021-12-23 |
-| LibreNMS |  |  |  | Unknown | [link](https://community.librenms.org/t/is-librenms-affected-by-vulnerable-to-cve-2021-25218-cve-2021-44228/17675/6) |  |  | cisagov | 2021-12-23 |
-| LifeRay |  |  |  | Unknown | [link](https://liferay.dev/blogs/-/blogs/log4j2-zero-day-vulnerability) |  |  | cisagov | 2021-12-23 |
-| LifeSize |  |  |  | Unknown | [link](https://community.lifesize.com/s/article/Apache-Log4j2-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Lightbend |  |  |  | Unknown | [link](https://discuss.lightbend.com/t/regarding-the-log4j2-vulnerability-cve-2021-44228/9275) |  |  | cisagov | 2021-12-23 |
-| Lime CRM |  |  |  | Unknown | [link](https://docs.lime-crm.com/security/lcsec21-01) |  |  | cisagov | 2021-12-23 |
-| LIONGARD |  |  |  | Unknown | [link](https://insights.liongard.com/faq-apache-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
-| LiquidFiles |  |  |  | Unknown | [link](https://mailchi.mp/liquidfiles/liquidfiles-log4j?e=%5BUNIQID%5D) |  |  | cisagov | 2021-12-23 |
-| LiveAction |  |  |  | Unknown | [link](https://documentation.liveaction.com/LiveNX/LiveNX%2021.5.1%20Release%20Notes/Release%20Notes%20LiveNX%2021.5.1.1.3) |  |  | cisagov | 2021-12-23 |
-| Loftware |  |  |  | Unknown | [link](https://help.loftware.com/lps-kb/content/log4j%20cve-2021-44228.htm?Highlight=CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
+| LeoStream |  |  |  | Unknown | [link](https://support.leostream.com/support/discussions/topics/66000507567) |  |  | cisagov | 2021-12-30 |
+| Let's Encrypt |  |  |  | Unknown | [link](https://community.letsencrypt.org/t/log4j-vulnerability-cve-2021-44228/167464) |  |  | cisagov | 2021-12-30 |
+| LibreNMS |  |  |  | Unknown | [link](https://community.librenms.org/t/is-librenms-affected-by-vulnerable-to-cve-2021-25218-cve-2021-44228/17675/6) |  |  | cisagov | 2021-12-30 |
+| LifeRay |  |  |  | Unknown | [link](https://liferay.dev/blogs/-/blogs/log4j2-zero-day-vulnerability) |  |  | cisagov | 2021-12-30 |
+| LifeSize |  |  |  | Unknown | [link](https://community.lifesize.com/s/article/Apache-Log4j2-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Lightbend |  |  |  | Unknown | [link](https://discuss.lightbend.com/t/regarding-the-log4j2-vulnerability-cve-2021-44228/9275) |  |  | cisagov | 2021-12-30 |
+| Lime CRM |  |  |  | Unknown | [link](https://docs.lime-crm.com/security/lcsec21-01) |  |  | cisagov | 2021-12-30 |
+| LIONGARD |  |  |  | Unknown | [link](https://insights.liongard.com/faq-apache-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
+| LiquidFiles |  |  |  | Unknown | [link](https://mailchi.mp/liquidfiles/liquidfiles-log4j?e=%5BUNIQID%5D) |  |  | cisagov | 2021-12-30 |
+| LiveAction |  |  |  | Unknown | [link](https://documentation.liveaction.com/LiveNX/LiveNX%2021.5.1%20Release%20Notes/Release%20Notes%20LiveNX%2021.5.1.1.3) |  |  | cisagov | 2021-12-30 |
+| Loftware |  |  |  | Unknown | [link](https://help.loftware.com/lps-kb/content/log4j%20cve-2021-44228.htm?Highlight=CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
 | LOGalyze | SIEM &amp; log analyzer tool | v4.x |  | Affected | [link](https://sourceforge.net/software/product/LOGalyze/) | local-log4j-vuln-scanner result: indicator for vulnerable component found in /logalyze/lib/log4j-1.2.17.jar (org/apache/log4j/net/SocketNode.class): log4j 1.2.17 | [Forks (github.com)](https://github.com/search?q=logalyzer&amp;s=updated&amp;type=Repositories) | cisagov | 2021-12-17 |
-| LogiAnalytics |  |  |  | Unknown | [link](https://devnet.logianalytics.com/hc/en-us/articles/4415781801751-Statement-on-Log4j-Vulnerability-CVE-2021-44228-) |  |  | cisagov | 2021-12-23 |
-| LogicMonitor | LogicMonitor Platform |  |  | Unknown | [link](https://www.logicmonitor.com/support/log4shell-security-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| LogMeIn |  |  |  | Unknown | [link](https://community.logmein.com/t5/LogMeIn-Central-Discussions/LOG4J-Vulnerability/m-p/280317/highlight/true#M8327) |  |  | cisagov | 2021-12-23 |
-| LogRhythm |  |  |  | Unknown | [link](https://community.logrhythm.com/t5/Product-Security/LogRhythm-Response-to-the-Apache-Log4J-Vulnerability-Log4Shell/td-p/494068) |  |  | cisagov | 2021-12-23 |
-| Looker | Looker | 21.0,21.6,21.12,21.16,21.18,21.20 |  | Affected | [link](https://docs.google.com/document/d/e/2PACX-1vQGN1AYNMHxsRQ9AZNu1bKyTGRUSK_9xkQBge-nu4p8PYvBKIYHhc3914KTfVtDFIXtDhc3k6SZnR2M/pub) |  |  | cisagov | 2021-12-23 |
-| LucaNet |  |  |  | Unknown | [link](https://www.lucanet.com/en/blog/update-vulnerability-log4j) |  |  | cisagov | 2021-12-23 |
-| Lucee |  |  |  | Unknown | [link](https://dev.lucee.org/t/lucee-is-not-affected-by-the-log4j-jndi-exploit-cve-2021-44228/9331/4) |  |  | cisagov | 2021-12-23 |
+| LogiAnalytics |  |  |  | Unknown | [link](https://devnet.logianalytics.com/hc/en-us/articles/4415781801751-Statement-on-Log4j-Vulnerability-CVE-2021-44228-) |  |  | cisagov | 2021-12-30 |
+| LogicMonitor | LogicMonitor Platform |  |  | Unknown | [link](https://www.logicmonitor.com/support/log4shell-security-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| LogMeIn |  |  |  | Unknown | [link](https://community.logmein.com/t5/LogMeIn-Central-Discussions/LOG4J-Vulnerability/m-p/280317/highlight/true#M8327) |  |  | cisagov | 2021-12-30 |
+| LogRhythm |  |  |  | Unknown | [link](https://community.logrhythm.com/t5/Product-Security/LogRhythm-Response-to-the-Apache-Log4J-Vulnerability-Log4Shell/td-p/494068) |  |  | cisagov | 2021-12-30 |
+| Looker | Looker | 21.0,21.6,21.12,21.16,21.18,21.20 |  | Affected | [link](https://docs.google.com/document/d/e/2PACX-1vQGN1AYNMHxsRQ9AZNu1bKyTGRUSK_9xkQBge-nu4p8PYvBKIYHhc3914KTfVtDFIXtDhc3k6SZnR2M/pub) |  |  | cisagov | 2021-12-30 |
+| LucaNet |  |  |  | Unknown | [link](https://www.lucanet.com/en/blog/update-vulnerability-log4j) |  |  | cisagov | 2021-12-30 |
+| Lucee |  |  |  | Unknown | [link](https://dev.lucee.org/t/lucee-is-not-affected-by-the-log4j-jndi-exploit-cve-2021-44228/9331/4) |  |  | cisagov | 2021-12-30 |
 | Lyrasis | Fedora Repository |  |  | Not Affected | [link](https://groups.google.com/g/fedora-tech/c/dQMQ5jaX8Xo) | Fedora Repository is unaffiliated with Fedora Linux.  Uses logback and explicitly excludes log4j. |  | cisagov | 2021-12-14 |
-| MailStore |  |  |  | Unknown | [link](https://www.mailstore.com/en/blog/mailstore-affected-by-log4shell/) |  |  | cisagov | 2021-12-23 |
-| Maltego |  |  |  | Unknown | [link](https://www.maltego.com/blog/our-response-to-log4j-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| ManageEngine Zoho |  |  |  | Unknown | [link](https://pitstop.manageengine.com/portal/en/community/topic/log4j-ad-manager-plus) |  |  | cisagov | 2021-12-23 |
+| MailStore |  |  |  | Unknown | [link](https://www.mailstore.com/en/blog/mailstore-affected-by-log4shell/) |  |  | cisagov | 2021-12-30 |
+| Maltego |  |  |  | Unknown | [link](https://www.maltego.com/blog/our-response-to-log4j-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| ManageEngine Zoho |  |  |  | Unknown | [link](https://pitstop.manageengine.com/portal/en/community/topic/log4j-ad-manager-plus) |  |  | cisagov | 2021-12-30 |
 | ManageEngine Zoho | ADAudit Plus | On-Prem |  | Affected | [link](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) |  |  | cisagov | 2021-12-16 |
 | ManageEngine Zoho | ADManager Plus | On-Prem |  | Affected | [link](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) |  |  | cisagov | 2021-12-16 |
 | ManageEngine Zoho | Analytics Plus | On-Prem |  | Affected | [link](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) |  |  | cisagov | 2021-12-16 |
@@ -1894,13 +1909,14 @@ This list was initially populated using information from the following sources:
 | ManageEngine Zoho | M365 Manager Plus | On-Prem |  | Affected | [link](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) |  |  | cisagov | 2021-12-16 |
 | ManageEngine Zoho | M365 Security Plus | On-Prem |  | Affected | [link](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) |  |  | cisagov | 2021-12-16 |
 | ManageEngine Zoho | RecoveryManager Plus | On-Prem |  | Affected | [link](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) |  |  | cisagov | 2021-12-16 |
+| ManageEngine | AD SelfService Plus |  |  | Not Affected |  |  |  | cisagov | 2021-12-27 |
 | ManageEngine | Servicedesk Plus | 11305 and below |  | Affected | [link](https://www.manageengine.com/products/service-desk/security-response-plan.html) |  |  | cisagov | 2021-12-15 |
-| MariaDB |  |  |  | Unknown | [link](https://mariadb.com/resources/blog/log4shell-and-mariadb-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| MathWorks Matlab |  |  |  | Unknown | [link](https://www.mathworks.com/matlabcentral/answers/1610640-apache-log4j-vulnerability-cve-2021-44228-how-does-it-affect-matlab-run-time) |  |  | cisagov | 2021-12-23 |
-| MathWorks | All MathWorks general release desktop or server products |  |  | Unknown | [link](https://www.mathworks.com/matlabcentral/answers/1610640-apache-log4j-vulnerability-cve-2021-44228-how-does-it-affect-matlab-run-time) |  |  | cisagov | 2021-12-23 |
-| Matillion |  |  |  | Unknown | [link](https://documentation.matillion.com/docs/security-advisory-14th-december-2021) |  |  | cisagov | 2021-12-23 |
-| Matomo |  |  |  | Unknown | [link](https://forum.matomo.org/t/matomo-is-not-concerned-by-the-log4j-security-breach-cve-2021-44228-discovered-on-december-2021-the-9th/44089) |  |  | cisagov | 2021-12-23 |
-| Mattermost FocalBoard |  |  |  | Unknown | [link](https://forum.mattermost.org/t/log4j-vulnerability-concern/12676) |  |  | cisagov | 2021-12-23 |
+| MariaDB |  |  |  | Unknown | [link](https://mariadb.com/resources/blog/log4shell-and-mariadb-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| MathWorks | All MathWorks general release desktop or server products |  |  | Unknown | [link](https://www.mathworks.com/matlabcentral/answers/1610640-apache-log4j-vulnerability-cve-2021-44228-how-does-it-affect-matlab-run-time) |  |  | cisagov | 2021-12-30 |
+| MathWorks | MATLAB |  |  | Not Affected | [link](https://www.mathworks.com/content/dam/mathworks/policies/mathworks-response-to-cve-2021-44228-log4j-vulnerability.pdf) |  |  | cisagov | 2021-12-29 |
+| Matillion |  |  |  | Unknown | [link](https://documentation.matillion.com/docs/security-advisory-14th-december-2021) |  |  | cisagov | 2021-12-30 |
+| Matomo |  |  |  | Unknown | [link](https://forum.matomo.org/t/matomo-is-not-concerned-by-the-log4j-security-breach-cve-2021-44228-discovered-on-december-2021-the-9th/44089) |  |  | cisagov | 2021-12-30 |
+| Mattermost FocalBoard |  |  |  | Unknown | [link](https://forum.mattermost.org/t/log4j-vulnerability-concern/12676) |  |  | cisagov | 2021-12-30 |
 | McAfee | Data Exchange Layer (DXL) Client |  |  | Unknown |  |  |  | cisagov | 2021-12-20 |
 | McAfee | Data Loss Prevention (DLP) Discover |  |  | Unknown |  |  |  | cisagov | 2021-12-20 |
 | McAfee | Data Loss Prevention (DLP) Endpoint for Mac |  |  | Unknown |  |  |  | cisagov | 2021-12-20 |
@@ -1931,71 +1947,72 @@ This list was initially populated using information from the following sources:
 | McAfee | Threat Intelligence Exchange (TIE) |  |  | Unknown | [link](https://kc.mcafee.com/agent/index?page=content&amp;id=SB10377) | Latest status in linked Security Bulletin |  | cisagov | 2021-12-20 |
 | McAfee | Web Gateway (MWG) |  |  | Unknown | [link](https://kc.mcafee.com/agent/index?page=content&amp;id=SB10377) |  |  | cisagov | 2021-12-20 |
 | Medtronic |  |  |  | Unknown | [link](https://global.medtronic.com/xg-en/product-security/security-bulletins/log4j-vulnerabilities.html) |  |  | cisagov | 2021-12-21 |
-| MEINBERG |  |  |  | Unknown | [link](https://www.meinbergglobal.com/english/news/meinberg-lantime-and-microsync-systems-not-at-risk-from-log4j-security-exploit.htm) |  |  | cisagov | 2021-12-23 |
-| Meltano | Meltano |  |  | Unknown | [link](https://github.com/meltano/meltano) | Project is written in Python |  | cisagov | 2021-12-23 |
-| Memurai |  |  |  | Unknown | [link](https://www.memurai.com/blog/apache-log4j2-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| MicroFocus |  |  |  | Unknown | [link](https://portal.microfocus.com/s/customportalsearch?language=en_US&amp;searchtext=CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Microsoft | Azure API Gateway |  |  | Unknown | [link](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/) |  |  | cisagov | 2021-12-23 |
-| Microsoft | Azure Application Gateway |  |  | Unknown | [link](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/) |  |  | cisagov | 2021-12-23 |
-| Microsoft | Azure Data lake store java | &lt; 2.3.10 |  | Affected | [link](https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310) |  |  | cisagov | 2021-12-23 |
-| Microsoft | Azure Data lake store java | &lt; 2.3.10 |  | Affected | [link](https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310) |  |  | cisagov | 2021-12-23 |
-| Microsoft | Azure DevOps |  |  | Unknown | [link](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511) |  |  | cisagov | 2021-12-23 |
-| Microsoft | Azure DevOps Server | 2019.0 - 2020.1 |  | Affected | [link](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511) |  |  | cisagov | 2021-12-23 |
-| Microsoft | Azure Traffic Manager |  |  | Unknown | [link](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/) |  |  | cisagov | 2021-12-23 |
-| Microsoft | Team Foundation Server | 2018.2+ |  | Affected | [link](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511) |  |  | cisagov | 2021-12-23 |
-| Microstrategy |  |  |  | Unknown | [link](https://community.microstrategy.com/s/article/MicroStrategy-s-response-to-CVE-2021-44228-The-Log4j-0-Day-Vulnerability?language=en_US) |  |  | cisagov | 2021-12-23 |
-| Midori Global |  |  |  | Unknown | [link](https://www.midori-global.com/blog/2021/12/15/cve-2021-44228-log4shell-midori-apps-are-not-affected) |  |  | cisagov | 2021-12-23 |
-| Mikrotik |  |  |  | Unknown | [link](https://forum.mikrotik.com/viewtopic.php?p=897938) |  |  | cisagov | 2021-12-23 |
-| Milestone sys |  |  |  | Unknown | [link](https://supportcommunity.milestonesys.com/s/article/Log4J-vulnerability-faq?language=en_US) |  |  | cisagov | 2021-12-23 |
-| Mimecast |  |  |  | Unknown | [link](https://community.mimecast.com/s/article/Mimecast-Information-for-Customers-on-the-Log4Shell-Vulnerability) |  |  | cisagov | 2021-12-23 |
-| Minecraft |  |  |  | Unknown | [link](https://www.minecraft.net/en-us/article/important-message--security-vulnerability-java-edition) |  |  | cisagov | 2021-12-23 |
-| Mirantis |  |  |  | Unknown | [link](https://github.com/Mirantis/security/blob/main/news/cve-2021-44288.md) |  |  | cisagov | 2021-12-23 |
-| Miro |  |  |  | Unknown | [link](https://miro.com/trust/updates/log4j/) |  |  | cisagov | 2021-12-23 |
-| Mitel |  |  |  | Unknown | [link](https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-21-0010) |  |  | cisagov | 2021-12-23 |
+| MEINBERG |  |  |  | Unknown | [link](https://www.meinbergglobal.com/english/news/meinberg-lantime-and-microsync-systems-not-at-risk-from-log4j-security-exploit.htm) |  |  | cisagov | 2021-12-30 |
+| Meltano | Meltano |  |  | Unknown | [link](https://github.com/meltano/meltano) | Project is written in Python |  | cisagov | 2021-12-30 |
+| Memurai |  |  |  | Unknown | [link](https://www.memurai.com/blog/apache-log4j2-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| MicroFocus |  |  |  | Unknown | [link](https://portal.microfocus.com/s/customportalsearch?language=en_US&amp;searchtext=CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Microsoft | Azure API Gateway |  |  | Unknown | [link](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/) |  |  | cisagov | 2021-12-30 |
+| Microsoft | Azure Application Gateway |  |  | Unknown | [link](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/) |  |  | cisagov | 2021-12-30 |
+| Microsoft | Azure Data lake store java | &lt; 2.3.10 |  | Affected | [link](https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310) |  |  | cisagov | 2021-12-30 |
+| Microsoft | Azure Data lake store java | &lt; 2.3.10 |  | Affected | [link](https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310) |  |  | cisagov | 2021-12-30 |
+| Microsoft | Azure DevOps |  |  | Unknown | [link](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511) |  |  | cisagov | 2021-12-30 |
+| Microsoft | Azure DevOps Server | 2019.0 - 2020.1 |  | Affected | [link](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511) |  |  | cisagov | 2021-12-30 |
+| Microsoft | Azure Traffic Manager |  |  | Unknown | [link](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/) |  |  | cisagov | 2021-12-30 |
+| Microsoft | Team Foundation Server | 2018.2+ |  | Affected | [link](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511) |  |  | cisagov | 2021-12-30 |
+| Microstrategy |  |  |  | Unknown | [link](https://community.microstrategy.com/s/article/MicroStrategy-s-response-to-CVE-2021-44228-The-Log4j-0-Day-Vulnerability?language=en_US) |  |  | cisagov | 2021-12-30 |
+| Midori Global |  |  |  | Unknown | [link](https://www.midori-global.com/blog/2021/12/15/cve-2021-44228-log4shell-midori-apps-are-not-affected) |  |  | cisagov | 2021-12-30 |
+| Mikrotik |  |  |  | Unknown | [link](https://forum.mikrotik.com/viewtopic.php?p=897938) |  |  | cisagov | 2021-12-30 |
+| Milestone sys |  |  |  | Unknown | [link](https://supportcommunity.milestonesys.com/s/article/Log4J-vulnerability-faq?language=en_US) |  |  | cisagov | 2021-12-30 |
+| Mimecast |  |  |  | Unknown | [link](https://community.mimecast.com/s/article/Mimecast-Information-for-Customers-on-the-Log4Shell-Vulnerability) |  |  | cisagov | 2021-12-30 |
+| Minecraft |  |  |  | Unknown | [link](https://www.minecraft.net/en-us/article/important-message--security-vulnerability-java-edition) |  |  | cisagov | 2021-12-30 |
+| Mirantis |  |  |  | Unknown | [link](https://github.com/Mirantis/security/blob/main/news/cve-2021-44288.md) |  |  | cisagov | 2021-12-30 |
+| Miro |  |  |  | Unknown | [link](https://miro.com/trust/updates/log4j/) |  |  | cisagov | 2021-12-30 |
+| Mitel |  |  |  | Unknown | [link](https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-21-0010) |  |  | cisagov | 2021-12-30 |
 | MobileIron | Core | All Versions |  | Affected | [link](https://forums.ivanti.com/s/article/Security-Bulletin-CVE-2021-44228-Remote-code-injection-in-Log4j?language=en_US) | The mitigation instructions listed in a subsequent section removes a vulnerable Java class (JNDILookUp.class) from the affected Log4J Java library and as a result removes the ability to perform the RCE attack.  The workaround needs to be applied in a maintenance window. You will not be able to access the admin portal during the procedure, however, end user devices will continue to function. |  | cisagov | 2021-12-20 |
 | MobileIron | Core Connector | All Versions |  | Affected | [link](https://forums.ivanti.com/s/article/Security-Bulletin-CVE-2021-44228-Remote-code-injection-in-Log4j?language=en_US) | The mitigation instructions listed in a subsequent section removes a vulnerable Java class (JNDILookUp.class) from the affected Log4J Java library and as a result removes the ability to perform the RCE attack.  The workaround needs to be applied in a maintenance window. You will not be able to access the admin portal during the procedure, however, end user devices will continue to function. |  | cisagov | 2021-12-20 |
 | MobileIron | Reporting Database (RDB) | All Versions |  | Affected | [link](https://forums.ivanti.com/s/article/Security-Bulletin-CVE-2021-44228-Remote-code-injection-in-Log4j?language=en_US) | The mitigation instructions listed in a subsequent section removes a vulnerable Java class (JNDILookUp.class) from the affected Log4J Java library and as a result removes the ability to perform the RCE attack.  The workaround needs to be applied in a maintenance window. You will not be able to access the admin portal during the procedure, however, end user devices will continue to function. |  | cisagov | 2021-12-20 |
 | MobileIron | Sentry | 9.13,9.14 |  | Affected | [link](https://forums.ivanti.com/s/article/Security-Bulletin-CVE-2021-44228-Remote-code-injection-in-Log4j?language=en_US) | The mitigation instructions listed in a subsequent section removes a vulnerable Java class (JNDILookUp.class) from the affected Log4J Java library and as a result removes the ability to perform the RCE attack.  The workaround needs to be applied in a maintenance window. You will not be able to access the admin portal during the procedure, however, end user devices will continue to function. |  | cisagov | 2021-12-20 |
-| MongoDB | All other components of MongoDB Atlas (including Atlas Database, Data Lake, Charts) |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-23 |
-| MongoDB | MongoDB Atlas Search |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-23 |
-| MongoDB | MongoDB Community Edition (including Community Server, Cloud Manager, Community Kubernetes Operators) |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-23 |
-| MongoDB | MongoDB Drivers |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-23 |
-| MongoDB | MongoDB Enterprise Advanced (including Enterprise Server, Ops Manager, Enterprise Kubernetes Operators) |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-23 |
-| MongoDB | MongoDB Realm (including Realm Database, Sync, Functions, APIs) |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-23 |
-| MongoDB | MongoDB Tools (including Compass, Database Shell, VS Code Plugin, Atlas CLI, Database Connectors) |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-23 |
-| Moodle |  |  |  | Unknown | [link](https://moodle.org/mod/forum/discuss.php?d=429966) |  |  | cisagov | 2021-12-23 |
-| MoogSoft |  |  |  | Unknown | [link](https://servicedesk.moogsoft.com/hc/en-us/articles/4412463233811?input_string=log4j+vulnerability+%7C%7C+cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Motorola Avigilon |  |  |  | Unknown | [link](https://support.avigilon.com/s/article/Technical-Notification-Apache-Log4j2-vulnerability-impact-on-Avigilon-products-CVE-2021-44228?language=en_US) |  |  | cisagov | 2021-12-23 |
-| Mulesoft |  |  |  | Unknown | [link](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-23 |
+| MongoDB | All other components of MongoDB Atlas (including Atlas Database, Data Lake, Charts) |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-30 |
+| MongoDB | MongoDB Atlas Search |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-30 |
+| MongoDB | MongoDB Community Edition (including Community Server, Cloud Manager, Community Kubernetes Operators) |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-30 |
+| MongoDB | MongoDB Drivers |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-30 |
+| MongoDB | MongoDB Enterprise Advanced (including Enterprise Server, Ops Manager, Enterprise Kubernetes Operators) |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-30 |
+| MongoDB | MongoDB Realm (including Realm Database, Sync, Functions, APIs) |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-30 |
+| MongoDB | MongoDB Tools (including Compass, Database Shell, VS Code Plugin, Atlas CLI, Database Connectors) |  |  | Unknown | [link](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) |  |  | cisagov | 2021-12-30 |
+| Moodle |  |  |  | Unknown | [link](https://moodle.org/mod/forum/discuss.php?d=429966) |  |  | cisagov | 2021-12-30 |
+| MoogSoft |  |  |  | Unknown | [link](https://servicedesk.moogsoft.com/hc/en-us/articles/4412463233811?input_string=log4j+vulnerability+%7C%7C+cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Motorola Avigilon |  |  |  | Unknown | [link](https://support.avigilon.com/s/article/Technical-Notification-Apache-Log4j2-vulnerability-impact-on-Avigilon-products-CVE-2021-44228?language=en_US) |  |  | cisagov | 2021-12-30 |
+| Mulesoft |  |  |  | Unknown | [link](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-30 |
 | Mulesoft | Anypoint Studio | 7.x |  | Affected | [link](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021) | This advisory is available to account holders only and has not been reviewed by CISA. |  | cisagov | 2021-12-15 |
 | Mulesoft | Cloudhub |  |  | Unknown | [link](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021) | This advisory is available to account holders only and has not been reviewed by CISA. |  | cisagov | 2021-12-15 |
 | Mulesoft | Mule Agent | 6.x |  | Affected | [link](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021) | This advisory is available to account holders only and has not been reviewed by CISA. |  | cisagov | 2021-12-15 |
 | Mulesoft | Mule Runtime | 3.x,4.x |  | Affected | [link](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021) | This advisory is available to account holders only and has not been reviewed by CISA. |  | cisagov | 2021-12-15 |
-| N-able |  |  |  | Unknown | [link](https://www.n-able.com/security-and-privacy/apache-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Nagios |  |  |  | Unknown | [link](https://www.nagios.com/news/2021/12/update-on-apache-log4j-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| NAKIVO |  |  |  | Unknown | [link](https://forum.nakivo.com/index.php?/topic/7574-log4j-cve-2021-44228/&amp;do=findComment&amp;comment=9145) |  |  | cisagov | 2021-12-23 |
+| N-able |  |  |  | Unknown | [link](https://www.n-able.com/security-and-privacy/apache-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Nagios |  |  |  | Unknown | [link](https://www.nagios.com/news/2021/12/update-on-apache-log4j-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| NAKIVO |  |  |  | Unknown | [link](https://forum.nakivo.com/index.php?/topic/7574-log4j-cve-2021-44228/&amp;do=findComment&amp;comment=9145) |  |  | cisagov | 2021-12-30 |
 | Neo4j | Neo4j Graph Database | Version &gt;4.2,&lt;4..2.12 |  | Affected |  |  |  | cisagov | 2021-12-13 |
-| Netapp | Multiple NetApp products |  |  | Unknown | [link](https://security.netapp.com/advisory/ntap-20211210-0007/) |  |  | cisagov | 2021-12-23 |
-| Netcup |  |  |  | Unknown | [link](https://www.netcup-news.de/2021/12/14/pruefung-log4j-sicherheitsluecken-abgeschlossen/) |  |  | cisagov | 2021-12-23 |
-| NetGate PFSense |  |  |  | Unknown | [link](https://forum.netgate.com/topic/168417/java-log4j-vulnerability-is-pfsense-affected/35) |  |  | cisagov | 2021-12-23 |
-| Netwrix |  |  |  | Unknown | [link](https://www.netwrix.com/netwrix_statement_on_cve_2021_44228_the_apache_log4j_vulnerability.html) |  |  | cisagov | 2021-12-23 |
+| Netapp | Multiple NetApp products |  |  | Unknown | [link](https://security.netapp.com/advisory/ntap-20211210-0007/) |  |  | cisagov | 2021-12-30 |
+| Netcup |  |  |  | Unknown | [link](https://www.netcup-news.de/2021/12/14/pruefung-log4j-sicherheitsluecken-abgeschlossen/) |  |  | cisagov | 2021-12-30 |
+| NetGate PFSense |  |  |  | Unknown | [link](https://forum.netgate.com/topic/168417/java-log4j-vulnerability-is-pfsense-affected/35) |  |  | cisagov | 2021-12-30 |
+| Netwrix |  |  |  | Unknown | [link](https://www.netwrix.com/netwrix_statement_on_cve_2021_44228_the_apache_log4j_vulnerability.html) |  |  | cisagov | 2021-12-30 |
 | New Relic | Containerized Private Minion (CPM) |  | 3.0.57 | Fixed | [link](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr21-04/) | New Relic is in the process of revising  guidance/documentation, however the fix version remains sufficient. | [Security Bulletin NR21-04](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr21-04/) | cisagov | 2021-12-18 |
 | New Relic | New Relic Java Agent | &lt;7.4.3 |  | Affected | [link](https://docs.newrelic.com/docs/release-notes/agent-release-notes/java-release-notes/java-agent-743/) | Initially fixed in 7.4.2, but additional vulnerability found | [New Relic tracking](https://github.com/newrelic/newrelic-java-agent/issues/605), covers CVE-2021-44228, CVE-2021-45046 | cisagov | 2021-12-20 |
-| NextCloud |  |  |  | Unknown | [link](https://help.nextcloud.com/t/apache-log4j-does-not-affect-nextcloud/129244) |  |  | cisagov | 2021-12-23 |
+| NextCloud |  |  |  | Unknown | [link](https://help.nextcloud.com/t/apache-log4j-does-not-affect-nextcloud/129244) |  |  | cisagov | 2021-12-30 |
 | Nextflow | Nextflow |  |  | Not Affected | [link](https://www.nextflow.io/docs/latest/index.html) |  |  | cisagov | 2021-12-21 |
-| Nexus Group |  |  |  | Unknown | [link](https://doc.nexusgroup.com/pages/viewpage.action?pageId=83133294) |  |  | cisagov | 2021-12-23 |
-| NI (National Instruments) |  |  |  | Unknown | [link](https://www.ni.com/en-us/support/documentation/supplemental/21/ni-response-to-apache-log4j-vulnerability-.html) |  |  | cisagov | 2021-12-23 |
-| Nice Software (AWS) EnginFRAME |  |  |  | Unknown | [link](https://download.enginframe.com/) |  |  | cisagov | 2021-12-23 |
-| NinjaRMM |  |  |  | Unknown | [link](https://ninjarmm.zendesk.com/hc/en-us/articles/4416226194189-12-10-21-Security-Declaration-NinjaOne-not-affected-by-CVE-2021-44228-log4j-) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-23 |
-| Nomachine |  |  |  | Unknown | [link](https://forums.nomachine.com/topic/apache-log4j-notification) |  |  | cisagov | 2021-12-23 |
-| NoviFlow |  |  |  | Unknown | [link](https://noviflow.com/noviflow-products-and-the-log4shell-exploit-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| Nulab | Backlog |  | N/A (SaaS) | Fixed | [link](https://nulab.com/blog/company-news/log4shell/) |  |  | cisagov | 2021-12-23 |
-| Nulab | Backlog Enterprise (On-premises) |  | &lt; 1.11.7 | Fixed | [link](https://nulab.com/blog/company-news/log4shell/) |  |  | cisagov | 2021-12-23 |
-| Nulab | Cacoo |  | N/A (SaaS) | Fixed | [link](https://nulab.com/blog/company-news/log4shell/) |  |  | cisagov | 2021-12-23 |
-| Nulab | Cacoo Enterprise (On-premises) |  | &lt; 4.0.4 | Fixed | [link](https://nulab.com/blog/company-news/log4shell/) |  |  | cisagov | 2021-12-23 |
-| Nulab | Typetalk |  | N/A (SaaS) | Fixed | [link](https://nulab.com/blog/company-news/log4shell/) |  |  | cisagov | 2021-12-23 |
+| Nexus Group |  |  |  | Unknown | [link](https://doc.nexusgroup.com/pages/viewpage.action?pageId=83133294) |  |  | cisagov | 2021-12-30 |
+| NI (National Instruments) |  |  |  | Unknown | [link](https://www.ni.com/en-us/support/documentation/supplemental/21/ni-response-to-apache-log4j-vulnerability-.html) |  |  | cisagov | 2021-12-30 |
+| Nice Software (AWS) EnginFRAME |  |  |  | Unknown | [link](https://download.enginframe.com/) |  |  | cisagov | 2021-12-30 |
+| NinjaRMM |  |  |  | Unknown | [link](https://ninjarmm.zendesk.com/hc/en-us/articles/4416226194189-12-10-21-Security-Declaration-NinjaOne-not-affected-by-CVE-2021-44228-log4j-) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-30 |
+| Nomachine |  |  |  | Unknown | [link](https://forums.nomachine.com/topic/apache-log4j-notification) |  |  | cisagov | 2021-12-30 |
+| NoviFlow |  |  |  | Unknown | [link](https://noviflow.com/noviflow-products-and-the-log4shell-exploit-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| Nulab | Backlog |  | N/A (SaaS) | Fixed | [link](https://nulab.com/blog/company-news/log4shell/) |  |  | cisagov | 2021-12-30 |
+| Nulab | Backlog Enterprise (On-premises) |  | &lt; 1.11.7 | Fixed | [link](https://nulab.com/blog/company-news/log4shell/) |  |  | cisagov | 2021-12-30 |
+| Nulab | Cacoo |  | N/A (SaaS) | Fixed | [link](https://nulab.com/blog/company-news/log4shell/) |  |  | cisagov | 2021-12-30 |
+| Nulab | Cacoo Enterprise (On-premises) |  | &lt; 4.0.4 | Fixed | [link](https://nulab.com/blog/company-news/log4shell/) |  |  | cisagov | 2021-12-30 |
+| Nulab | Typetalk |  | N/A (SaaS) | Fixed | [link](https://nulab.com/blog/company-news/log4shell/) |  |  | cisagov | 2021-12-30 |
 | Nutanix | AHV |  |  | Not Affected | [link](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) |  |  | cisagov | 2021-12-20 |
 | Nutanix | AOS |  |  | Not Affected | [link](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) |  |  | cisagov | 2021-12-20 |
+| Nutanix | AOS |  | STS (including Prism Element) | Fixed | [link](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Patched in 6.0.2.4, available on the Portal for download. |  | cisagov | 2021-12-20 |
 | Nutanix | Beam |  |  | Unknown | [link](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. |  | cisagov | 2021-12-20 |
 | Nutanix | BeamGov |  |  | Unknown | [link](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. |  | cisagov | 2021-12-20 |
 | Nutanix | Calm |  |  | Not Affected | [link](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) |  |  | cisagov | 2021-12-20 |
@@ -2028,11 +2045,11 @@ This list was initially populated using information from the following sources:
 | Nutanix | Volumes |  |  | Not Affected | [link](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) |  |  | cisagov | 2021-12-20 |
 | Nutanix | Witness VM | All |  | Affected | [link](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Mitigation is available [here](https://portal.nutanix.com/kb/12491) |  | cisagov | 2021-12-20 |
 | Nutanix | X-Ray |  |  | Not Affected | [link](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) |  |  | cisagov | 2021-12-20 |
-| Nvidia |  |  |  | Unknown | [link](https://nvidia.custhelp.com/app/answers/detail/a_id/5294) |  |  | cisagov | 2021-12-23 |
-| NXLog |  |  |  | Unknown | [link](https://nxlog.co/news/apache-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Objectif Lune |  |  |  | Unknown | [link](https://learn.objectiflune.com/blog/security/statement-on-log4j-vulnerability-cve-2021-4428/) |  |  | cisagov | 2021-12-23 |
-| OCLC |  |  |  | Unknown | [link](https://oclc.service-now.com/status) |  |  | cisagov | 2021-12-23 |
-| Octopus |  |  |  | Unknown | [link](https://advisories.octopus.com/adv/December.2306508680.html) |  |  | cisagov | 2021-12-23 |
+| Nvidia |  |  |  | Unknown | [link](https://nvidia.custhelp.com/app/answers/detail/a_id/5294) |  |  | cisagov | 2021-12-30 |
+| NXLog |  |  |  | Unknown | [link](https://nxlog.co/news/apache-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Objectif Lune |  |  |  | Unknown | [link](https://learn.objectiflune.com/blog/security/statement-on-log4j-vulnerability-cve-2021-4428/) |  |  | cisagov | 2021-12-30 |
+| OCLC |  |  |  | Unknown | [link](https://oclc.service-now.com/status) |  |  | cisagov | 2021-12-30 |
+| Octopus |  |  |  | Unknown | [link](https://advisories.octopus.com/adv/December.2306508680.html) |  |  | cisagov | 2021-12-30 |
 | Okta | Advanced Server Access |  |  | Unknown | [link](https://sec.okta.com/articles/2021/12/log4shell) |  |  | cisagov | 2021-12-12 |
 | Okta | Okta Access Gateway |  |  | Unknown | [link](https://sec.okta.com/articles/2021/12/log4shell) |  |  | cisagov | 2021-12-12 |
 | Okta | Okta AD Agent |  |  | Unknown | [link](https://sec.okta.com/articles/2021/12/log4shell) |  |  | cisagov | 2021-12-12 |
@@ -2044,19 +2061,22 @@ This list was initially populated using information from the following sources:
 | Okta | Okta RADIUS Server Agent | &lt; 2.17.0 |  | Affected | [link](https://trust.okta.com/security-advisories/okta-radius-server-agent-cve-2021-44228) |  |  | cisagov | 2021-12-12 |
 | Okta | Okta Verify |  |  | Unknown | [link](https://sec.okta.com/articles/2021/12/log4shell) |  |  | cisagov | 2021-12-12 |
 | Okta | Okta Workflows |  |  | Unknown | [link](https://sec.okta.com/articles/2021/12/log4shell) |  |  | cisagov | 2021-12-12 |
-| Onespan |  |  |  | Unknown | [link](https://www.onespan.com/remote-code-execution-vulnerability-in-log4j2-cve-2018-11776) |  |  | cisagov | 2021-12-23 |
-| Opengear |  |  |  | Unknown | [link](https://opengear.zendesk.com/hc/en-us/articles/4412713339419-CVE-2021-44228-aka-Log4Shell-Opengear-products-are-not-affected) |  |  | cisagov | 2021-12-23 |
-| OpenMRS TALK |  |  |  | Unknown | [link](https://talk.openmrs.org/t/urgent-security-advisory-2021-12-11-re-apache-log4j-2/35341) |  |  | cisagov | 2021-12-23 |
-| OpenNMS |  |  |  | Unknown | [link](https://www.opennms.com/en/blog/2021-12-10-opennms-products-affected-by-apache-log4j-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| OpenSearch |  |  |  | Unknown | [link](https://discuss.opendistrocommunity.dev/t/log4j-patch-for-cve-2021-44228/7950) |  |  | cisagov | 2021-12-23 |
+| Onespan |  |  |  | Unknown | [link](https://www.onespan.com/remote-code-execution-vulnerability-in-log4j2-cve-2018-11776) |  |  | cisagov | 2021-12-30 |
+| Opengear |  |  |  | Unknown | [link](https://opengear.zendesk.com/hc/en-us/articles/4412713339419-CVE-2021-44228-aka-Log4Shell-Opengear-products-are-not-affected) |  |  | cisagov | 2021-12-30 |
+| OpenMRS TALK |  |  |  | Unknown | [link](https://talk.openmrs.org/t/urgent-security-advisory-2021-12-11-re-apache-log4j-2/35341) |  |  | cisagov | 2021-12-30 |
+| OpenNMS |  |  |  | Unknown | [link](https://www.opennms.com/en/blog/2021-12-10-opennms-products-affected-by-apache-log4j-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| OpenSearch |  |  |  | Unknown | [link](https://discuss.opendistrocommunity.dev/t/log4j-patch-for-cve-2021-44228/7950) |  |  | cisagov | 2021-12-30 |
+| OpenText |  |  |  | Unknown | [link](https://www.opentext.com/support/log4j-remote-code-execution-advisory) |  |  | cisagov | 2021-12-23 |
 | Oracle |  |  |  | Unknown | [link](https://www.oracle.com/security-alerts/alert-cve-2021-44228.html) | The support document is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-17 |
-| Orgavision |  |  |  | Unknown | [link](https://www.orgavision.com/neuigkeiten/sicherheitsluecke-java-library-log4j) |  |  | cisagov | 2021-12-23 |
-| Osirium | PAM |  |  | Unknown | [link](https://www.osirium.com/blog/apache-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Osirium | PEM |  |  | Unknown | [link](https://www.osirium.com/blog/apache-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Osirium | PPA |  |  | Unknown | [link](https://www.osirium.com/blog/apache-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
-| OTRS |  |  |  | Unknown | [link](https://portal.otrs.com/external) |  |  | cisagov | 2021-12-23 |
-| OVHCloud |  |  |  | Unknown | [link](https://blog.ovhcloud.com/log4shell-how-to-protect-my-cloud-workloads/) |  |  | cisagov | 2021-12-23 |
-| OwnCloud |  |  |  | Unknown | [link](https://central.owncloud.org/t/owncloud-not-directly-affected-by-log4j-vulnerability/35493) |  |  | cisagov | 2021-12-23 |
+| Oracle | Enterprise Manager | 13.5,13.4 &amp; 13.3.2 |  | Affected | [link](https://www.oracle.com/security-alerts/alert-cve-2021-44228.html) | Patch status and other security guidance is restricted to Oracle account/support members. The support document is available to customers only and has not been reviewed by CISA. |  | cisagov | 2021-12-17 |
+| Oracle | Exadata | &lt;21.3.4 |  | Affected | [link](https://www.oracle.com/security-alerts/alert-cve-2021-44228.html) | Patch status and other security guidance is restricted to Oracle account/support members. The support document is available to customers only and has not been reviewed by CISA. |  | cisagov | 2021-12-17 |
+| Orgavision |  |  |  | Unknown | [link](https://www.orgavision.com/neuigkeiten/sicherheitsluecke-java-library-log4j) |  |  | cisagov | 2021-12-30 |
+| Osirium | PAM |  |  | Unknown | [link](https://www.osirium.com/blog/apache-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Osirium | PEM |  |  | Unknown | [link](https://www.osirium.com/blog/apache-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Osirium | PPA |  |  | Unknown | [link](https://www.osirium.com/blog/apache-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
+| OTRS |  |  |  | Unknown | [link](https://portal.otrs.com/external) |  |  | cisagov | 2021-12-30 |
+| OVHCloud |  |  |  | Unknown | [link](https://blog.ovhcloud.com/log4shell-how-to-protect-my-cloud-workloads/) |  |  | cisagov | 2021-12-30 |
+| OwnCloud |  |  |  | Unknown | [link](https://central.owncloud.org/t/owncloud-not-directly-affected-by-log4j-vulnerability/35493) |  |  | cisagov | 2021-12-30 |
 | OxygenXML | Author |  |  | Unknown |  | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) |  | cisagov | 2021-12-17 |
 | OxygenXML | Developer |  |  | Unknown |  | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) |  | cisagov | 2021-12-17 |
 | OxygenXML | Editor |  |  | Unknown |  | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) |  | cisagov | 2021-12-17 |
@@ -2074,38 +2094,38 @@ This list was initially populated using information from the following sources:
 | Palantir | Palantir Apollo |  |  | Not Affected | [link](https://www.palantir.com/security-advisories/log4j-vulnerability/) | No impact, and updates have been deployed for full remediation. |  | cisagov | 2021-12-19 |
 | Palantir | Palantir Foundry |  | All | Fixed | [link](https://www.palantir.com/security-advisories/log4j-vulnerability/) | No impact to Palantir-hosted or Apollo-connected instances, and updates have been deployed for full remediation. Disconnected customer instances may require manual updates. |  | cisagov | 2021-12-19 |
 | Palantir | Palantir Gotham |  | All | Fixed | [link](https://www.palantir.com/security-advisories/log4j-vulnerability/) | No impact to Palantir-hosted or Apollo-connected instances, and updates have been deployed for full remediation. Disconnected customer instances may require manual updates. |  | cisagov | 2021-12-19 |
-| Palo-Alto Networks | Bridgecrew |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | CloudGenix |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | Cortex Data Lake |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | Cortex XDR Agent |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | Cortex Xpanse |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | Cortex XSOAR |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | Expedition |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | GlobalProtect App |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | IoT Security |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | Okyo Grade |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | Palo-Alto Networks-OS for Firewall and Wildfire |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
+| Palo-Alto Networks | Bridgecrew |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | CloudGenix |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | Cortex Data Lake |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | Cortex XDR Agent |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | Cortex Xpanse |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | Cortex XSOAR |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | Expedition |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | GlobalProtect App |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | IoT Security |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | Okyo Grade |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | Palo-Alto Networks-OS for Firewall and Wildfire |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
 | Palo-Alto Networks | Palo-Alto Networks-OS for Panorama | 9.0,9.1,10.0 |  | Affected | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  | Upgrade Panorama to PAN-OS 10.1 to remediate this issue. This advisory will be updated when hot fixes for the affected Panorama versions are available. PAN-OS for Panorama versions 8.1, 10.1 are not affected. | cisagov | 2021-12-15 |
-| Palo-Alto Networks | Prisma Access |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | Prisma Cloud |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | Prisma Cloud Compute |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | SaaS Security |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | User-ID Agent |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | WildFire Appliance |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Palo-Alto Networks | WildFire Cloud |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Panopto |  |  |  | Unknown | [link](https://support.panopto.com/s/article/Panopto-Statement-on-the-Log4j2-Zero-Day-Vulnerability) |  |  | cisagov | 2021-12-23 |
+| Palo-Alto Networks | Prisma Access |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | Prisma Cloud |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | Prisma Cloud Compute |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | SaaS Security |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | User-ID Agent |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | WildFire Appliance |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Palo-Alto Networks | WildFire Cloud |  |  | Unknown | [link](https://security.paloaltonetworks.com/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Panopto |  |  |  | Unknown | [link](https://support.panopto.com/s/article/Panopto-Statement-on-the-Log4j2-Zero-Day-Vulnerability) |  |  | cisagov | 2021-12-30 |
 | PaperCut | PaperCut MF | 21.0 and later |  | Affected | [link](https://www.papercut.com/support/known-issues/?id=PO-684#ng) | Versions 21.0 and later are impacted. Versions 20 and earlier are NOT impacted by this. Workaround manual steps available in reference. Upgrade to PaperCut NG/MF version 21.2.3 Now Available to resolve. |  | cisagov | 2021-12-16 |
 | PaperCut | PaperCut NG | 21.0 and later |  | Affected | [link](https://www.papercut.com/support/known-issues/?id=PO-684#ng) | Versions 21.0 and later are impacted. Versions 20 and earlier are NOT impacted by this. Workaround manual steps available in reference. Upgrade to PaperCut NG/MF version 21.2.3 Now Available to resolve. |  | cisagov | 2021-12-16 |
-| Parallels |  |  |  | Unknown | [link](https://kb.parallels.com/en/128696) |  |  | cisagov | 2021-12-23 |
-| Parse.ly |  |  |  | Unknown | [link](https://blog.parse.ly/parse-ly-log4shell/) |  |  | cisagov | 2021-12-23 |
+| Parallels |  |  |  | Unknown | [link](https://kb.parallels.com/en/128696) |  |  | cisagov | 2021-12-30 |
+| Parse.ly |  |  |  | Unknown | [link](https://blog.parse.ly/parse-ly-log4shell/) |  |  | cisagov | 2021-12-30 |
 | PBXMonitor | RMM for 3CX PBX |  |  | Unknown | [link](https://www.pbxmonitor.net/changelog.php) | Mirror Servers were also checked to ensure Log4J was not installed or being used by any of our systems. |  | cisagov | 2021-12-22 |
-| Pega |  |  |  | Unknown | [link](https://docs.pega.com/security-advisory/security-advisory-apache-log4j-zero-day-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Pentaho |  |  |  | Unknown | [link](https://support.pentaho.com/hc/en-us/articles/4416229254541-log4j-2-zero-day-vulnerability-No-impact-to-supported-versions-of-Pentaho-) |  |  | cisagov | 2021-12-23 |
+| Pega |  |  |  | Unknown | [link](https://docs.pega.com/security-advisory/security-advisory-apache-log4j-zero-day-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Pentaho |  |  |  | Unknown | [link](https://support.pentaho.com/hc/en-us/articles/4416229254541-log4j-2-zero-day-vulnerability-No-impact-to-supported-versions-of-Pentaho-) |  |  | cisagov | 2021-12-30 |
 | Pepperl+Fuchs |  |  |  | Unknown | [link](https://www.pepperl-fuchs.com/global/en/29079.htm) |  |  | cisagov | 2021-12-21 |
-| Percona |  |  |  | Unknown | [link](https://www.percona.com/blog/log4jshell-vulnerability-update/) |  |  | cisagov | 2021-12-23 |
-| Pexip |  |  |  | Unknown | [link](https://www.pexip.com/blog1.0/pexip-statement-on-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Phenix Id |  |  |  | Unknown | [link](https://support.phenixid.se/uncategorized/log4j-fix/) |  |  | cisagov | 2021-12-23 |
-| Philips | Multiple products |  |  | Unknown | [link](https://www.philips.com/a-w/security/security-advisories.html) |  |  | cisagov | 2021-12-23 |
+| Percona |  |  |  | Unknown | [link](https://www.percona.com/blog/log4jshell-vulnerability-update/) |  |  | cisagov | 2021-12-30 |
+| Pexip |  |  |  | Unknown | [link](https://www.pexip.com/blog1.0/pexip-statement-on-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Phenix Id |  |  |  | Unknown | [link](https://support.phenixid.se/uncategorized/log4j-fix/) |  |  | cisagov | 2021-12-30 |
+| Philips | Multiple products |  |  | Unknown | [link](https://www.philips.com/a-w/security/security-advisories.html) |  |  | cisagov | 2021-12-30 |
 | PHOENIX CONTACT | Cloud Services |  |  | Unknown | [link](https://dam-mdc.phoenixcontact.com/asset/156443151564/1a0f6db6bbc86540bfe4f05fd65877f4/Vulnerability_Statement_Log4J_20211215.pdf) | Partly affected. Remediations are being implemented. |  | cisagov | 2021-12-22 |
 | PHOENIX CONTACT | Physical products containing firmware |  |  | Unknown | [link](https://dam-mdc.phoenixcontact.com/asset/156443151564/1a0f6db6bbc86540bfe4f05fd65877f4/Vulnerability_Statement_Log4J_20211215.pdf) |  |  | cisagov | 2021-12-22 |
 | PHOENIX CONTACT | Software Products |  |  | Unknown | [link](https://dam-mdc.phoenixcontact.com/asset/156443151564/1a0f6db6bbc86540bfe4f05fd65877f4/Vulnerability_Statement_Log4J_20211215.pdf) |  |  | cisagov | 2021-12-22 |
@@ -2115,67 +2135,67 @@ This list was initially populated using information from the following sources:
 | Ping Identity | PingFederate Java Integration Kit | &lt; 2.7.2 |  | Affected | [link](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) |  |  | cisagov | 2021-12-15 |
 | Ping Identity | PingFederate OAuth Playground | &lt; 4.3.1 |  | Affected | [link](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) |  |  | cisagov | 2021-12-15 |
 | Ping Identity | PingIntelligence |  |  | Unknown | [link](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) |  |  | cisagov | 2021-12-15 |
-| Pitney Bowes |  |  |  | Unknown | [link](https://www.pitneybowes.com/us/support/apache-log4j-vulnerability.html) |  |  | cisagov | 2021-12-23 |
-| Planmeca |  |  |  | Unknown | [link](https://www.planmeca.com/apache-log4j-vulnerability-in-planmeca-products/) |  |  | cisagov | 2021-12-23 |
-| Planon Software |  |  |  | Unknown | [link](https://my.planonsoftware.com/uk/news/log4j-impact-on-planon/) | This advisory is available for customers only and has not been reviewed by CISA |  | cisagov | 2021-12-23 |
-| Platform.SH |  |  |  | Unknown | [link](https://platform.sh/blog/2021/platformsh-protects-from-apache-log4j/) |  |  | cisagov | 2021-12-23 |
-| Plesk |  |  |  | Unknown | [link](https://support.plesk.com/hc/en-us/articles/4412182812818-CVE-2021-44228-vulnerability-in-log4j-package-of-Apache) |  |  | cisagov | 2021-12-23 |
+| Pitney Bowes |  |  |  | Unknown | [link](https://www.pitneybowes.com/us/support/apache-log4j-vulnerability.html) |  |  | cisagov | 2021-12-30 |
+| Planmeca |  |  |  | Unknown | [link](https://www.planmeca.com/apache-log4j-vulnerability-in-planmeca-products/) |  |  | cisagov | 2021-12-30 |
+| Planon Software |  |  |  | Unknown | [link](https://my.planonsoftware.com/uk/news/log4j-impact-on-planon/) | This advisory is available for customers only and has not been reviewed by CISA |  | cisagov | 2021-12-30 |
+| Platform.SH |  |  |  | Unknown | [link](https://platform.sh/blog/2021/platformsh-protects-from-apache-log4j/) |  |  | cisagov | 2021-12-30 |
+| Plesk |  |  |  | Unknown | [link](https://support.plesk.com/hc/en-us/articles/4412182812818-CVE-2021-44228-vulnerability-in-log4j-package-of-Apache) |  |  | cisagov | 2021-12-30 |
 | Plex | Plex Industrial IoT |  |  | Unknown | [link](https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605) | The product has been updated to Log4j version 2.15. An additional patch is being developed to update to 2.16. No user interaction is required. |  | cisagov | 2021-12-15 |
-| Polycom |  |  |  | Unknown | [link](https://support.polycom.com/content/dam/polycom-support/global/documentation/plygn-21-08-poly-systems-apache.pdf) |  |  | cisagov | 2021-12-23 |
-| Portainer |  |  |  | Unknown | [link](https://www.portainer.io/blog/portainer-statement-re-log4j-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| PortSwigger |  |  |  | Unknown | [link](https://forum.portswigger.net/thread/are-burp-collaborator-or-burp-enterprise-vulnerable-to-log4j-dc6524e0) |  |  | cisagov | 2021-12-23 |
-| PostGreSQL |  |  |  | Unknown | [link](https://www.postgresql.org/about/news/postgresql-jdbc-and-the-log4j-cve-2371/) |  |  | cisagov | 2021-12-23 |
-| Postman |  |  |  | Unknown | [link](https://support.postman.com/hc/en-us/articles/4415791933335-Is-Postman-impacted-by-the-Log4j-vulnerability-CVE-2021-44228-) |  |  | cisagov | 2021-12-23 |
+| Polycom |  |  |  | Unknown | [link](https://support.polycom.com/content/dam/polycom-support/global/documentation/plygn-21-08-poly-systems-apache.pdf) |  |  | cisagov | 2021-12-30 |
+| Portainer |  |  |  | Unknown | [link](https://www.portainer.io/blog/portainer-statement-re-log4j-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| PortSwigger |  |  |  | Unknown | [link](https://forum.portswigger.net/thread/are-burp-collaborator-or-burp-enterprise-vulnerable-to-log4j-dc6524e0) |  |  | cisagov | 2021-12-30 |
+| PostGreSQL |  |  |  | Unknown | [link](https://www.postgresql.org/about/news/postgresql-jdbc-and-the-log4j-cve-2371/) |  |  | cisagov | 2021-12-30 |
+| Postman |  |  |  | Unknown | [link](https://support.postman.com/hc/en-us/articles/4415791933335-Is-Postman-impacted-by-the-Log4j-vulnerability-CVE-2021-44228-) |  |  | cisagov | 2021-12-30 |
 | Power Admin LLC | PA File Sight |  |  | Not Affected |  |  |  | cisagov | 2021-12-17 |
 | Power Admin LLC | PA Server Monitor |  |  | Not Affected |  |  |  | cisagov | 2021-12-17 |
 | Power Admin LLC | PA Storage Monitor |  |  | Not Affected |  |  |  | cisagov | 2021-12-17 |
-| Pretix |  |  |  | Unknown | [link](https://pretix.eu/about/de/blog/20211213-log4j/) |  |  | cisagov | 2021-12-23 |
-| PrimeKey |  |  |  | Unknown | [link](https://support.primekey.com/news/posts/information-about-primekey-products-and-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Progress / IpSwitch |  |  |  | Unknown | [link](https://www.progress.com/security) |  |  | cisagov | 2021-12-23 |
-| ProofPoint |  |  |  | Unknown | [link](https://proofpointcommunities.force.com/community/s/article/Proofpoint-Statement-Regarding-CVE-2021-44228-Java-logging-package-log4j2) | This advisory is available for customers only and has not been reviewed by CISA |  | cisagov | 2021-12-23 |
-| ProSeS |  |  |  | Unknown | [link](https://www.proses.de/en/2021/12/16/log4shell-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| Prosys |  |  |  | Unknown | [link](https://prosysopc.com/news/important-security-release/) |  |  | cisagov | 2021-12-23 |
-| Proxmox |  |  |  | Unknown | [link](https://forum.proxmox.com/threads/log4j-exploit-what-to-do.101254/#post-436880) |  |  | cisagov | 2021-12-23 |
-| PRTG Paessler |  |  |  | Unknown | [link](https://kb.paessler.com/en/topic/90213-is-prtg-affected-by-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
+| Pretix |  |  |  | Unknown | [link](https://pretix.eu/about/de/blog/20211213-log4j/) |  |  | cisagov | 2021-12-30 |
+| PrimeKey |  |  |  | Unknown | [link](https://support.primekey.com/news/posts/information-about-primekey-products-and-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Progress / IpSwitch |  |  |  | Unknown | [link](https://www.progress.com/security) |  |  | cisagov | 2021-12-30 |
+| ProofPoint |  |  |  | Unknown | [link](https://proofpointcommunities.force.com/community/s/article/Proofpoint-Statement-Regarding-CVE-2021-44228-Java-logging-package-log4j2) | This advisory is available for customers only and has not been reviewed by CISA |  | cisagov | 2021-12-30 |
+| ProSeS |  |  |  | Unknown | [link](https://www.proses.de/en/2021/12/16/log4shell-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| Prosys |  |  |  | Unknown | [link](https://prosysopc.com/news/important-security-release/) |  |  | cisagov | 2021-12-30 |
+| Proxmox |  |  |  | Unknown | [link](https://forum.proxmox.com/threads/log4j-exploit-what-to-do.101254/#post-436880) |  |  | cisagov | 2021-12-30 |
+| PRTG Paessler |  |  |  | Unknown | [link](https://kb.paessler.com/en/topic/90213-is-prtg-affected-by-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
 | PTC | Axeda Platform | 6.9.2 |  | Affected | [link](https://www.ptc.com/en/support/article/CS358990) |  |  | cisagov | 2021-12-17 |
 | PTC | ThingsWorx Analytics | 8.5,9.0,9.1,9.2,All supported versions |  | Affected | [link](https://www.ptc.com/en/support/article/CS358901) |  |  | cisagov | 2021-12-17 |
 | PTC | ThingsWorx Platform | 8.5,9.0,9.1,9.2,All supported versions |  | Affected | [link](https://www.ptc.com/en/support/article/CS358901) |  |  | cisagov | 2021-12-17 |
-| PTV Group |  |  |  | Unknown | [link](https://company.ptvgroup.com/en/resources/service-support/log4j-latest-information) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Ivanti Connect Secure (ICS) |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Ivanti Neurons for secure Access |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Ivanti Neurons for secure Access |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Ivanti Neurons for ZTA |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Ivanti Neurons for ZTA |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Pulse Connect Secure |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Pulse Desktop Client |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Pulse Mobile Client |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Pulse One |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Pulse Policy Secure |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Pulse Secure Services Director |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Pulse Secure Virtual Traffic Manager |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Pulse Secure Web Application Firewall |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Pulse Secure | Pulse ZTA |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-23 |
-| Puppet |  |  |  | Unknown | [link](https://puppet.com/blog/puppet-response-to-remote-code-execution-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| Pure Storage |  |  |  | Unknown | [link](https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_(%22log4j%22)) | This advisory is available for customers only and has not been reviewed by CISA |  | cisagov | 2021-12-23 |
+| PTV Group |  |  |  | Unknown | [link](https://company.ptvgroup.com/en/resources/service-support/log4j-latest-information) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Ivanti Connect Secure (ICS) |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Ivanti Neurons for secure Access |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Ivanti Neurons for secure Access |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Ivanti Neurons for ZTA |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Ivanti Neurons for ZTA |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Pulse Connect Secure |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Pulse Desktop Client |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Pulse Mobile Client |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Pulse One |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Pulse Policy Secure |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Pulse Secure Services Director |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Pulse Secure Virtual Traffic Manager |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Pulse Secure Web Application Firewall |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Pulse Secure | Pulse ZTA |  |  | Unknown | [link](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  |  | cisagov | 2021-12-30 |
+| Puppet |  |  |  | Unknown | [link](https://puppet.com/blog/puppet-response-to-remote-code-execution-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| Pure Storage |  |  |  | Unknown | [link](https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_(%22log4j%22)) | This advisory is available for customers only and has not been reviewed by CISA |  | cisagov | 2021-12-30 |
 | Pure Storage | Cloud Blockstore | CBS6.1.x,CBS6.2.x |  | Affected | [link](https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j) | Patch expected 12/27/2021 |  | cisagov | 2021-12-15 |
 | Pure Storage | Flash Array | 5.3.x,6.0.x,6.1.x,6.2.x |  | Affected | [link](https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j) | Patch expected 12/20/2021 |  | cisagov | 2021-12-15 |
 | Pure Storage | FlashBlade | 3.1.x,3.2.x,3.3.x |  | Affected | [link](https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j) | Patch expected 12/24/2021 |  | cisagov | 2021-12-15 |
 | Pure Storage | PortWorx | 2.8.0+ |  | Affected | [link](https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j) |  |  | cisagov | 2021-12-15 |
 | Pure Storage | Pure1 |  | N/A | Fixed | [link](https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j) |  |  | cisagov | 2021-12-15 |
-| Pyramid Analytics |  |  |  | Unknown | [link](https://community.pyramidanalytics.com/t/83hjjt4/log4j-security-vulnerability-pyramid) |  |  | cisagov | 2021-12-23 |
-| QF-Test |  |  |  | Unknown | [link](https://www.qfs.de/en/blog/article/no-log4j-vulnerability-in-qf-test.html) |  |  | cisagov | 2021-12-23 |
-| Qlik |  |  |  | Unknown | [link](https://community.qlik.com/t5/Support-Updates-Blog/Vulnerability-Testing-Apache-Log4j-reference-CVE-2021-44228-also/ba-p/1869368) |  |  | cisagov | 2021-12-23 |
+| Pyramid Analytics |  |  |  | Unknown | [link](https://community.pyramidanalytics.com/t/83hjjt4/log4j-security-vulnerability-pyramid) |  |  | cisagov | 2021-12-30 |
+| QF-Test |  |  |  | Unknown | [link](https://www.qfs.de/en/blog/article/no-log4j-vulnerability-in-qf-test.html) |  |  | cisagov | 2021-12-30 |
+| Qlik |  |  |  | Unknown | [link](https://community.qlik.com/t5/Support-Updates-Blog/Vulnerability-Testing-Apache-Log4j-reference-CVE-2021-44228-also/ba-p/1869368) |  |  | cisagov | 2021-12-30 |
 | QMATIC | Appointment Booking | 2.4+ |  | Affected | [link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | Update to v. 2.8.2 which contains log4j 2.16 |  | cisagov | 2021-12-21 |
 | QMATIC | Appointment Booking | Cloud/Managed Service |  | Affected | [link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | log4j 2.16 applied 2021-12-15 |  | cisagov | 2021-12-21 |
 | QMATIC | Insights | Cloud |  | Affected | [link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | log4j 2.16 applied 2021-12-16 |  | cisagov | 2021-12-21 |
 | QMATIC | Orchestra Central |  |  | Not Affected | [link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) |  |  | cisagov | 2021-12-21 |
-| QNAP |  |  |  | Unknown | [link](https://www.qnap.com/en-uk/security-advisory/qsa-21-58) |  |  | cisagov | 2021-12-23 |
-| QOPPA |  |  |  | Unknown | [link](https://kbdeveloper.qoppa.com/cve-2021-44228-apache-log4j-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| QSC Q-SYS |  |  |  | Unknown | [link](https://qscprod.force.com/selfhelpportal/s/article/Are-Q-SYS-products-affected-by-the-Log4j-vulnerability-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| QT |  |  |  | Unknown | [link](https://www.qt.io/blog/the-qt-company-products-not-affected-by-cve-2021-44228-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Quest Global |  |  |  | Unknown | [link](https://support.quest.com/fr-fr/search#q=CVE-2021-44228&amp;t=Global) |  |  | cisagov | 2021-12-23 |
-| R2ediviewer |  |  |  | Unknown | [link](https://r2ediviewer.de/DE/reload.html?Change-log_17858584.html) |  |  | cisagov | 2021-12-23 |
-| Radware |  |  |  | Unknown | [link](https://support.radware.com/app/answers/answer_view/a_id/1029752) |  |  | cisagov | 2021-12-23 |
+| QNAP |  |  |  | Unknown | [link](https://www.qnap.com/en-uk/security-advisory/qsa-21-58) |  |  | cisagov | 2021-12-30 |
+| QOPPA |  |  |  | Unknown | [link](https://kbdeveloper.qoppa.com/cve-2021-44228-apache-log4j-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| QSC Q-SYS |  |  |  | Unknown | [link](https://qscprod.force.com/selfhelpportal/s/article/Are-Q-SYS-products-affected-by-the-Log4j-vulnerability-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| QT |  |  |  | Unknown | [link](https://www.qt.io/blog/the-qt-company-products-not-affected-by-cve-2021-44228-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Quest Global |  |  |  | Unknown | [link](https://support.quest.com/fr-fr/search#q=CVE-2021-44228&amp;t=Global) |  |  | cisagov | 2021-12-30 |
+| R2ediviewer |  |  |  | Unknown | [link](https://r2ediviewer.de/DE/reload.html?Change-log_17858584.html) |  |  | cisagov | 2021-12-30 |
+| Radware |  |  |  | Unknown | [link](https://support.radware.com/app/answers/answer_view/a_id/1029752) |  |  | cisagov | 2021-12-30 |
 | Rapid7 | AlcidekArt, kAdvisor, and kAudit |  |  | Not Affected | [link](https://www.rapid7.com/blog/post/2021/12/14/update-on-log4shells-impact-on-rapid7-solutions-and-systems/?mkt_tok=NDExLU5BSy05NzAAAAGBVaccW1DOLSfEsfTNwEJksv_1nK1muJSFze-Lle90mKtAO78nSdjwPdzqXskNIi9qZCAGQODD42mYRK4YPlQkjhn38E27HQxFHdHAkypEOsh8) |  |  | cisagov | 2021-12-15 |
 | Rapid7 | AppSpider Enterprise |  |  | Not Affected | [link](https://www.rapid7.com/blog/post/2021/12/14/update-on-log4shells-impact-on-rapid7-solutions-and-systems/?mkt_tok=NDExLU5BSy05NzAAAAGBVaccW1DOLSfEsfTNwEJksv_1nK1muJSFze-Lle90mKtAO78nSdjwPdzqXskNIi9qZCAGQODD42mYRK4YPlQkjhn38E27HQxFHdHAkypEOsh8) |  |  | cisagov | 2021-12-15 |
 | Rapid7 | AppSpider Pro |  |  | Not Affected | [link](https://www.rapid7.com/blog/post/2021/12/14/update-on-log4shells-impact-on-rapid7-solutions-and-systems/?mkt_tok=NDExLU5BSy05NzAAAAGBVaccW1DOLSfEsfTNwEJksv_1nK1muJSFze-Lle90mKtAO78nSdjwPdzqXskNIi9qZCAGQODD42mYRK4YPlQkjhn38E27HQxFHdHAkypEOsh8) |  |  | cisagov | 2021-12-15 |
@@ -2200,8 +2220,8 @@ This list was initially populated using information from the following sources:
 | Rapid7 | Metasploit Pro |  |  | Not Affected | [link](https://www.rapid7.com/blog/post/2021/12/14/update-on-log4shells-impact-on-rapid7-solutions-and-systems/?mkt_tok=NDExLU5BSy05NzAAAAGBVaccW1DOLSfEsfTNwEJksv_1nK1muJSFze-Lle90mKtAO78nSdjwPdzqXskNIi9qZCAGQODD42mYRK4YPlQkjhn38E27HQxFHdHAkypEOsh8) | Metasploit Pro ships with log4j but has specific configurations applied to it that mitigate Log4Shell. A future update will contain a fully patched version of log4j. |  | cisagov | 2021-12-15 |
 | Rapid7 | tCell Java Agent |  |  | Not Affected | [link](https://www.rapid7.com/blog/post/2021/12/14/update-on-log4shells-impact-on-rapid7-solutions-and-systems/?mkt_tok=NDExLU5BSy05NzAAAAGBVaccW1DOLSfEsfTNwEJksv_1nK1muJSFze-Lle90mKtAO78nSdjwPdzqXskNIi9qZCAGQODD42mYRK4YPlQkjhn38E27HQxFHdHAkypEOsh8) |  |  | cisagov | 2021-12-15 |
 | Rapid7 | Velociraptor |  |  | Not Affected | [link](https://www.rapid7.com/blog/post/2021/12/14/update-on-log4shells-impact-on-rapid7-solutions-and-systems/?mkt_tok=NDExLU5BSy05NzAAAAGBVaccW1DOLSfEsfTNwEJksv_1nK1muJSFze-Lle90mKtAO78nSdjwPdzqXskNIi9qZCAGQODD42mYRK4YPlQkjhn38E27HQxFHdHAkypEOsh8) |  |  | cisagov | 2021-12-15 |
-| Raritan |  |  |  | Unknown | [link](https://www.raritan.com/support) |  |  | cisagov | 2021-12-23 |
-| Ravelin |  |  |  | Unknown | [link](https://syslog.ravelin.com/log4shell-cve-2021-44228-4338bb8da67b) |  |  | cisagov | 2021-12-23 |
+| Raritan |  |  |  | Unknown | [link](https://www.raritan.com/support) |  |  | cisagov | 2021-12-30 |
+| Ravelin |  |  |  | Unknown | [link](https://syslog.ravelin.com/log4shell-cve-2021-44228-4338bb8da67b) |  |  | cisagov | 2021-12-30 |
 | Real-Time Innovations (RTI) | Distributed Logger |  |  | Unknown | [link](https://community.rti.com/kb/apache-log4j-vulnerability-cve-2021-44228cve-2021-45046-impact-rti-connext-products) |  |  | cisagov | 2021-12-16 |
 | Real-Time Innovations (RTI) | Recording Console |  |  | Unknown | [link](https://community.rti.com/kb/apache-log4j-vulnerability-cve-2021-44228cve-2021-45046-impact-rti-connext-products) |  |  | cisagov | 2021-12-16 |
 | Real-Time Innovations (RTI) | RTI Administration Console |  |  | Unknown | [link](https://community.rti.com/kb/apache-log4j-vulnerability-cve-2021-44228cve-2021-45046-impact-rti-connext-products) |  |  | cisagov | 2021-12-16 |
@@ -2238,43 +2258,43 @@ This list was initially populated using information from the following sources:
 | Red Hat | Red Hat Vert.X |  | 4 | Fixed | [link](https://access.redhat.com/security/cve/cve-2021-44228) | [RHSA-2021:5093](https://access.redhat.com/errata/RHSA-2021:5093) |  | cisagov | 2021-12-21 |
 | Red Hat | Satellite 5 |  |  | Unknown | [link](https://access.redhat.com/security/cve/cve-2021-44228) |  |  | cisagov | 2021-12-21 |
 | Red Hat | Spacewalk |  |  | Unknown | [link](https://access.redhat.com/security/cve/cve-2021-44228) |  |  | cisagov | 2021-12-21 |
-| Red5Pro |  |  |  | Unknown | [link](https://www.red5pro.com/blog/red5-marked-safe-from-log4j-and-log4j2-zero-day/) |  |  | cisagov | 2021-12-23 |
-| RedGate |  |  |  | Unknown | [link](https://www.red-gate.com/privacy-and-security/vulnerabilities/2021-12-15-log4j-statement) |  |  | cisagov | 2021-12-23 |
-| Redis |  |  |  | Unknown | [link](https://redis.com/security/notice-apache-log4j2-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| Reiner SCT |  |  |  | Unknown | [link](https://forum.reiner-sct.com/index.php?/topic/5973-timecard-und-log4j-schwachstelle/&amp;do=findComment&amp;comment=14933) |  |  | cisagov | 2021-12-23 |
-| ReportURI |  |  |  | Unknown | [link](https://scotthelme.co.uk/responding-to-the-log4j-2-vulnerability/) |  |  | cisagov | 2021-12-23 |
+| Red5Pro |  |  |  | Unknown | [link](https://www.red5pro.com/blog/red5-marked-safe-from-log4j-and-log4j2-zero-day/) |  |  | cisagov | 2021-12-30 |
+| RedGate |  |  |  | Unknown | [link](https://www.red-gate.com/privacy-and-security/vulnerabilities/2021-12-15-log4j-statement) |  |  | cisagov | 2021-12-30 |
+| Redis |  |  |  | Unknown | [link](https://redis.com/security/notice-apache-log4j2-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| Reiner SCT |  |  |  | Unknown | [link](https://forum.reiner-sct.com/index.php?/topic/5973-timecard-und-log4j-schwachstelle/&amp;do=findComment&amp;comment=14933) |  |  | cisagov | 2021-12-30 |
+| ReportURI |  |  |  | Unknown | [link](https://scotthelme.co.uk/responding-to-the-log4j-2-vulnerability/) |  |  | cisagov | 2021-12-30 |
 | ResMed | AirView |  |  | Unknown | [link](https://www.resmed.com/en-us/security/) |  |  | cisagov | 2021-12-21 |
 | ResMed | myAir |  |  | Unknown | [link](https://www.resmed.com/en-us/security/) |  |  | cisagov | 2021-12-21 |
-| Respondus |  |  |  | Unknown | [link](https://support.respondus.com/support/index.php?/News/NewsItem/View/339) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-23 |
-| Revenera / Flexera |  |  |  | Unknown | [link](https://community.flexera.com/t5/Revenera-Company-News/Security-Advisory-Log4j-Java-Vulnerability-CVE-2021-44228/ba-p/216905) |  |  | cisagov | 2021-12-23 |
-| Ricoh |  |  |  | Unknown | [link](https://www.ricoh.com/info/2021/1215_1/) |  |  | cisagov | 2021-12-23 |
-| RingCentral |  |  |  | Unknown | [link](https://www.ringcentral.com/trust-center/security-bulletin.html) |  |  | cisagov | 2021-12-23 |
-| Riverbed |  |  |  | Unknown | [link](https://supportkb.riverbed.com/support/index?page=content&amp;id=S35645) |  |  | cisagov | 2021-12-23 |
+| Respondus |  |  |  | Unknown | [link](https://support.respondus.com/support/index.php?/News/NewsItem/View/339) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-30 |
+| Revenera / Flexera |  |  |  | Unknown | [link](https://community.flexera.com/t5/Revenera-Company-News/Security-Advisory-Log4j-Java-Vulnerability-CVE-2021-44228/ba-p/216905) |  |  | cisagov | 2021-12-30 |
+| Ricoh |  |  |  | Unknown | [link](https://www.ricoh.com/info/2021/1215_1/) |  |  | cisagov | 2021-12-30 |
+| RingCentral |  |  |  | Unknown | [link](https://www.ringcentral.com/trust-center/security-bulletin.html) |  |  | cisagov | 2021-12-30 |
+| Riverbed |  |  |  | Unknown | [link](https://supportkb.riverbed.com/support/index?page=content&amp;id=S35645) |  |  | cisagov | 2021-12-30 |
 | Rockwell Automation | FactoryTalk Analytics DataFlowML | 4.00.00 |  | Affected | [link](https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605) |  |  | cisagov | 2021-12-15 |
 | Rockwell Automation | FactoryTalk Analytics DataView | 3.03.00 |  | Affected | [link](https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605) |  |  | cisagov | 2021-12-15 |
 | Rockwell Automation | Industrial Data Center |  | Gen 1,Gen 2,Gen 3,Gen 3.5 | Fixed | [link](https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605) |  |  | cisagov | 2021-12-15 |
 | Rockwell Automation | MES EIG | 3.03.00 |  | Affected | [link](https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605) | Customers should upgrade to EIG Hub if possible or work with their local representatives about alternative solutions. |  | cisagov | 2021-12-15 |
 | Rockwell Automation | VersaVirtual |  | Series A | Fixed | [link](https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605) |  |  | cisagov | 2021-12-15 |
 | Rockwell Automation | Warehouse Management | 4.01.00,4.02.00,4.02.01,4.02.02 |  | Affected | [link](https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605) |  |  | cisagov | 2021-12-15 |
-| Rollbar |  |  |  | Unknown | [link](https://rollbar.com/blog/log4j-zero-day-2021-log4shell/) |  |  | cisagov | 2021-12-23 |
-| Rosette.com |  |  |  | Unknown | [link](https://support.rosette.com/hc/en-us/articles/4416216525965-Log4j-Vulnerability) |  |  | cisagov | 2021-12-23 |
+| Rollbar |  |  |  | Unknown | [link](https://rollbar.com/blog/log4j-zero-day-2021-log4shell/) |  |  | cisagov | 2021-12-30 |
+| Rosette.com |  |  |  | Unknown | [link](https://support.rosette.com/hc/en-us/articles/4416216525965-Log4j-Vulnerability) |  |  | cisagov | 2021-12-30 |
 | R | R |  |  | Not Affected | [link](https://www.r-project.org/) |  |  | cisagov | 2021-12-21 |
-| RSA Netwitness |  |  |  | Unknown | [link](https://community.rsa.com/t5/netwitness-platform-product/netwitness-apache-vulnerability-log4j2-cve-2021-44228-nbsp/ta-p/660540) |  |  | cisagov | 2021-12-23 |
-| RSA | SecurID Authentication Manager |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
-| RSA | SecurID Authentication Manager Prime |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
-| RSA | SecurID Authentication Manager WebTier |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
-| RSA | SecurID Governance and Lifecycle |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
-| RSA | SecurID Governance and Lifecycle Cloud |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
-| RSA | SecurID Identity Router |  |  | Unknown |  |  |  | cisagov | 2021-12-23 |
+| RSA Netwitness |  |  |  | Unknown | [link](https://community.rsa.com/t5/netwitness-platform-product/netwitness-apache-vulnerability-log4j2-cve-2021-44228-nbsp/ta-p/660540) |  |  | cisagov | 2021-12-30 |
+| RSA | SecurID Authentication Manager |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
+| RSA | SecurID Authentication Manager Prime |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
+| RSA | SecurID Authentication Manager WebTier |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
+| RSA | SecurID Governance and Lifecycle |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
+| RSA | SecurID Governance and Lifecycle Cloud |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
+| RSA | SecurID Identity Router |  |  | Unknown |  |  |  | cisagov | 2021-12-30 |
 | Rstudioapi | Rstudioapi |  |  | Not Affected | [link](https://github.com/rstudio/rstudioapi) |  |  | cisagov | 2021-12-21 |
-| Rubrik |  |  |  | Unknown | [link](https://support.rubrik.com/s/announcementdetail?Id=a406f000001PwOcAAK) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-23 |
+| Rubrik |  |  |  | Unknown | [link](https://support.rubrik.com/s/announcementdetail?Id=a406f000001PwOcAAK) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-30 |
 | Ruckus | Virtual SmartZone (vSZ) | 5.1 to 6.0 |  | Affected | [link](https://support.ruckuswireless.com/security_bulletins/313) |  |  | cisagov | 2021-12-13 |
-| RunDeck by PagerDuty |  |  |  | Unknown | [link](https://docs.rundeck.com/docs/history/CVEs/) |  |  | cisagov | 2021-12-23 |
-| Runecast | Runecast Analyzer |  | 6.0.3 | Fixed | [link](https://www.runecast.com/release-notes) |  |  | cisagov | 2021-12-23 |
-| SAE-IT |  |  |  | Unknown | [link](https://www.sae-it.com/nc/de/news/sicherheitsmeldungen.html) |  |  | cisagov | 2021-12-23 |
-| SAFE FME Server |  |  |  | Unknown | [link](https://community.safe.com/s/article/Is-FME-Server-Affected-by-the-Security-Vulnerability-Reported-Against-log4j) |  |  | cisagov | 2021-12-23 |
-| SAGE |  |  |  | Unknown | [link](https://www.sagecity.com/sage-global-solutions/sage-crm/f/sage-crm-announcements-news-and-alerts/178655/advisory-apache-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| SailPoint |  |  |  | Unknown | [link](https://community.sailpoint.com/t5/IdentityIQ-Blog/IdentityIQ-log4j-Remote-Code-Execution-Vulnerability/ba-p/206681) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-23 |
+| RunDeck by PagerDuty |  |  |  | Unknown | [link](https://docs.rundeck.com/docs/history/CVEs/) |  |  | cisagov | 2021-12-30 |
+| Runecast | Runecast Analyzer |  | 6.0.3 | Fixed | [link](https://www.runecast.com/release-notes) |  |  | cisagov | 2021-12-30 |
+| SAE-IT |  |  |  | Unknown | [link](https://www.sae-it.com/nc/de/news/sicherheitsmeldungen.html) |  |  | cisagov | 2021-12-30 |
+| SAFE FME Server |  |  |  | Unknown | [link](https://community.safe.com/s/article/Is-FME-Server-Affected-by-the-Security-Vulnerability-Reported-Against-log4j) |  |  | cisagov | 2021-12-30 |
+| SAGE |  |  |  | Unknown | [link](https://www.sagecity.com/sage-global-solutions/sage-crm/f/sage-crm-announcements-news-and-alerts/178655/advisory-apache-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| SailPoint |  |  |  | Unknown | [link](https://community.sailpoint.com/t5/IdentityIQ-Blog/IdentityIQ-log4j-Remote-Code-Execution-Vulnerability/ba-p/206681) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-30 |
 | Salesforce | Analytics Cloud |  |  | Unknown | [link](https://help.salesforce.com/s/articleView?id=000363736&amp;type=1) | &quot;Analytics Cloud is reported to be affected by CVE-2021-44228. Services have been updated to mitigate the issues identified in CVE-2021-44228 and we are executing our final validation steps.&quot; |  | cisagov | 2021-12-15 |
 | Salesforce | B2C Commerce Cloud |  |  | Unknown | [link](https://help.salesforce.com/s/articleView?id=000363736&amp;type=1) | &quot;B2C Commerce Cloud is reported to be affected by CVE-2021-44228. The service is being updated to remediate the vulnerability identified  in CVE-2021-44228.&quot; |  | cisagov | 2021-12-15 |
 | Salesforce | ClickSoftware (As-a-Service) |  |  | Unknown | [link](https://help.salesforce.com/s/articleView?id=000363736&amp;type=1) | &quot;ClickSoftware (As-a-Service) is reported to be affected by CVE-2021-44228. The service is being updated to remediate the vulnerability identified in CVE-2021-44228.&quot; |  | cisagov | 2021-12-15 |
@@ -2296,16 +2316,16 @@ This list was initially populated using information from the following sources:
 | Salesforce | Social Studio |  |  | Unknown | [link](https://help.salesforce.com/s/articleView?id=000363736&amp;type=1) | &quot;Social Studio is reported to be affected by CVE-2021-44228. The service has a mitigation in place and is being updated to remediate the vulnerability identified  in CVE-2021-44228.&quot; |  | cisagov | 2021-12-15 |
 | Salesforce | Tableau (On-Premise) |  | &lt; 2021.4.1 | Fixed | [link](https://kb.tableau.com/articles/issue/Apache-Log4j2-vulnerability-Log4shell) | Fixed in 2021.4.1 |  | cisagov | 2021-12-16 |
 | Salesforce | Tableau (Online) |  |  | Unknown | [link](https://help.salesforce.com/s/articleView?id=000363736&amp;type=1) | &quot;Tableau (Online) is reported to be affected by CVE-2021-44228. The service is being updated to remediate the vulnerability identified in CVE-2021-44228.&quot; |  | cisagov | 2021-12-15 |
-| Sangoma |  |  |  | Unknown | [link](https://help.sangoma.com/community/s/article/Log4Shell) |  |  | cisagov | 2021-12-23 |
+| Sangoma |  |  |  | Unknown | [link](https://help.sangoma.com/community/s/article/Log4Shell) |  |  | cisagov | 2021-12-30 |
 | SAP |  |  |  | Unknown | [link](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/trust-center/sap-tc-01-5025.pdf) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-17 |
 | SAP Advanced Platform |  |  |  | Unknown | [link](https://launchpad.support.sap.com/#/notes/3130698) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-17 |
 | SAP BusinessObjects |  |  |  | Unknown | [link](https://blogs.sap.com/2021/12/16/cve-2021-44228-impact-of-log4j-vulnerability-on-sap-businessobjects/) | The support document is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-17 |
-| SAS |  |  |  | Unknown | [link](https://support.sas.com/content/support/en/security-bulletins/remote-code-execution-vulnerability-cve-2021-44228.html) |  |  | cisagov | 2021-12-23 |
-| SASSAFRAS |  |  |  | Unknown | [link](https://www.sassafras.com/log4j-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| Savignano software solutions |  |  |  | Unknown | [link](https://savignano.atlassian.net/wiki/spaces/SNOTIFY/blog/2021/12/13/2839740417/No+Log4j+Vulnerability+in+S+Notify) |  |  | cisagov | 2021-12-23 |
+| SAS |  |  |  | Unknown | [link](https://support.sas.com/content/support/en/security-bulletins/remote-code-execution-vulnerability-cve-2021-44228.html) |  |  | cisagov | 2021-12-30 |
+| SASSAFRAS |  |  |  | Unknown | [link](https://www.sassafras.com/log4j-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| Savignano software solutions |  |  |  | Unknown | [link](https://savignano.atlassian.net/wiki/spaces/SNOTIFY/blog/2021/12/13/2839740417/No+Log4j+Vulnerability+in+S+Notify) |  |  | cisagov | 2021-12-30 |
 | SBT | SBT | &lt;1.5.6 |  | Affected | [link](https://github.com/sbt/sbt/releases/tag/v1.5.7) |  |  | cisagov | 2021-12-15 |
-| ScaleComputing |  |  |  | Unknown | [link](https://community.scalecomputing.com/s/article/Apache-Log4j-Vulnerability) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-23 |
-| ScaleFusion MobileLock Pro |  |  |  | Unknown | [link](https://help.mobilock.in/article/t9sx43yg44-scalefusion-security-advisory-for-apache-log-4-j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
+| ScaleComputing |  |  |  | Unknown | [link](https://community.scalecomputing.com/s/article/Apache-Log4j-Vulnerability) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-30 |
+| ScaleFusion MobileLock Pro |  |  |  | Unknown | [link](https://help.mobilock.in/article/t9sx43yg44-scalefusion-security-advisory-for-apache-log-4-j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
 | Schneider Electric | EASYFIT | Current software and earlier |  | Affected | [link](https://www.se.com/us/en/download/document/7EN52-0390/) |  |  | cisagov | 2021-12-20 |
 | Schneider Electric | Ecoreal XL | Current software and earlier |  | Affected | [link](https://www.se.com/us/en/download/document/7EN52-0390/) |  |  | cisagov | 2021-12-20 |
 | Schneider Electric | EcoStruxure IT Expert |  | Cloud | Fixed |  |  |  | cisagov | 2021-12-20 |
@@ -2330,22 +2350,30 @@ This list was initially populated using information from the following sources:
 | Schneider Electric | SWBEngine | Current software and earlier |  | Affected | [link](https://www.se.com/us/en/download/document/7EN52-0390/) |  |  | cisagov | 2021-12-20 |
 | Schneider Electric | Wiser by SE platform |  | Cloud | Fixed |  |  |  | cisagov | 2021-12-20 |
 | Schweitzer Engineering Laboratories |  |  |  | Unknown | [link](https://selinc.com/support/security-notifications/) |  |  | cisagov | 2021-12-21 |
-| SCM Manager |  |  |  | Unknown | [link](https://scm-manager.org/blog/posts/2021-12-13-log4shell/) |  |  | cisagov | 2021-12-23 |
-| ScreenBeam |  |  |  | Unknown | [link](https://customersupport.screenbeam.com/hc/en-us/articles/4416468085389-December-2021-Security-Alert-Log4j-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| SDL worldServer |  |  |  | Unknown | [link](https://gateway.sdl.com/apex/communityknowledge?articleName=000017707) |  |  | cisagov | 2021-12-23 |
-| Seagull Scientific |  |  |  | Unknown | [link](https://support.seagullscientific.com/hc/en-us/articles/4415794235543-Apache-Log4Shell-Vulnerability) |  |  | cisagov | 2021-12-23 |
-| SecurePoint |  |  |  | Unknown | [link](https://www.securepoint.de/news/details/sicherheitsluecke-log4j-securepoint-loesungen-nicht-betroffen.html) |  |  | cisagov | 2021-12-23 |
-| Security Onion |  |  |  | Unknown | [link](https://blog.securityonion.net/2021/12/security-onion-2390-20211210-hotfix-now.html) |  |  | cisagov | 2021-12-23 |
-| Seeburger |  |  |  | Unknown | [link](https://servicedesk.seeburger.de/portal/en-US/Knowledge/Article/?defId=101040&amp;id=25486312&amp;COMMAND=Open) | This advisory is avaiable to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-23 |
-| SentinelOne |  |  |  | Unknown | [link](https://www.sentinelone.com/blog/cve-2021-44228-staying-secure-apache-log4j-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| Sentry |  |  |  | Unknown | [link](https://blog.sentry.io/2021/12/15/sentrys-response-to-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| SEP |  |  |  | Unknown | [link](https://support.sep.de/otrs/public.pl?Action=PublicFAQZoom;ItemID=132) |  |  | cisagov | 2021-12-23 |
-| Server Eye |  |  |  | Unknown | [link](https://www.server-eye.de/blog/sicherheitsluecke-log4j-server-eye-systeme-sind-nicht-betroffen/) |  |  | cisagov | 2021-12-23 |
-| ServiceNow |  |  |  | Unknown | [link](https://support.servicenow.com/kb?id=kb_article_view&amp;sysparm_article=KB1000959) |  |  | cisagov | 2021-12-23 |
-| Shibboleth |  |  |  | Unknown | [link](http://shibboleth.net/pipermail/announce/2021-December/000253.html) |  |  | cisagov | 2021-12-23 |
+| SCM Manager |  |  |  | Unknown | [link](https://scm-manager.org/blog/posts/2021-12-13-log4shell/) |  |  | cisagov | 2021-12-30 |
+| ScreenBeam |  |  |  | Unknown | [link](https://customersupport.screenbeam.com/hc/en-us/articles/4416468085389-December-2021-Security-Alert-Log4j-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| SDL worldServer |  |  |  | Unknown | [link](https://gateway.sdl.com/apex/communityknowledge?articleName=000017707) |  |  | cisagov | 2021-12-30 |
+| Seagull Scientific |  |  |  | Unknown | [link](https://support.seagullscientific.com/hc/en-us/articles/4415794235543-Apache-Log4Shell-Vulnerability) |  |  | cisagov | 2021-12-30 |
+| SecurePoint |  |  |  | Unknown | [link](https://www.securepoint.de/news/details/sicherheitsluecke-log4j-securepoint-loesungen-nicht-betroffen.html) |  |  | cisagov | 2021-12-30 |
+| Security Onion |  |  |  | Unknown | [link](https://blog.securityonion.net/2021/12/security-onion-2390-20211210-hotfix-now.html) |  |  | cisagov | 2021-12-30 |
+| Securonix | Extended Detection and Response (XDR) | All |  | Affected | [link](https://www.securonix.com/wp-content/uploads/2021/12/CVE-2021-44228-Securonix-Cloud-Customer-Update.pdf) | Patching ongoing as of 12/10/2021 |  | cisagov | 2021-12-10 |
+| Securonix | Next Gen SIEM | All |  | Affected | [link](https://www.securonix.com/wp-content/uploads/2021/12/CVE-2021-44228-Securonix-Cloud-Customer-Update.pdf) | Patching ongoing as of 12/10/2021 |  | cisagov | 2021-12-10 |
+| Securonix | Security Analytics and Operations Platform (SOAR) | All |  | Affected | [link](https://www.securonix.com/wp-content/uploads/2021/12/CVE-2021-44228-Securonix-Cloud-Customer-Update.pdf) | Patching ongoing as of 12/10/2021 |  | cisagov | 2021-12-10 |
+| Securonix | SNYPR Application |  |  | Unknown | [link](https://www.securonix.com/wp-content/uploads/2021/12/CVE-2021-44228-Securonix-OnPrem-Customer-Update.pdf) |  |  | cisagov | 2021-12-10 |
+| Securonix | User and Entity Behavior Analytics(UEBA) | All |  | Affected | [link](https://www.securonix.com/wp-content/uploads/2021/12/CVE-2021-44228-Securonix-Cloud-Customer-Update.pdf) | Patching ongoing as of 12/10/2021 |  | cisagov | 2021-12-10 |
+| Seeburger |  |  |  | Unknown | [link](https://servicedesk.seeburger.de/portal/en-US/Knowledge/Article/?defId=101040&amp;id=25486312&amp;COMMAND=Open) | This advisory is avaiable to customers only and has not been reviewed by CISA. |  | cisagov | 2021-12-30 |
+| SentinelOne |  |  |  | Unknown | [link](https://www.sentinelone.com/blog/cve-2021-44228-staying-secure-apache-log4j-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| Sentry |  |  |  | Unknown | [link](https://blog.sentry.io/2021/12/15/sentrys-response-to-log4j-vulnerability-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| SEP |  |  |  | Unknown | [link](https://support.sep.de/otrs/public.pl?Action=PublicFAQZoom;ItemID=132) |  |  | cisagov | 2021-12-30 |
+| Server Eye |  |  |  | Unknown | [link](https://www.server-eye.de/blog/sicherheitsluecke-log4j-server-eye-systeme-sind-nicht-betroffen/) |  |  | cisagov | 2021-12-30 |
+| ServiceNow |  |  |  | Unknown | [link](https://support.servicenow.com/kb?id=kb_article_view&amp;sysparm_article=KB1000959) |  |  | cisagov | 2021-12-30 |
+| Shibboleth |  |  |  | Unknown | [link](http://shibboleth.net/pipermail/announce/2021-December/000253.html) |  |  | cisagov | 2021-12-30 |
 | Shibboleth | All Products |  |  | Not Affected | [link](https://shibboleth.net/pipermail/announce/2021-December/000253.html) |  |  | cisagov | 2021-12-10 |
-| Shopify |  |  |  | Unknown | [link](https://community.shopify.com/c/technical-q-a/is-shopify-affected-by-the-log4j-vulnerability/td-p/1417625) |  |  | cisagov | 2021-12-23 |
-| Siebel |  |  |  | Unknown | [link](https://www.siebelhub.com/main/2021/12/log4j-vulnerability-cve-2021-44228-and-siebel-crm.html) |  |  | cisagov | 2021-12-23 |
+| Shopify |  |  |  | Unknown | [link](https://community.shopify.com/c/technical-q-a/is-shopify-affected-by-the-log4j-vulnerability/td-p/1417625) |  |  | cisagov | 2021-12-30 |
+| Siebel |  |  |  | Unknown | [link](https://www.siebelhub.com/main/2021/12/log4j-vulnerability-cve-2021-44228-and-siebel-crm.html) |  |  | cisagov | 2021-12-30 |
+| Siemens Energy | Affected Products |  |  | Unknown | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-479842.pdf) | Siemens requests: See pdf for the complete list of affected products, CSAF for automated parsing of data |  | cisagov | 2021-12-21 |
+| Siemens Energy | Affected Products |  |  | Unknown | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-397453.pdf) | Siemens requests: See pdf for the complete list of affected products, CSAF for automated parsing of data |  | cisagov | 2021-12-20 |
+| Siemens Energy | Affected Products |  |  | Unknown | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-714170.pdf) | Siemens requests: See pdf for the complete list of affected products, CSAF for automated parsing of data |  | cisagov | 2021-12-16 |
 | Siemens Healthineers | ATELLICA DATA MANAGER v1.1.1 / v1.2.1 / v1.3.1 |  |  | Unknown | [link](https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228) | If you have determined that your Atellica Data Manager has a “Java communication engine” service, and you require an immediate mitigation, then please contact your Siemens Customer Care Center or your local Siemens technical support representative. |  | cisagov | 2021-12-22 |
 | Siemens Healthineers | CENTRALINK v16.0.2 / v16.0.3 |  |  | Unknown | [link](https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228) | If you have determined that your CentraLink has a “Java communication engine” service, and you require a mitigation, then please contact your Siemens Customer Care Center or your local Siemens technical support representative. |  | cisagov | 2021-12-22 |
 | Siemens Healthineers | Cios Flow S1 / Alpha / Spin VA30 |  |  | Unknown | [link](https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228) | evaluation ongoing |  | cisagov | 2021-12-22 |
@@ -2380,100 +2408,30 @@ This list was initially populated using information from the following sources:
 | Siemens Healthineers | syngo.via WebViewer VA13B / VA20A / VA20B |  |  | Unknown | [link](https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228) | Workaround: remove the vulnerable class from the .jar file |  | cisagov | 2021-12-22 |
 | Siemens Healthineers | X.Ceed Somaris 10 VA40* |  |  | Unknown | [link](https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228) | Workaround: In the meantime, we recommend preventing access to port 8090 from other devices by configuration of the hospital network. |  | cisagov | 2021-12-22 |
 | Siemens Healthineers | X.Cite Somaris 10 VA30*/VA40* |  |  | Unknown | [link](https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228) | Workaround: In the meantime, we recommend preventing access to port 8090 from other devices by configuration of the hospital network. |  | cisagov | 2021-12-22 |
-| Siemens | Advantage Navigator Energy &amp; Sustainability | All Versions &lt;2021-12-13 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Vulnerability CVE 2021-44228 fixed on central cloud service starting 2021-12-13; no user actions necessary. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Advantage Navigator Software Proxy | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Capital | All Versions&gt;=2019.1 SP1912 only if Teamcenter integration feature is used |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Only affected if Teamcenter integration feature is used. Currently no remediation is available. Find detailed mitigations steps at:[Mitigations Link](https://support.sw.siemens.com/en-US/knowledge-base/MG618363); See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Cerberus DMS | V5.0,V5.1 with Advanced Reporting EM installed |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the class-path. Detailed instructions are available [here](https://support.industry.siemens.com/cs/ww/en/view/109805562/). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Comos Desktop App | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Uninstall “Teamcenter Client Communication System (TCSS)” or block both incoming and outgoing connections between the system and the Internet. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Desigo CC | V3.0,V4.0,V4.1,V4.2 with Advanced Reporting EM installed |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the class-path. Detailed instructions are available [here](https://support.industry.siemens.com/cs/ww/en/view/109805562/). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Desigo CC | V5.0,5.1 with Advanced Reporting OR Info Center EM installed |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the class-path. Detailed instructions are available [here](https://support.industry.siemens.com/cs/ww/en/view/109805562/). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | E-Car OC Cloud Application | All Versions &lt;2021-12-13 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Vulnerability CVE 2021-44228 fixed on central cloud service starting 2021-12-13; no user actions necessary. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Energy Engage | V3.1 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Find detailed remediation and mitigation information on the [EnergyIP docs portal](https://docs.emeter.com/display/public/WELCOME/EnergyIP+Security+Advisory+for+Log4Shell+Vulnerability). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | EnergyIP | V8.5,V8.6,V8.7,V9.0 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Note: EnergyIP V8.5 and V8.6 applications are not directly affected, but CAS is. Find detailed remediation and mitigation information on the [EnergyIP docs portal](https://docs.emeter.com/display/public/WELCOME/EnergyIP+Security+Advisory+for+Log4Shell+Vulnerability). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | EnergyIP Prepay | V3.7. V3.8 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Specific mitigation information has been released for the customer projects with the request of immediate deployment. The long-term solution of updating the log4j2 component to a fix version is being tested and will be released, once confirmed being safe for the particular product version in line with the project Service Level Agreements. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Enlightened Amaze | All Versions &lt;2021-12-10 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Vulnerabilities fixed on central cloud services starting 2021-12-10; no user actions necessary. For Comfy and Enlighted, see the Additional Information section and further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Enlightened Where | All Versions &lt;2021-12-11 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Vulnerabilities fixed on central cloud services starting 2021-12-11; no user actions necessary. For Comfy and Enlighted, see the Additional Information section and further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Geolus Shape Search V10 | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Geolus Shape Search V11 | All Version |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | GMA-Manager | All Version &gt;=V8.6.2j-398 and &lt;V8.6.2-472 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Update to V8.6.2-472 or later version. Block both incoming and outgoing connections between the system and the Internet. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | HES UDIS | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Specific mitigation information has been released for the local project teams with the request of immediate deployment. A patch is planned for the next regular release. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Industrial Edge Management App (IEM-App) | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Exposure to vulnerability is limited as IEM-App runs in IEM-OS and IEM-OS is not intended to be exposed to public internet and should be operated in a protected environment. Please refer to the [Industrial Edge - Security overview](https://support.industry.siemens.com/cs/us/en/view/109804061). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Industrial Edge Management Hub | All versions &lt;2021-12-13 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Vulnerability CVE-2021-44228 fixed on central cloud service starting 2021-12-13; no user actions necessary. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Industrial Edge Management OS (IEM-OS) | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Exposure to vulnerability is limited as IEM-OS is not intended to be exposed to public internet and should be operated in a protected environment. Please refer to the [Industrial Edge - Security overview](https://support.industry.siemens.com/cs/us/en/view/109804061). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | LOGO! Soft Comfort |  |  | Not Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Note: LOGO! Soft Comfort products were previously listed as affected. They were removed after closer investigation showed that they are not affected. |  | cisagov | 2021-12-18 |
-| Siemens | Mendix Applications | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Although the Mendix runtime itself is not vulnerable to this exploit, we nevertheless recommend to upgrade log4j-core to the latest available version if log4j-core is part of your project. This advice is regardless of the JRE/JDK version the app runs on. See [Mendix Statement](https://status.mendix.com/incidents/8j5043my610c) for more details. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | MindSphere App Management Cockpits (Developer &amp; Operator) | All Versions &lt;2021-12-16 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Vulnerabilities fixed with update on 2021-12-16; no user actions necessary. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | MindSphere Asset Manager | All Versions &lt;2021-12-16 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Vulnerabilities fixed with update on 2021-12-16; no user actions necessary. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | MindSphere Cloud Foundry | All Versions &lt;2021-12-14 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Although the Cloud Foundry environment itself is not vulnerable to this exploit, we nevertheless recommend to upgrade log4j-core to the latest available version if log4j-core is part of your project. See more update information [here](https://support.sw.siemens.com/en-US/product/268530510/knowledge-base/PL8600797). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | MindSphere Cloud Platform | All Versions &lt;2021-12-11 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Vulnerabilities fixed on central cloud service starting 2021-12-11; no user actions necessary. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | MindSphere IAM (User Management/Settings) | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Vulnerabilities fixed with update on 2021-12-16; no user actions necessary. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | MindSphere Integrated Data Lake | All Versions &lt;2021-12-16 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Vulnerabilities fixed with update on 2021-12-16; no user actions necessary. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | MindSphere Notification Service | All Versions &lt;2021-12-16 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Vulnerabilities fixed with update on 2021-12-16; no user actions necessary. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | MindSphere Predictive Learning | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | MindSphere Usage Transparency Service | All Versions &lt;2021-12-16 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Vulnerabilities fixed with update on 2021-12-16; no user actions necessary. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | MindSphere Visual Explorer | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Although MindSphere Visual Explorer does not use the affected component directly it is included within the included third-party component Tableau. While the regarding interaction with Tableau is deactivated, a remediating patch for Tableau is still awaited. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | NX | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Find detailed mitigation steps [here](https://solutions.industrysoftware.automation.siemens.com/view.php?si=sfb-nx-8600959). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Opcenter EX CP Process Automation Control | All versions &gt;=V17.2.3 and &lt;V18.1 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Update to V18.1 or later version to fix CVE-2021-44228. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Opcenter Intelligence | All Versions &gt;=V3.2 only OEM version that ships Tableau |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Operation Scheduler | All versions &gt;=V1.1.3 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Block both incoming and outgoing connections between the system and the Internet. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | SENTRON powermanager V4 | V4.1,V4.2 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Block both incoming and outgoing connections between the system and the Internet. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | SIGUARD DSA | V4.2,4.3,4.4 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | SIMATIC WinCC |  |  | Not Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | SIMATI WinCC products were previously listed as affected. They were removed after closer investigation showed that they are not affected. |  | cisagov | 2021-12-18 |
-| Siemens | Simcenter 3D | All Versions &lt;=V022.1 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8601203). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | SiPass integrated V2.80 | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Block both incoming and outgoing connections betwen the system and the Internet.See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | SiPass integrated V2.85 | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Block both incoming and outgoing connections betwen the system and the Internet. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Siveillance Command | All Versions &gt;=4.16.2.1 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Block both incoming and outgoing connections betwen the system and the Internet. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Siveillance Control Pro | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Hotfix available for versions &gt;= V2.1 (please contact customer support). Block both incoming and outgoing connections betwen the system and the Internet.See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Siveillance Identity V1.5 | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Block both incoming and outgoing connections betwen the system and the Internet. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Siveillance Identity V1.6 | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Block both incoming and outgoing connections betwen the system and the Internet. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Siveillance Vantage | All Versions |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Block both incoming and outgoing connections betwen the system and the Internet. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Solid Edge CAM Pro | All Versions delivered with Solid Edge SE 2020 or later version |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Solid Edge Harness Design | All Versions &gt;=2020 SP2002 only if Teamcenter integration feature is used |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Find detailed mitigation steps [here](https://support.sw.siemens.com/en-US/knowledgebase/MG618363). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Spectrum Power 4 | All versions &gt;=V4.70 SP8 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Update to V4.70 SP9 and apply the patch provided via customer support. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Spectrum Power 7 | All Versions &gt;=V2.30 SP2 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Update to V21Q4 and apply the patch provided via customer support. See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter | All Versions &gt;=V13.1 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Active Workspace | All Versions &gt;=V4.3 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Briefcase Browser | All Versions &gt;=V13.1 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Data Share Manager | All Versions &gt;=V13.1 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Deployment Center | All Versions &gt;=V13.1 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Dispatcher Service | All Versions &gt;=V13.1 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter EDA | All Versions &gt;=V2.3 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter FMS | All Versions &gt;=V11.3 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Integration Framework | All Versions &gt;=V13.2 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter MBSE Gateway | All Versions &gt;=V4.0 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Mendix Connector | V1.0 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Microservices Framework | All Versions &gt;=V5.1 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Polarion Integration | All Versions &gt;=V5.1 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Rapid Start | All Versions &gt;=V13.1 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Reporting and Analytics | All Versions based on Java SOA client &gt;=V11.3 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Requirements Integrator | All Versions based on Java SOA client &gt;=V11.3 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Retail Footwear and Apparel | All Versions &gt;=V4.3 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Security Services | All Versions &gt;=V11.3 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Supplier Collaboration | All Versions &gt;=V5.1 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter System Modeling Workbench | All Versions based on Java SOA client &gt;=V11.3 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Teamcenter Technical Publishing | All Versions &gt;=V2.10 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | VeSys | All Versions &gt;=2019.1 SP1912 only if Teamcenter integration feature is used |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Find detailed mitigation steps [here](https://support.sw.siemens.com/en-US/knowledgebase/MG618363). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Xpedition Enterprise | All Versions &gt;=VX.2.6 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Find detailed mitigation steps [here](https://support.sw.siemens.com/en-US/knowledge-base/MG618343). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | cisagov | 2021-12-18 |
-| Siemens | Xpedition IC Packaging | All Versions &gt;=VX.2.6 |  | Affected | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Currently no remediation is available. Find detailed mitigation steps [here](https://support.sw.siemens.com/en-US/knowledge-base/MG618343). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf). |  | cisagov | 2021-12-18 |
-| Sierra Wireless |  |  |  | Unknown | [link](https://source.sierrawireless.com/resources/security-bulletins/sierra-wireless-technical-bulletin---swi-psa-2021-007/) |  |  | cisagov | 2021-12-23 |
-| Signald |  |  |  | Unknown | [link](https://gitlab.com/signald/signald/-/issues/259) |  |  | cisagov | 2021-12-23 |
+| Siemens | Affected Products |  |  | Unknown | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Siemens requests: See pdf for the complete list of affected products, CSAF for automated parsing of data |  | cisagov | 2021-12-22 |
+| Siemens | Affected Products |  |  | Unknown | [link](https://cert-portal.siemens.com/productcert/pdf/ssa-501673.pdf) | Siemens requests: See pdf for the complete list of affected products, CSAF for automated parsing of data |  | cisagov | 2021-12-19 |
+| Sierra Wireless |  |  |  | Unknown | [link](https://source.sierrawireless.com/resources/security-bulletins/sierra-wireless-technical-bulletin---swi-psa-2021-007/) |  |  | cisagov | 2021-12-30 |
+| Signald |  |  |  | Unknown | [link](https://gitlab.com/signald/signald/-/issues/259) |  |  | cisagov | 2021-12-30 |
 | Silver Peak | Orchestrator, Silver Peak GMS |  |  | Unknown | [link](https://www.arubanetworks.com/website/techdocs/sdwan/docs/advisories/media/security_advisory_notice_apache_log4j2_cve_2021_44228.pdf) | Customer managed Orchestrator and legacy GMS products are affected by this vulnerability. This includes on-premise and customer managed instances running in public cloud services such as AWS, Azure, Google, or Oracle Cloud. See Corrective Action Required for details about how to mitigate this exploit. |  | cisagov | 2021-12-14 |
-| SingleWire |  |  |  | Unknown | [link](https://support.singlewire.com/s/article/Apache-Log4j2-vulnerability-CVE-2021-44228) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-23 |
-| Sitecore |  |  |  | Unknown | [link](https://support.sitecore.com/kb?id=kb_article_view&amp;sysparm_article=KB1001391) |  |  | cisagov | 2021-12-23 |
-| Skillable |  |  |  | Unknown | [link](https://skillable.com/log4shell/) |  |  | cisagov | 2021-12-23 |
-| SLF4J |  |  |  | Unknown | [link](http://slf4j.org/log4shell.html) |  |  | cisagov | 2021-12-23 |
+| SingleWire |  |  |  | Unknown | [link](https://support.singlewire.com/s/article/Apache-Log4j2-vulnerability-CVE-2021-44228) | This advisory is available to customers only and has not been reviewed by CISA |  | cisagov | 2021-12-30 |
+| Sitecore |  |  |  | Unknown | [link](https://support.sitecore.com/kb?id=kb_article_view&amp;sysparm_article=KB1001391) |  |  | cisagov | 2021-12-30 |
+| Skillable |  |  |  | Unknown | [link](https://skillable.com/log4shell/) |  |  | cisagov | 2021-12-30 |
+| SLF4J |  |  |  | Unknown | [link](http://slf4j.org/log4shell.html) |  |  | cisagov | 2021-12-30 |
 | Slurm | Slurm |  |  | Not Affected | [link](https://slurm.schedmd.com/documentation.html) |  |  | cisagov | 2021-12-21 |
-| SmartBear |  |  |  | Unknown | [link](https://smartbear.com/security/cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| SmileCDR |  |  |  | Unknown | [link](https://www.smilecdr.com/our-blog/a-statement-on-log4shell-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Sn0m |  |  |  | Unknown | [link](https://www.snom.com/en/press/log4j-poses-no-threat-snom-phones/) |  |  | cisagov | 2021-12-23 |
+| SmartBear |  |  |  | Unknown | [link](https://smartbear.com/security/cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| SmileCDR |  |  |  | Unknown | [link](https://www.smilecdr.com/our-blog/a-statement-on-log4shell-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Sn0m |  |  |  | Unknown | [link](https://www.snom.com/en/press/log4j-poses-no-threat-snom-phones/) |  |  | cisagov | 2021-12-30 |
 | Snakemake | Snakemake |  |  | Not Affected | [link](https://snakemake.readthedocs.io/en/stable/) |  |  | cisagov | 2021-12-21 |
-| Snowflake |  |  |  | Unknown | [link](https://community.snowflake.com/s/article/No-Snowflake-exposure-to-Apache-Log4j-vulnerability-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Snyk | Cloud Platform |  |  | Unknown | [link](https://updates.snyk.io/snyk%27s-cloud-platform-all-clear-from-log4j-exploits-216499) |  |  | cisagov | 2021-12-23 |
-| Software AG |  |  |  | Unknown | [link](https://tech.forums.softwareag.com/t/log4j-zero-day-vulnerability/253849) |  |  | cisagov | 2021-12-23 |
-| SolarWinds | Database Performance Analyzer (DPA) | 2021.1.x,2021.3.x,2022.1.x |  | Affected | [link](https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228) | Workarounds available, hotfix under development |  | cisagov | 2021-12-14 |
-| SolarWinds | Server &amp; Application Monitor (SAM) | SAM 2020.2.6 and later |  | Affected | [link](https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228) | Workarounds available, hotfix under development |  | cisagov | 2021-12-14 |
-| SonarSource |  |  |  | Unknown | [link](https://community.sonarsource.com/t/sonarqube-and-the-log4j-vulnerability/54721) |  |  | cisagov | 2021-12-23 |
-| Sonatype |  |  |  | Unknown | [link](https://blog.sonatype.com/a-new-0-day-log4j-vulnerability-discovered-in-the-wild) |  |  | cisagov | 2021-12-23 |
+| Snow Software | Snow Commander |  | 8.1 to 8.10.2 | Fixed | [link](https://community.snowsoftware.com/s/feed/0D5690000B4U6hUCQS) |  |  | cisagov | 2021-12-30 |
+| Snow Software | VM Access Proxy |  | v3.1 to v3.6 | Fixed | [link](https://community.snowsoftware.com/s/feed/0D5690000B4U6hUCQS) |  |  | cisagov | 2021-12-30 |
+| Snowflake |  |  |  | Unknown | [link](https://community.snowflake.com/s/article/No-Snowflake-exposure-to-Apache-Log4j-vulnerability-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Snyk | Cloud Platform |  |  | Unknown | [link](https://updates.snyk.io/snyk%27s-cloud-platform-all-clear-from-log4j-exploits-216499) |  |  | cisagov | 2021-12-30 |
+| Software AG |  |  |  | Unknown | [link](https://tech.forums.softwareag.com/t/log4j-zero-day-vulnerability/253849) |  |  | cisagov | 2021-12-30 |
+| SolarWinds | Database Performance Analyzer (DPA) | 2021.1.x,2021.3.x,2022.1.x |  | Affected | [link](https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228) | For more information, please see the following KB article: [link](https://support.solarwinds.com/SuccessCenter/s/article/Database-Performance-Analyzer-DPA-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228?language=en_US) |  | cisagov | 2021-12-23 |
+| SolarWinds | Orion Platform |  |  | Unknown | [link](https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228) |  |  | cisagov | 2021-12-23 |
+| SolarWinds | Server &amp; Application Monitor (SAM) | SAM 2020.2.6 and later |  | Affected | [link](https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228) | For more information, please see the following KB article for the latest details specific to the SAM hotfix: [link](https://support.solarwinds.com/SuccessCenter/s/article/Server-Application-Monitor-SAM-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228?language=en_US) |  | cisagov | 2021-12-23 |
+| SonarSource |  |  |  | Unknown | [link](https://community.sonarsource.com/t/sonarqube-and-the-log4j-vulnerability/54721) |  |  | cisagov | 2021-12-30 |
+| Sonatype | All Products |  |  | Not Affected | [link](https://help.sonatype.com/docs/important-announcements/sonatype-product-log4j-vulnerability-status) | Sonatype uses logback as the default logging solution as opposed to log4j. This means our software including Nexus Lifecycle, Nexus Firewall, Nexus Repository OSS and Nexus Repository Pro in versions 2.x and 3.x are NOT affected by the reported log4j vulnerabilities. We still advise keeping your software upgraded at the latest version. |  | cisagov | 2021-12-29 |
 | SonicWall | Access Points |  |  | Unknown | [link](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the SonicWall Access Points |  | cisagov | 2021-12-12 |
 | SonicWall | Analytics |  |  | Unknown | [link](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Under Review |  | cisagov | 2021-12-12 |
 | SonicWall | Analyzer |  |  | Unknown | [link](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Under Review |  | cisagov | 2021-12-12 |
@@ -2504,9 +2462,9 @@ This list was initially populated using information from the following sources:
 | Sophos | Sophos Mobile |  |  | Unknown | [link](https://www.sophos.com/en-us/security-advisories/sophos-sa-20211210-log4j-rce) | Sophos Mobile (in Central, SaaS, and on-premises) does not run an exploitable configuration. |  | cisagov | 2021-12-12 |
 | Sophos | Sophos Mobile EAS Proxy | &lt; 9.7.2 |  | Affected | [link](https://www.sophos.com/en-us/security-advisories/sophos-sa-20211210-log4j-rce) | The Sophos Mobile EAS Proxy, running in Traffic Mode, is affected. Customers will need to download and install version 9.7.2, available from Monday December 13, 2021, on the same machine where it is currently running. PowerShell mode is not affected. Customers can download the Standalone EAS Proxy Installer version 9.7.2 from the Sophos website. |  | cisagov | 2021-12-12 |
 | Sophos | Sophos ZTNA |  |  | Unknown | [link](https://www.sophos.com/en-us/security-advisories/sophos-sa-20211210-log4j-rce) | Sophos ZTNA does not use Log4j. |  | cisagov | 2021-12-12 |
-| SOS Berlin |  |  |  | Unknown | [link](https://www.sos-berlin.com/en/news-mitigation-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
-| Spambrella |  |  |  | Unknown | [link](https://www.spambrella.com/faq/status-of-spambrella-products-with-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| Spigot |  |  |  | Unknown | [link](https://www.spigotmc.org/threads/spigot-security-releases-%E2%80%94-1-8-8%E2%80%931-18.537204/) |  |  | cisagov | 2021-12-23 |
+| SOS Berlin |  |  |  | Unknown | [link](https://www.sos-berlin.com/en/news-mitigation-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
+| Spambrella |  |  |  | Unknown | [link](https://www.spambrella.com/faq/status-of-spambrella-products-with-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| Spigot |  |  |  | Unknown | [link](https://www.spigotmc.org/threads/spigot-security-releases-%E2%80%94-1-8-8%E2%80%931-18.537204/) |  |  | cisagov | 2021-12-30 |
 | Splunk | Data Stream Processor | DSP 1.0.x,DSP 1.1.x,DSP 1.2.x |  | Affected | [link](https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html) |  |  | cisagov | 2021-12-21 |
 | Splunk | IT Essentials Work [App ID 5403](https://splunkbase.splunk.com/app/5403/) | 4.11,4.10.x (Cloud only),4.9.x |  | Affected | [link](https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html) |  |  | cisagov | 2021-12-21 |
 | Splunk | IT Service Intelligence (ITSI) [App ID 1841](https://splunkbase.splunk.com/app/1841/) | 4.11.0,4.10.x (Cloud only),4.9.x,4.8.x (Cloud only),4.7.x,4.6.x,4.5.x |  | Affected | [link](https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html) |  |  | cisagov | 2021-12-21 |
@@ -2528,10 +2486,10 @@ This list was initially populated using information from the following sources:
 | Splunk | Splunk Synthetics | Current |  | Affected | [link](https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html) |  |  | cisagov | 2021-12-21 |
 | Splunk | Splunk UBA OVA Software | 5.0.3a,5.0.0 |  | Affected | [link](https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html) |  |  | cisagov | 2021-12-21 |
 | Splunk | Splunk VMWare OVA for ITSI [App ID 4760](https://splunkbase.splunk.com/app/4760/) | 1.1.1 and older |  | Affected | [link](https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html) |  |  | cisagov | 2021-12-21 |
-| Sprecher Automation |  |  |  | Unknown | [link](https://www.sprecher-automation.com/en/it-security/security-alerts) |  |  | cisagov | 2021-12-23 |
-| Spring Boot |  |  |  | Unknown | [link](https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot) |  |  | cisagov | 2021-12-23 |
-| Spring | Spring Boot |  |  | Unknown | [link](https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot) | Spring Boot users are only affected by this vulnerability if they have switched the default logging system to Log4J2 |  | cisagov | 2021-12-23 |
-| StarDog |  |  |  | Unknown | [link](https://community.stardog.com/t/stardog-7-8-1-available/3411) |  |  | cisagov | 2021-12-23 |
+| Sprecher Automation |  |  |  | Unknown | [link](https://www.sprecher-automation.com/en/it-security/security-alerts) |  |  | cisagov | 2021-12-30 |
+| Spring Boot |  |  |  | Unknown | [link](https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot) |  |  | cisagov | 2021-12-30 |
+| Spring | Spring Boot |  |  | Unknown | [link](https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot) | Spring Boot users are only affected by this vulnerability if they have switched the default logging system to Log4J2 |  | cisagov | 2021-12-30 |
+| StarDog |  |  |  | Unknown | [link](https://community.stardog.com/t/stardog-7-8-1-available/3411) |  |  | cisagov | 2021-12-30 |
 | STERIS | Advantage |  |  | Unknown | [link](https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf) |  |  | cisagov | 2021-12-22 |
 | STERIS | Advantage Plus |  |  | Unknown | [link](https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf) |  |  | cisagov | 2021-12-22 |
 | STERIS | AMSCO 2000 SERIES WASHER DISINFECTORS |  |  | Unknown | [link](https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf) |  |  | cisagov | 2021-12-22 |
@@ -2584,45 +2542,45 @@ This list was initially populated using information from the following sources:
 | STERIS | V-PRO MAX LOW TEMPERATURE STERILIZATION SYSTEM |  |  | Unknown | [link](https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf) |  |  | cisagov | 2021-12-22 |
 | STERIS | V-PRO S2 LOW TEMPERATURE STERILIZATION SYSTEM |  |  | Unknown | [link](https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf) |  |  | cisagov | 2021-12-22 |
 | STERIS | VERIFY INCUBATOR FOR ASSERT SELF-CONTAINED BIOLOGICAL INDICATORS |  |  | Unknown | [link](https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf) |  |  | cisagov | 2021-12-22 |
-| Sterling Order IBM |  |  |  | Unknown | [link](https://www.ibm.com/support/pages/node/6525544) |  |  | cisagov | 2021-12-23 |
-| Storagement |  |  |  | Unknown | [link](https://www.storagement.de/index.php?action=topicofthemonth&amp;site=log4j) |  |  | cisagov | 2021-12-23 |
-| StormShield |  |  |  | Unknown | [link](https://www.stormshield.com/news/log4shell-security-alert-stormshield-product-response/) |  |  | cisagov | 2021-12-23 |
-| StrangeBee TheHive &amp; Cortex |  |  |  | Unknown | [link](https://blog.strangebee.com/apache-log4j-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| Stratodesk |  |  |  | Unknown | [link](http://cdn.stratodesk.com/repository/notouch-center/10/4.5.231/0/ReleaseNotes-Stratodesk-NoTouch_Center-4.5.231.html) |  |  | cisagov | 2021-12-23 |
-| Strimzi |  |  |  | Unknown | [link](https://strimzi.io/blog/2021/12/14/strimzi-and-log4shell/) |  |  | cisagov | 2021-12-23 |
-| Stripe |  |  |  | Unknown | [link](https://support.stripe.com/questions/update-for-apache-log4j-vulnerability-(cve-2021-44228)) |  |  | cisagov | 2021-12-23 |
-| Styra |  |  |  | Unknown | [link](https://blog.styra.com/blog/newest-log4j-security-vulnerability-cve-2021-44228-log4shell) |  |  | cisagov | 2021-12-23 |
-| Sumologic |  |  |  | Unknown | [link](https://docs.google.com/document/d/e/2PACX-1vSdeODZ2E5k0aZgHm06OJWhDQWgtxxB0ZIrTsuQjg5xaoxlogmTVGdOWoSFtDlZBdHzY6ET6k6Sk-g1/pub) |  |  | cisagov | 2021-12-23 |
-| SumoLogic |  |  |  | Unknown | [link](https://help.sumologic.com/Release-Notes/Collector-Release-Notes#december-11-2021-19-361-12) |  |  | cisagov | 2021-12-23 |
-| Superna EYEGLASS |  |  |  | Unknown | [link](https://manuals.supernaeyeglass.com/project-technical-advisories-all-products/HTML/technical-advisories.html#h2__1912345025) |  |  | cisagov | 2021-12-23 |
-| Suprema Inc |  |  |  | Unknown | [link](https://www.supremainc.com/en/) |  |  | cisagov | 2021-12-23 |
-| SUSE |  |  |  | Unknown | [link](https://www.suse.com/c/suse-statement-on-log4j-log4shell-cve-2021-44228-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| Sweepwidget |  |  |  | Unknown | [link](https://sweepwidget.com/view/23032-v9f40ns1/4zow83-23032) |  |  | cisagov | 2021-12-23 |
-| Swyx |  |  |  | Unknown | [link](https://service.swyx.net/hc/de/articles/4412323539474) |  |  | cisagov | 2021-12-23 |
-| Synchro MSP |  |  |  | Unknown | [link](https://community.syncromsp.com/t/log4j-rce-cve-2021-4428/1350) |  |  | cisagov | 2021-12-23 |
-| Syncplify |  |  |  | Unknown | [link](https://blog.syncplify.com/no-we-are-not-affected-by-log4j-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| Synology |  |  |  | Unknown | [link](https://www.synology.com/en-global/security/advisory/Synology_SA_21_30) |  |  | cisagov | 2021-12-23 |
-| Synopsys |  |  |  | Unknown | [link](https://community.synopsys.com/s/article/SIG-Security-Advisory-for-Apache-Log4J2-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Syntevo |  |  |  | Unknown | [link](https://www.syntevo.com/blog/?p=5240) |  |  | cisagov | 2021-12-23 |
-| SysAid |  |  |  | Unknown | [link](https://www.sysaid.com/lp/important-update-regarding-apache-log4j) |  |  | cisagov | 2021-12-23 |
-| Sysdig |  |  |  | Unknown | [link](https://sysdig.com/blog/cve-critical-vulnerability-log4j/) |  |  | cisagov | 2021-12-23 |
+| Sterling Order IBM |  |  |  | Unknown | [link](https://www.ibm.com/support/pages/node/6525544) |  |  | cisagov | 2021-12-30 |
+| Storagement |  |  |  | Unknown | [link](https://www.storagement.de/index.php?action=topicofthemonth&amp;site=log4j) |  |  | cisagov | 2021-12-30 |
+| StormShield |  |  |  | Unknown | [link](https://www.stormshield.com/news/log4shell-security-alert-stormshield-product-response/) |  |  | cisagov | 2021-12-30 |
+| StrangeBee TheHive &amp; Cortex |  |  |  | Unknown | [link](https://blog.strangebee.com/apache-log4j-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| Stratodesk |  |  |  | Unknown | [link](http://cdn.stratodesk.com/repository/notouch-center/10/4.5.231/0/ReleaseNotes-Stratodesk-NoTouch_Center-4.5.231.html) |  |  | cisagov | 2021-12-30 |
+| Strimzi |  |  |  | Unknown | [link](https://strimzi.io/blog/2021/12/14/strimzi-and-log4shell/) |  |  | cisagov | 2021-12-30 |
+| Stripe |  |  |  | Unknown | [link](https://support.stripe.com/questions/update-for-apache-log4j-vulnerability-(cve-2021-44228)) |  |  | cisagov | 2021-12-30 |
+| Styra |  |  |  | Unknown | [link](https://blog.styra.com/blog/newest-log4j-security-vulnerability-cve-2021-44228-log4shell) |  |  | cisagov | 2021-12-30 |
+| Sumologic |  |  |  | Unknown | [link](https://docs.google.com/document/d/e/2PACX-1vSdeODZ2E5k0aZgHm06OJWhDQWgtxxB0ZIrTsuQjg5xaoxlogmTVGdOWoSFtDlZBdHzY6ET6k6Sk-g1/pub) |  |  | cisagov | 2021-12-30 |
+| SumoLogic |  |  |  | Unknown | [link](https://help.sumologic.com/Release-Notes/Collector-Release-Notes#december-11-2021-19-361-12) |  |  | cisagov | 2021-12-30 |
+| Superna EYEGLASS |  |  |  | Unknown | [link](https://manuals.supernaeyeglass.com/project-technical-advisories-all-products/HTML/technical-advisories.html#h2__1912345025) |  |  | cisagov | 2021-12-30 |
+| Suprema Inc |  |  |  | Unknown | [link](https://www.supremainc.com/en/) |  |  | cisagov | 2021-12-30 |
+| SUSE |  |  |  | Unknown | [link](https://www.suse.com/c/suse-statement-on-log4j-log4shell-cve-2021-44228-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| Sweepwidget |  |  |  | Unknown | [link](https://sweepwidget.com/view/23032-v9f40ns1/4zow83-23032) |  |  | cisagov | 2021-12-30 |
+| Swyx |  |  |  | Unknown | [link](https://service.swyx.net/hc/de/articles/4412323539474) |  |  | cisagov | 2021-12-30 |
+| Synchro MSP |  |  |  | Unknown | [link](https://community.syncromsp.com/t/log4j-rce-cve-2021-4428/1350) |  |  | cisagov | 2021-12-30 |
+| Syncplify |  |  |  | Unknown | [link](https://blog.syncplify.com/no-we-are-not-affected-by-log4j-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| Synology |  |  |  | Unknown | [link](https://www.synology.com/en-global/security/advisory/Synology_SA_21_30) |  |  | cisagov | 2021-12-30 |
+| Synopsys |  |  |  | Unknown | [link](https://community.synopsys.com/s/article/SIG-Security-Advisory-for-Apache-Log4J2-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Syntevo |  |  |  | Unknown | [link](https://www.syntevo.com/blog/?p=5240) |  |  | cisagov | 2021-12-30 |
+| SysAid |  |  |  | Unknown | [link](https://www.sysaid.com/lp/important-update-regarding-apache-log4j) |  |  | cisagov | 2021-12-30 |
+| Sysdig |  |  |  | Unknown | [link](https://sysdig.com/blog/cve-critical-vulnerability-log4j/) |  |  | cisagov | 2021-12-30 |
 | Tableau | Tableau Bridge | The following versions and lower: 20214.21.1109.1748,20213.21.1112.1434,20212.21.0818.1843,20211.21.0617.1133,20204.21.0217.1203,20203.20.0913.2112,20202.20.0721.1350,20201.20.0614.2321,20194.20.0614.2307,20193.20.0614.2306,20192.19.0917.1648,20191.19.0402.1911,20183.19.0115.1143 |  | Affected | [link](https://kb.tableau.com/articles/issue/Apache-Log4j2-vulnerability-Log4shell) |  |  | cisagov | 2021-12-22 |
 | Tableau | Tableau Desktop | The following versions and lower: 2021.4,2021.3.4,2021.2.5,2021.1.8,2020.4.11,2020.3.14,2020.2.19,2020.1.22,2019.4.25,2019.3.26,2019.2.29,2019.1.29,2018.3.29 |  | Affected | [link](https://kb.tableau.com/articles/issue/Apache-Log4j2-vulnerability-Log4shell) |  |  | cisagov | 2021-12-22 |
 | Tableau | Tableau Prep Builder | The following versions and lower: 22021.4.1,2021.3.2,2021.2.2,2021.1.4,2020.4.1,2020.3.3,2020.2.3,2020.1.5,2019.4.2,2019.3.2,2019.2.3,2019.1.4,2018.3.3 |  | Affected | [link](https://kb.tableau.com/articles/issue/Apache-Log4j2-vulnerability-Log4shell) |  |  | cisagov | 2021-12-22 |
 | Tableau | Tableau Public Desktop Client | The following versions and lower: 2021.4 |  | Affected | [link](https://kb.tableau.com/articles/issue/Apache-Log4j2-vulnerability-Log4shell) |  |  | cisagov | 2021-12-22 |
 | Tableau | Tableau Reader | The following versions and lower: 2021.4 |  | Affected | [link](https://kb.tableau.com/articles/issue/Apache-Log4j2-vulnerability-Log4shell) |  |  | cisagov | 2021-12-22 |
 | Tableau | Tableau Server | The following versions and lower: 2021.4,2021.3.4,2021.2.5,2021.1.8,2020.4.11,2020.3.14,2020.2.19,2020.1.22,2019.4.25,2019.3.26,2019.2.29,2019.1.29,2018.3.29 |  | Affected | [link](https://kb.tableau.com/articles/issue/Apache-Log4j2-vulnerability-Log4shell) |  |  | cisagov | 2021-12-22 |
-| Talend |  |  |  | Unknown | [link](https://jira.talendforge.org/browse/TCOMP-2054) |  |  | cisagov | 2021-12-23 |
+| Talend |  |  |  | Unknown | [link](https://jira.talendforge.org/browse/TCOMP-2054) |  |  | cisagov | 2021-12-30 |
 | Tanium | All |  |  | Not Affected | [link](https://tanium.my.salesforce.com/sfc/p/#60000000IYkG/a/7V000000PeT8/8C98AHl7wP5_lpUwp3qmY5sSdwXx6wG6LE4gPYlxO8c) | Tanium does not use Log4j. |  | cisagov | 2021-12-21 |
-| TealiumIQ |  |  |  | Unknown | [link](https://community.tealiumiq.com/t5/Announcements-Blog/Update-on-Log4j-Security-Vulnerability/ba-p/36824) |  |  | cisagov | 2021-12-23 |
-| TeamPasswordManager |  |  |  | Unknown | [link](https://teampasswordmanager.com/blog/log4j-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| Teamviewer |  |  |  | Unknown | [link](https://www.teamviewer.com/en/trust-center/security-bulletins/hotfix-log4j2-issue/) |  |  | cisagov | 2021-12-23 |
+| TealiumIQ |  |  |  | Unknown | [link](https://community.tealiumiq.com/t5/Announcements-Blog/Update-on-Log4j-Security-Vulnerability/ba-p/36824) |  |  | cisagov | 2021-12-30 |
+| TeamPasswordManager |  |  |  | Unknown | [link](https://teampasswordmanager.com/blog/log4j-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| Teamviewer |  |  |  | Unknown | [link](https://www.teamviewer.com/en/trust-center/security-bulletins/hotfix-log4j2-issue/) |  |  | cisagov | 2021-12-30 |
 | Tech Software | OneAegis (f/k/a IRBManager) |  |  | Not Affected | [link](https://support.techsoftware.com/hc/en-us/articles/4412825948179) | OneAegis does not use Log4j. |  | cisagov | 2021-12-15 |
 | Tech Software | SMART |  |  | Not Affected | [link](https://support.techsoftware.com/hc/en-us/articles/4412825948179) | SMART does not use Log4j. |  | cisagov | 2021-12-15 |
 | Tech Software | Study Binders |  |  | Not Affected | [link](https://support.techsoftware.com/hc/en-us/articles/4412825948179) | Study Binders does not use Log4j. |  | cisagov | 2021-12-15 |
-| TechSmith |  |  |  | Unknown | [link](https://support.techsmith.com/hc/en-us/articles/4416620527885?input_string=log4j) |  |  | cisagov | 2021-12-23 |
-| Telestream |  |  |  | Unknown | [link](http://www.telestream.net/telestream-support/Apache-Log4j2-Bulletin.htm) |  |  | cisagov | 2021-12-23 |
-| Tenable | Tenable.io / Nessus |  |  | Unknown | [link](https://www.tenable.com/log4j) | None of Tenable’s products are running the version of Log4j vulnerable to CVE-2021-44228 or CVE-2021-45046 at this time |  | cisagov | 2021-12-23 |
+| TechSmith |  |  |  | Unknown | [link](https://support.techsmith.com/hc/en-us/articles/4416620527885?input_string=log4j) |  |  | cisagov | 2021-12-30 |
+| Telestream |  |  |  | Unknown | [link](http://www.telestream.net/telestream-support/Apache-Log4j2-Bulletin.htm) |  |  | cisagov | 2021-12-30 |
+| Tenable | Tenable.io / Nessus |  |  | Unknown | [link](https://www.tenable.com/log4j) | None of Tenable’s products are running the version of Log4j vulnerable to CVE-2021-44228 or CVE-2021-45046 at this time |  | cisagov | 2021-12-30 |
 | Thales | CADP/SafeNet Protect App (PA) - JCE |  |  | Unknown | [link](https://supportportal.thalesgroup.com/csm?id=kb_article_view&amp;sys_kb_id=12acaed3dbd841105d310573f3961953&amp;sysparm_article=KB0025297) |  |  | cisagov | 2021-12-17 |
 | Thales | CipherTrust Application Data Protection (CADP) – CAPI.net &amp; Net Core |  |  | Unknown | [link](https://supportportal.thalesgroup.com/csm?id=kb_article_view&amp;sys_kb_id=12acaed3dbd841105d310573f3961953&amp;sysparm_article=KB0025297) |  |  | cisagov | 2021-12-17 |
 | Thales | CipherTrust Batch Data Transformation (BDT) 2.3 |  |  | Unknown | [link](https://supportportal.thalesgroup.com/csm?id=kb_article_view&amp;sys_kb_id=12acaed3dbd841105d310573f3961953&amp;sysparm_article=KB0025297) |  |  | cisagov | 2021-12-17 |
@@ -2685,37 +2643,38 @@ This list was initially populated using information from the following sources:
 | Thermo-Calc | Thermo-Calc |  |  | Not Affected | [link](https://thermocalc.com/blog/thermo-calc-response-to-apache-log4j-2-vulnerability/) | Use the program as normal, delete the Log4j 2 files in the program installation if required, see advisory for instructions. |  | cisagov | 2021-12-22 |
 | Thermo-Calc | Thermo-Calc |  |  | Not Affected | [link](https://thermocalc.com/blog/thermo-calc-response-to-apache-log4j-2-vulnerability/) | Use the program as normal |  | cisagov | 2021-12-22 |
 | Thomson Reuters | HighQ Appliance | &lt;3.5 |  | Affected | [link](https://highqsolutions.zendesk.com) | Reported by vendor - Documentation is in vendor's client portal (login required).  This advisory is available to customer only and has not been reviewed by CISA. |  | cisagov | 2021-12-20 |
-| ThreatLocker |  |  |  | Unknown | [link](https://threatlocker.kb.help/log4j-vulnerability/) |  |  | cisagov | 2021-12-23 |
-| ThycoticCentrify | Account Lifecycle Manager |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2015-12-10 |
-| ThycoticCentrify | Cloud Suite |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2015-12-10 |
-| ThycoticCentrify | Connection Manager |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2015-12-10 |
-| ThycoticCentrify | DevOps Secrets Vault |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2015-12-10 |
-| ThycoticCentrify | Password Reset Server |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2015-12-10 |
-| ThycoticCentrify | Privilege Manager |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2015-12-10 |
-| ThycoticCentrify | Privileged Behavior Analytics |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2015-12-10 |
-| ThycoticCentrify | Secret Server |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2015-12-10 |
-| Tibco |  |  |  | Unknown | [link](https://www.tibco.com/support/notices/2021/12/apache-log4j-vulnerability-update) |  |  | cisagov | 2021-12-23 |
-| Top Gun Technology (TGT) |  |  |  | Unknown | [link](https://www.topgun-tech.com/technical-bulletin-apache-software-log4j-security-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-23 |
-| TopDesk |  |  |  | Unknown | [link](https://my.topdesk.com/tas/public/ssp/content/detail/knowledgeitem?unid=74952771dfab4b0794292e63b0409314) |  |  | cisagov | 2021-12-23 |
+| ThreatLocker |  |  |  | Unknown | [link](https://threatlocker.kb.help/log4j-vulnerability/) |  |  | cisagov | 2021-12-30 |
+| ThycoticCentrify | Account Lifecycle Manager |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2021-12-10 |
+| ThycoticCentrify | Cloud Suite |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2021-12-10 |
+| ThycoticCentrify | Connection Manager |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2021-12-10 |
+| ThycoticCentrify | DevOps Secrets Vault |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2021-12-10 |
+| ThycoticCentrify | Password Reset Server |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2021-12-10 |
+| ThycoticCentrify | Privilege Manager |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2021-12-10 |
+| ThycoticCentrify | Privileged Behavior Analytics |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2021-12-10 |
+| ThycoticCentrify | Secret Server |  |  | Not Affected | [link](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) |  |  | cisagov | 2021-12-10 |
+| Tibco |  |  |  | Unknown | [link](https://www.tibco.com/support/notices/2021/12/apache-log4j-vulnerability-update) |  |  | cisagov | 2021-12-30 |
+| Top Gun Technology (TGT) |  |  |  | Unknown | [link](https://www.topgun-tech.com/technical-bulletin-apache-software-log4j-security-vulnerability-cve-2021-44228/) |  |  | cisagov | 2021-12-30 |
+| TopDesk |  |  |  | Unknown | [link](https://my.topdesk.com/tas/public/ssp/content/detail/knowledgeitem?unid=74952771dfab4b0794292e63b0409314) |  |  | cisagov | 2021-12-30 |
 | Topicus Security | Topicus KeyHub |  |  | Not Affected | [link](https://blog.topicus-keyhub.com/topicus-keyhub-is-not-vulnerable-to-cve-2021-44228/) |  |  | cisagov | 2021-12-20 |
-| Topix |  |  |  | Unknown | [link](https://www.topix.de/de/technik/systemfreigaben.html) |  |  | cisagov | 2021-12-23 |
-| Tosibox |  |  |  | Unknown | [link](https://helpdesk.tosibox.com/support/solutions/articles/2100050946-security-advisory-on-vulnerability-in-apache-log4j-library-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
+| Topix |  |  |  | Unknown | [link](https://www.topix.de/de/technik/systemfreigaben.html) |  |  | cisagov | 2021-12-30 |
+| Tosibox |  |  |  | Unknown | [link](https://helpdesk.tosibox.com/support/solutions/articles/2100050946-security-advisory-on-vulnerability-in-apache-log4j-library-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
 | TPLink | Omega Controller | Linux/Windows(all) |  | Affected | [link](https://www.tp-link.com/us/support/faq/3255) | Update is Beta. Reddit: overwritten vulnerable log4j with 2.15 files as potential workaround. Though that should now be done with 2.16 | [Tp Community Link](https://community.tp-link.com/en/business/forum/topic/514452),[Reddit Link](https://www.reddit.com/r/TPLink_Omada/comments/rdzvlp/updating_the_sdn_to_protect_against_the_log4j) | cisagov | 2021-12-15 |
-| TrendMicro | All |  |  | Unknown | [link](https://success.trendmicro.com/solution/000289940) |  |  | cisagov | 2021-12-23 |
-| Tricentis Tosca |  |  |  | Unknown | [link](https://support-hub.tricentis.com/open?number=NEW0001148&amp;id=post) |  |  | cisagov | 2021-12-23 |
+| TrendMicro | All |  |  | Unknown | [link](https://success.trendmicro.com/solution/000289940) |  |  | cisagov | 2021-12-30 |
+| Tricentis Tosca |  |  |  | Unknown | [link](https://support-hub.tricentis.com/open?number=NEW0001148&amp;id=post) |  |  | cisagov | 2021-12-30 |
 | Trimble | eCognition | 10.2.0 Build 4618 |  | Affected |  | Remediation steps provided by Trimble |  | cisagov | 2021-12-23 |
-| Tripwire |  |  |  | Unknown | [link](https://www.tripwire.com/log4j) |  |  | cisagov | 2021-12-23 |
-| TrueNAS |  |  |  | Unknown | [link](https://www.truenas.com/community/threads/log4j-vulnerability.97359/post-672559) |  |  | cisagov | 2021-12-23 |
-| Tufin |  |  |  | Unknown | [link](https://portal.tufin.com/articles/SecurityAdvisories/Apache-Log4Shell-Vulnerability-12-12-2021) |  |  | cisagov | 2021-12-23 |
-| TYPO3 |  |  |  | Unknown | [link](https://typo3.org/article/typo3-psa-2021-004) |  |  | cisagov | 2021-12-23 |
-| Ubiquiti | UniFi Network Application | 6.5.53 &amp; lower versions |  | Affected | [link](https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1) |  |  | cisagov | 2021-12-23 |
+| Tripwire |  |  |  | Unknown | [link](https://www.tripwire.com/log4j) |  |  | cisagov | 2021-12-30 |
+| TrueNAS |  |  |  | Unknown | [link](https://www.truenas.com/community/threads/log4j-vulnerability.97359/post-672559) |  |  | cisagov | 2021-12-30 |
+| Tufin |  |  |  | Unknown | [link](https://portal.tufin.com/articles/SecurityAdvisories/Apache-Log4Shell-Vulnerability-12-12-2021) |  |  | cisagov | 2021-12-30 |
+| TYPO3 |  |  |  | Unknown | [link](https://typo3.org/article/typo3-psa-2021-004) |  |  | cisagov | 2021-12-30 |
+| Ubiquiti | UniFi Network Application | 6.5.53 &amp; lower versions |  | Affected | [link](https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1) |  |  | cisagov | 2021-12-30 |
 | Ubiquiti | UniFi Network Controller | 6.5.54 &amp; lower versions |  | Affected | [link](https://community.ui.com/releases/UniFi-Network-Application-6-5-55/48c64137-4a4a-41f7-b7e4-3bee505ae16e) |  | 6.5.54 is reported to still be vulnerable. 6.5.55 is the new recommendation for mitigatin log4j vulnerabilities by updating to log4j 2.16.0 | cisagov | 2021-12-15 |
-| Ubuntu |  |  |  | Unknown | [link](https://ubuntu.com/security/CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Umbraco |  |  |  | Unknown | [link](https://umbraco.com/blog/security-advisory-december-15-2021-umbraco-cms-and-cloud-not-affected-by-cve-2021-44228-log4j-rce-0-day-mitigation/) |  |  | cisagov | 2021-12-23 |
-| UniFlow |  |  |  | Unknown | [link](https://www.uniflow.global/en/security/security-and-maintenance/) |  |  | cisagov | 2021-12-23 |
-| Unify ATOS |  |  |  | Unknown | [link](https://networks.unify.com/security/advisories/OBSO-2112-01.pdf) |  |  | cisagov | 2021-12-23 |
-| Unimus |  |  |  | Unknown | [link](https://forum.unimus.net/viewtopic.php?f=7&amp;t=1390#top) |  |  | cisagov | 2021-12-23 |
-| USSIGNAL MSP |  |  |  | Unknown | [link](https://ussignal.com/blog/apache-log4j-vulnerability) |  |  | cisagov | 2021-12-23 |
+| Ubuntu |  |  |  | Unknown | [link](https://ubuntu.com/security/CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| UiPath | InSights | 20.10 |  | Affected | [link](https://www.uipath.com/legal/trust-and-security/cve-2021-44228) |  |  | cisagov | 2021-12-15 |
+| Umbraco |  |  |  | Unknown | [link](https://umbraco.com/blog/security-advisory-december-15-2021-umbraco-cms-and-cloud-not-affected-by-cve-2021-44228-log4j-rce-0-day-mitigation/) |  |  | cisagov | 2021-12-30 |
+| UniFlow |  |  |  | Unknown | [link](https://www.uniflow.global/en/security/security-and-maintenance/) |  |  | cisagov | 2021-12-30 |
+| Unify ATOS |  |  |  | Unknown | [link](https://networks.unify.com/security/advisories/OBSO-2112-01.pdf) |  |  | cisagov | 2021-12-30 |
+| Unimus |  |  |  | Unknown | [link](https://forum.unimus.net/viewtopic.php?f=7&amp;t=1390#top) |  |  | cisagov | 2021-12-30 |
+| USSIGNAL MSP |  |  |  | Unknown | [link](https://ussignal.com/blog/apache-log4j-vulnerability) |  |  | cisagov | 2021-12-30 |
 | Varian | Acuity | All |  | Affected | [link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) |  |  | cisagov | 2021-12-22 |
 | Varian | ARIA Connect (Cloverleaf) |  |  | Not Affected | [link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) |  |  | cisagov | 2021-12-22 |
 | Varian | ARIA eDOC |  |  | Not Affected | [link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) |  |  | cisagov | 2021-12-22 |
@@ -2756,14 +2715,14 @@ This list was initially populated using information from the following sources:
 | Varian | Vitesse |  |  | Not Affected | [link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) |  |  | cisagov | 2021-12-22 |
 | Varian | XMediusFax for ARIA oncology information system for Medical Oncology | All |  | Affected | [link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) |  |  | cisagov | 2021-12-22 |
 | Varian | XMediusFax for ARIA oncology information system for Radiation Oncology | All |  | Affected | [link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) |  |  | cisagov | 2021-12-22 |
-| VArmour |  |  |  | Unknown | [link](https://support.varmour.com/hc/en-us/articles/4416396248717-Log4j2-Emergency-Configuration-Change-for-Critical-Auth-Free-Code-Execution-in-Logging-Utility) |  |  | cisagov | 2021-12-23 |
-| Varnish Software |  |  |  | Unknown | [link](https://docs.varnish-software.com/security/CVE-2021-44228-45046/) |  |  | cisagov | 2021-12-23 |
-| Varonis |  |  |  | Unknown | [link](https://help.varonis.com/s/article/Apache-Log4j-Zero-Day-Vulnerability-CVE-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Veeam |  |  |  | Unknown | [link](https://www.veeam.com/kb4254) |  |  | cisagov | 2021-12-23 |
-| Venafi |  |  |  | Unknown | [link](https://support.venafi.com/hc/en-us/articles/4416213022733-Log4j-Zero-Day-Vulnerability-notice) |  |  | cisagov | 2021-12-23 |
-| Veritas NetBackup |  |  |  | Unknown | [link](https://www.veritas.com/content/support/en_US/article.100052070) |  |  | cisagov | 2021-12-23 |
-| Vertica |  |  |  | Unknown | [link](https://forum.vertica.com/discussion/242512/vertica-security-bulletin-a-potential-vulnerability-has-been-identified-apache-log4j-library-used) |  |  | cisagov | 2021-12-23 |
-| Viso Trust |  |  |  | Unknown | [link](https://blog.visotrust.com/viso-trust-statement-re-cve-2021-44228-log4j-a4b9b5767492) |  |  | cisagov | 2021-12-23 |
+| VArmour |  |  |  | Unknown | [link](https://support.varmour.com/hc/en-us/articles/4416396248717-Log4j2-Emergency-Configuration-Change-for-Critical-Auth-Free-Code-Execution-in-Logging-Utility) |  |  | cisagov | 2021-12-30 |
+| Varnish Software |  |  |  | Unknown | [link](https://docs.varnish-software.com/security/CVE-2021-44228-45046/) |  |  | cisagov | 2021-12-30 |
+| Varonis |  |  |  | Unknown | [link](https://help.varonis.com/s/article/Apache-Log4j-Zero-Day-Vulnerability-CVE-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Veeam |  |  |  | Unknown | [link](https://www.veeam.com/kb4254) |  |  | cisagov | 2021-12-30 |
+| Venafi |  |  |  | Unknown | [link](https://support.venafi.com/hc/en-us/articles/4416213022733-Log4j-Zero-Day-Vulnerability-notice) |  |  | cisagov | 2021-12-30 |
+| Veritas NetBackup |  |  |  | Unknown | [link](https://www.veritas.com/content/support/en_US/article.100052070) |  |  | cisagov | 2021-12-30 |
+| Vertica |  |  |  | Unknown | [link](https://forum.vertica.com/discussion/242512/vertica-security-bulletin-a-potential-vulnerability-has-been-identified-apache-log4j-library-used) |  |  | cisagov | 2021-12-30 |
+| Viso Trust |  |  |  | Unknown | [link](https://blog.visotrust.com/viso-trust-statement-re-cve-2021-44228-log4j-a4b9b5767492) |  |  | cisagov | 2021-12-30 |
 | VMware | API Portal for VMware Tanzu | 1.x |  | Affected | [link](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) |  |  | cisagov | 2021-12-12 |
 | VMware | App Metrics | 2.x |  | Affected | [link](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) |  |  | cisagov | 2021-12-12 |
 | VMware | Healthwatch for Tanzu Application Service | 2.x,1.x |  | Affected | [link](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) |  |  | cisagov | 2021-12-12 |
@@ -2803,25 +2762,26 @@ This list was initially populated using information from the following sources:
 | VMware | VMware Workspace ONE Access Connector (VMware Identity Manager Connector) | 21.x,20.10.x,19.03.0.1 |  | Affected | [link](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) |  |  | cisagov | 2021-12-12 |
 | Vyaire |  |  |  | Unknown | [link](https://www.vyaire.com/sites/us/files/2021-12/2021-12-15-product-security-bulletin-for-log4shell-vulnerability.pdf) |  |  | cisagov | 2021-12-22 |
 | WAGO | WAGO Smart Script | 4.2.x &lt; 4.8.1.3 |  | Affected | [link](https://www.wago.com/de/automatisierungstechnik/psirt#log4j) |  |  | cisagov | 2021-12-17 |
-| Wallarm |  |  |  | Unknown | [link](https://lab.wallarm.com/cve-2021-44228-mitigation-update/) |  |  | cisagov | 2021-12-23 |
-| Wasp Barcode technologies |  |  |  | Unknown | [link](https://support.waspbarcode.com/kb/articles/assetcloud-inventorycloud-are-they-affected-by-the-java-exploit-log4j-no) |  |  | cisagov | 2021-12-23 |
-| WatchGuard | Secplicity |  |  | Unknown | [link](https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/) |  |  | cisagov | 2021-12-23 |
-| Western Digital |  |  |  | Unknown | [link](https://www.westerndigital.com/support/product-security/wdc-21016-apache-log4j-2-remote-code-execution-vulnerability-analysis) |  |  | cisagov | 2021-12-23 |
+| Wallarm |  |  |  | Unknown | [link](https://lab.wallarm.com/cve-2021-44228-mitigation-update/) |  |  | cisagov | 2021-12-30 |
+| Wasp Barcode technologies |  |  |  | Unknown | [link](https://support.waspbarcode.com/kb/articles/assetcloud-inventorycloud-are-they-affected-by-the-java-exploit-log4j-no) |  |  | cisagov | 2021-12-30 |
+| WatchGuard | Secplicity |  |  | Unknown | [link](https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/) |  |  | cisagov | 2021-12-30 |
+| Western Digital |  |  |  | Unknown | [link](https://www.westerndigital.com/support/product-security/wdc-21016-apache-log4j-2-remote-code-execution-vulnerability-analysis) |  |  | cisagov | 2021-12-30 |
 | WIBU Systems | CodeMeter Cloud Lite | 2.2 and prior |  | Affected | [link](https://cdn.wibu.com/fileadmin/wibu_downloads/security_advisories/Advisory_WIBU-211213-01.pdf) |  |  | cisagov | 2021-12-22 |
 | WIBU Systems | CodeMeter Keyring for TIA Portal | 1.30 and prior |  | Affected | [link](https://cdn.wibu.com/fileadmin/wibu_downloads/security_advisories/Advisory_WIBU-211213-01.pdf) | Only the Password Manager is affected |  | cisagov | 2021-12-22 |
-| WindRiver |  |  |  | Unknown | [link](https://support2.windriver.com/index.php?page=security-notices&amp;on=view&amp;id=7191) |  |  | cisagov | 2021-12-23 |
-| WireShark |  |  |  | Unknown | [link](https://gitlab.com/wireshark/wireshark/-/issues/17783) |  |  | cisagov | 2021-12-23 |
-| Wistia |  |  |  | Unknown | [link](https://status.wistia.com/incidents/jtg0dfl5l224) |  |  | cisagov | 2021-12-23 |
-| WitFoo |  |  |  | Unknown | [link](https://www.witfoo.com/blog/emergency-update-for-cve-2021-44228-log4j/) |  |  | cisagov | 2021-12-23 |
-| WordPress |  |  |  | Unknown | [link](https://wordpress.org/support/topic/is-the-log4j-vulnerability-an-issue/) |  |  | cisagov | 2021-12-23 |
-| Worksphere |  |  |  | Unknown | [link](https://www.worksphere.com/product/security-update-on-log4j-cve-2021-44228) |  |  | cisagov | 2021-12-23 |
-| Wowza |  |  |  | Unknown | [link](https://www.wowza.com/docs/known-issues-with-wowza-streaming-engine#log4j2-cve) |  |  | cisagov | 2021-12-23 |
-| XCP-ng |  |  |  | Unknown | [link](https://xcp-ng.org/forum/topic/5315/log4j-vulnerability-impact) |  |  | cisagov | 2021-12-23 |
-| XenForo |  |  |  | Unknown | [link](https://xenforo.com/community/threads/psa-potential-security-vulnerability-in-elasticsearch-5-via-apache-log4j-log4shell.201145/) |  |  | cisagov | 2021-12-23 |
-| Xerox |  |  |  | Unknown | [link](https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf) |  |  | cisagov | 2021-12-23 |
-| XPertDoc |  |  |  | Unknown | [link](https://kb.xpertdoc.com/pages/viewpage.action?pageId=87622727) |  |  | cisagov | 2021-12-23 |
-| XPLG |  |  |  | Unknown | [link](https://www.xplg.com/log4j-vulnerability-exploit-log4shell-xplg-secure/) |  |  | cisagov | 2021-12-23 |
-| XWIKI |  |  |  | Unknown | [link](https://forum.xwiki.org/t/log4j-cve-2021-44228-log4shell-zero-day-vulnerability/9557) |  |  | cisagov | 2021-12-23 |
+| WindRiver |  |  |  | Unknown | [link](https://support2.windriver.com/index.php?page=security-notices&amp;on=view&amp;id=7191) |  |  | cisagov | 2021-12-30 |
+| WireShark |  |  |  | Unknown | [link](https://gitlab.com/wireshark/wireshark/-/issues/17783) |  |  | cisagov | 2021-12-30 |
+| Wistia |  |  |  | Unknown | [link](https://status.wistia.com/incidents/jtg0dfl5l224) |  |  | cisagov | 2021-12-30 |
+| WitFoo |  |  |  | Unknown | [link](https://www.witfoo.com/blog/emergency-update-for-cve-2021-44228-log4j/) |  |  | cisagov | 2021-12-30 |
+| WordPress |  |  |  | Unknown | [link](https://wordpress.org/support/topic/is-the-log4j-vulnerability-an-issue/) |  |  | cisagov | 2021-12-30 |
+| Worksphere |  |  |  | Unknown | [link](https://www.worksphere.com/product/security-update-on-log4j-cve-2021-44228) |  |  | cisagov | 2021-12-30 |
+| Wowza |  |  |  | Unknown | [link](https://www.wowza.com/docs/known-issues-with-wowza-streaming-engine#log4j2-cve) |  |  | cisagov | 2021-12-30 |
+| WSO2 | WSO2 Enterprise Integrator | 6.1.0 and above |  | Affected | [link](https://docs.wso2.com/pages/viewpage.action?pageId=180948677) | A temporary mitigation is available while vendor works on update |  | cisagov | 2021-12-30 |
+| XCP-ng |  |  |  | Unknown | [link](https://xcp-ng.org/forum/topic/5315/log4j-vulnerability-impact) |  |  | cisagov | 2021-12-30 |
+| XenForo |  |  |  | Unknown | [link](https://xenforo.com/community/threads/psa-potential-security-vulnerability-in-elasticsearch-5-via-apache-log4j-log4shell.201145/) |  |  | cisagov | 2021-12-30 |
+| Xerox |  |  |  | Unknown | [link](https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf) |  |  | cisagov | 2021-12-30 |
+| XPertDoc |  |  |  | Unknown | [link](https://kb.xpertdoc.com/pages/viewpage.action?pageId=87622727) |  |  | cisagov | 2021-12-30 |
+| XPLG |  |  |  | Unknown | [link](https://www.xplg.com/log4j-vulnerability-exploit-log4shell-xplg-secure/) |  |  | cisagov | 2021-12-30 |
+| XWIKI |  |  |  | Unknown | [link](https://forum.xwiki.org/t/log4j-cve-2021-44228-log4shell-zero-day-vulnerability/9557) |  |  | cisagov | 2021-12-30 |
 | Xylem | Aquatalk |  |  | Unknown | [link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) |  |  | cisagov | 2021-12-22 |
 | Xylem | Avensor |  |  | Unknown | [link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) |  |  | cisagov | 2021-12-22 |
 | Xylem | Configuration change complete |  |  | Unknown | [link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) |  |  | cisagov | 2021-12-22 |
@@ -2838,22 +2798,23 @@ This list was initially populated using information from the following sources:
 | Xylem | Water Loss Management (Visenti) |  |  | Unknown | [link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) |  |  | cisagov | 2021-12-22 |
 | Xylem | Xylem Cloud |  |  | Unknown | [link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) |  |  | cisagov | 2021-12-22 |
 | Xylem | Xylem Edge Gateway (xGW) |  |  | Unknown | [link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) |  |  | cisagov | 2021-12-22 |
-| Yellowbrick |  |  |  | Unknown | [link](https://support.yellowbrick.com/hc/en-us/articles/4412586575379-Security-Advisory-Yellowbrick-is-NOT-Affected-by-the-Log4Shell-Vulnerability) |  |  | cisagov | 2021-12-23 |
-| YellowFin |  |  |  | Unknown | [link](https://community.yellowfinbi.com/announcement/notice-critical-vulnerability-in-log4j2) |  |  | cisagov | 2021-12-23 |
+| Yellowbrick |  |  |  | Unknown | [link](https://support.yellowbrick.com/hc/en-us/articles/4412586575379-Security-Advisory-Yellowbrick-is-NOT-Affected-by-the-Log4Shell-Vulnerability) |  |  | cisagov | 2021-12-30 |
+| YellowFin |  |  |  | Unknown | [link](https://community.yellowfinbi.com/announcement/notice-critical-vulnerability-in-log4j2) |  |  | cisagov | 2021-12-30 |
 | YOKOGAWA |  |  |  | Unknown | [link](https://www.yokogawa.com/us/solutions/products-platforms/announcements/important-notice/log4shell/) |  |  | cisagov | 2021-12-22 |
-| YSoft SAFEQ |  |  |  | Unknown | [link](https://www.ysoft.com/getattachment/Products/Security/Standards-Compliance/text/Information-Security-Policy-Statement/YSOFT-SAFEQ-LOG4J-VULNERABILITY-PRODUCT-UPDATE-WORKAROUND-1.pdf) |  |  | cisagov | 2021-12-23 |
-| Zabbix |  |  |  | Unknown | [link](https://blog.zabbix.com/zabbix-not-affected-by-the-log4j-exploit/17873/) |  |  | cisagov | 2021-12-23 |
-| ZAMMAD |  |  |  | Unknown | [link](https://community.zammad.org/t/cve-2021-44228-elasticsearch-users-be-aware/8256) |  |  | cisagov | 2021-12-23 |
-| Zaproxy |  |  |  | Unknown | [link](https://www.zaproxy.org/blog/2021-12-10-zap-and-log4shell/) |  |  | cisagov | 2021-12-23 |
-| Zebra |  |  |  | Unknown | [link](https://www.zebra.com/us/en/support-downloads/lifeguard-security/cve-2021-442280-dubbed-log4shell-or-logjam-vulnerability.html) |  |  | cisagov | 2021-12-23 |
+| YSoft SAFEQ |  |  |  | Unknown | [link](https://www.ysoft.com/getattachment/Products/Security/Standards-Compliance/text/Information-Security-Policy-Statement/YSOFT-SAFEQ-LOG4J-VULNERABILITY-PRODUCT-UPDATE-WORKAROUND-1.pdf) |  |  | cisagov | 2021-12-30 |
+| Zabbix |  |  |  | Unknown | [link](https://blog.zabbix.com/zabbix-not-affected-by-the-log4j-exploit/17873/) |  |  | cisagov | 2021-12-30 |
+| ZAMMAD |  |  |  | Unknown | [link](https://community.zammad.org/t/cve-2021-44228-elasticsearch-users-be-aware/8256) |  |  | cisagov | 2021-12-30 |
+| Zaproxy |  |  |  | Unknown | [link](https://www.zaproxy.org/blog/2021-12-10-zap-and-log4shell/) |  |  | cisagov | 2021-12-30 |
+| Zebra |  |  |  | Unknown | [link](https://www.zebra.com/us/en/support-downloads/lifeguard-security/cve-2021-442280-dubbed-log4shell-or-logjam-vulnerability.html) |  |  | cisagov | 2021-12-30 |
 | Zendesk | All Products | All Versions |  | Affected | [link](https://support.zendesk.com/hc/en-us/articles/4413583476122) | Zendesk products are all cloud-based; thus there are no updates for the customers to install as the company is working on patching their infrastructure and systems. |  | cisagov | 2021-12-13 |
-| Zenoss |  |  |  | Unknown | [link](https://support.zenoss.com/hc/en-us) |  |  | cisagov | 2021-12-23 |
+| Zenoss |  |  |  | Unknown | [link](https://support.zenoss.com/hc/en-us) |  |  | cisagov | 2021-12-30 |
 | Zentera Systems, Inc. | CoIP Access Platform |  |  | Not Affected | [link](https://support.zentera.net/hc/en-us/articles/4416227743511--CVE-2021-44228-Log4Shell-Vulnerability-in-Apache-Log4j) |  |  | cisagov | 2021-12-17 |
-| Zerto |  |  |  | Unknown | [link](https://help.zerto.com/kb/000004822) |  |  | cisagov | 2021-12-23 |
-| Zesty |  |  |  | Unknown | [link](https://www.zesty.io/mindshare/company-announcements/log4j-exploit/) |  |  | cisagov | 2021-12-23 |
-| Zimbra |  |  |  | Unknown | [link](https://bugzilla.zimbra.com/show_bug.cgi?id=109428) |  |  | cisagov | 2021-12-23 |
-| Zoom |  |  |  | Unknown | [link](https://explore.zoom.us/en/trust/security/security-bulletin/security-bulletin-log4j/?=nocache) |  |  | cisagov | 2021-12-23 |
-| ZPE systems Inc |  |  |  | Unknown | [link](https://support.zpesystems.com/portal/en/kb/articles/is-nodegrid-os-and-zpe-cloud-affected-by-cve-2021-44228-apache-log4j) |  |  | cisagov | 2021-12-23 |
-| Zscaler | See Link (Multiple Products) |  |  | Unknown | [link](https://trust.zscaler.com/posts/9581) |  |  | cisagov | 2012-12-15 |
-| Zyxel |  |  |  | Unknown | [link](https://www.zyxel.com/support/Zyxel_security_advisory_for_Apache_Log4j_RCE_vulnerability.shtml) |  |  | cisagov | 2021-12-23 |
+| Zerto |  |  |  | Unknown | [link](https://help.zerto.com/kb/000004822) |  |  | cisagov | 2021-12-30 |
+| Zesty |  |  |  | Unknown | [link](https://www.zesty.io/mindshare/company-announcements/log4j-exploit/) |  |  | cisagov | 2021-12-30 |
+| Zimbra |  |  |  | Unknown | [link](https://bugzilla.zimbra.com/show_bug.cgi?id=109428) |  |  | cisagov | 2021-12-30 |
+| Zix |  |  |  | Unknown | [link](https://status.appriver.com/) |  |  | cisagov | 2021-12-16 |
+| Zoom |  |  |  | Unknown | [link](https://explore.zoom.us/en/trust/security/security-bulletin/security-bulletin-log4j/?=nocache) |  |  | cisagov | 2021-12-30 |
+| ZPE systems Inc |  |  |  | Unknown | [link](https://support.zpesystems.com/portal/en/kb/articles/is-nodegrid-os-and-zpe-cloud-affected-by-cve-2021-44228-apache-log4j) |  |  | cisagov | 2021-12-30 |
+| Zscaler | See Link (Multiple Products) |  |  | Unknown | [link](https://trust.zscaler.com/posts/9581) |  |  | cisagov | 2021-12-15 |
+| Zyxel |  |  |  | Unknown | [link](https://www.zyxel.com/support/Zyxel_security_advisory_for_Apache_Log4j_RCE_vulnerability.shtml) |  |  | cisagov | 2021-12-30 |
 | Zyxel | Security Firewall/Gateways |  |  | Not Affected | [link](https://community.zyxel.com/en/discussion/12229/zyxel-security-advisory-for-apache-log4j-rce-vulnerability) |  |  | cisagov | 2021-12-14 |
