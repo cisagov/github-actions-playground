@@ -31,7 +31,7 @@ jobs:
           GIT_USER: ${{ fromJson(secrets.GIT_AUTHOR_INFORMATION).user.name }}
       - id: testing-branch
         run: echo "::set-output name=name::$BASE_BRANCH/$COMMIT_SHA"
-        with:
+        env:
           BASE_BRANCH: ${{ env.TESTING_BRANCH_BASE }}
           COMMIT_SHA: ${{ github.sha }}
   generate_list_update:
