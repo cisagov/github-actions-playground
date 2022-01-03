@@ -15,6 +15,7 @@ MD004:
 
 # MD013/line-length - Line length
 MD013:
+  line_length: false
   # Do not enforce for code blocks
   code_blocks: false
   # Do not enforce for tables
