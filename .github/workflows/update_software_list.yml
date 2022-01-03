@@ -69,7 +69,7 @@ jobs:
       - name: Create the branch for test validation
         run: git switch --create ${{ needs.setup.outputs.testing_branch }}
       - name: Update the comprehensive cisagov YAML file
-        run: normalize-yml data/cisagov_*.yml > data/cisagov.yml
+        run: normalize-yml --cisagov-format data/cisagov_*.yml > data/cisagov.yml
       - name: Generate a normalized YAML file from all source YAML files
         run: normalize-yml data/cisagov.yml > normalized.yml
       - name: Generate a Markdown table from the normalized YAML file
