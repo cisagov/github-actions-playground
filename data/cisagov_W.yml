@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: WAGO
     product: WAGO Smart Script
@@ -30,7 +33,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Wallarm
     product: ''
@@ -60,8 +62,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Wasp Barcode technologies
     product: ''
     cves:
@@ -90,8 +91,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: WatchGuard
     product: Secplicity
     cves:
@@ -120,8 +120,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Western Digital
     product: ''
     cves:
@@ -150,8 +149,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: WIBU Systems
     product: CodeMeter Keyring for TIA Portal
     cves:
@@ -181,7 +179,6 @@ software:
     notes: Only the Password Manager is affected
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: WIBU Systems
     product: CodeMeter Cloud Lite
@@ -212,7 +209,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: WindRiver
     product: ''
@@ -242,8 +238,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: WireShark
     product: ''
     cves:
@@ -272,8 +267,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Wistia
     product: ''
     cves:
@@ -302,8 +296,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: WitFoo
     product: ''
     cves:
@@ -332,8 +325,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: WordPress
     product: ''
     cves:
@@ -362,8 +354,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Worksphere
     product: ''
     cves:
@@ -392,8 +383,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Wowza
     product: ''
     cves:
@@ -422,8 +412,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: WSO2
     product: WSO2 Enterprise Integrator
     cves:
@@ -453,6 +442,5 @@ software:
     notes: A temporary mitigation is available while vendor works on update
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
 ...

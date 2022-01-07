@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: Ubiquiti
     product: UniFi Network Application
@@ -30,8 +33,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Ubiquiti
     product: UniFi Network Controller
     cves:
@@ -62,7 +64,6 @@ software:
     references:
       - 6.5.54 is reported to still be vulnerable. 6.5.55 is the new recommendation
         for mitigatin log4j vulnerabilities by updating to log4j 2.16.0
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Ubuntu
     product: ''
@@ -92,8 +93,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Umbraco
     product: ''
     cves:
@@ -122,8 +122,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: UniFlow
     product: ''
     cves:
@@ -152,8 +151,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Unify ATOS
     product: ''
     cves:
@@ -182,8 +180,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Unimus
     product: ''
     cves:
@@ -212,8 +209,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: UiPath
     product: InSights
     cves:
@@ -243,7 +239,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: USSIGNAL MSP
     product: ''
@@ -273,6 +268,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
 ...

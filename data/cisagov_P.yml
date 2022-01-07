@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: PagerDuty
     product: PagerDuty SaaS
@@ -32,6 +35,5 @@ software:
       action for their PagerDuty SaaS environment
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
 ...

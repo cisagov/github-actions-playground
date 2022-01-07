@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: K15t
     product: ''
@@ -29,8 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: K6
     product: ''
     cves:
@@ -59,8 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Karakun
     product: ''
     cves:
@@ -89,8 +90,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Kaseya
     product: ''
     cves:
@@ -119,8 +119,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Keeper Security
     product: ''
     cves:
@@ -149,8 +148,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: KEMP
     product: ''
     cves:
@@ -179,8 +177,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: KEMP 2
     product: ''
     cves:
@@ -209,8 +206,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Kofax
     product: ''
     cves:
@@ -239,8 +235,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Konica Minolta
     product: ''
     cves:
@@ -269,8 +264,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Kronos UKG
     product: ''
     cves:
@@ -299,8 +293,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Kyberna
     product: ''
     cves:
@@ -329,6 +322,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
 ...

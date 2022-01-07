@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: ABB
     product: ''
@@ -29,8 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: ABB
     product: ABB Remote Service
     cves:
@@ -59,8 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: ABB
     product: AlarmInsight Cloud
     cves:
@@ -89,8 +90,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: ABB
     product: B&R Products
     cves:
@@ -120,8 +120,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Abbott
     product: ''
     cves:
@@ -150,7 +149,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Abnormal Security
     product: Abnormal Security
@@ -180,8 +178,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Accellence
     product: ''
     cves:
@@ -210,8 +207,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Accellion
     product: Kiteworks
     cves:
@@ -246,7 +242,6 @@ software:
       to disable the possible attack vector on both CentOS 6 and CentOS 7."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Acquia
     product: ''
@@ -276,8 +271,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Acronis
     product: ''
     cves:
@@ -306,8 +300,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: ActiveState
     product: ''
     cves:
@@ -336,8 +329,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Adaptec
     product: ''
     cves:
@@ -366,8 +358,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Addigy
     product: ''
     cves:
@@ -396,8 +387,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Adeptia
     product: ''
     cves:
@@ -426,8 +416,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Adobe ColdFusion
     product: ''
     cves:
@@ -456,8 +445,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: ADP
     product: ''
     cves:
@@ -486,8 +474,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AFAS Software
     product: ''
     cves:
@@ -516,8 +503,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AFHCAN Global LLC
     product: AFHCANsuite
     cves:
@@ -547,8 +533,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AFHCAN Global LLC
     product: AFHCANServer
     cves:
@@ -578,8 +563,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AFHCAN Global LLC
     product: AFHCANcart
     cves:
@@ -609,8 +593,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AFHCAN Global LLC
     product: AFHCANweb
     cves:
@@ -640,8 +623,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AFHCAN Global LLC
     product: AFHCANmobile
     cves:
@@ -671,8 +653,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AFHCAN Global LLC
     product: AFHCANupdate
     cves:
@@ -702,8 +683,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Agilysys
     product: ''
     cves:
@@ -732,8 +712,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Advanced Systems Concepts (formally Jscape)
     product: Active MFT
     cves:
@@ -763,7 +742,6 @@ software:
       by CISA
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Advanced Systems Concepts (formally Jscape)
     product: MFT Server
@@ -794,7 +772,6 @@ software:
       by CISA
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Advanced Systems Concepts (formally Jscape)
     product: MFT Gateway
@@ -825,7 +802,6 @@ software:
       by CISA
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Advanced Systems Concepts (formally Jscape)
     product: MFT
@@ -856,7 +832,6 @@ software:
       by CISA
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Akamai
     product: SIEM Splunk Connector
@@ -887,7 +862,6 @@ software:
     notes: v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Alcatel
     product: ''
@@ -917,8 +891,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Alertus
     product: ''
     cves:
@@ -947,8 +920,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Alexion
     product: ''
     cves:
@@ -977,8 +949,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Alfresco
     product: ''
     cves:
@@ -1007,8 +978,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AlienVault
     product: ''
     cves:
@@ -1037,8 +1007,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Alphatron Medical
     product: ''
     cves:
@@ -1067,8 +1036,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: Athena
     cves:
@@ -1097,8 +1065,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: AWS
     cves:
@@ -1131,7 +1098,6 @@ software:
       and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Amazon
     product: AWS API Gateway
@@ -1162,7 +1128,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Amazon
     product: AWS CloudHSM
@@ -1193,8 +1158,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: AWS Connect
     cves:
@@ -1226,7 +1190,6 @@ software:
       mitigation
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-23T00:00:00'
   - vendor: Amazon
     product: AWS Lambda
@@ -1257,8 +1220,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: AWS DynamoDB
     cves:
@@ -1288,7 +1250,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Amazon
     product: AWS ElastiCache
@@ -1319,7 +1280,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Amazon
     product: AWS Inspector
@@ -1350,7 +1310,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Amazon
     product: AWS RDS
@@ -1382,7 +1341,6 @@ software:
       in CVE-2021-44228
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Amazon
     product: AWS S3
@@ -1413,7 +1371,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Amazon
     product: AWS SNS
@@ -1446,7 +1403,6 @@ software:
       separately from SNS’s systems that serve customer traffic
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Amazon
     product: AWS SQS
@@ -1477,7 +1433,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Amazon
     product: AWS EKS, ECS, Fargate
@@ -1514,7 +1469,6 @@ software:
       users on AWS, and will be in supported AWS Fargate platform versions
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Amazon
     product: AWS ELB
@@ -1545,7 +1499,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Amazon
     product: AWS Kinesis Data Stream
@@ -1580,7 +1533,6 @@ software:
       to KCL version 1.14.5 (or higher)
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Amazon
     product: AWS Lambda
@@ -1611,8 +1563,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: CloudFront
     cves:
@@ -1641,8 +1592,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: CloudWatch
     cves:
@@ -1671,8 +1621,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: EC2
     cves:
@@ -1702,7 +1651,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Amazon
     product: ELB
@@ -1732,8 +1680,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: KMS
     cves:
@@ -1762,8 +1709,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: OpenSearch
     cves:
@@ -1793,8 +1739,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: RDS
     cves:
@@ -1823,8 +1768,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: Route 53
     cves:
@@ -1853,8 +1797,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: S3
     cves:
@@ -1883,8 +1826,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: Translate
     cves:
@@ -1913,8 +1855,7 @@ software:
     notes: Service not identified on [AWS Log4j Security Bulletin](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/)
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Amazon
     product: VPC
     cves:
@@ -1943,8 +1884,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AMD
     product: All
     cves:
@@ -1974,7 +1914,6 @@ software:
       its analysis.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Anaconda
     product: Anaconda
@@ -2005,7 +1944,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Apache
     product: ActiveMQ Artemis
@@ -2041,7 +1979,6 @@ software:
       for more information on that task.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Apache
     product: Airflow
@@ -2071,8 +2008,7 @@ software:
     notes: Airflow is written in Python
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Apache
     product: Camel
     cves:
@@ -2107,7 +2043,6 @@ software:
       in our latest LTS releases Camel 3.7.6, 3.11.4.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
     product: Camel Quarkus
@@ -2137,7 +2072,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
     product: Camel K
@@ -2167,7 +2101,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
     product: CamelKafka Connector
@@ -2197,7 +2130,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
     product: Camel Karaf
@@ -2228,7 +2160,6 @@ software:
       with updated log4j.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
     product: Camel JBang
@@ -2259,7 +2190,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
     product: Camel 2
@@ -2289,7 +2219,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
     product: Druid
@@ -2320,7 +2249,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: Apache
     product: Flink
@@ -2358,7 +2286,6 @@ software:
       for Log4j to version 2.16.0 to address CVE-2021-44228 and CVE-2021-45046.'
     references:
       - '[https://flink.apache.org/news/2021/12/16/log4j-patch-releases.html](https://flink.apache.org/news/2021/12/16/log4j-patch-releases.html)'
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: Apache
     product: Kafka
@@ -2390,7 +2317,6 @@ software:
       not v2.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Apache
     product: Kafka
@@ -2421,8 +2347,7 @@ software:
     notes: Only vulnerable in certain configuration(s)
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Apache
     product: Log4j
     cves:
@@ -2452,8 +2377,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Apache
     product: Solr
     cves:
@@ -2484,7 +2408,6 @@ software:
     notes: Update to 8.11.1 or apply fixes as described in Solr security advisory
     references:
       - '[Apache Solr 8.11.1 downloads](https://solr.apache.org/downloads.html)'
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Apache
     product: Struts 2
@@ -2518,7 +2441,6 @@ software:
       using the latest Log4j 2.12.2 version (Java 1.7 compatible).
     references:
       - '[Apache Struts Release Downloads](https://struts.apache.org/download.cgi#struts-ga)'
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Apache
     product: Tomcat
@@ -2557,7 +2479,6 @@ software:
       Details are provided on the [log4j 2.x security page](https://logging.apache.org/log4j/2.x/security.html)
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Apereo
     product: CAS
@@ -2588,8 +2509,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Apereo
     product: Opencast
     cves:
@@ -2620,8 +2540,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Application Performance Ltd
     product: DBMarlin
     cves:
@@ -2650,7 +2569,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Apigee
     product: ''
@@ -2680,8 +2598,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Apollo
     product: ''
     cves:
@@ -2710,8 +2627,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Appdynamics
     product: ''
     cves:
@@ -2740,8 +2656,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Appeon
     product: PowerBuilder
     cves:
@@ -2770,7 +2685,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: AppGate
     product: ''
@@ -2800,8 +2714,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Appian
     product: Appian Platform
     cves:
@@ -2831,7 +2744,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Application Performance Ltd
     product: DBMarlin
@@ -2861,7 +2773,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: APPSHEET
     product: ''
@@ -2891,8 +2802,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Aptible
     product: Aptible
     cves:
@@ -2922,8 +2832,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: APC by Schneider Electric
     product: Powerchute Business Edition
     cves:
@@ -2957,7 +2866,6 @@ software:
     notes: Mitigation instructions to remove the affected class.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: APC by Schneider Electric
     product: Powerchute Network Shutdown
@@ -2991,7 +2899,6 @@ software:
     notes: Mitigation instructions to remove the affected class.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Aqua Security
     product: ''
@@ -3021,8 +2928,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Arbiter Systems
     product: All
     cves:
@@ -3051,7 +2957,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Arca Noae
     product: ''
@@ -3081,8 +2986,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Arcserve
     product: Arcserve Backup
     cves:
@@ -3112,7 +3016,6 @@ software:
     notes: ''
     references:
       - '[https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US)'
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Arcserve
     product: Arcserve Continuous Availability
@@ -3143,7 +3046,6 @@ software:
     notes: ''
     references:
       - '[https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US)'
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Arcserve
     product: Arcserve Email Archiving
@@ -3174,7 +3076,6 @@ software:
     notes: ''
     references:
       - '[https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US)'
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Arcserve
     product: Arcserve UDP
@@ -3205,7 +3106,6 @@ software:
     notes: ''
     references:
       - '[https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US)'
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Arcserve
     product: ShadowProtect
@@ -3236,7 +3136,6 @@ software:
     notes: ''
     references:
       - '[https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US)'
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Arcserve
     product: ShadowXafe
@@ -3267,7 +3166,6 @@ software:
     notes: ''
     references:
       - '[https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US)'
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Arcserve
     product: Solo
@@ -3298,7 +3196,6 @@ software:
     notes: ''
     references:
       - '[https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US)'
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Arcserve
     product: StorageCraft OneXafe
@@ -3329,7 +3226,6 @@ software:
     notes: ''
     references:
       - '[https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US)'
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: ArcticWolf
     product: ''
@@ -3359,8 +3255,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Arduino
     product: ''
     cves:
@@ -3389,8 +3284,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Ariba
     product: ''
     cves:
@@ -3419,8 +3313,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Arista
     product: ''
     cves:
@@ -3449,8 +3342,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Aruba Networks
     product: ''
     cves:
@@ -3479,8 +3371,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Ataccama
     product: ''
     cves:
@@ -3509,8 +3400,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Atera
     product: ''
     cves:
@@ -3539,8 +3429,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Atlassian
     product: Bamboo Server & Data Center
     cves:
@@ -3571,8 +3460,7 @@ software:
       if running in a specific non-default configuration.
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:20+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Atlassian
     product: Bitbucket Server & Data Center
     cves:
@@ -3603,8 +3491,7 @@ software:
       due to the bundled Elasticsearch component being vulnerable.
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Atlassian
     product: Confluence Server & Data Center
     cves:
@@ -3635,8 +3522,7 @@ software:
       if running in a specific non-default configuration.
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Atlassian
     product: Crowd Server & Data Center
     cves:
@@ -3667,8 +3553,7 @@ software:
       if running in a specific non-default configuration.
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Atlassian
     product: Crucible
     cves:
@@ -3699,8 +3584,7 @@ software:
       if running in a specific non-default configuration.
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Atlassian
     product: Fisheye
     cves:
@@ -3731,8 +3615,7 @@ software:
       if running in a specific non-default configuration.
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Atlassian
     product: Jira Server & Data Center
     cves:
@@ -3763,8 +3646,7 @@ software:
       if running in a specific non-default configuration.
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Attivo networks
     product: ''
     cves:
@@ -3793,8 +3675,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AudioCodes
     product: ''
     cves:
@@ -3823,8 +3704,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Autodesk
     product: ''
     cves:
@@ -3860,7 +3740,6 @@ software:
       and we will provide updates on the [Autodesk Trust Center as we learn more](https://www.autodesk.com/trust/overview).
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Automox
     product: ''
@@ -3890,8 +3769,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Autopsy
     product: ''
     cves:
@@ -3920,8 +3798,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Auvik
     product: ''
     cves:
@@ -3950,8 +3827,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Avantra SYSLINK
     product: ''
     cves:
@@ -3980,8 +3856,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Avaya
     product: Avaya Analytics
     cves:
@@ -4015,7 +3890,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Aura for OneCloud Private
@@ -4048,7 +3922,6 @@ software:
       appropriate change processes.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Aura® Application Enablement Services
@@ -4081,7 +3954,6 @@ software:
     notes: ''
     references:
       - '[PSN020551u](https://download.avaya.com/css/public/documents/101079386)'
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Aura® Contact Center
@@ -4116,7 +3988,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Aura® Device Services
@@ -4150,7 +4021,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Aura® Media Server
@@ -4183,7 +4053,6 @@ software:
     notes: ''
     references:
       - '[PSN020549u](https://download.avaya.com/css/secure/documents/101079316)'
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Aura® Presence Services
@@ -4223,7 +4092,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Aura® Session Manager
@@ -4261,7 +4129,6 @@ software:
     notes: ''
     references:
       - '[PSN020550u](https://download.avaya.com/css/public/documents/101079384)'
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Aura® System Manager
@@ -4293,7 +4160,6 @@ software:
     notes: ''
     references:
       - '[PSN005565u](https://download.avaya.com/css/secure/documents/101079390)'
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Aura® Web Gateway
@@ -4328,7 +4194,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Breeze™
@@ -4361,7 +4226,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Contact Center Select
@@ -4396,7 +4260,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya CRM Connector - Connected Desktop
@@ -4427,7 +4290,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Device Enablement Service
@@ -4458,7 +4320,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Meetings
@@ -4491,7 +4352,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya one cloud private -UCaaS - Mid Market Aura
@@ -4522,7 +4382,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya OneCloud-Private
@@ -4553,7 +4412,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Session Border Controller for Enterprise
@@ -4588,7 +4446,6 @@ software:
     notes: ''
     references:
       - '[PSN020554u](https://download.avaya.com/css/public/documents/101079394)'
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Social Media Hub
@@ -4618,7 +4475,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Workforce Engagement
@@ -4649,7 +4505,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Business Rules Engine
@@ -4683,7 +4538,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Callback Assist
@@ -4715,7 +4569,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Control Manager
@@ -4747,7 +4600,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Device Enrollment Service
@@ -4778,7 +4630,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Equinox™ Conferencing
@@ -4809,7 +4660,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Interaction Center
@@ -4840,7 +4690,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: IP Office™ Platform
@@ -4874,7 +4723,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Proactive Outreach Manager
@@ -4908,7 +4756,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
     product: Avaya Aura® Device Services
@@ -4941,7 +4788,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: AVEPOINT
     product: ''
@@ -4971,8 +4817,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AVM
     product: ''
     cves:
@@ -5001,8 +4846,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AvTech RoomAlert
     product: ''
     cves:
@@ -5031,8 +4875,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AWS New
     product: ''
     cves:
@@ -5061,8 +4904,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AXON
     product: ''
     cves:
@@ -5091,8 +4933,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: AXS Guard
     product: ''
     cves:
@@ -5121,8 +4962,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: Axways Applications
     product: ''
     cves:
@@ -5151,6 +4991,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:21+00:00'
+    last_updated: '2022-01-07T17:30:32+00:00'
 ...

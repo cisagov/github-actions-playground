@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: N-able
     product: ''
@@ -29,8 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Nagios
     product: ''
     cves:
@@ -59,8 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: NAKIVO
     product: ''
     cves:
@@ -89,8 +90,37 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
+  - vendor: National Instruments
+    product: OptimalPlus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ni.com/en-us/support/documentation/supplemental/21/ni-response-to-apache-log4j-vulnerability-.html
+    notes: (Limited to deployments running Veritas, Cloudera, or Logstash) Contact
+      Technical Support
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
   - vendor: Neo4j
     product: Neo4j Graph Database
     cves:
@@ -120,7 +150,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-13T00:00:00'
   - vendor: Netapp
     product: Multiple NetApp products
@@ -150,8 +179,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Netcup
     product: ''
     cves:
@@ -180,8 +208,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: NetGate PFSense
     product: ''
     cves:
@@ -210,8 +237,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Netwrix
     product: ''
     cves:
@@ -240,8 +266,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: New Relic
     product: Containerized Private Minion (CPM)
     cves:
@@ -272,7 +297,6 @@ software:
       the fix version remains sufficient.
     references:
       - '[Security Bulletin NR21-04](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr21-04/)'
-    reporter: cisagov
     last_updated: '2021-12-18T00:00:00'
   - vendor: New Relic
     product: New Relic Java Agent
@@ -304,7 +328,6 @@ software:
     references:
       - '[New Relic tracking](https://github.com/newrelic/newrelic-java-agent/issues/605),
         covers CVE-2021-44228, CVE-2021-45046'
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: NextCloud
     product: ''
@@ -334,8 +357,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Nextflow
     product: Nextflow
     cves:
@@ -365,7 +387,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Nexus Group
     product: ''
@@ -395,8 +416,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: NI (National Instruments)
     product: ''
     cves:
@@ -425,8 +445,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Nice Software (AWS) EnginFRAME
     product: ''
     cves:
@@ -455,8 +474,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: NinjaRMM
     product: ''
     cves:
@@ -486,8 +504,7 @@ software:
       by CISA
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Nomachine
     product: ''
     cves:
@@ -516,8 +533,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: NoviFlow
     product: ''
     cves:
@@ -546,8 +562,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Nulab
     product: Backlog
     cves:
@@ -577,8 +592,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Nulab
     product: Backlog Enterprise (On-premises)
     cves:
@@ -608,8 +622,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Nulab
     product: Cacoo
     cves:
@@ -639,8 +652,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Nulab
     product: Cacoo Enterprise (On-premises)
     cves:
@@ -670,8 +682,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Nulab
     product: Typetalk
     cves:
@@ -701,8 +712,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Nutanix
     product: AHV
     cves:
@@ -732,7 +742,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: AOS
@@ -764,7 +773,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: AOS
@@ -795,7 +803,6 @@ software:
     notes: Patched in 6.0.2.4, available on the Portal for download.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Beam
@@ -825,7 +832,6 @@ software:
     notes: Saas-Based Procuct.  See Advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: BeamGov
@@ -855,7 +861,6 @@ software:
     notes: Saas-Based Procuct.  See Advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Calm
@@ -886,7 +891,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Calm Tunnel VM
@@ -917,7 +921,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Collector
@@ -948,7 +951,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Collector Portal
@@ -978,7 +980,6 @@ software:
     notes: Saas-Based Procuct.  See Advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Data Lens
@@ -1008,7 +1009,6 @@ software:
     notes: Saas-Based Procuct.  See Advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Era
@@ -1039,7 +1039,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: File Analytics
@@ -1073,7 +1072,6 @@ software:
       Mitigation is available [here](https://portal.nutanix.com/kb/12499)
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Files
@@ -1104,7 +1102,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Flow
@@ -1135,7 +1132,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Flow Security Cental
@@ -1165,7 +1161,6 @@ software:
     notes: Saas-Based Procuct.  See Advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Foundation
@@ -1196,7 +1191,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Frame
@@ -1226,7 +1220,6 @@ software:
     notes: Saas-Based Procuct.  See Advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: FrameGov
@@ -1256,7 +1249,6 @@ software:
     notes: Saas-Based Procuct.  See Advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: FSCVM
@@ -1287,7 +1279,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Insights
@@ -1317,7 +1308,6 @@ software:
     notes: Saas-Based Procuct.  See Advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Karbon
@@ -1348,7 +1338,6 @@ software:
     notes: Mitigation is available [here](https://portal.nutanix.com/kb/12483)
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Karbon Platform Service
@@ -1378,7 +1367,6 @@ software:
     notes: Saas-Based Procuct.  See Advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Leap
@@ -1408,7 +1396,6 @@ software:
     notes: Saas-Based Procuct.  See Advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: LCM
@@ -1439,7 +1426,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Mine
@@ -1470,7 +1456,6 @@ software:
     notes: Mitigation is available [here](https://portal.nutanix.com/kb/12484)
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Move
@@ -1501,7 +1486,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: MSP
@@ -1532,7 +1516,6 @@ software:
     notes: Mitigation is available [here](https://portal.nutanix.com/kb/12482)
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: NCC
@@ -1563,7 +1546,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: NGT
@@ -1594,7 +1576,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Objects
@@ -1625,7 +1606,6 @@ software:
     notes: Mitigation is available [here](https://portal.nutanix.com/kb/12482)
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Prism Central
@@ -1656,7 +1636,6 @@ software:
     notes: Patched in 2021-9.0.3, available on the Portal for download.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Sizer
@@ -1686,7 +1665,6 @@ software:
     notes: Saas-Based Procuct.  See Advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Volumes
@@ -1717,7 +1695,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: Witness VM
@@ -1748,7 +1725,6 @@ software:
     notes: Mitigation is available [here](https://portal.nutanix.com/kb/12491)
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
     product: X-Ray
@@ -1779,7 +1755,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nvidia
     product: ''
@@ -1809,8 +1784,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: NXLog
     product: ''
     cves:
@@ -1839,6 +1813,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
 ...

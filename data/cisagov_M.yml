@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: MailStore
     product: ''
@@ -29,8 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Maltego
     product: ''
     cves:
@@ -59,8 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: ManageEngine
     product: Servicedesk Plus
     cves:
@@ -90,7 +91,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: ManageEngine
     product: AD SelfService Plus
@@ -120,7 +120,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-27T00:00:00'
   - vendor: ManageEngine Zoho
     product: ''
@@ -150,8 +149,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: ManageEngine Zoho
     product: ADManager Plus
     cves:
@@ -181,7 +179,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
     product: ADAudit Plus
@@ -212,7 +209,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
     product: DataSecurity Plus
@@ -243,7 +239,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
     product: EventLog Analyzer
@@ -274,7 +269,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
     product: M365 Manager Plus
@@ -305,7 +299,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
     product: RecoveryManager Plus
@@ -336,7 +329,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
     product: Exchange Reporter Plus
@@ -367,7 +359,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
     product: Log360
@@ -398,7 +389,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
     product: Log360 UEBA
@@ -429,7 +419,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
     product: Cloud Security Plus
@@ -460,7 +449,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
     product: M365 Security Plus
@@ -491,7 +479,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
     product: Analytics Plus
@@ -522,7 +509,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: MariaDB
     product: ''
@@ -552,8 +538,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: MathWorks
     product: All MathWorks general release desktop or server products
     cves:
@@ -582,8 +567,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: MathWorks
     product: MATLAB
     cves:
@@ -613,7 +597,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-29T00:00:00'
   - vendor: Matillion
     product: ''
@@ -643,8 +626,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Matomo
     product: ''
     cves:
@@ -673,8 +655,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Mattermost FocalBoard
     product: ''
     cves:
@@ -703,8 +684,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: McAfee
     product: Data Exchange Layer (DXL) Client
     cves:
@@ -732,7 +712,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Data Loss Prevention (DLP) Discover
@@ -761,7 +740,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Data Loss Prevention (DLP) Endpoint for Mac
@@ -790,7 +768,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Data Loss Prevention (DLP) Endpoint for Windows
@@ -819,7 +796,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Data Loss Prevention (DLP) Monitor
@@ -848,7 +824,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Data Loss Prevention (DLP) Prevent
@@ -877,7 +852,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Endpoint Security (ENS) for Linux
@@ -906,7 +880,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Endpoint Security (ENS) for Mac
@@ -935,7 +908,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Endpoint Security (ENS) for Windows
@@ -964,7 +936,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: ePolicy Orchestrator Application Server (ePO)
@@ -995,7 +966,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: ePolicy Orchestrator Agent Handlers (ePO-AH)
@@ -1024,7 +994,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Host Intrusion Prevention (Host IPS)
@@ -1053,7 +1022,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Management of Native Encryption (MNE)
@@ -1082,7 +1050,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: McAfee Active Response (MAR)
@@ -1111,7 +1078,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: McAfee Agent (MA)
@@ -1140,7 +1106,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: McAfee Application and Change Control (MACC) for Linux
@@ -1169,7 +1134,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: McAfee Application and Change Control (MACC) for Windows
@@ -1198,7 +1162,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: McAfee Client Proxy (MCP) for Mac
@@ -1227,7 +1190,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: McAfee Client Proxy (MCP) for Windows
@@ -1256,7 +1218,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: McAfee Drive Encryption (MDE)
@@ -1285,7 +1246,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: McAfee Security for Microsoft Exchange (MSME)
@@ -1314,7 +1274,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: McAfee Security for Microsoft SharePoint (MSMS)
@@ -1343,7 +1302,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: McAfee Security for Microsoft Exchange (MSME)
@@ -1372,7 +1330,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Enterprise Security Manager (ESM)
@@ -1403,7 +1360,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Network Security Manager (NSM)
@@ -1432,7 +1388,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Network Security Platform (NSP)
@@ -1461,7 +1416,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Policy Auditor
@@ -1490,7 +1444,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Threat Intelligence Exchange (TIE)
@@ -1520,7 +1473,6 @@ software:
     notes: Latest status in linked Security Bulletin
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
     product: Web Gateway (MWG)
@@ -1550,7 +1502,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Medtronic
     product: ''
@@ -1580,7 +1531,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: MEINBERG
     product: ''
@@ -1610,8 +1560,36 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
+  - vendor: MEINBERG
+    product: LANTIME and microSync
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.meinbergglobal.com/english/news/meinberg-lantime-and-microsync-systems-not-at-risk-from-log4j-security-exploit.htm
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
   - vendor: Meltano
     product: Meltano
     cves:
@@ -1640,8 +1618,7 @@ software:
     notes: Project is written in Python
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Memurai
     product: ''
     cves:
@@ -1670,8 +1647,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: MicroFocus
     product: ''
     cves:
@@ -1700,8 +1676,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Microsoft
     product: Azure Application Gateway
     cves:
@@ -1730,8 +1705,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Microsoft
     product: Azure API Gateway
     cves:
@@ -1760,8 +1734,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Microsoft
     product: Azure Data lake store java
     cves:
@@ -1791,8 +1764,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Microsoft
     product: Azure Data lake store java
     cves:
@@ -1822,8 +1794,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Microsoft
     product: Azure DevOps Server
     cves:
@@ -1853,8 +1824,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Microsoft
     product: Azure DevOps
     cves:
@@ -1883,8 +1853,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Microsoft
     product: Azure Traffic Manager
     cves:
@@ -1913,8 +1882,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Microsoft
     product: Team Foundation Server
     cves:
@@ -1944,8 +1912,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Microstrategy
     product: ''
     cves:
@@ -1974,8 +1941,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Midori Global
     product: ''
     cves:
@@ -2004,8 +1970,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Mikrotik
     product: ''
     cves:
@@ -2034,8 +1999,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Milestone sys
     product: ''
     cves:
@@ -2064,8 +2028,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Mimecast
     product: ''
     cves:
@@ -2094,8 +2057,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Minecraft
     product: ''
     cves:
@@ -2124,8 +2086,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Mirantis
     product: ''
     cves:
@@ -2154,8 +2115,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Miro
     product: ''
     cves:
@@ -2184,8 +2144,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Mitel
     product: ''
     cves:
@@ -2214,8 +2173,65 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
+  - vendor: MMM Group
+    product: Control software of all MMM series
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.mmmgroup.com/en/news/cybersecurity-vulnerability-log4shell-java-library-log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: MMM Group
+    product: RUMED360 Cycles, RUMED360 Cycles View, RUMED360 Sicon, RUMED360 ISA-Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.mmmgroup.com/en/news/cybersecurity-vulnerability-log4shell-java-library-log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
   - vendor: MobileIron
     product: Core
     cves:
@@ -2249,7 +2265,6 @@ software:
       portal during the procedure, however, end user devices will continue to function.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: MobileIron
     product: Core Connector
@@ -2284,7 +2299,6 @@ software:
       portal during the procedure, however, end user devices will continue to function.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: MobileIron
     product: Reporting Database (RDB)
@@ -2319,7 +2333,6 @@ software:
       portal during the procedure, however, end user devices will continue to function.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: MobileIron
     product: Sentry
@@ -2355,7 +2368,6 @@ software:
       portal during the procedure, however, end user devices will continue to function.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: MongoDB
     product: All other components of MongoDB Atlas (including Atlas Database, Data
@@ -2386,8 +2398,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: MongoDB
     product: MongoDB Atlas Search
     cves:
@@ -2416,8 +2427,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: MongoDB
     product: MongoDB Community Edition (including Community Server, Cloud Manager,
       Community Kubernetes Operators)
@@ -2447,8 +2457,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: MongoDB
     product: MongoDB Drivers
     cves:
@@ -2477,8 +2486,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: MongoDB
     product: MongoDB Enterprise Advanced (including Enterprise Server, Ops Manager,
       Enterprise Kubernetes Operators)
@@ -2508,8 +2516,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: MongoDB
     product: MongoDB Realm (including Realm Database, Sync, Functions, APIs)
     cves:
@@ -2538,8 +2545,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: MongoDB
     product: MongoDB Tools (including Compass, Database Shell, VS Code Plugin, Atlas
       CLI, Database Connectors)
@@ -2569,8 +2575,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Moodle
     product: ''
     cves:
@@ -2599,8 +2604,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: MoogSoft
     product: ''
     cves:
@@ -2629,8 +2633,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Motorola Avigilon
     product: ''
     cves:
@@ -2659,8 +2662,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Mulesoft
     product: ''
     cves:
@@ -2690,8 +2692,7 @@ software:
       by CISA
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:27+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Mulesoft
     product: Mule Runtime
     cves:
@@ -2723,7 +2724,6 @@ software:
       by CISA.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Mulesoft
     product: Mule Agent
@@ -2755,7 +2755,6 @@ software:
       by CISA.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Mulesoft
     product: Cloudhub
@@ -2786,7 +2785,6 @@ software:
       by CISA.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Mulesoft
     product: Anypoint Studio
@@ -2818,6 +2816,5 @@ software:
       by CISA.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
 ...

@@ -1,6 +1,592 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
+  - vendor: Daktronics
+    product: All Sport Pro
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Data Vision Software (DVS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: DVS has one microservice that uses Log4j, but it uses a version that is
+      not impacted.
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Dakronics Web Player
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions:
+          - DWP-1000
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: 'DWP-1000: Not present in our codebase, but awaiting confirmation from
+      LG re: webOS platform.'
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Dakronics Media Player
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - DMP (any series)
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Dynamic Messaging System (DMS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Dynamic Messaging System - DMS Core Player
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - P10
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Dynamic Messaging System - DMS Player hardware
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - AMP-R200
+          - AMP-R400
+          - AMP-R800
+          - AMP-SM100
+          - AMP-SE100
+          - AMP-SM200
+          - AMP-SM400
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Dynamic Messaging System - DMS Web Player
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: 'DMS Web Player: Not present in our codebase, but awaiting confirmation
+      from LG re: webOS platform.'
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: IBoot - Dataprobe IBoot Devices
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - A-3257
+          - '3256'
+          - '2270'
+          - '2269'
+          - '1978'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Outdoor Smartlink Devices
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - A-3189335
+          - '3128'
+          - '3416'
+          - '3418'
+          - '3707'
+          - '3708'
+          - '3709'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Routers - Cisco Meraki Z3/Z3c Routers
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - A-4036028
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Routers - Cisco Z1 Routers
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - A-3665
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Routers - Sierra Wireless RV50x/RV50
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions:
+          - A-3350704
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Show Control System (SCS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Vanguard
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Venus 1500
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Venus Control Suite (VCS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Video Image Processors
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - VIP-5060/VIP-5160/VIP-4060
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
+  - vendor: Daktronics
+    product: Webcam - Mobotix
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - A-2242
+          - A-3127
+          - A-3719
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.daktronics.com/en-us/support/kb/000025337
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
   - vendor: DarkTrace
     product: ''
     cves:
@@ -29,8 +615,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Dassault Systèmes
     product: ''
     cves:
@@ -59,8 +644,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Databricks
     product: ''
     cves:
@@ -89,8 +673,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Datadog
     product: Datadog Agent
     cves:
@@ -123,8 +706,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Dataminer
     product: ''
     cves:
@@ -153,8 +735,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Datev
     product: ''
     cves:
@@ -183,8 +764,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Datto
     product: ''
     cves:
@@ -213,8 +793,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: dCache.org
     product: ''
     cves:
@@ -243,8 +822,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Debian
     product: ''
     cves:
@@ -273,8 +851,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Deepinstinct
     product: ''
     cves:
@@ -303,8 +880,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Dell
     product: Alienware Command Center
     cves:
@@ -334,7 +910,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Alienware OC Controls
@@ -365,7 +940,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Alienware On Screen Display
@@ -396,7 +970,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Alienware Update
@@ -427,7 +1000,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Atmos
@@ -458,7 +1030,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Azure Stack HCI
@@ -489,7 +1060,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: CalMAN Powered Calibration Firmware
@@ -520,7 +1090,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: CalMAN Ready for Dell
@@ -551,7 +1120,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Centera
@@ -582,7 +1150,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Chameleon Linux Based Diagnostics
@@ -613,7 +1180,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Chassis Management Controller (CMC)
@@ -644,7 +1210,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: China HDD Deluxe
@@ -675,7 +1240,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Cloud Mobility for Dell EMC Storage
@@ -706,7 +1270,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Cloud Tiering Appliance
@@ -737,7 +1300,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Connectrix (Cisco MDS 9000 switches)
@@ -768,7 +1330,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Connextrix B Series
@@ -799,7 +1360,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: CyberSecIQ Application
@@ -830,7 +1390,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: CyberSense for PowerProtect Cyber Recovery
@@ -861,7 +1420,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell BSAFE Crypto-C Micro Edition
@@ -892,7 +1450,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell BSAFE Crypto-J
@@ -923,7 +1480,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell BSAFE Micro Edition Suite
@@ -954,7 +1510,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Calibration Assistant
@@ -985,7 +1540,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Cinema Color
@@ -1016,7 +1570,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Cloud Command Repository Manager
@@ -1047,7 +1600,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Cloud Management Agent
@@ -1078,7 +1630,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Color Management
@@ -1109,7 +1660,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Command Configure
@@ -1140,7 +1690,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Command Integration Suite for System Center
@@ -1171,7 +1720,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Command Intel vPro Out of Band
@@ -1202,7 +1750,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Command Monitor
@@ -1233,7 +1780,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Command Power Manager
@@ -1264,7 +1810,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Command PowerShell Provider
@@ -1295,7 +1840,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Command Update
@@ -1326,7 +1870,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Customer Connect
@@ -1357,7 +1900,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Data Guardian*
@@ -1388,7 +1930,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Data Protection*
@@ -1419,7 +1960,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Data Recovery Environment
@@ -1450,7 +1990,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Data Vault
@@ -1481,7 +2020,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Data Vault for Chrome OS
@@ -1512,7 +2050,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Deployment Agent
@@ -1543,7 +2080,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Digital Delivery
@@ -1574,7 +2110,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Direct USB Key
@@ -1605,7 +2140,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Display Manager 1.5 for Windows / macOS
@@ -1636,7 +2170,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Display Manager 2.0 for Windows / macOS
@@ -1667,7 +2200,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC AppSync
@@ -1698,7 +2230,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Cloudboost
@@ -1729,7 +2260,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC CloudLink
@@ -1760,7 +2290,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Container Storage Modules
@@ -1791,7 +2320,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Data Computing Appliance (DCA)
@@ -1822,7 +2350,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Data Protection Advisor
@@ -1853,7 +2380,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC DataIQ
@@ -1884,7 +2410,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Disk Library for Mainframe
@@ -1915,7 +2440,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC GeoDrive
@@ -1946,7 +2470,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Isilon InsightIQ
@@ -1977,7 +2500,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC License Manager
@@ -2008,7 +2530,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Networking Onie
@@ -2039,7 +2560,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC OpenManage Ansible Modules
@@ -2070,7 +2590,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC OpenManage integration for Splunk
@@ -2101,7 +2620,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC OpenManage Integration for VMware vCenter
@@ -2132,7 +2650,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC OpenManage Management pack for vRealize Operations
@@ -2163,7 +2680,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC OpenManage Operations Connector for Micro Focus Operations Bridge
@@ -2195,7 +2711,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: '"Dell EMC PowerMax VMAX VMAX3 and VMAX AFA"'
@@ -2226,7 +2741,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerPath
@@ -2257,7 +2771,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerPath Management Appliance
@@ -2288,7 +2801,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerProtect Cyber Recovery
@@ -2319,7 +2831,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerScale OneFS
@@ -2350,7 +2861,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerShell for PowerMax
@@ -2381,7 +2891,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerShell for Powerstore
@@ -2412,7 +2921,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerShell for Unity
@@ -2443,7 +2951,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: '"Dell EMC PowerSwitch Z9264F-ON BMC Dell EMC PowerSwitch Z9432F-ON BMC"'
@@ -2474,7 +2981,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerVault ME4 Series Storage Arrays
@@ -2505,7 +3011,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerVault MD3 Series Storage Arrays
@@ -2536,7 +3041,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Repository Manager (DRM)
@@ -2567,7 +3071,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC SourceOne
@@ -2598,7 +3101,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Systems Update (DSU)
@@ -2629,7 +3131,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Unisphere 360
@@ -2660,7 +3161,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Virtual Storage Integrator
@@ -2691,7 +3191,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC VPLEX
@@ -2722,7 +3221,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC XtremIO
@@ -2753,7 +3251,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Encryption Enterprise*
@@ -2784,7 +3281,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Encryption Personal*
@@ -2815,7 +3311,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Endpoint Security Suite Enterprise*
@@ -2846,7 +3341,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Hybrid Client
@@ -2877,7 +3371,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell ImageAssist
@@ -2908,7 +3401,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Insights Client
@@ -2939,7 +3431,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Linux Assistant
@@ -2970,7 +3461,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Mobile Connect
@@ -3001,7 +3491,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Monitor ISP (Windows/Mac/Linux)
@@ -3032,7 +3521,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Monitor SDK
@@ -3063,7 +3551,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Networking X-Series
@@ -3094,7 +3581,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Open Manage Mobile
@@ -3125,7 +3611,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Open Manage Server Administrator
@@ -3156,7 +3641,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell OpenManage Change Management
@@ -3187,7 +3671,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell OpenManage Enterprise Power Manager Plugin
@@ -3218,7 +3701,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Optimizer
@@ -3249,7 +3731,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell OS Recovery Tool
@@ -3280,7 +3761,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Peripheral Manager 1.4 / 1.5 for Windows
@@ -3311,7 +3791,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Platform Service
@@ -3342,7 +3821,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Power Manager
@@ -3373,7 +3851,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Power Manager Lite
@@ -3404,7 +3881,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Precision Optimizer
@@ -3435,7 +3911,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Precision Optimizer for Linux
@@ -3466,7 +3941,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Premier Color
@@ -3497,7 +3971,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Recovery (Linux)
@@ -3528,7 +4001,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Remediation Platform
@@ -3559,7 +4031,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Remote Execution Engine (DRONE)
@@ -3590,7 +4061,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Security Advisory Update - DSA-2021-088
@@ -3621,7 +4091,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Security Management Server & Dell Security Management Server Virtual*
@@ -3652,7 +4121,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell SupportAssist SOS
@@ -3683,7 +4151,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Thin OS
@@ -3714,7 +4181,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Threat Defense
@@ -3745,7 +4211,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell True Color
@@ -3776,7 +4241,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Trusted Device
@@ -3807,7 +4271,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Update
@@ -3838,7 +4301,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dream Catcher
@@ -3869,7 +4331,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: DUP Creation Service
@@ -3900,7 +4361,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: DUP Framework (ISG)
@@ -3931,7 +4391,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Embedded NAS
@@ -3962,7 +4421,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Embedded Service Enabler
@@ -3993,7 +4451,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Equallogic PS
@@ -4024,7 +4481,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Fluid FS
@@ -4055,7 +4511,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: iDRAC Service Module (iSM)
@@ -4086,7 +4541,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Infinity MLK (firmware)
@@ -4117,7 +4571,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Integrated Dell Remote Access Controller (iDRAC)
@@ -4148,7 +4601,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: ISG Accelerators
@@ -4179,7 +4631,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: ISG Board & Electrical
@@ -4210,7 +4661,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: IsilonSD Management Server
@@ -4241,7 +4691,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: IVE-WinDiag
@@ -4272,7 +4721,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Mainframe Enablers
@@ -4303,7 +4751,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: My Dell
@@ -4334,7 +4781,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: MyDell Mobile
@@ -4365,7 +4811,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: NetWorker Management Console
@@ -4396,7 +4841,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Networking BIOS
@@ -4427,7 +4871,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Networking DIAG
@@ -4458,7 +4901,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Networking N-Series
@@ -4489,7 +4931,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Networking OS 10
@@ -4520,7 +4961,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Networking OS9
@@ -4551,7 +4991,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Networking SD-WAN Edge SD-WAN
@@ -4582,7 +5021,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Networking W-Series
@@ -4613,7 +5051,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Networking X-Series
@@ -4644,7 +5081,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: OMIMSSC (OpenManage Integration for Microsoft System Center)
@@ -4675,7 +5111,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: OMNIA
@@ -4706,7 +5141,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: OpenManage Connections - Nagios
@@ -4737,7 +5171,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: OpenManage Connections - ServiceNow
@@ -4768,7 +5201,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: OpenManage Integration for Microsoft System Center for System Center
@@ -4800,7 +5232,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: OpenManage Integration with Microsoft Windows Admin Center
@@ -4831,7 +5262,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: OpenManage Network Integration
@@ -4862,7 +5292,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: PowerConnect N3200
@@ -4893,7 +5322,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: PowerConnect PC2800
@@ -4924,7 +5352,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: PowerConnect PC8100
@@ -4955,7 +5382,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: PowerEdge BIOS
@@ -4986,7 +5412,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: PowerEdge Operating Systems
@@ -5017,7 +5442,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: PowerTools Agent
@@ -5048,7 +5472,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: PPDM Kubernetes cProxy
@@ -5079,7 +5502,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: PPDM VMware vProxy
@@ -5110,7 +5532,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Redtail
@@ -5141,7 +5562,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Remotely Anywhere
@@ -5172,7 +5592,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Riptide (firmware)
@@ -5203,7 +5622,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Rugged Control Center (RCC)
@@ -5234,7 +5652,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: SD ROM Utility
@@ -5265,7 +5682,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: SDNAS
@@ -5296,7 +5712,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Server Storage
@@ -5327,7 +5742,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Smart Fabric Storage Software
@@ -5358,7 +5772,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: SmartByte
@@ -5389,7 +5802,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: SMI-S
@@ -5420,7 +5832,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Software RAID
@@ -5451,7 +5862,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Solutions Enabler
@@ -5482,7 +5892,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Solutions Enabler vApp
@@ -5513,7 +5922,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Sonic
@@ -5544,7 +5952,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: SRS VE
@@ -5575,7 +5982,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Storage Center OS and additional SC applications unless otherwise noted
@@ -5606,7 +6012,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: SupportAssist Client Commercial
@@ -5637,7 +6042,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: SupportAssist Client Consumer
@@ -5668,7 +6072,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: UCC Edge
@@ -5699,7 +6102,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Unisphere for PowerMax
@@ -5730,7 +6132,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Unisphere for PowerMax vApp
@@ -5761,7 +6162,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Unisphere for VMAX
@@ -5792,7 +6192,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Unisphere for VNX
@@ -5823,7 +6222,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Update Manager Plugin
@@ -5854,7 +6252,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: ViPR Controller
@@ -5885,7 +6282,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: VNX1
@@ -5916,7 +6312,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: VNX2
@@ -5947,7 +6342,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: VPLEX VS2/VS6 / VPLEX Witness
@@ -5978,7 +6372,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Vsan Ready Nodes
@@ -6009,7 +6402,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Warnado MLK (firmware)
@@ -6040,7 +6432,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Wyse Proprietary OS (ThinOS)
@@ -6071,7 +6462,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Wyse Windows Embedded Suite
@@ -6102,7 +6492,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: APEX Console
@@ -6133,7 +6522,6 @@ software:
     notes: Cloud environment patched
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: APEX Data Storage Services
@@ -6163,7 +6551,6 @@ software:
     notes: Cloud environment patch in progress
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Cloud IQ
@@ -6193,7 +6580,6 @@ software:
     notes: Cloud environment patched
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Connectrix (Cisco MDS DCNM)
@@ -6223,7 +6609,6 @@ software:
     notes: Patch expected by 12/23/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Connectrix B-Series SANnav
@@ -6254,7 +6639,6 @@ software:
     notes: Patch expected by 3/31/2022
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Data Domain OS
@@ -6285,7 +6669,6 @@ software:
     notes: See DSA-2021-274
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Avamar
@@ -6316,7 +6699,6 @@ software:
     notes: Patch expected by 12/20/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC BSN Controller Node
@@ -6346,7 +6728,6 @@ software:
     notes: See DSA-2021-305
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Cloud Disaster Recovery
@@ -6377,7 +6758,6 @@ software:
     notes: Patch pending
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Data Protection Central
@@ -6407,7 +6787,6 @@ software:
     notes: See DSA-2021- 269
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Data Protection Search
@@ -6438,7 +6817,6 @@ software:
     notes: See DSA-2021-279
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC ECS
@@ -6468,7 +6846,6 @@ software:
     notes: Patch expected by 12/18/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Enterprise Hybrid Cloud
@@ -6498,7 +6875,6 @@ software:
     notes: '[link](https://www.dell.com/support/kbdoc/en-us/000194490/dsa-2021-270-enterprise-hybrid-cloud-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Enterprise Storage Analytics for vRealize Operations
@@ -6529,7 +6905,6 @@ software:
     notes: See DSA-2021-278
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Integrated System for Azure Stack HCI
@@ -6564,7 +6939,6 @@ software:
       and remediations as they become [available:](https://www.dell.com/support/kbdoc/en-us/000194622/dsa-2021-307-dell-emc-integrated-system-for-azure-stack-hci-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Integrated System for Microsoft Azure Stack Hub
@@ -6595,7 +6969,6 @@ software:
     notes: Patch pending
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC NetWorker Virtual Edition
@@ -6626,7 +6999,6 @@ software:
     notes: Patch expected by 12/20/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC NetWorker Server
@@ -6657,7 +7029,6 @@ software:
     notes: Patch expected by 12/20/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Networking Virtual Edge Platform with VersaOS
@@ -6688,7 +7059,6 @@ software:
     notes: See DSA-2021-304
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerFlex Appliance
@@ -6720,7 +7090,6 @@ software:
     notes: Patch pending
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerFlex Software (SDS)
@@ -6751,7 +7120,6 @@ software:
     notes: Patch pending
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerFlex Rack
@@ -6782,7 +7150,6 @@ software:
     notes: Patch pending
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerProtect Data Manager
@@ -6813,7 +7180,6 @@ software:
     notes: Patch pending
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerProtect DP Series Appliance (iDPA)
@@ -6844,7 +7210,6 @@ software:
     notes: Patch pending
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC PowerStore
@@ -6874,7 +7239,6 @@ software:
     notes: Patch expected by 12/23/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC RecoverPoint for Virtual Machine
@@ -6905,7 +7269,6 @@ software:
     notes: Patch pending
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC RecoverPoint Classic
@@ -6936,7 +7299,6 @@ software:
     notes: Patch pending
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC SRM vApp
@@ -6967,7 +7329,6 @@ software:
     notes: Patch expected by 1/25/2022
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Streaming Data Platform
@@ -6997,7 +7358,6 @@ software:
     notes: Patch expected by 12/18/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Unity
@@ -7027,7 +7387,6 @@ software:
     notes: Patch expected by 12/29/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Metro Node
@@ -7058,7 +7417,6 @@ software:
     notes: See DSA-2021-308
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC VxRail
@@ -7089,7 +7447,6 @@ software:
     notes: Patch pending
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell Open Management Enterprise - Modular
@@ -7120,7 +7477,6 @@ software:
     notes: See DSA-2021-268
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: DellEMC OpenManage Enterprise Services
@@ -7150,7 +7506,6 @@ software:
     notes: Patch expected by 12/20/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: OpenManage Enterprise
@@ -7180,7 +7535,6 @@ software:
     notes: Patch expected by 12/19/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Ruckus SmartZone 300 Controller
@@ -7210,7 +7564,6 @@ software:
     notes: See DSA-2021-303
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Ruckus SmartZone 100 Controller
@@ -7240,7 +7593,6 @@ software:
     notes: See DSA-2021-303
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Ruckus Virtual Software
@@ -7270,7 +7622,6 @@ software:
     notes: See DSA-2021-303
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Secure Connect Gateway (SCG) Appliance
@@ -7301,7 +7652,6 @@ software:
     notes: See DSA-2021-282
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Secure Connect Gateway (SCG) Policy Manager
@@ -7332,7 +7682,6 @@ software:
     notes: See DSA-2021-281
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: SRS Policy Manager
@@ -7363,7 +7712,6 @@ software:
     notes: Patch pending
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Storage Center - Dell Storage Manager
@@ -7393,7 +7741,6 @@ software:
     notes: Patch pending
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: SupportAssist Enterprise
@@ -7423,7 +7770,6 @@ software:
     notes: Patch expected by 12/23/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Unisphere Central
@@ -7453,7 +7799,6 @@ software:
     notes: Patch expected by 1/10/2022
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Vblock
@@ -7483,7 +7828,6 @@ software:
     notes: Patch pending See vce6771 (requires customer login)
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: VNXe 1600
@@ -7514,7 +7858,6 @@ software:
     notes: Patch expected by 12/19/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: VNXe 3200
@@ -7545,7 +7888,6 @@ software:
     notes: Patch expected by 12/19/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: VxBlock
@@ -7575,7 +7917,6 @@ software:
     notes: '"Patch pending See vce6771 (requires customer login) "'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: vRealize Orchestrator (vRO) Plug-ins for Dell EMC Storage
@@ -7606,7 +7947,6 @@ software:
     notes: See DSA-2021-300
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: vRO Plugin for Dell EMC PowerMax
@@ -7637,7 +7977,6 @@ software:
     notes: See DSA-2021-300
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: vRO Plugin for Dell EMC PowerScale
@@ -7668,7 +8007,6 @@ software:
     notes: See DSA-2021-300
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: vRO Plugin for Dell EMC PowerStore
@@ -7699,7 +8037,6 @@ software:
     notes: See DSA-2021-300
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: vRO Plugin for Dell EMC Unity
@@ -7730,7 +8067,6 @@ software:
     notes: See DSA-2021-300
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: vRO Plugin for Dell EMC XtremIO
@@ -7761,7 +8097,6 @@ software:
     notes: See DSA-2021-300
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: vRealize Data Protection Extension Data Management
@@ -7791,7 +8126,6 @@ software:
     notes: Patch expected by 12/19/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: vRealize Data Protection Extension for vRealize Automation (vRA) 8.x
@@ -7822,7 +8156,6 @@ software:
     notes: Patch expected by 12/19/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: VMware vRealize Automation 8.x
@@ -7853,7 +8186,6 @@ software:
     notes: Patch expected by 12/19/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: VMware vRealize Orchestrator 8.x
@@ -7884,7 +8216,6 @@ software:
     notes: Patch expected by 12/19/21
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Wyse Management Suite
@@ -7915,7 +8246,6 @@ software:
     notes: See DSA-2021-267
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Deltares
     product: Delft-FEWS
@@ -7946,7 +8276,6 @@ software:
     notes: Mitigations Only
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Denequa
     product: ''
@@ -7976,8 +8305,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Device42
     product: ''
     cves:
@@ -8006,8 +8334,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Devolutions
     product: All products
     cves:
@@ -8036,8 +8363,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Diebold Nixdorf
     product: ''
     cves:
@@ -8066,8 +8392,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Digi International
     product: CTEK G6200 family
     cves:
@@ -8096,7 +8421,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: CTEK SkyCloud
@@ -8126,7 +8450,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: CTEK Z45 family
@@ -8156,7 +8479,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi 54xx family
@@ -8186,7 +8508,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi 63xx family
@@ -8216,7 +8537,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi AnywhereUSB (G2) family
@@ -8246,7 +8566,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi AnywhereUSB Plus family
@@ -8276,7 +8595,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi Connect family
@@ -8306,7 +8624,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi Connect EZ family
@@ -8336,7 +8653,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi Connect IT family
@@ -8366,7 +8682,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi ConnectPort family
@@ -8396,7 +8711,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi ConnectPort LTS family
@@ -8426,7 +8740,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi Connect Sensor family
@@ -8456,7 +8769,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi Connect WS family
@@ -8486,7 +8798,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi Embedded Android
@@ -8516,7 +8827,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi Embedded Yocto
@@ -8546,7 +8856,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi EX routers
@@ -8576,7 +8885,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi IX routers
@@ -8606,7 +8914,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi LR54
@@ -8636,7 +8943,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi One family
@@ -8666,7 +8972,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi Passport family
@@ -8696,7 +9001,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi PortServer TS family
@@ -8726,7 +9030,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi TX routers
@@ -8756,7 +9059,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi WR11
@@ -8786,7 +9088,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi WR21
@@ -8816,7 +9117,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi WR31
@@ -8846,7 +9146,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi WR44R/RR
@@ -8876,7 +9175,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi WR54
@@ -8906,7 +9204,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi WR64
@@ -8936,7 +9233,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: AnywhereUSB Manager
@@ -8966,7 +9262,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Aview
@@ -8996,7 +9291,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: ARMT
@@ -9026,7 +9320,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: AVWOB
@@ -9056,7 +9349,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi Navigator
@@ -9086,7 +9378,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi Remote Manager
@@ -9116,7 +9407,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Digi Xbee mobile app
@@ -9146,7 +9436,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Lighthouse
@@ -9176,7 +9465,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Realport
@@ -9206,7 +9494,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digi International
     product: Remote Hub Config Utility
@@ -9236,7 +9523,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Digicert
     product: ''
@@ -9266,8 +9552,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Digital AI
     product: ''
     cves:
@@ -9296,8 +9581,36 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
+  - vendor: Digital Alert Systems
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.digitalalertsystems.com/default-2.htm
+    notes: Formerly Monroe Electronics, Inc.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
   - vendor: DNSFilter
     product: ''
     cves:
@@ -9326,8 +9639,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Docker
     product: ''
     cves:
@@ -9356,8 +9668,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Docusign
     product: ''
     cves:
@@ -9386,8 +9697,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: DrayTek
     product: Vigor Routers, Access Points, Switches, VigorACS Central Management Software,
       MyVigor Platform
@@ -9417,7 +9727,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: DSpace
     product: ''
@@ -9447,8 +9756,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Dynatrace
     product: Managed cluster nodes
     cves:
@@ -9477,7 +9785,6 @@ software:
     notes: Please see Dynatrace Communication for details
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Dynatrace
     product: SAAS
@@ -9507,7 +9814,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Dynatrace
     product: FedRamp SAAS
@@ -9537,7 +9843,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Dynatrace
     product: Synthetic public locations
@@ -9567,7 +9872,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Dynatrace
     product: Synthetic Private ActiveGate
@@ -9597,7 +9901,6 @@ software:
     notes: Please see Dynatrace Communication for details
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Dynatrace
     product: ActiveGate
@@ -9627,7 +9930,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Dynatrace
     product: OneAgent
@@ -9657,7 +9959,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Dynatrace
     product: Dynatrace Extensions
@@ -9687,6 +9988,5 @@ software:
     notes: Please see Dynatrace Communication for details
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
 ...

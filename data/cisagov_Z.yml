@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: Zabbix
     product: ''
@@ -29,8 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: ZAMMAD
     product: ''
     cves:
@@ -59,8 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Zaproxy
     product: ''
     cves:
@@ -89,8 +90,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Zebra
     product: ''
     cves:
@@ -119,8 +119,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Zendesk
     product: All Products
     cves:
@@ -152,7 +151,6 @@ software:
       and systems.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-13T00:00:00'
   - vendor: Zenoss
     product: ''
@@ -182,8 +180,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Zentera Systems, Inc.
     product: CoIP Access Platform
     cves:
@@ -213,7 +210,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Zerto
     product: ''
@@ -243,8 +239,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Zesty
     product: ''
     cves:
@@ -273,8 +268,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Zimbra
     product: ''
     cves:
@@ -303,8 +297,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Zix
     product: ''
     cves:
@@ -333,7 +326,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Zoom
     product: ''
@@ -363,8 +355,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: ZPE systems Inc
     product: ''
     cves:
@@ -393,8 +384,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:39+00:00'
   - vendor: Zscaler
     product: See Link (Multiple Products)
     cves:
@@ -423,7 +413,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Zyxel
     product: ''
@@ -453,8 +442,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:39+00:00'
   - vendor: Zyxel
     product: Security Firewall/Gateways
     cves:
@@ -485,6 +473,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
 ...

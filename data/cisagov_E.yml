@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: EasyRedmine
     product: ''
@@ -29,8 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Eaton
     product: Undisclosed
     cves:
@@ -62,8 +64,7 @@ software:
       wall.
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: EclecticIQ
     product: ''
     cves:
@@ -92,8 +93,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Eclipse Foundation
     product: ''
     cves:
@@ -122,8 +122,36 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
+  - vendor: Edwards
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.edwards.com/devices/support/product-security
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-06T00:00:00'
   - vendor: EFI
     product: ''
     cves:
@@ -152,8 +180,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: EGroupware
     product: ''
     cves:
@@ -182,8 +209,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Elastic
     product: APM Java Agent
     cves:
@@ -212,7 +238,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: APM Server
@@ -242,7 +267,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Beats
@@ -272,7 +296,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Cmd
@@ -302,7 +325,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Elastic Agent
@@ -332,7 +354,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Elastic Cloud Enterprise
@@ -362,7 +383,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Elastic Cloud Enterprise
@@ -392,7 +412,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Elastic Cloud on Kubernetes
@@ -422,7 +441,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Elastic Cloud
@@ -452,7 +470,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Elastic Endgame
@@ -482,7 +499,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Elastic Maps Service
@@ -512,7 +528,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Elasticsearch
@@ -545,7 +560,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Endpoint Security
@@ -575,7 +589,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Enterprise Search
@@ -605,7 +618,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Fleet Server
@@ -635,7 +647,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Kibana
@@ -665,7 +676,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Logstash
@@ -697,7 +707,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Machine Learning
@@ -727,7 +736,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Swiftype
@@ -757,7 +765,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: ElasticSearch
     product: all products
@@ -786,8 +793,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Ellucian
     product: Banner Analytics
     cves:
@@ -816,7 +822,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Colleague
@@ -846,7 +851,6 @@ software:
     notes: On-prem and cloud deployements expect fixed 12/18/2021
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Admin
@@ -876,7 +880,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Enterprise Identity Services(BEIS)
@@ -906,7 +909,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Banner Integration for eLearning
@@ -936,7 +938,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Banner Integration for eProcurement
@@ -966,7 +967,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Banner Workflow
@@ -996,7 +996,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Banner Document Management (includes Banner Document Retention)
@@ -1026,7 +1025,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Advance Web Connector
@@ -1056,7 +1054,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian eTranscripts
@@ -1086,7 +1083,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Mobile
@@ -1116,7 +1112,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Solution Manager
@@ -1146,7 +1141,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Banner Event Publisher
@@ -1176,7 +1170,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Banner Self Service
@@ -1206,7 +1199,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Colleague Analytics
@@ -1236,7 +1228,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: CRM Advance
@@ -1266,7 +1257,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: CRM Advise
@@ -1296,7 +1286,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: CRM Recruit
@@ -1326,7 +1315,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Data Access
@@ -1356,7 +1344,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Design Path
@@ -1386,7 +1373,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian ePrint
@@ -1416,7 +1402,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Ethos API & API Management Center
@@ -1446,7 +1431,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Ethos Extend
@@ -1476,7 +1460,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Ethos Integration
@@ -1506,7 +1489,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Experience
@@ -1536,7 +1518,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Intelligent Platform (ILP)
@@ -1566,7 +1547,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian International Student and Scholar Management (ISSM)
@@ -1596,7 +1576,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Message Service (EMS)
@@ -1626,7 +1605,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Messaging Adapter (EMA)
@@ -1656,7 +1634,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Payment Gateway
@@ -1686,7 +1663,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Ellucian Portal
@@ -1716,7 +1692,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Workflow
@@ -1746,7 +1721,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian PowerCampus
@@ -1776,7 +1750,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: K-Series Coriolis Transmitters
@@ -1806,7 +1779,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Prolink Configuration Software
@@ -1836,7 +1808,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Prolink Mobile Application & ProcessViz Software
@@ -1866,7 +1837,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 4732 Endeavor
@@ -1896,7 +1866,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Vortex and Magmeter Transmitters
@@ -1926,7 +1895,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: USM 3410 and 3810 Series Ultrasonic Transmitters
@@ -1956,7 +1924,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Mark III Gas and Liquid USM
@@ -1986,7 +1953,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Flarecheck FlowCheck Flowel & PWAM software
@@ -2016,7 +1982,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: MPFM2600 & MPFM5726
@@ -2046,7 +2011,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: DHNC1 DHNC2
@@ -2076,7 +2040,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: WCM SWGM
@@ -2106,7 +2069,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Fieldwatch and Service consoles
@@ -2136,7 +2098,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 5726 Transmitter
@@ -2166,7 +2127,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Plantweb Advisor for Metrology and Metering Suite SDK
@@ -2196,7 +2156,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 'Gas Chromatographs: M500/2350A MON2000 700XA/1500XA 370XA MON2020'
@@ -2226,7 +2185,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 'Gas Analysis: X-STREAM Enhanced (XEGP XEGK XEGC XEGF XEFD XECLD)'
@@ -2256,7 +2214,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 'Gas Detection: Millennium II Basic Single & Dual Channel 928 Wireless
@@ -2288,7 +2245,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: K-Series Coriolis Transmitters
@@ -2318,7 +2274,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Prolink Configuration Software
@@ -2348,7 +2303,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Prolink Mobile Application & ProcessViz Software
@@ -2378,7 +2332,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 4732 Endeavor
@@ -2408,7 +2361,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Vortex and Magmeter Transmitters
@@ -2438,7 +2390,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: USM 3410 and 3810 Series Ultrasonic Transmitters
@@ -2468,7 +2419,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Mark III Gas and Liquid USM
@@ -2498,7 +2448,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Flarecheck FlowCheck Flowel & PWAM software
@@ -2528,7 +2477,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: MPFM2600 & MPFM5726
@@ -2558,7 +2506,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: DHNC1 DHNC2
@@ -2588,7 +2535,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: WCM SWGM
@@ -2618,7 +2564,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Fieldwatch and Service consoles
@@ -2648,7 +2593,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 5726 Transmitter
@@ -2678,7 +2622,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Plantweb Advisor for Metrology and Metering Suite SDK
@@ -2708,7 +2651,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 'Gas Chromatographs: M500/2350A MON2000 700XA/1500XA 370XA MON2020'
@@ -2738,7 +2680,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 'Gas Analysis: X-STREAM Enhanced (XEGP XEGK XEGC XEGF XEFD XECLD)'
@@ -2768,7 +2709,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 'Gas Detection: Millennium II Basic Single & Dual Channel 928 Wireless
@@ -2800,7 +2740,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Incus Ultrasonic gas leak detector
@@ -2830,7 +2769,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 'Flame Detection: 975UF & 975UR Infrared Flame Detectors 975HR Infrared
@@ -2861,7 +2799,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 'Liquid Transmitters: 5081 1066 1056 1057 56'
@@ -2891,7 +2828,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 'Combustion: OCX OXT 6888 CX1100 6888Xi'
@@ -2921,7 +2857,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Spectrex family Flame Detectors and Rosemount 975 flame detector
@@ -2951,7 +2886,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: CT4400 QCL General Purpose Continuous Gas Analyzer
@@ -2981,7 +2915,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: CT5400 QCL General Purpose Continuous Gas Analyzer
@@ -3011,7 +2944,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: CT5100 QCL Field Housing Continuous Gas Analyzer
@@ -3041,7 +2973,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: CT5800 QCL Flameproof Housing Continuous Gas Analyzer
@@ -3071,7 +3002,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: CT4215 QCL Packaging Leak Detection System
@@ -3101,7 +3031,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: CT2211 QCL Aerosol Microleak Detection System
@@ -3131,7 +3060,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: CT4404 QCL pMDI Leak Detection Analyzer
@@ -3161,7 +3089,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: CT4000 QCL Marine OEM Gas Analyzer
@@ -3191,7 +3118,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: CT3000 QCL Automotive OEM Gas Analyzer
@@ -3221,7 +3147,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 3051 & 3051S Pressure transmitter families
@@ -3251,7 +3176,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 2051 Pressure Transmitter Family
@@ -3281,7 +3205,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 4088 Pressure Transmitter
@@ -3311,7 +3234,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 2088 Pressure Transmitter Family
@@ -3341,7 +3263,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 2090F/2090P Pressure Transmitters
@@ -3371,7 +3292,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 4600 Pressure Transmitter
@@ -3401,7 +3321,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 215 Pressure Sensor Module
@@ -3431,7 +3350,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 550 PT Pressure Transmitter
@@ -3461,7 +3379,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 326P Pressure Transmitter
@@ -3491,7 +3408,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 3144P Temperature Transmitter
@@ -3521,7 +3437,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 644 Temperature Transmitter
@@ -3551,7 +3466,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 848T Temperature Transmitter
@@ -3581,7 +3495,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 148 Temperature Transmitter
@@ -3611,7 +3524,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 248 Temperature Transmitter
@@ -3641,7 +3553,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 326T Temperature Transmitter
@@ -3671,7 +3582,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 327T Temperature Transmitter
@@ -3701,7 +3611,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 648 Temperature Transmitter
@@ -3731,7 +3640,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 4088 Upgrade Utility
@@ -3761,7 +3669,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Engineering Assistant 5.x & 6.x
@@ -3791,7 +3698,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: 248 Configuration Application
@@ -3821,7 +3727,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount IO-Link Assistant
@@ -3851,7 +3756,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount TankMaster and TankMaster Mobile
@@ -3881,7 +3785,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount RadarMaster and RadarMaster Plus
@@ -3911,7 +3814,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount Radar Configuration Tool
@@ -3941,7 +3843,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount 2460 System Hub
@@ -3971,7 +3872,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount 2410 Tank Hub
@@ -4001,7 +3901,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount 3490 Controller
@@ -4031,7 +3930,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount 2230 Graphical Field Display
@@ -4061,7 +3959,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount 2240S Multi-input Temperature Transmitter
@@ -4091,7 +3988,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount CMS/SCU 51/SCC
@@ -4121,7 +4017,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount CMS/WSU 51/SWF 51
@@ -4151,7 +4046,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount CMS/IOU 61
@@ -4181,7 +4075,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount Level Transmitters (14xx 33xx 53xx 54xx 56xx)
@@ -4211,7 +4104,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount Radar Level Gauges (Pro 39xx 59xx)
@@ -4241,7 +4133,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount Tank Radar Gauges (TGUxx)
@@ -4271,7 +4162,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Rosemount Level Detectors (21xx)
@@ -4301,7 +4191,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
     product: Emerson Aperio software
@@ -4331,7 +4220,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: EnterpriseDT
     product: ''
@@ -4361,8 +4249,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: ESET
     product: ''
     cves:
@@ -4391,8 +4278,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: ESRI
     product: ArcGIS Data Store
     cves:
@@ -4423,7 +4309,6 @@ software:
       class, but has not issued patches to upgrade the Log4j versions
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: ESRI
     product: ArcGIS Enterprise
@@ -4455,7 +4340,6 @@ software:
       class, but has not issued patches to upgrade the Log4j versions
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: ESRI
     product: ArcGIS GeoEvent Server
@@ -4487,7 +4371,6 @@ software:
       class, but has not issued patches to upgrade the Log4j versions
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: ESRI
     product: ArcGIS Server
@@ -4519,7 +4402,6 @@ software:
       class, but has not issued patches to upgrade the Log4j versions
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: ESRI
     product: ArcGIS Workflow Manager Server
@@ -4551,7 +4433,6 @@ software:
       class, but has not issued patches to upgrade the Log4j versions
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: ESRI
     product: Portal for ArcGIS
@@ -4583,7 +4464,6 @@ software:
       class, but has not issued patches to upgrade the Log4j versions
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Estos
     product: ''
@@ -4613,8 +4493,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Evolveum Midpoint
     product: ''
     cves:
@@ -4643,8 +4522,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Ewon
     product: ''
     cves:
@@ -4673,8 +4551,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Exabeam
     product: ''
     cves:
@@ -4704,8 +4581,7 @@ software:
       by CISA
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Exact
     product: ''
     cves:
@@ -4734,8 +4610,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Exivity
     product: ''
     cves:
@@ -4764,8 +4639,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: ExtraHop
     product: Reveal(x)
     cves:
@@ -4797,7 +4671,6 @@ software:
     notes: Versions >8.4.7, >8.5.4, >8.6.5 and >=8.7 are fixed.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: eXtreme Hosting
     product: ''
@@ -4827,8 +4700,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Extreme Networks
     product: ''
     cves:
@@ -4857,8 +4729,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Extron
     product: ''
     cves:
@@ -4887,6 +4758,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:24+00:00'
+    last_updated: '2022-01-07T17:30:34+00:00'
 ...

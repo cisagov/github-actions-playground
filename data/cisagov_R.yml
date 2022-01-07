@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: Runecast
     product: Runecast Analyzer
@@ -30,6 +33,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
 ...

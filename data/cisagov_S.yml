@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: SAE-IT
     product: ''
@@ -29,8 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: SAFE FME Server
     product: ''
     cves:
@@ -59,8 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: SAGE
     product: ''
     cves:
@@ -89,8 +90,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: SailPoint
     product: ''
     cves:
@@ -120,8 +120,7 @@ software:
       by CISA
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Salesforce
     product: Analytics Cloud
     cves:
@@ -152,7 +151,6 @@ software:
       are executing our final validation steps."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: B2C Commerce Cloud
@@ -183,7 +181,6 @@ software:
       service is being updated to remediate the vulnerability identified  in CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: ClickSoftware (As-a-Service)
@@ -214,7 +211,6 @@ software:
       The service is being updated to remediate the vulnerability identified in CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: ClickSoftware (On-Premise)
@@ -244,7 +240,6 @@ software:
     notes: '"Please contact Customer Support."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: Community Cloud
@@ -275,7 +270,6 @@ software:
       is being updated to remediate the vulnerability identified  in CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: Data.com
@@ -307,7 +301,6 @@ software:
       CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: DataLoader
@@ -338,7 +331,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Salesforce
     product: Datorama
@@ -370,7 +362,6 @@ software:
       CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: Evergage (Interaction Studio)
@@ -402,7 +393,6 @@ software:
       and we are executing our final validation steps."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: Force.com
@@ -433,7 +423,6 @@ software:
       being updated to remediate the vulnerability identified  in CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: Heroku
@@ -464,7 +453,6 @@ software:
       is necessary at this time."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: Marketing Cloud
@@ -495,7 +483,6 @@ software:
       is being updated to remediate the vulnerability identified  in CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: MuleSoft (Cloud)
@@ -526,7 +513,6 @@ software:
       is being updated to remediate the vulnerability identified  in CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: MuleSoft (On-Premise)
@@ -556,7 +542,6 @@ software:
     notes: '"Please contact Customer Support."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: Pardot
@@ -587,7 +572,6 @@ software:
       updated to remediate the vulnerability identified  in CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: Sales Cloud
@@ -618,7 +602,6 @@ software:
       is being updated to remediate the vulnerability identified in CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: Service Cloud
@@ -649,7 +632,6 @@ software:
       is being updated to remediate the vulnerability identified  in CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: Slack
@@ -681,7 +663,6 @@ software:
       CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: Social Studio
@@ -713,7 +694,6 @@ software:
       identified  in CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
     product: Tableau (On-Premise)
@@ -744,7 +724,6 @@ software:
     notes: Fixed in 2021.4.1
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Salesforce
     product: Tableau (Online)
@@ -775,7 +754,6 @@ software:
       is being updated to remediate the vulnerability identified in CVE-2021-44228."'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Sangoma
     product: ''
@@ -805,8 +783,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: SAP
     product: ''
     cves:
@@ -836,7 +813,6 @@ software:
       by CISA
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: SAP Advanced Platform
     product: ''
@@ -867,7 +843,6 @@ software:
       by CISA
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: SAP BusinessObjects
     product: ''
@@ -898,7 +873,6 @@ software:
       by CISA
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: SAS
     product: ''
@@ -928,8 +902,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: SASSAFRAS
     product: ''
     cves:
@@ -958,8 +931,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Savignano software solutions
     product: ''
     cves:
@@ -988,8 +960,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: SBT
     product: SBT
     cves:
@@ -1019,7 +990,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: ScaleComputing
     product: ''
@@ -1050,8 +1020,7 @@ software:
       by CISA
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: ScaleFusion MobileLock Pro
     product: ''
     cves:
@@ -1080,8 +1049,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Schneider Electric
     product: EcoStruxure IT Gateway
     cves:
@@ -1111,7 +1079,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: EcoStruxure IT Expert
@@ -1141,7 +1108,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: Facility Expert Small Business
@@ -1172,7 +1138,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: Wiser by SE platform
@@ -1202,7 +1167,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: EASYFIT
@@ -1233,7 +1197,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: Ecoreal XL
@@ -1264,7 +1227,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: Eurotherm Data Reviewer
@@ -1295,7 +1257,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: MSE
@@ -1326,7 +1287,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: NetBotz750/755
@@ -1357,7 +1317,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: NEW630
@@ -1388,7 +1347,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: SDK BOM
@@ -1419,7 +1377,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: SDK-Docgen
@@ -1450,7 +1407,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: SDK-TNC
@@ -1481,7 +1437,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: SDK-UMS
@@ -1512,7 +1467,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: SDK3D2DRenderer
@@ -1543,7 +1497,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: SDK3D360Widget
@@ -1574,7 +1527,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: Select and Config DATA
@@ -1605,7 +1557,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: SNC-API
@@ -1636,7 +1587,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: SNC-CMM
@@ -1667,7 +1617,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: SNCSEMTECH
@@ -1698,7 +1647,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: SPIMV3
@@ -1729,7 +1677,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: SWBEditor
@@ -1760,7 +1707,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
     product: SWBEngine
@@ -1791,7 +1737,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schweitzer Engineering Laboratories
     product: ''
@@ -1821,7 +1766,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: SCM Manager
     product: ''
@@ -1851,8 +1795,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: ScreenBeam
     product: ''
     cves:
@@ -1881,8 +1824,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: SDL worldServer
     product: ''
     cves:
@@ -1911,8 +1853,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Seagull Scientific
     product: ''
     cves:
@@ -1941,8 +1882,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: SecurePoint
     product: ''
     cves:
@@ -1971,8 +1911,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Security Onion
     product: ''
     cves:
@@ -2001,8 +1940,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Securonix
     product: SNYPR Application
     cves:
@@ -2031,7 +1969,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-10T00:00:00'
   - vendor: Securonix
     product: Next Gen SIEM
@@ -2062,7 +1999,6 @@ software:
     notes: Patching ongoing as of 12/10/2021
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-10T00:00:00'
   - vendor: Securonix
     product: User and Entity Behavior Analytics(UEBA)
@@ -2093,7 +2029,6 @@ software:
     notes: Patching ongoing as of 12/10/2021
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-10T00:00:00'
   - vendor: Securonix
     product: Security Analytics and Operations Platform (SOAR)
@@ -2124,7 +2059,6 @@ software:
     notes: Patching ongoing as of 12/10/2021
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-10T00:00:00'
   - vendor: Securonix
     product: Extended Detection and Response (XDR)
@@ -2155,7 +2089,6 @@ software:
     notes: Patching ongoing as of 12/10/2021
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-10T00:00:00'
   - vendor: Seeburger
     product: ''
@@ -2186,8 +2119,7 @@ software:
       CISA.
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: SentinelOne
     product: ''
     cves:
@@ -2216,8 +2148,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Sentry
     product: ''
     cves:
@@ -2246,8 +2177,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: SEP
     product: ''
     cves:
@@ -2276,8 +2206,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Server Eye
     product: ''
     cves:
@@ -2306,8 +2235,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: ServiceNow
     product: ''
     cves:
@@ -2336,8 +2264,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Shibboleth
     product: ''
     cves:
@@ -2366,8 +2293,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Shibboleth
     product: All Products
     cves:
@@ -2398,7 +2324,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-10T00:00:00'
   - vendor: Shopify
     product: ''
@@ -2428,8 +2353,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Siebel
     product: ''
     cves:
@@ -2458,8 +2382,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Siemens
     product: Affected Products
     cves:
@@ -2489,7 +2412,6 @@ software:
       CSAF for automated parsing of data'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens
     product: Affected Products
@@ -2520,7 +2442,6 @@ software:
       CSAF for automated parsing of data'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-19T00:00:00'
   - vendor: Siemens Energy
     product: Affected Products
@@ -2551,7 +2472,6 @@ software:
       CSAF for automated parsing of data'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Siemens Energy
     product: Affected Products
@@ -2582,7 +2502,6 @@ software:
       CSAF for automated parsing of data'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Siemens Energy
     product: Affected Products
@@ -2613,7 +2532,6 @@ software:
       CSAF for automated parsing of data'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Siemens Healthineers
     product: ATELLICA DATA MANAGER v1.1.1 / v1.2.1 / v1.3.1
@@ -2645,7 +2563,6 @@ software:
       your Siemens Customer Care Center or your local Siemens technical support representative.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: CENTRALINK v16.0.2 / v16.0.3
@@ -2677,7 +2594,6 @@ software:
       Care Center or your local Siemens technical support representative.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: DICOM Proxy VB10A
@@ -2707,7 +2623,6 @@ software:
     notes: 'Workaround: remove the vulnerable class from the .jar file'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: Somatom Scope Som5 VC50
@@ -2737,7 +2652,6 @@ software:
     notes: evaluation ongoing
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: Somatom Emotion Som5 VC50
@@ -2767,7 +2681,6 @@ software:
     notes: evaluation ongoing
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: go.All, Som10 VA20 / VA30 / VA40
@@ -2798,7 +2711,6 @@ software:
       from other devices by configuration of the hospital network.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: go.Fit, Som10 VA30
@@ -2829,7 +2741,6 @@ software:
       from other devices by configuration of the hospital network.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: go.Now, Som10 VA10 / VA20 / VA30 / VA40
@@ -2860,7 +2771,6 @@ software:
       from other devices by configuration of the hospital network.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: go.Open Pro, Som10 VA30 / VA40
@@ -2891,7 +2801,6 @@ software:
       from other devices by configuration of the hospital network.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: go.Sim, Som10 VA30 / VA40
@@ -2922,7 +2831,6 @@ software:
       from other devices by configuration of the hospital network.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: go.Top, Som10 VA20 / VA20A_SP5 / VA30 / VA40
@@ -2953,7 +2861,6 @@ software:
       from other devices by configuration of the hospital network.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: go.Up, Som10 VA10 / VA20 / VA30 / VA40
@@ -2984,7 +2891,6 @@ software:
       from other devices by configuration of the hospital network.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: MAGNETOM AERA 1,5T, MAGNETOM PRISMA, MAGNETOM PRISMA FIT, MAGNETOM SKYRA
@@ -3017,7 +2923,6 @@ software:
       to network port 8090 in case a second console is connected.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: MAGNETOM Altea NUMARIS/X VA20A
@@ -3049,7 +2954,6 @@ software:
       to network port 8090 in case a second console is connected.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: MAGNETOM ALTEA, MAGNETOM LUMINA, MAGNETOM SOLA, MAGNETOM VIDA NUMARIS/X
@@ -3082,7 +2986,6 @@ software:
       to network port 8090 in case a second console is connected.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: MAGNETOM Amira NUMARIS/X VA12M
@@ -3114,7 +3017,6 @@ software:
       to network port 8090 in case a second console is connected.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: MAGNETOM Free.Max NUMARIS/X VA40
@@ -3146,7 +3048,6 @@ software:
       to network port 8090 in case a second console is connected.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: MAGNETOM Lumina NUMARIS/X VA20A
@@ -3178,7 +3079,6 @@ software:
       to network port 8090 in case a second console is connected.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: MAGNETOM Sempra NUMARIS/X VA12M
@@ -3210,7 +3110,6 @@ software:
       to network port 8090 in case a second console is connected.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: MAGNETOM Sola fit NUMARIS/X VA20A
@@ -3242,7 +3141,6 @@ software:
       to network port 8090 in case a second console is connected.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: MAGNETOM Sola NUMARIS/X VA20A
@@ -3274,7 +3172,6 @@ software:
       to network port 8090 in case a second console is connected.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: MAGNETOM Vida fit NUMARIS/X VA20A
@@ -3306,7 +3203,6 @@ software:
       to network port 8090 in case a second console is connected.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: MAGNETOM Vida NUMARIS/X VA10A* / VA20A
@@ -3338,7 +3234,6 @@ software:
       to network port 8090 in case a second console is connected.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: Syngo Carbon Space VA10A / VA10A-CUT2 / VA20A
@@ -3368,7 +3263,6 @@ software:
     notes: 'Workaround: remove the vulnerable class from the .jar file'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: Syngo MobileViewer VA10A
@@ -3398,7 +3292,6 @@ software:
     notes: The vulnerability will be patch/mitigated in upcoming releases\patches.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: syngo Plaza VB20A / VB20A_HF01 - HF07 / VB30A / VB30A_HF01 / VB30A_HF02
@@ -3429,7 +3322,6 @@ software:
     notes: 'Workaround: remove the vulnerable class from the .jar file'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: syngo Workflow MLR VB37A / VB37A_HF01 / VB37A_HF02 / VB37B / VB37B_HF01
@@ -3460,7 +3352,6 @@ software:
     notes: Please contact your Customer Service to get support on mitigating the vulnerability.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: syngo.via VB20A / VB20A_HF01 - HF08 / VB20A_HF91 / VB20B / VB30A / VB30A_HF01
@@ -3493,7 +3384,6 @@ software:
     notes: 'Workaround: remove the vulnerable class from the .jar file'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: SENSIS DMCC / DMCM / TS / VM / PPWS / DS VD12A
@@ -3523,7 +3413,6 @@ software:
     notes: evaluation ongoing
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: Cios Select FD/I.I. VA21 / VA21-S3P
@@ -3553,7 +3442,6 @@ software:
     notes: evaluation ongoing
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: Cios Flow S1 / Alpha / Spin VA30
@@ -3583,7 +3471,6 @@ software:
     notes: evaluation ongoing
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: syngo.via WebViewer VA13B / VA20A / VA20B
@@ -3613,7 +3500,6 @@ software:
     notes: 'Workaround: remove the vulnerable class from the .jar file'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: X.Ceed Somaris 10 VA40*
@@ -3644,7 +3530,6 @@ software:
       from other devices by configuration of the hospital network.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
     product: X.Cite Somaris 10 VA30*/VA40*
@@ -3675,7 +3560,6 @@ software:
       from other devices by configuration of the hospital network.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Sierra Wireless
     product: ''
@@ -3705,8 +3589,66 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
+  - vendor: Sierra Wireless
+    product: AM/AMM servers
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://source.sierrawireless.com/resources/security-bulletins/sierra-wireless-technical-bulletin---swi-psa-2021-007/#sthash.iT98k4HP.dpbs
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Sierra Wireless
+    product: AirVantage and Octave cloud platforms
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://source.sierrawireless.com/resources/security-bulletins/sierra-wireless-technical-bulletin---swi-psa-2021-007/#sthash.iT98k4HP.dpbs
+    notes: These systems do not operate with the specific non-standard configuration
+      required for CVE-2021-25046 and hence were not vulnerable to it.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
   - vendor: Signald
     product: ''
     cves:
@@ -3735,8 +3677,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Silver Peak
     product: Orchestrator, Silver Peak GMS
     cves:
@@ -3768,7 +3709,6 @@ software:
       Action Required for details about how to mitigate this exploit.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: SingleWire
     product: ''
@@ -3799,8 +3739,36 @@ software:
       by CISA
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
+  - vendor: SISCO
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://sisconet.com/sisco-news/log4j/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
   - vendor: Sitecore
     product: ''
     cves:
@@ -3829,8 +3797,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Skillable
     product: ''
     cves:
@@ -3859,8 +3826,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: SLF4J
     product: ''
     cves:
@@ -3889,8 +3855,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Slurm
     product: Slurm
     cves:
@@ -3920,8 +3885,36 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
+  - vendor: SMA Solar Technology AG
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://files.sma.de/downloads/HK_Log4j-en-10.pdf?_ga=2.237963714.352491368.1640298543-2015796445.1640298540
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
   - vendor: SmartBear
     product: ''
     cves:
@@ -3950,8 +3943,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: SmileCDR
     product: ''
     cves:
@@ -3980,8 +3972,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Snakemake
     product: Snakemake
     cves:
@@ -4011,7 +4002,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Sn0m
     product: ''
@@ -4041,8 +4031,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Snow Software
     product: Snow Commander
     cves:
@@ -4072,8 +4061,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Snow Software
     product: VM Access Proxy
     cves:
@@ -4103,8 +4091,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Snowflake
     product: ''
     cves:
@@ -4133,8 +4120,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Snyk
     product: Cloud Platform
     cves:
@@ -4163,8 +4149,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Software AG
     product: ''
     cves:
@@ -4193,8 +4178,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: SolarWinds
     product: Database Performance Analyzer (DPA)
     cves:
@@ -4226,7 +4210,6 @@ software:
     notes: 'For more information, please see the following KB article: [link](https://support.solarwinds.com/SuccessCenter/s/article/Database-Performance-Analyzer-DPA-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228?language=en_US)'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-23T00:00:00'
   - vendor: SolarWinds
     product: Orion Platform
@@ -4256,7 +4239,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-23T00:00:00'
   - vendor: SolarWinds
     product: Server & Application Monitor (SAM)
@@ -4288,7 +4270,6 @@ software:
       details specific to the SAM hotfix: [link](https://support.solarwinds.com/SuccessCenter/s/article/Server-Application-Monitor-SAM-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228?language=en_US)'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-23T00:00:00'
   - vendor: SonarSource
     product: ''
@@ -4318,8 +4299,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Sonatype
     product: All Products
     cves:
@@ -4353,7 +4333,6 @@ software:
       at the latest version.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-29T00:00:00'
   - vendor: SonicWall
     product: Capture Client & Capture Client Portal
@@ -4383,7 +4362,6 @@ software:
     notes: Log4j2 not used in the Capture Client.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: Access Points
@@ -4413,7 +4391,6 @@ software:
     notes: Log4j2 not used in the SonicWall Access Points
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: Analytics
@@ -4443,7 +4420,6 @@ software:
     notes: Under Review
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: Analyzer
@@ -4473,7 +4449,6 @@ software:
     notes: Under Review
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: Capture Security Appliance
@@ -4503,7 +4478,6 @@ software:
     notes: Log4j2 not used in the Capture Security appliance.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: CAS
@@ -4533,7 +4507,6 @@ software:
     notes: Under Review
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: Email Security
@@ -4563,7 +4536,6 @@ software:
     notes: ES 10.0.11 and earlier versions are impacted
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: SonicWall
     product: Gen5 Firewalls (EOS)
@@ -4593,7 +4565,6 @@ software:
     notes: Log4j2 not used in the appliance.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: Gen6 Firewalls
@@ -4623,7 +4594,6 @@ software:
     notes: Log4j2 not used in the appliance.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: Gen7 Firewalls
@@ -4653,7 +4623,6 @@ software:
     notes: Log4j2 not used in the appliance.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: GMS
@@ -4683,7 +4652,6 @@ software:
     notes: Under Review
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: MSW
@@ -4713,7 +4681,6 @@ software:
     notes: Mysonicwall service doesn't use Log4j
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: NSM
@@ -4743,7 +4710,6 @@ software:
     notes: NSM On-Prem and SaaS doesn't use a vulnerable version
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: SMA 100
@@ -4773,7 +4739,6 @@ software:
     notes: Log4j2 not used in the SMA100 appliance.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: SMA 1000
@@ -4803,7 +4768,6 @@ software:
     notes: Version 12.1.0 and 12.4.1 doesn't use a vulnerable version
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: SonicCore
@@ -4833,7 +4797,6 @@ software:
     notes: SonicCore doesn't use a Log4j2
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: SonicWall Switch
@@ -4863,7 +4826,6 @@ software:
     notes: Log4j2 not used in the SonicWall Switch.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: WAF
@@ -4893,7 +4855,6 @@ software:
     notes: Under Review
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: WNM
@@ -4923,7 +4884,6 @@ software:
     notes: Log4j2 not used in the WNM.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: WXA
@@ -4953,7 +4913,6 @@ software:
     notes: WXA doesn't use a vulnerable version
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: Sophos
     product: Cloud Optix
@@ -4985,7 +4944,6 @@ software:
       our knowledge no customers are impacted.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: Sophos
     product: Reflexion
@@ -5015,7 +4973,6 @@ software:
     notes: Reflexion does not run an exploitable configuration.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: Sophos
     product: SG UTM (all versions)
@@ -5045,7 +5002,6 @@ software:
     notes: Sophos SG UTM does not use Log4j.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: Sophos
     product: SG UTM Manager (SUM) (all versions)
@@ -5076,7 +5032,6 @@ software:
     notes: SUM does not use Log4j.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: Sophos
     product: Sophos Central
@@ -5106,7 +5061,6 @@ software:
     notes: Sophos Central does not run an exploitable configuration.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: Sophos
     product: Sophos Firewall (all versions)
@@ -5136,7 +5090,6 @@ software:
     notes: Sophos Firewall does not use Log4j.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: Sophos
     product: Sophos Home
@@ -5166,7 +5119,6 @@ software:
     notes: Sophos Home does not use Log4j.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: Sophos
     product: Sophos Mobile
@@ -5197,7 +5149,6 @@ software:
       configuration.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: Sophos
     product: Sophos Mobile EAS Proxy
@@ -5232,7 +5183,6 @@ software:
       9.7.2 from the Sophos website.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: Sophos
     product: Sophos ZTNA
@@ -5262,7 +5212,6 @@ software:
     notes: Sophos ZTNA does not use Log4j.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: SOS Berlin
     product: ''
@@ -5292,8 +5241,576 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
+  - vendor: Spacelabs Healthcare
+    product: XprezzNet
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '96190'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Intesys Clinical Suite (ICS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Intesys Clinical Suite (ICS) Clinical Access Workstations
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Xhibit Telemetry Receiver (XTR)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '96280'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Xhibit, XC4
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - Xhibit 96102
+          - XC4 96501
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Xprezzon
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '91393'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Qube
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '91390'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Qube Mini
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '91389'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Ultraview SL
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '91367'
+          - '91369'
+          - '91370'
+          - and 91387
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: DM3 and DM4 Monitors
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Sentinel
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Pathfinder SL
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Lifescreen Pro
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: EVO
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Eclipse Pro
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: CardioExpress
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - SL6A
+          - SL12A
+          - and SL18A
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: ABP
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - OnTrak
+          - 90217A
+          - and 90207
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Spacelabs Cloud
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: SafeNSound
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 4.3.1
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: Version >4.3.1 - Not Affected
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
   - vendor: Spambrella
     product: ''
     cves:
@@ -5322,8 +5839,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Spigot
     product: ''
     cves:
@@ -5352,8 +5868,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Splunk
     product: Splunk Add-On for Java Management Extensions [App ID 2647](https://splunkbase.splunk.com/app/2647)
     cves:
@@ -5383,7 +5898,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk Splunk Add-On for JBoss [App ID 2954](https://splunkbase.splunk.com/app/2954/)
@@ -5414,7 +5928,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk Add-On for Tomcat [App ID 2911](https://splunkbase.splunk.com/app/2911/)
@@ -5445,7 +5958,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Data Stream Processor
@@ -5478,7 +5990,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: IT Essentials Work [App ID 5403](https://splunkbase.splunk.com/app/5403/)
@@ -5511,7 +6022,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: IT Service Intelligence (ITSI) [App ID 1841](https://splunkbase.splunk.com/app/1841/)
@@ -5548,7 +6058,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk Connect for Kafka
@@ -5579,7 +6088,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk Enterprise (including instance types like Heavy Forwarders)
@@ -5612,7 +6120,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk Enterprise Amazon Machine Image (AMI)
@@ -5643,7 +6150,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk Enterprise Docker Container
@@ -5674,7 +6180,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk Logging Library for Java
@@ -5705,7 +6210,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk OVA for VMWare [App ID 3216](https://splunkbase.splunk.com/app/3216/)
@@ -5736,7 +6240,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk OVA for VMWare Metrics [App ID 5096](https://splunkbase.splunk.com/app/5096/)
@@ -5767,7 +6270,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk VMWare OVA for ITSI [App ID 4760](https://splunkbase.splunk.com/app/4760/)
@@ -5798,7 +6300,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk On-call / VictorOps
@@ -5829,7 +6330,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk Real User Monitoring
@@ -5860,7 +6360,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk Application Performance Monitoring
@@ -5891,7 +6390,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk Infrastructure Monitoring
@@ -5922,7 +6420,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk Log Observer
@@ -5953,7 +6450,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk Synthetics
@@ -5984,7 +6480,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
     product: Splunk UBA OVA Software
@@ -6016,7 +6511,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Sprecher Automation
     product: ''
@@ -6046,8 +6540,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Spring
     product: Spring Boot
     cves:
@@ -6077,8 +6570,7 @@ software:
       switched the default logging system to Log4J2
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Spring Boot
     product: ''
     cves:
@@ -6107,8 +6599,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: StarDog
     product: ''
     cves:
@@ -6137,8 +6628,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: STERIS
     product: Advantage
     cves:
@@ -6167,7 +6657,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: Advantage Plus
@@ -6197,7 +6686,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: DSD Edge
@@ -6227,7 +6715,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: EndoDry
@@ -6257,7 +6744,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: RapidAER
@@ -6287,7 +6773,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: Endora
@@ -6317,7 +6802,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: Canexis 1.0
@@ -6347,7 +6831,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: ConnectoHIS
@@ -6377,7 +6860,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: ScopeBuddy+
@@ -6407,7 +6889,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: DSD-201,
@@ -6437,7 +6918,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: CER Optima
@@ -6467,7 +6947,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: Renatron
@@ -6497,7 +6976,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: ConnectAssure Technology
@@ -6527,7 +7005,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: SPM Surgical Asset Tracking Software
@@ -6557,7 +7034,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: CS-iQ Sterile Processing Workflow
@@ -6587,7 +7063,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: AMSCO 2000 SERIES WASHER DISINFECTORS
@@ -6617,7 +7092,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: AMSCO 3000 SERIES WASHER DISINFECTORS
@@ -6647,7 +7121,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: AMSCO 5000 SERIES WASHER DISINFECTORS
@@ -6677,7 +7150,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: AMSCO 7000 SERIES WASHER DISINFECTORS
@@ -6707,7 +7179,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: RELIANCE 444 WASHER DISINFECTOR
@@ -6737,7 +7208,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: RELIANCE SYNERGY WASHER DISINFECTOR
@@ -6767,7 +7237,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: RELIANCE VISION 1300 SERIES CART AND UTENSIL WASHER DISINFECTORS
@@ -6797,7 +7266,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: RELIANCE VISION MULTI- CHAMBER WASHER DISINFECTOR
@@ -6827,7 +7295,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: RELIANCE VISION SINGLE CHAMBER WASHER DISINFECTOR
@@ -6857,7 +7324,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: AMSCO 400 MEDIUM STEAM STERILIZER
@@ -6887,7 +7353,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: AMSCO 400 SMALL STEAM STERILIZERS
@@ -6917,7 +7382,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: AMSCO 600 MEDIUM STEAM STERILIZER
@@ -6947,7 +7411,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: AMSCO CENTURY MEDIUM STEAM STERILIZER
@@ -6977,7 +7440,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: AMSCO CENTURY SMALL STEAM STERILIZER
@@ -7007,7 +7469,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: AMSCO EAGLE 3000 SERIES STAGE 3 STEAM STERILIZERS
@@ -7037,7 +7498,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: AMSCO EVOLUTION FLOOR LOADER STEAM STERILIZER
@@ -7067,7 +7527,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: AMSCO EVOLUTION MEDIUM STEAM STERILIZER
@@ -7097,7 +7556,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: CELERITY HP INCUBATOR
@@ -7127,7 +7585,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: CELERITY STEAM INCUBATOR
@@ -7157,7 +7614,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: VERIFY INCUBATOR FOR ASSERT SELF-CONTAINED BIOLOGICAL INDICATORS
@@ -7187,7 +7643,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: SYSTEM 1 endo LIQUID CHEMICAL STERILANT PROCESSING SYSTEM
@@ -7217,7 +7672,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: V-PRO 1 LOW TEMPERATURE STERILIZATION SYSTEM
@@ -7247,7 +7701,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: V-PRO 1 PLUS LOW TEMPERATURE STERILIZATION SYSTEM
@@ -7277,7 +7730,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: V-PRO MAX 2 LOW TEMPERATURE STERILIZATION SYSTEM
@@ -7307,7 +7759,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: V-PRO MAX LOW TEMPERATURE STERILIZATION SYSTEM
@@ -7337,7 +7788,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: V-PRO S2 LOW TEMPERATURE STERILIZATION SYSTEM
@@ -7367,7 +7817,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: SecureCare ProConnect Technical Support Services
@@ -7397,7 +7846,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: HexaVue Integration System
@@ -7427,7 +7875,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: IDSS Integration System
@@ -7457,7 +7904,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: Harmony iQ Integration Systems
@@ -7487,7 +7933,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: HexaVue
@@ -7517,7 +7962,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: Connect Software
@@ -7547,7 +7991,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: Harmony iQ Perspectives Image Management System
@@ -7577,7 +8020,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: Clarity Software
@@ -7607,7 +8049,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: Situational Awareness for Everyone Display (S.A.F.E.)
@@ -7637,7 +8078,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: RealView Visual Workflow Management System
@@ -7667,7 +8107,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: ReadyTracker
@@ -7697,7 +8136,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Sterling Order IBM
     product: ''
@@ -7727,8 +8165,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Storagement
     product: ''
     cves:
@@ -7757,8 +8194,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:28+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: StormShield
     product: ''
     cves:
@@ -7787,8 +8223,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: StrangeBee TheHive & Cortex
     product: ''
     cves:
@@ -7817,8 +8252,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Stratodesk
     product: ''
     cves:
@@ -7847,8 +8281,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Strimzi
     product: ''
     cves:
@@ -7877,8 +8310,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Stripe
     product: ''
     cves:
@@ -7907,8 +8339,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Styra
     product: ''
     cves:
@@ -7937,8 +8368,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Sumologic
     product: ''
     cves:
@@ -7967,8 +8397,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: SumoLogic
     product: ''
     cves:
@@ -7997,8 +8426,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Superna EYEGLASS
     product: ''
     cves:
@@ -8027,8 +8455,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Suprema Inc
     product: ''
     cves:
@@ -8057,8 +8484,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: SUSE
     product: ''
     cves:
@@ -8087,8 +8513,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Sweepwidget
     product: ''
     cves:
@@ -8117,8 +8542,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Swyx
     product: ''
     cves:
@@ -8147,8 +8571,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Synchro MSP
     product: ''
     cves:
@@ -8177,8 +8600,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Syncplify
     product: ''
     cves:
@@ -8207,8 +8629,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Synology
     product: ''
     cves:
@@ -8237,8 +8658,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Synopsys
     product: ''
     cves:
@@ -8267,8 +8687,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Syntevo
     product: ''
     cves:
@@ -8297,8 +8716,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: SysAid
     product: ''
     cves:
@@ -8327,8 +8745,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Sysdig
     product: ''
     cves:
@@ -8357,6 +8774,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
 ...

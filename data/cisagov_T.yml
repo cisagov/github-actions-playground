@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: Tableau
     product: Tableau Server
@@ -42,7 +45,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Tableau
     product: Tableau Desktop
@@ -85,7 +87,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Tableau
     product: Tableau Prep Builder
@@ -128,7 +129,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Tableau
     product: Tableau Public Desktop Client
@@ -159,7 +159,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Tableau
     product: Tableau Reader
@@ -190,7 +189,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Tableau
     product: Tableau Bridge
@@ -233,7 +231,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Talend
     product: ''
@@ -263,8 +260,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Tanium
     product: All
     cves:
@@ -294,7 +290,6 @@ software:
     notes: Tanium does not use Log4j.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: TealiumIQ
     product: ''
@@ -324,8 +319,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: TeamPasswordManager
     product: ''
     cves:
@@ -354,8 +348,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Teamviewer
     product: ''
     cves:
@@ -384,8 +377,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Tech Software
     product: OneAegis (f/k/a IRBManager)
     cves:
@@ -415,7 +407,6 @@ software:
     notes: OneAegis does not use Log4j.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Tech Software
     product: SMART
@@ -446,7 +437,6 @@ software:
     notes: SMART does not use Log4j.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Tech Software
     product: Study Binders
@@ -477,7 +467,6 @@ software:
     notes: Study Binders does not use Log4j.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: TechSmith
     product: ''
@@ -507,8 +496,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Telestream
     product: ''
     cves:
@@ -537,8 +525,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Tenable
     product: Tenable.io / Nessus
     cves:
@@ -568,8 +555,7 @@ software:
       to CVE-2021-44228 or CVE-2021-45046 at this time
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Thales
     product: CipherTrust Application Data Protection (CADP) – CAPI.net & Net Core
     cves:
@@ -598,7 +584,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: CipherTrust Cloud Key Manager (CCKM) Embedded
@@ -628,7 +613,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: CipherTrust Database Protection
@@ -658,7 +642,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: CipherTrust Manager
@@ -688,7 +671,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: CipherTrust Transparent Encryption (CTE/VTE/CTE-U)
@@ -718,7 +700,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: CipherTrust Vaultless Tokenization (CTS, CT-VL)
@@ -748,7 +729,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Data Protection on Demand
@@ -778,7 +758,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Data Security Manager (DSM)
@@ -808,7 +787,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: KeySecure
@@ -838,7 +816,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Luna EFT
@@ -868,7 +845,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Luna Network, PCIe, Luna USB HSM and backup devices
@@ -898,7 +874,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Luna SP
@@ -928,7 +903,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: ProtectServer HSMs
@@ -958,7 +932,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SafeNet Authentication Client
@@ -988,7 +961,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SafeNet IDPrime Virtual
@@ -1018,7 +990,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SafeNet eToken (all products)
@@ -1048,7 +1019,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SafeNet IDPrime(all products)
@@ -1078,7 +1048,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SafeNet LUKS
@@ -1108,7 +1077,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SafeNet ProtectApp (PA) CAPI, .Net & Net Core
@@ -1138,7 +1106,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SafeNet ProtectDB (PDB)
@@ -1168,7 +1135,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SafeNet ProtectV
@@ -1198,7 +1164,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Safenet ProtectFile and ProtectFile- Fuse
@@ -1228,7 +1193,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SafeNet Transform Utility (TU)
@@ -1258,7 +1222,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SafeNet Trusted Access (STA)
@@ -1288,7 +1251,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SafeNet PKCS#11 and TDE
@@ -1318,7 +1280,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SafeNet SQL EKM
@@ -1348,7 +1309,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SAS on Prem (SPE/PCE)
@@ -1378,7 +1338,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Sentinel EMS Enterprise OnPremise
@@ -1408,7 +1367,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Sentinel ESDaaS
@@ -1438,7 +1396,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Sentinel Up
@@ -1468,7 +1425,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Sentinel RMS
@@ -1498,7 +1454,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Sentinel Connect
@@ -1528,7 +1483,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Sentinel Superdog, SuperPro, UltraPro, SHK
@@ -1558,7 +1512,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Sentinel HASP, Legacy dog, Maze, Hardlock
@@ -1588,7 +1541,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Sentinel Envelope
@@ -1618,7 +1570,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Thales payShield 9000
@@ -1648,7 +1599,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Thales payShield 10k
@@ -1678,7 +1628,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Thales payShield Manager
@@ -1708,7 +1657,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Vormetirc Key Manager (VKM)
@@ -1738,7 +1686,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Vormetric Application Encryption (VAE)
@@ -1768,7 +1715,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Vormetric Protection for Terradata Database  (VPTD)
@@ -1798,7 +1744,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Vormetric Tokenization Server (VTS)
@@ -1828,7 +1773,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: payShield Monitor
@@ -1858,7 +1802,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: CADP/SafeNet Protect App (PA) - JCE
@@ -1888,7 +1831,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: CipherTrust Batch Data Transformation (BDT) 2.3
@@ -1918,7 +1860,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: CipherTrust Cloud Key Manager (CCKM) Appliance
@@ -1948,7 +1889,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: CipherTrust Vaulted Tokenization (CT-V) / SafeNet Tokenization Manager
@@ -1978,7 +1918,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: CipherTrust/SafeNet PDBCTL
@@ -2008,7 +1947,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Crypto Command Center (CCC)
@@ -2038,7 +1976,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: SafeNet Vaultless Tokenization
@@ -2068,7 +2005,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Sentinel LDK EMS (LDK-EMS)
@@ -2098,7 +2034,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Sentinel LDKaas (LDK-EMS)
@@ -2128,7 +2063,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Sentinel EMS Enterprise aaS
@@ -2158,7 +2092,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Sentinel Professional Services components (both Thales hosted & hosted
@@ -2189,7 +2122,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Sentinel SCL
@@ -2219,7 +2151,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Thales Data Platform (TDP)(DDC)
@@ -2249,7 +2180,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thermo-Calc
     product: Thermo-Calc
@@ -2280,7 +2210,6 @@ software:
     notes: Use the program as normal, Install the 2022a patch when available
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Thermo-Calc
     product: Thermo-Calc
@@ -2311,7 +2240,6 @@ software:
     notes: Use the program as normal
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Thermo-Calc
     product: Thermo-Calc
@@ -2343,7 +2271,6 @@ software:
       if required, see advisory for instructions.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Thermo-Calc
     product: Thermo-Calc
@@ -2374,7 +2301,6 @@ software:
     notes: Use the program as normal
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Thermo Fisher Scientific
     product: ''
@@ -2404,7 +2330,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Thomson Reuters
     product: HighQ Appliance
@@ -2437,7 +2362,6 @@ software:
       by CISA.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: ThreatLocker
     product: ''
@@ -2467,8 +2391,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: ThycoticCentrify
     product: Secret Server
     cves:
@@ -2498,7 +2421,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-10T00:00:00'
   - vendor: ThycoticCentrify
     product: Privilege Manager
@@ -2529,7 +2451,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-10T00:00:00'
   - vendor: ThycoticCentrify
     product: Account Lifecycle Manager
@@ -2560,7 +2481,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-10T00:00:00'
   - vendor: ThycoticCentrify
     product: Privileged Behavior Analytics
@@ -2591,7 +2511,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-10T00:00:00'
   - vendor: ThycoticCentrify
     product: DevOps Secrets Vault
@@ -2622,7 +2541,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-10T00:00:00'
   - vendor: ThycoticCentrify
     product: Connection Manager
@@ -2653,7 +2571,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-10T00:00:00'
   - vendor: ThycoticCentrify
     product: Password Reset Server
@@ -2684,7 +2601,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-10T00:00:00'
   - vendor: ThycoticCentrify
     product: Cloud Suite
@@ -2715,7 +2631,36 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
+    last_updated: '2021-12-10T00:00:00'
+  - vendor: ThycoticCentrify
+    product: Server Suite
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - N/A
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md
+    notes: ''
+    references:
+      - ''
     last_updated: '2021-12-10T00:00:00'
   - vendor: Tibco
     product: ''
@@ -2745,8 +2690,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Top Gun Technology (TGT)
     product: ''
     cves:
@@ -2775,8 +2719,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: TopDesk
     product: ''
     cves:
@@ -2805,8 +2748,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Topicus Security
     product: Topicus KeyHub
     cves:
@@ -2836,7 +2778,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Topix
     product: ''
@@ -2866,8 +2807,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Tosibox
     product: ''
     cves:
@@ -2896,8 +2836,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: TPLink
     product: Omega Controller
     cves:
@@ -2929,7 +2868,6 @@ software:
     references:
       - '[Tp Community Link](https://community.tp-link.com/en/business/forum/topic/514452),[Reddit
         Link](https://www.reddit.com/r/TPLink_Omada/comments/rdzvlp/updating_the_sdn_to_protect_against_the_log4j)'
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: TrendMicro
     product: All
@@ -2959,8 +2897,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Tricentis Tosca
     product: ''
     cves:
@@ -2989,8 +2926,217 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
+  - vendor: Tripp Lite
+    product: LX Platform devices (includes WEBCARDLX, WEBCARDLXMINI, SRCOOLNETLX,
+      SRCOOLNET2LX and devices with pre-installed or embedded WEBCARDLX interfaces)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://assets.tripplite.com/software-support/log4j2-vulnerability.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-04T00:00:00'
+  - vendor: Tripp Lite
+    product: SNMPWEBCARD, SRCOOLNET, SRCOOLNET2 and devices with pre-installed or
+      embedded SNMPWEBCARD
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://assets.tripplite.com/software-support/log4j2-vulnerability.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-04T00:00:00'
+  - vendor: Tripp Lite
+    product: PowerAlert Local (PAL)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://assets.tripplite.com/software-support/log4j2-vulnerability.pdf
+    notes: Some versions of PAL use log4j v1 which is NOT AFFECTED by the CVE-2021-44228
+      vulnerability.
+    references:
+      - ''
+    last_updated: '2022-01-04T00:00:00'
+  - vendor: Tripp Lite
+    product: PowerAlert Network Shutdown Agent (PANSA)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://assets.tripplite.com/software-support/log4j2-vulnerability.pdf
+    notes: Some versions of PANSA use log4j v1 which is NOT AFFECTED by the CVE-2021-44228
+      vulnerability.
+    references:
+      - ''
+    last_updated: '2022-01-04T00:00:00'
+  - vendor: Tripp Lite
+    product: PowerAlert Network Management System (PANMS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://assets.tripplite.com/software-support/log4j2-vulnerability.pdf
+    notes: Some versions of PAL use log4j v1 which is NOT AFFECTED by the CVE-2021-44228
+      vulnerability.
+    references:
+      - ''
+    last_updated: '2022-01-04T00:00:00'
+  - vendor: Tripp Lite
+    product: TLNETCARD and associated software
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://assets.tripplite.com/software-support/log4j2-vulnerability.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-04T00:00:00'
+  - vendor: Tripp Lite
+    product: PowerAlertElement Manager (PAEM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 1.0.0
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://assets.tripplite.com/software-support/log4j2-vulnerability.pdf
+    notes: Tripp Lite will soon be issuing a patch in the form of PAEM 1.0.1 which
+      will contain a patched version of Log4j2
+    references:
+      - ''
+    last_updated: '2022-01-04T00:00:00'
   - vendor: Tripwire
     product: ''
     cves:
@@ -3019,8 +3165,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Trimble
     product: eCognition
     cves:
@@ -3049,7 +3194,6 @@ software:
     notes: Remediation steps provided by Trimble
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-23T00:00:00'
   - vendor: TrueNAS
     product: ''
@@ -3079,8 +3223,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Tufin
     product: ''
     cves:
@@ -3109,8 +3252,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: TYPO3
     product: ''
     cves:
@@ -3139,6 +3281,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
 ...

@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: VArmour
     product: ''
@@ -29,8 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Varian
     product: Acuity
     cves:
@@ -60,7 +62,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: DITC
@@ -91,7 +92,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: ARIA Connect (Cloverleaf)
@@ -122,7 +122,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: ARIA oncology information system for Medical Oncology
@@ -153,7 +152,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: XMediusFax for ARIA oncology information system for Medical Oncology
@@ -184,7 +182,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: ARIA oncology information system for Radiation Oncology
@@ -215,7 +212,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: ARIA eDOC
@@ -246,7 +242,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: XMediusFax for ARIA oncology information system for Radiation Oncology
@@ -277,7 +272,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: ARIA Radiation Therapy Management System (RTM)
@@ -308,7 +302,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Bravos Console
@@ -339,7 +332,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Clinac
@@ -370,7 +362,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Cloud Planner
@@ -401,7 +392,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: DoseLab
@@ -432,7 +422,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Eclipse treatment planning software
@@ -463,7 +452,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: ePeerReview
@@ -494,7 +482,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Ethos
@@ -525,7 +512,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: FullScale oncology IT solutions
@@ -556,7 +542,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Halcyon system
@@ -587,7 +572,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Identify
@@ -618,7 +602,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Information Exchange Manager (IEM)
@@ -649,7 +632,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: InSightive Analytics
@@ -680,7 +662,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Large Integrated Oncology Network (LION)
@@ -711,7 +692,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: ICAP
@@ -742,7 +722,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Mobius3D platform
@@ -773,7 +752,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: ProBeam
@@ -804,7 +782,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Qumulate
@@ -835,7 +812,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Real-time Position Management (RPM)
@@ -866,7 +842,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Respiratory Gating for Scanners (RGSC)
@@ -897,7 +872,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: SmartConnect solution
@@ -928,7 +902,6 @@ software:
     notes: 'See Knowledge Article: 000038850 on MyVarian'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: SmartConnect solution Policy Server
@@ -959,7 +932,6 @@ software:
     notes: 'See Knowledge Articles: 000038831 and 000038832 on MyVarian'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: PaaS
@@ -990,7 +962,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: TrueBeam radiotherapy system
@@ -1021,7 +992,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: UNIQUE system
@@ -1052,7 +1022,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Varian Authentication and Identity Server (VAIS)
@@ -1083,7 +1052,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Varian Managed Services Cloud
@@ -1114,7 +1082,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Varian Mobile App
@@ -1146,7 +1113,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: VariSeed
@@ -1177,7 +1143,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Velocity
@@ -1208,7 +1173,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: VitalBeam radiotherapy system
@@ -1239,7 +1203,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
     product: Vitesse
@@ -1270,7 +1233,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varnish Software
     product: ''
@@ -1300,8 +1262,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Varonis
     product: ''
     cves:
@@ -1330,8 +1291,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Veeam
     product: ''
     cves:
@@ -1360,8 +1320,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Venafi
     product: ''
     cves:
@@ -1390,8 +1349,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Veritas NetBackup
     product: ''
     cves:
@@ -1420,8 +1378,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Vertica
     product: ''
     cves:
@@ -1450,8 +1407,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Viso Trust
     product: ''
     cves:
@@ -1480,8 +1436,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:29+00:00'
+    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: VMware
     product: API Portal for VMware Tanzu
     cves:
@@ -1511,7 +1466,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: App Metrics
@@ -1542,7 +1496,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: Healthwatch for Tanzu Application Service
@@ -1574,7 +1527,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: Single Sign-On for VMware Tanzu Application Service
@@ -1605,7 +1557,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: Spring Cloud Gateway for Kubernetes
@@ -1636,7 +1587,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: Spring Cloud Gateway for VMware Tanzu
@@ -1667,7 +1617,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: Spring Cloud Services for VMware Tanzu
@@ -1698,7 +1647,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Carbon Black Cloud Workload Appliance
@@ -1729,7 +1677,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Carbon Black EDR Server
@@ -1761,7 +1708,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Cloud Foundation
@@ -1793,7 +1739,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware HCX
@@ -1825,7 +1770,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Horizon
@@ -1857,7 +1801,6 @@ software:
     notes: ''
     references:
       - '[VMware KB 87073 (vmware.com)](https://kb.vmware.com/s/article/87073)'
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: VMware
     product: VMware Horizon Cloud Connector
@@ -1889,7 +1832,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Horizon DaaS
@@ -1921,7 +1863,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Identity Manager
@@ -1952,7 +1893,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware NSX-T Data Centern
@@ -1984,7 +1924,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Site Recovery Manager
@@ -2015,7 +1954,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Tanzu Application Service for VMs
@@ -2046,7 +1984,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Tanzu GemFire
@@ -2078,7 +2015,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Tanzu Greenplum
@@ -2109,7 +2045,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Tanzu Kubernetes Grid Integrated Edition
@@ -2140,7 +2075,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Tanzu Observability by Wavefront Nozzle
@@ -2172,7 +2106,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Tanzu Operations Manager
@@ -2203,7 +2136,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Tanzu SQL with MySQL for VMs
@@ -2235,7 +2167,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Telco Cloud Automation
@@ -2267,7 +2198,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Unified Access Gateway
@@ -2300,7 +2230,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware vCenter Cloud Gateway
@@ -2331,7 +2260,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: vCenter Server - OVA
@@ -2365,7 +2293,6 @@ software:
       )'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: VMware
     product: vCenter Server - Windows
@@ -2398,7 +2325,6 @@ software:
       )'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: VMware
     product: VMware vRealize Automation
@@ -2430,7 +2356,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware vRealize Lifecycle Manager
@@ -2461,7 +2386,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware vRealize Log Insight
@@ -2492,7 +2416,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware vRealize Operations
@@ -2523,7 +2446,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware vRealize Operations Cloud Proxy
@@ -2554,7 +2476,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware vRealize Orchestrator
@@ -2586,7 +2507,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Workspace ONE Access
@@ -2618,7 +2538,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
     product: VMware Workspace ONE Access Connector (VMware Identity Manager Connector)
@@ -2651,7 +2570,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-12T00:00:00'
   - vendor: Vyaire
     product: ''
@@ -2681,6 +2599,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
 ...

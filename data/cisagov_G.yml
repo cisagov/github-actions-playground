@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: GE Digital
     product: ''
@@ -30,7 +33,6 @@ software:
       by CISA.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Digital Grid
     product: ''
@@ -61,7 +63,6 @@ software:
       by CISA.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Gas Power
     product: Baseline Security Center (BSC)
@@ -92,7 +93,6 @@ software:
       necessary. Contact GE for details.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Gas Power
     product: Baseline Security Center (BSC) 2.0
@@ -123,7 +123,6 @@ software:
       necessary. Contact GE for details
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Gas Power
     product: Asset Performance Management (APM)
@@ -153,7 +152,6 @@ software:
     notes: GE verifying workaround.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Gas Power
     product: Control Server
@@ -184,7 +182,6 @@ software:
       Please see below. GE verifying the vCenter fix as proposed by the vendor.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Gas Power
     product: Tag Mapping Service
@@ -214,7 +211,6 @@ software:
     notes: Vulnerability fixed. No user actions necessary. Updated to log4j 2.16
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Healthcare
     product: ''
@@ -245,7 +241,6 @@ software:
       on the GE Healthcare website.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Gearset
     product: ''
@@ -275,8 +270,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Genesys
     product: ''
     cves:
@@ -305,8 +299,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: GeoServer
     product: ''
     cves:
@@ -335,8 +328,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gerrit code review
     product: ''
     cves:
@@ -365,8 +357,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: GFI
     product: ''
     cves:
@@ -395,8 +386,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Ghidra
     product: ''
     cves:
@@ -425,8 +415,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gigamon
     product: Fabric Manager
     cves:
@@ -457,7 +446,6 @@ software:
       to customers only and has not been reviewed by CISA.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: GitHub
     product: GitHub
@@ -488,7 +476,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: GitLab
     product: ''
@@ -518,8 +505,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Globus
     product: ''
     cves:
@@ -548,8 +534,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: GoAnywhere
     product: MFT
     cves:
@@ -579,7 +564,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-18T00:00:00'
   - vendor: GoAnywhere
     product: Gateway
@@ -610,7 +594,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-18T00:00:00'
   - vendor: GoAnywhere
     product: MFT Agents
@@ -641,7 +624,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-18T00:00:00'
   - vendor: GoCD
     product: ''
@@ -671,8 +653,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Google Cloud
     product: AI Platform Data Labeling
     cves:
@@ -702,7 +683,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: AI Platform Neural Architecture Search (NAS)
@@ -733,7 +713,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: AI Platform Training and Prediction
@@ -764,7 +743,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Access Transparency
@@ -795,7 +773,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Actifio
@@ -828,7 +805,6 @@ software:
       only).
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Anthos
@@ -862,7 +838,6 @@ software:
       to the latest version.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Anthos Config Management
@@ -893,7 +868,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Anthos Connect
@@ -924,7 +898,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Anthos Hub
@@ -955,7 +928,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Anthos Identity Service
@@ -986,7 +958,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Anthos Premium Software
@@ -1017,7 +988,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Anthos Service Mesh
@@ -1048,7 +1018,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Anthos on VMWare
@@ -1083,7 +1052,6 @@ software:
       and apply appropriate patches.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Apigee
@@ -1119,7 +1087,6 @@ software:
       to the latest version. Visit the Apigee Incident Report for more information.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Google Cloud
     product: App Engine
@@ -1153,7 +1120,6 @@ software:
       them to the latest version.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: AppSheet
@@ -1187,7 +1153,6 @@ software:
       have any questions or require assistance, contact AppSheet Support.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Artifact Registry
@@ -1218,7 +1183,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Assured Workloads
@@ -1249,7 +1213,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: AutoML
@@ -1280,7 +1243,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: AutoML Natural Language
@@ -1311,7 +1273,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: AutoML Tables
@@ -1342,7 +1303,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: AutoML Translation
@@ -1373,7 +1333,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: AutoML Video
@@ -1404,7 +1363,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: AutoML Vision
@@ -1435,7 +1393,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: BigQuery
@@ -1466,7 +1423,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: BigQuery Data Transfer Service
@@ -1497,7 +1453,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: BigQuery Omni
@@ -1529,7 +1484,6 @@ software:
       We continue to work with AWS and Azure to assess the situation.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-19T00:00:00'
   - vendor: Google Cloud
     product: Binary Authorization
@@ -1560,7 +1514,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Certificate Manager
@@ -1591,7 +1544,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Chronicle
@@ -1622,7 +1574,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Cloud Asset Inventory
@@ -1653,7 +1604,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Bigtable
@@ -1684,7 +1634,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-19T00:00:00'
   - vendor: Google Cloud
     product: Cloud Build
@@ -1718,7 +1667,6 @@ software:
       them to the latest version.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud CDN
@@ -1749,7 +1697,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Cloud Composer
@@ -1785,7 +1732,6 @@ software:
       to identify components dependent on Log4j 2 and update them to the latest version.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: Google Cloud
     product: Cloud Console App
@@ -1816,7 +1762,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud DNS
@@ -1847,7 +1792,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Cloud Data Loss Prevention
@@ -1878,7 +1822,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Debugger
@@ -1909,7 +1852,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Deployment Manager
@@ -1940,7 +1882,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Endpoints
@@ -1971,7 +1912,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud External Key Manager (EKM)
@@ -2002,7 +1942,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Functions
@@ -2036,7 +1975,6 @@ software:
       update them to the latest version.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Harware Security Module (HSM)
@@ -2067,7 +2005,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Intrusion Detection System (IDS)
@@ -2098,7 +2035,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Interconnect
@@ -2129,7 +2065,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Key Management Service
@@ -2160,7 +2095,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Load Balancing
@@ -2191,7 +2125,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Cloud Logging
@@ -2222,7 +2155,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Network Address Translation (NAT)
@@ -2253,7 +2185,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Cloud Natural Language API
@@ -2284,7 +2215,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Profiler
@@ -2315,7 +2245,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Router
@@ -2346,7 +2275,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Cloud Run
@@ -2380,7 +2308,6 @@ software:
       them to the latest version.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Run for Anthos
@@ -2414,7 +2341,6 @@ software:
       2 and update them to the latest version.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud SDK
@@ -2445,7 +2371,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud SQL
@@ -2476,7 +2401,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-19T00:00:00'
   - vendor: Google Cloud
     product: Cloud Scheduler
@@ -2507,7 +2431,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Shell
@@ -2541,7 +2464,6 @@ software:
       them to the latest version.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Source Repositories
@@ -2572,7 +2494,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Spanner
@@ -2603,7 +2524,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-19T00:00:00'
   - vendor: Google Cloud
     product: Cloud Storage
@@ -2634,7 +2554,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Cloud Tasks
@@ -2665,7 +2584,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Trace
@@ -2696,7 +2614,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Traffic Director
@@ -2727,7 +2644,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Cloud Translation
@@ -2758,7 +2674,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud VPN
@@ -2789,7 +2704,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Cloud Vision
@@ -2820,7 +2734,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Cloud Vision OCR On-Prem
@@ -2851,7 +2764,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: CompilerWorks
@@ -2882,7 +2794,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Compute Engine
@@ -2915,7 +2826,6 @@ software:
       to Google Cloud VMware Engine as they become available.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Contact Center AI (CCAI)
@@ -2946,7 +2856,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Contact Center AI Insights
@@ -2977,7 +2886,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Container Registry
@@ -3008,7 +2916,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Data Catalog
@@ -3041,7 +2948,6 @@ software:
       version.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Data Fusion
@@ -3075,7 +2981,6 @@ software:
       “Important information about Data Fusion.”
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Database Migration Service (DMS)
@@ -3106,7 +3011,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-19T00:00:00'
   - vendor: Google Cloud
     product: Dataflow
@@ -3141,7 +3045,6 @@ software:
       about Dataflow.”'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Google Cloud
     product: Dataproc
@@ -3174,7 +3077,6 @@ software:
       information about Dataproc” with Dataproc documentation.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Dataproc Metastore
@@ -3208,7 +3110,6 @@ software:
       Dataproc Metastore.”
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Datastore
@@ -3239,7 +3140,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-19T00:00:00'
   - vendor: Google Cloud
     product: Datastream
@@ -3270,7 +3170,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-19T00:00:00'
   - vendor: Google Cloud
     product: Dialogflow Essentials (ES)
@@ -3301,7 +3200,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Document AI
@@ -3332,7 +3230,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Event Threat Detection
@@ -3363,7 +3260,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Eventarc
@@ -3394,7 +3290,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Filestore
@@ -3427,7 +3322,6 @@ software:
       in January 2022.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Firebase
@@ -3458,7 +3352,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Firestore
@@ -3489,7 +3382,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-19T00:00:00'
   - vendor: Google Cloud
     product: Game Servers
@@ -3520,7 +3412,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Google Cloud Armor
@@ -3551,7 +3442,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Google Cloud Armor Managed Protection Plus
@@ -3582,7 +3472,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Google Cloud VMware Engine
@@ -3613,7 +3502,6 @@ software:
       fixes as they become available.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-11T00:00:00'
   - vendor: Google Cloud
     product: Google Kubernetes Engine
@@ -3647,7 +3535,6 @@ software:
       dependent on Log4j 2 and update them to the latest version.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Healthcare Data Engine (HDE)
@@ -3678,7 +3565,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Human-in-the-Loop AI
@@ -3709,7 +3595,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: IoT Core
@@ -3740,7 +3625,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Key Access Justifications (KAJ)
@@ -3771,7 +3655,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Looker
@@ -3809,7 +3692,6 @@ software:
       have questions or require assistance, please visit Looker Support.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-18T00:00:00'
   - vendor: Google Cloud
     product: Media Translation API
@@ -3840,7 +3722,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Memorystore
@@ -3871,7 +3752,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-19T00:00:00'
   - vendor: Google Cloud
     product: Migrate for Anthos
@@ -3902,7 +3782,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Migrate for Compute Engine (M4CE)
@@ -3936,7 +3815,6 @@ software:
       or below. If you are on M4CE v5.0 or above, no action is needed.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-19T00:00:00'
   - vendor: Google Cloud
     product: Network Connectivity Center
@@ -3967,7 +3845,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Network Intelligence Center
@@ -3998,7 +3875,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Network Service Tiers
@@ -4029,7 +3905,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Persistent Disk
@@ -4060,7 +3935,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Pub/Sub
@@ -4091,7 +3965,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Google Cloud
     product: Pub/Sub Lite
@@ -4125,7 +3998,6 @@ software:
       them to the latest version.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Google Cloud
     product: reCAPTCHA Enterprise
@@ -4156,7 +4028,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Recommendations AI
@@ -4187,7 +4058,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Retail Search
@@ -4218,7 +4088,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Risk Manager
@@ -4249,7 +4118,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Secret Manager
@@ -4280,7 +4148,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Security Command Center
@@ -4311,7 +4178,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Service Directory
@@ -4342,7 +4208,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Service Infrastructure
@@ -4373,7 +4238,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Speaker ID
@@ -4404,7 +4268,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Speech-to-Text
@@ -4435,7 +4298,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Speech-to-Text On-Prem
@@ -4466,7 +4328,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Storage Transfer Service
@@ -4497,7 +4358,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Talent Solution
@@ -4528,7 +4388,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Text-to-Speech
@@ -4559,7 +4418,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Transcoder API
@@ -4590,7 +4448,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Transfer Appliance
@@ -4621,7 +4478,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Video Intelligence API
@@ -4652,7 +4508,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Virtual Private Cloud
@@ -4683,7 +4538,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Google Cloud
     product: Web Security Scanner
@@ -4714,7 +4568,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Google Cloud
     product: Workflows
@@ -4745,7 +4598,6 @@ software:
       in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Gradle
     product: Gradle
@@ -4775,8 +4627,7 @@ software:
     notes: Gradle Scala Compiler Plugin depends upon log4j-core but it is not used.
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gradle
     product: Gradle Enterprise
     cves:
@@ -4806,8 +4657,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gradle
     product: Gradle Enterprise Build Cache Node
     cves:
@@ -4837,8 +4687,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gradle
     product: Gradle Enterprise Test Distribution Agent
     cves:
@@ -4868,8 +4717,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Grafana
     product: ''
     cves:
@@ -4898,8 +4746,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Grandstream
     product: ''
     cves:
@@ -4928,8 +4775,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gravitee
     product: Access Management
     cves:
@@ -4959,8 +4805,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gravitee
     product: Access Management
     cves:
@@ -4990,8 +4835,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gravitee
     product: API Management
     cves:
@@ -5021,8 +4865,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gravitee
     product: API Management
     cves:
@@ -5052,8 +4895,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gravitee
     product: Alert Engine
     cves:
@@ -5083,8 +4925,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gravitee
     product: Alert Engine
     cves:
@@ -5114,8 +4955,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gravitee
     product: Cockpit
     cves:
@@ -5145,8 +4985,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gravitee.io
     product: ''
     cves:
@@ -5175,8 +5014,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gravwell
     product: ''
     cves:
@@ -5205,8 +5043,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Graylog
     product: Graylog Server
     cves:
@@ -5236,8 +5073,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: GreenShot
     product: ''
     cves:
@@ -5266,8 +5102,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: GSA
     product: Cloud.gov
     cves:
@@ -5296,7 +5131,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Guidewire
     product: ''
@@ -5326,6 +5160,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
 ...
