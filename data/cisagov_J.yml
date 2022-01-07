@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: Jamasoftware
     product: ''
@@ -29,8 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Jamf
     product: Jamf Pro
     cves:
@@ -60,8 +62,37 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
+  - vendor: Janitza
+    product: GridVis
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 8.0.82
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.janitza.com/us/gridvis-download.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
   - vendor: Jaspersoft
     product: ''
     cves:
@@ -90,8 +121,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Jedox
     product: ''
     cves:
@@ -120,8 +150,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Jenkins
     product: CI/CD Core
     cves:
@@ -149,8 +178,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Jenkins
     product: Plugins
     cves:
@@ -179,7 +207,6 @@ software:
     notes: '[Instructions to test your installations in announcement](https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/)'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: JetBrains
     product: IntelliJ platform based IDEs (AppCode, CLion, DataGrip, DataSpell, GoLand,
@@ -212,8 +239,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: All .NET tools (ReSharper, Rider, ReSharper C++, dotTrace, dotMemory,
       dotCover, dotPeek)
@@ -244,8 +270,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: ToolBox
     cves:
@@ -275,8 +300,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: TeamCity
     cves:
@@ -306,8 +330,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: Hub
     cves:
@@ -337,8 +360,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: YouTrack Standalone
     cves:
@@ -368,8 +390,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: YouTrack InCloud
     cves:
@@ -399,8 +420,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: Datalore
     cves:
@@ -430,8 +450,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: Space
     cves:
@@ -461,8 +480,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Jetbrains
     product: Code With Me
     cves:
@@ -492,8 +510,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: Gateway
     cves:
@@ -523,8 +540,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: Kotlin
     cves:
@@ -554,8 +570,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: Ktor
     cves:
@@ -585,8 +600,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: MPS
     cves:
@@ -616,8 +630,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: Floating license server
     cves:
@@ -647,8 +660,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JetBrains
     product: UpSource
     cves:
@@ -678,8 +690,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: JFROG
     product: ''
     cves:
@@ -708,8 +719,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Jitsi
     product: ''
     cves:
@@ -738,8 +748,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Jitterbit
     product: ''
     cves:
@@ -768,8 +777,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: jPOS
     product: (ISO-8583) bridge
     cves:
@@ -799,8 +807,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Johnson Controls
     product: C•CURE‐9000
     cves:
@@ -830,7 +837,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: C•CURE‐9000
@@ -861,7 +867,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: C•CURE‐9000
@@ -892,7 +897,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: C•CURE‐9000
@@ -923,7 +927,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: victor
@@ -954,7 +957,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: victor/ C•CURE‐9000 Unified
@@ -985,7 +987,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: victor/ C•CURE‐9000 Unified
@@ -1016,7 +1017,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: Metasys Products and Tools
@@ -1047,7 +1047,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: Facility Explorer
@@ -1078,7 +1077,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: CEM AC2000
@@ -1109,7 +1107,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: CEM Hardware Products
@@ -1140,7 +1137,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: Illustra Cameras
@@ -1171,7 +1167,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: Illustra Insight
@@ -1202,7 +1197,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: Tyco AI
@@ -1233,7 +1227,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: DLS
@@ -1264,7 +1257,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: Entrapass
@@ -1295,7 +1287,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: CloudVue Web
@@ -1326,7 +1317,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: CloudVue Gateway
@@ -1357,7 +1347,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: Qolsys IQ Panels
@@ -1388,7 +1377,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: PowerSeries NEO
@@ -1419,7 +1407,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: PowerSeries Pro
@@ -1450,7 +1437,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: Sur‐Gard Receivers
@@ -1481,7 +1467,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: VideoEdge
@@ -1512,7 +1497,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: exacqVision Server
@@ -1543,7 +1527,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: exacqVision Client
@@ -1574,7 +1557,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: exacqVision WebService
@@ -1605,7 +1587,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: BCPro
@@ -1636,7 +1617,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
     product: iSTAR
@@ -1667,7 +1647,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Journyx
     product: ''
@@ -1697,8 +1676,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Jump Desktop
     product: ''
     cves:
@@ -1727,8 +1705,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Juniper Networks
     product: ''
     cves:
@@ -1757,8 +1734,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Justice Systems
     product: ''
     cves:
@@ -1787,6 +1763,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
 ...

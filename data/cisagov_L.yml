@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: L-Soft
     product: ''
@@ -29,8 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: L3Harris Geospatial
     product: ''
     cves:
@@ -59,8 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Lancom Systems
     product: ''
     cves:
@@ -89,8 +90,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Lansweeper
     product: ''
     cves:
@@ -119,8 +119,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Laserfiche
     product: ''
     cves:
@@ -149,8 +148,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: LastPass
     product: ''
     cves:
@@ -179,8 +177,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: LaunchDarkly
     product: ''
     cves:
@@ -209,8 +206,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Leanix
     product: ''
     cves:
@@ -239,8 +235,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Leica BIOSYSTEMS
     product: Aperio AT2
     cves:
@@ -269,7 +264,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Aperio AT2 DX
@@ -299,7 +293,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Aperio CS2
@@ -329,7 +322,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Aperio eSlide Manager
@@ -359,7 +351,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Aperio GT 450
@@ -389,7 +380,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Aperio GT 450 DX
@@ -419,7 +409,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Aperio ImageScope
@@ -449,7 +438,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Aperio ImageScope DX
@@ -479,7 +467,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Aperio LV1
@@ -509,7 +496,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Aperio SAM DX Server For GT 450 DX
@@ -539,7 +525,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Aperio Scanner Administration Manager (SAM) Server for GT 450
@@ -569,7 +554,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Aperio VERSA
@@ -599,7 +583,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Aperio WebViewer DX
@@ -629,7 +612,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: BOND-ADVANCE
@@ -659,7 +641,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: BOND Controller
@@ -689,7 +670,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: BOND-III
@@ -719,7 +699,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: BOND-MAX
@@ -749,7 +728,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: BOND RX
@@ -779,7 +757,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: BOND RXm
@@ -809,7 +786,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: CEREBRO
@@ -839,7 +815,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: CytoVision
@@ -869,7 +844,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: HistoCore PEARL
@@ -899,7 +873,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: HistoCore PEGASUS
@@ -929,7 +902,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: HistoCore SPECTRA CV
@@ -959,7 +931,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: HistoCore SPECTRA ST
@@ -989,7 +960,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: HistoCore SPIRIT ST
@@ -1019,7 +989,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: HistoCore SPRING ST
@@ -1049,7 +1018,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Leica ASP300S
@@ -1079,7 +1047,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Leica CV5030
@@ -1109,7 +1076,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Leica ST4020
@@ -1139,7 +1105,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Leica ST5010
@@ -1169,7 +1134,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Leica ST5020
@@ -1199,7 +1163,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: Leica TP1020
@@ -1229,7 +1192,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: LIS Connect
@@ -1259,7 +1221,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: PathDX
@@ -1289,7 +1250,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: ThermoBrite Elite
@@ -1319,7 +1279,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Lenovo
     product: BIOS/UEFI
@@ -1349,7 +1308,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: Chassis Management Module 2 (CMM)
@@ -1379,7 +1337,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: Commercial Vantage
@@ -1409,7 +1366,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: Confluent
@@ -1439,7 +1395,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: DSS-G
@@ -1469,7 +1424,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: Embedded System Management Java-based KVM clients
@@ -1499,7 +1453,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: Fan Power Controller (FPC)
@@ -1529,7 +1482,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: Fan Power Controller2 (FPC2)
@@ -1559,7 +1511,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: Integrated Management Module II (IMM2)
@@ -1589,7 +1540,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: NetApp ONTAP Tools for VMware vSphere
@@ -1620,7 +1570,6 @@ software:
       advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: 'Network Switches running: Lenovo CNOS, Lenovo ENOS, IBM ENOS, or Brocade
@@ -1651,7 +1600,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: Storage Management utilities
@@ -1681,7 +1629,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: System Management Module (SMM)
@@ -1711,7 +1658,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: System Management Module 2 (SMM2)
@@ -1741,7 +1687,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: System Update
@@ -1771,7 +1716,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: Thin Installer
@@ -1801,7 +1745,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: ThinkAgile HX
@@ -1833,7 +1776,6 @@ software:
       advisories.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: ThinkAgile VX
@@ -1864,7 +1806,6 @@ software:
       advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: ThinkSystem 2x1x16 Digital KVM Switch - Type 1754D1T
@@ -1894,7 +1835,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: ThinkSystem DE Series Storage
@@ -1924,7 +1864,6 @@ software:
     notes: See also NetApp advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: ThinkSystem DM Series Storage
@@ -1954,7 +1893,6 @@ software:
     notes: See also NetApp advisory.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: ThinkSystem DS Series Storage
@@ -1984,7 +1922,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: ThinkSystem Manager (TSM)
@@ -2014,7 +1951,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: Update Retriever
@@ -2044,7 +1980,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: Vantage
@@ -2074,7 +2009,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: XClarity Administrator (LXCA)
@@ -2104,7 +2038,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: XClarity Controller (XCC)
@@ -2134,7 +2067,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: XClarity Energy Manager (LXEM)
@@ -2164,7 +2096,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: XClarity Essentials (LXCE)
@@ -2194,7 +2125,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: XClarity Integrator (LXCI) for Microsoft Azure Log Analytics
@@ -2224,7 +2154,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: XClarity Integrator (LXCI) for Microsoft System Center
@@ -2254,7 +2183,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: XClarity Integrator (LXCI) for Nagios
@@ -2284,7 +2212,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: XClarity Integrator (LXCI) for ServiceNow
@@ -2314,7 +2241,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: XClarity Integrator (LXCI) for VMware vCenter
@@ -2344,7 +2270,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: XClarity Integrator (LXCI) for Windows Admin Center
@@ -2374,7 +2299,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: XClarity Mobile (LXCM)
@@ -2404,7 +2328,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: XClarity Orchestrator (LXCO)
@@ -2434,7 +2357,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Lenovo
     product: XClarity Provisioning Manager (LXPM)
@@ -2464,7 +2386,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: LeoStream
     product: ''
@@ -2494,8 +2415,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Let's Encrypt
     product: ''
     cves:
@@ -2524,8 +2444,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: LibreNMS
     product: ''
     cves:
@@ -2554,8 +2473,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: LifeRay
     product: ''
     cves:
@@ -2584,8 +2502,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: LifeSize
     product: ''
     cves:
@@ -2614,8 +2531,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Lightbend
     product: ''
     cves:
@@ -2644,8 +2560,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Lime CRM
     product: ''
     cves:
@@ -2674,8 +2589,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: LIONGARD
     product: ''
     cves:
@@ -2704,8 +2618,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: LiquidFiles
     product: ''
     cves:
@@ -2734,8 +2647,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: LiveAction
     product: ''
     cves:
@@ -2764,8 +2676,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Loftware
     product: ''
     cves:
@@ -2794,8 +2705,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: LOGalyze
     product: SIEM & log analyzer tool
     cves:
@@ -2827,7 +2737,6 @@ software:
       1.2.17'
     references:
       - '[Forks (github.com)](https://github.com/search?q=logalyzer&s=updated&type=Repositories)'
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: LogiAnalytics
     product: ''
@@ -2857,8 +2766,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: LogicMonitor
     product: LogicMonitor Platform
     cves:
@@ -2887,8 +2795,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: LogMeIn
     product: ''
     cves:
@@ -2917,8 +2824,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: LogRhythm
     product: ''
     cves:
@@ -2947,8 +2853,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Looker
     product: Looker
     cves:
@@ -2983,8 +2888,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: LucaNet
     product: ''
     cves:
@@ -3013,8 +2917,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Lucee
     product: ''
     cves:
@@ -3043,8 +2946,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Lyrasis
     product: Fedora Repository
     cves:
@@ -3078,6 +2980,5 @@ software:
       explicitly excludes log4j.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
 ...

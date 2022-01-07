@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: C4b XPHONE
     product: ''
@@ -29,8 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Campbell Scientific
     product: All
     cves:
@@ -59,7 +61,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-23T00:00:00'
   - vendor: Camunda
     product: ''
@@ -89,8 +90,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Canary Labs
     product: All
     cves:
@@ -119,7 +119,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Canon
     product: CT Medical Imaging Products
@@ -149,7 +148,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Canon
     product: MR Medical Imaging Products
@@ -179,7 +177,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Canon
     product: UL Medical Imaging Products
@@ -209,7 +206,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Canon
     product: XR Medical Imaging Products
@@ -239,7 +235,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Canon
     product: NM Medical Imaging Products
@@ -269,7 +264,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Canon
     product: Vitrea Advanced 7.x
@@ -299,7 +293,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Canon
     product: Infinix-i (Angio Workstation)
@@ -329,7 +322,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Canon
     product: Alphenix (Angio Workstation)
@@ -359,7 +351,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: CapStorm
     product: Copystorm
@@ -388,7 +379,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: CarbonBlack
     product: ''
@@ -418,8 +408,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Carestream
     product: ''
     cves:
@@ -448,8 +437,36 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
+  - vendor: Carrier
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.corporate.carrier.com/product-security/advisories-resources/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: CAS genesisWorld
     product: ''
     cves:
@@ -478,8 +495,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cato Networks
     product: ''
     cves:
@@ -508,8 +524,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cepheid
     product: C360
     cves:
@@ -538,7 +553,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Cepheid
     product: GeneXpert
@@ -568,7 +582,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: Cerberus FTP
     product: ''
@@ -598,8 +611,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Chaser Systems
     product: discrimiNAT Firewall
     cves:
@@ -629,8 +641,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Check Point
     product: CloudGuard
     cves:
@@ -660,8 +671,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Check Point
     product: Harmony Endpoint & Harmony Mobile
     cves:
@@ -691,8 +701,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Check Point
     product: Infinity Portal
     cves:
@@ -721,8 +730,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Check Point
     product: Quantum Security Gateway
     cves:
@@ -752,8 +760,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Check Point
     product: Quantum Security Management
     cves:
@@ -784,8 +791,7 @@ software:
       this attack by default.
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Check Point
     product: SMB
     cves:
@@ -815,8 +821,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Check Point
     product: ThreatCloud
     cves:
@@ -845,8 +850,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: CheckMK
     product: ''
     cves:
@@ -875,8 +879,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Ciphermail
     product: ''
     cves:
@@ -905,8 +908,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: CircleCI
     product: CircleCI
     cves:
@@ -935,7 +937,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: CIS
     product: ''
@@ -965,8 +966,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: AppDynamics
     cves:
@@ -995,8 +995,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Common Services Platform Collector
     cves:
@@ -1025,8 +1024,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Network Services Orchestrator (NSO)
     cves:
@@ -1055,8 +1053,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco System Architecture Evolution Gateway (SAEGW)
     cves:
@@ -1085,8 +1082,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco ACI Multi-Site Orchestrator
     cves:
@@ -1115,8 +1111,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco ACI Virtual Edge
     cves:
@@ -1145,8 +1140,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Adaptive Security Appliance (ASA) Software
     cves:
@@ -1175,8 +1169,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Advanced Web Security Reporting Application
     cves:
@@ -1205,8 +1198,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco AMP Virtual Private Cloud Appliance
     cves:
@@ -1235,8 +1227,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco AnyConnect Secure Mobility Client
     cves:
@@ -1265,8 +1256,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Application Policy Infrastructure Controller (APIC)
     cves:
@@ -1295,8 +1285,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco ASR 5000 Series Routers
     cves:
@@ -1325,8 +1314,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Broadcloud Calling
     cves:
@@ -1355,8 +1343,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco BroadWorks
     cves:
@@ -1385,8 +1372,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Catalyst 9800 Series Wireless Controllers
     cves:
@@ -1415,8 +1401,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco CloudCenter Suite Admin
     cves:
@@ -1445,8 +1430,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco CloudCenter Workload Manager
     cves:
@@ -1475,8 +1459,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Cognitive Intelligence
     cves:
@@ -1505,8 +1488,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Computer Telephony Integration Object Server (CTIOS)
     cves:
@@ -1535,8 +1517,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Connected Grid Device Manager
     cves:
@@ -1565,8 +1546,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Connected Mobile Experiences
     cves:
@@ -1595,8 +1575,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Connectivity
     cves:
@@ -1625,8 +1604,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Contact Center Domain Manager (CCDM)
     cves:
@@ -1655,8 +1633,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Contact Center Management Portal (CCMP)
     cves:
@@ -1685,8 +1662,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Crosswork Change Automation
     cves:
@@ -1715,8 +1691,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco CX Cloud Agent Software
     cves:
@@ -1745,8 +1720,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Data Center Network Manager (DCNM)
     cves:
@@ -1775,8 +1749,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Defense Orchestrator
     cves:
@@ -1805,8 +1778,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco DNA Assurance
     cves:
@@ -1835,8 +1807,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco DNA Center
     cves:
@@ -1865,8 +1836,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco DNA Spaces
     cves:
@@ -1895,8 +1865,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: DUO network gateway (on-prem/self-hosted)
     cves:
@@ -1924,8 +1893,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Elastic Services Controller (ESC)
     cves:
@@ -1954,8 +1922,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Emergency Responder
     cves:
@@ -1984,8 +1951,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Enterprise Chat and Email
     cves:
@@ -2014,8 +1980,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Enterprise NFV Infrastructure Software (NFVIS)
     cves:
@@ -2044,8 +2009,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Evolved Programmable Network Manager
     cves:
@@ -2074,8 +2038,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Extensible Network Controller (XNC)
     cves:
@@ -2104,8 +2067,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Finesse
     cves:
@@ -2134,8 +2096,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Firepower Management Center
     cves:
@@ -2164,8 +2125,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Firepower Threat Defense (FTD)
     cves:
@@ -2194,8 +2154,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco GGSN Gateway GPRS Support Node
     cves:
@@ -2224,8 +2183,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco HyperFlex System
     cves:
@@ -2254,8 +2212,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Identity Services Engine (ISE)
     cves:
@@ -2284,8 +2241,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Integrated Management Controller (IMC) Supervisor
     cves:
@@ -2314,8 +2270,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Intersight
     cves:
@@ -2344,8 +2299,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Intersight Virtual Appliance
     cves:
@@ -2374,8 +2328,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco IOS and IOS XE Software
     cves:
@@ -2404,8 +2357,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco IoT Field Network Director (formerly Cisco Connected Grid Network
       Management System)
@@ -2435,8 +2387,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco IoT Operations Dashboard
     cves:
@@ -2465,8 +2416,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco IOx Fog Director
     cves:
@@ -2495,8 +2445,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco IP Services Gateway (IPSG)
     cves:
@@ -2525,8 +2474,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Kinetic for Cities
     cves:
@@ -2555,8 +2503,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco MDS 9000 Series Multilayer Switches
     cves:
@@ -2585,8 +2532,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Meeting Server
     cves:
@@ -2615,8 +2561,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco MME Mobility Management Entity
     cves:
@@ -2645,8 +2590,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Modeling Labs
     cves:
@@ -2675,8 +2619,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Network Assessment (CNA) Tool
     cves:
@@ -2705,8 +2648,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Network Assurance Engine
     cves:
@@ -2735,8 +2677,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Network Convergence System 2000 Series
     cves:
@@ -2765,8 +2706,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Network Planner
     cves:
@@ -2795,8 +2735,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Nexus 5500 Platform Switches
     cves:
@@ -2825,8 +2764,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Nexus 5600 Platform Switches
     cves:
@@ -2855,8 +2793,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Nexus 6000 Series Switches
     cves:
@@ -2885,8 +2822,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Nexus 7000 Series Switches
     cves:
@@ -2915,8 +2851,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Nexus 9000 Series Fabric Switches in Application Centric Infrastructure
       (ACI) mode
@@ -2946,8 +2881,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Nexus Dashboard (formerly Cisco Application Services Engine)
     cves:
@@ -2976,8 +2910,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Nexus Data Broker
     cves:
@@ -3006,8 +2939,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Nexus Insights
     cves:
@@ -3036,8 +2968,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Optical Network Planner
     cves:
@@ -3066,8 +2997,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Packaged Contact Center Enterprise
     cves:
@@ -3096,8 +3026,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Paging Server (InformaCast)
     cves:
@@ -3126,8 +3055,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Paging Server
     cves:
@@ -3156,8 +3084,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco PDSN/HA Packet Data Serving Node and Home Agent
     cves:
@@ -3186,8 +3113,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco PGW Packet Data Network Gateway
     cves:
@@ -3216,8 +3142,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Policy Suite
     cves:
@@ -3246,8 +3171,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Prime Central for Service Providers
     cves:
@@ -3276,8 +3200,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Prime Collaboration Manager
     cves:
@@ -3306,8 +3229,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Prime Collaboration Provisioning
     cves:
@@ -3336,8 +3258,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Prime Infrastructure
     cves:
@@ -3366,8 +3287,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Prime License Manager
     cves:
@@ -3396,8 +3316,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Prime Network
     cves:
@@ -3426,8 +3345,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Prime Optical for Service Providers
     cves:
@@ -3456,8 +3374,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Prime Provisioning
     cves:
@@ -3486,8 +3403,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Prime Service Catalog
     cves:
@@ -3516,8 +3432,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Registered Envelope Service
     cves:
@@ -3546,8 +3461,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco SD-WAN vEdge 1000 Series Routers
     cves:
@@ -3576,8 +3490,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco SD-WAN vEdge 2000 Series Routers
     cves:
@@ -3606,8 +3519,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco SD-WAN vEdge 5000 Series Routers
     cves:
@@ -3636,8 +3548,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco SD-WAN vEdge Cloud Router Platform
     cves:
@@ -3666,8 +3577,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco SD-WAN vManage
     cves:
@@ -3696,8 +3606,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Secure Network Analytics (SNA), formerly Stealthwatch
     cves:
@@ -3726,8 +3635,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco SocialMiner
     cves:
@@ -3756,8 +3664,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco TelePresence Management Suite
     cves:
@@ -3786,8 +3693,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco UCS Director
     cves:
@@ -3816,8 +3722,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco UCS Performance Manager
     cves:
@@ -3846,8 +3751,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Umbrella
     cves:
@@ -3876,8 +3780,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Unified Attendant Console Advanced
     cves:
@@ -3906,8 +3809,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Unified Attendant Console Business Edition
     cves:
@@ -3936,8 +3838,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Unified Attendant Console Department Edition
     cves:
@@ -3966,8 +3867,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Unified Attendant Console Enterprise Edition
     cves:
@@ -3996,8 +3896,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Unified Attendant Console Premium Edition
     cves:
@@ -4026,8 +3925,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Unified Communications Manager Cloud
     cves:
@@ -4056,8 +3954,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Unified Contact Center Enterprise - Live Data server
     cves:
@@ -4086,8 +3983,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Unified Contact Center Enterprise
     cves:
@@ -4116,8 +4012,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Unified Contact Center Express
     cves:
@@ -4146,8 +4041,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Unified Intelligent Contact Management Enterprise
     cves:
@@ -4176,8 +4070,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Unified SIP Proxy Software
     cves:
@@ -4206,8 +4099,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Video Surveillance Operations Manager
     cves:
@@ -4236,8 +4128,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Virtual Topology System - Virtual Topology Controller (VTC) VM
     cves:
@@ -4266,8 +4157,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Virtualized Voice Browser
     cves:
@@ -4296,8 +4186,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Vision Dynamic Signage Director
     cves:
@@ -4326,8 +4215,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco WAN Automation Engine (WAE)
     cves:
@@ -4356,8 +4244,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Web Security Appliance (WSA)
     cves:
@@ -4386,8 +4273,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Webex Cloud-Connected UC (CCUC)
     cves:
@@ -4416,8 +4302,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Webex Meetings Server
     cves:
@@ -4446,8 +4331,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Webex Teams
     cves:
@@ -4476,8 +4360,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Cisco Wide Area Application Services (WAAS)
     cves:
@@ -4506,8 +4389,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Duo
     cves:
@@ -4536,8 +4418,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: duo network gateway (on-prem/self-hosted)
     cves:
@@ -4565,8 +4446,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Exony Virtualized Interaction Manager (VIM)
     cves:
@@ -4595,8 +4475,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cisco
     product: Managed Services Accelerator (MSX) Network Access Control Service
     cves:
@@ -4625,8 +4504,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:22+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Citrix
     product: Citrix ADC (NetScaler ADC) and Citrix Gateway (NetScaler Gateway)
     cves:
@@ -4660,7 +4538,6 @@ software:
       need to take any action.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Citrix
     product: Citrix Application Delivery Management (NetScaler MAS)
@@ -4695,7 +4572,6 @@ software:
       need to take any action.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Citrix
     product: Citrix Cloud Connector
@@ -4729,7 +4605,6 @@ software:
       need to take any action.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Citrix
     product: Citrix Connector Appliance for Cloud Services
@@ -4763,7 +4638,6 @@ software:
       need to take any action.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Citrix
     product: Citrix Content Collaboration (ShareFile Integration) – Citrix Files for
@@ -4798,7 +4672,6 @@ software:
       need to take any action.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Citrix
     product: Citrix Endpoint Management (Citrix XenMobile Server)
@@ -4836,7 +4709,6 @@ software:
       the enrollment of Android devices. For CVE-2021-45105: Investigation in progress.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Citrix
     product: Citrix Hypervisor (XenServer)
@@ -4870,7 +4742,6 @@ software:
       need to take any action.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Citrix
     product: Citrix License Server
@@ -4904,7 +4775,6 @@ software:
       need to take any action.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Citrix
     product: Citrix SD-WAN
@@ -4939,7 +4809,6 @@ software:
       need to take any action.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Citrix
     product: ShareFile Storage Zones Controller
@@ -4973,7 +4842,6 @@ software:
       need to take any action.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Citrix
     product: Citrix Virtual Apps and Desktops (XenApp & XenDesktop)
@@ -5010,7 +4878,6 @@ software:
       Linux VDA LTSR all versions; All other CVAD components.'
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Citrix
     product: Citrix Workspace App
@@ -5045,7 +4912,6 @@ software:
       need to take any action.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: Claris
     product: ''
@@ -5075,8 +4941,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: AM2CM Tool
     cves:
@@ -5105,8 +4970,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Ambari
     cves:
@@ -5137,8 +5001,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Arcadia Enterprise
     cves:
@@ -5168,8 +5031,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: CDH, HDP, and HDF
     cves:
@@ -5199,8 +5061,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: CDP Operational Database (COD)
     cves:
@@ -5229,8 +5090,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: CDP Private Cloud Base
     cves:
@@ -5260,8 +5120,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: CDS 3 Powered by Apache Spark
     cves:
@@ -5291,8 +5150,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: CDS 3.2 for GPUs
     cves:
@@ -5322,8 +5180,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Cybersecurity Platform
     cves:
@@ -5353,8 +5210,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Data Engineering (CDE)
     cves:
@@ -5383,8 +5239,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Data Engineering (CDE)
     cves:
@@ -5414,8 +5269,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Data Flow (CFM)
     cves:
@@ -5444,8 +5298,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Data Science Workbench (CDSW)
     cves:
@@ -5476,8 +5329,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Data Visualization (CDV)
     cves:
@@ -5506,8 +5358,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Data Warehouse (CDW)
     cves:
@@ -5536,8 +5387,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Data Warehouse (CDW)
     cves:
@@ -5567,8 +5417,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera DataFlow (CDF)
     cves:
@@ -5597,8 +5446,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Edge Management (CEM)
     cves:
@@ -5628,8 +5476,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Enterprise
     cves:
@@ -5659,8 +5506,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Flow Management (CFM)
     cves:
@@ -5690,8 +5536,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Machine Learning (CML)
     cves:
@@ -5720,8 +5565,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Machine Learning (CML)
     cves:
@@ -5751,8 +5595,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Manager (Including Backup Disaster Recovery (BDR) and Replication
       Manager)
@@ -5783,8 +5626,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Manager (Including Backup Disaster Recovery (BDR) and Replication
       Manager)
@@ -5817,8 +5659,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Manager (Including Backup Disaster Recovery (BDR))
     cves:
@@ -5847,8 +5688,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Runtime (including Cloudera Data Hub and all Data Hub templates)
     cves:
@@ -5880,8 +5720,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Stream Processing (CSP)
     cves:
@@ -5911,8 +5750,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Streaming Analytics (CSA)
     cves:
@@ -5941,8 +5779,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Cloudera Streaming Analytics (CSA)
     cves:
@@ -5971,8 +5808,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Data Analytics Studio (DAS)
     cves:
@@ -6001,8 +5837,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Data Catalog
     cves:
@@ -6031,8 +5866,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Data Lifecycle Manager (DLM)
     cves:
@@ -6061,8 +5895,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Data Steward Studio (DSS)
     cves:
@@ -6092,8 +5925,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Hortonworks Data Flow (HDF)
     cves:
@@ -6122,8 +5954,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Hortonworks Data Platform (HDP)
     cves:
@@ -6155,8 +5986,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Hortonworks DataPlane Platform
     cves:
@@ -6185,8 +6015,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Management Console
     cves:
@@ -6216,8 +6045,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Management Console for CDP Public Cloud
     cves:
@@ -6246,8 +6074,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Replication Manager
     cves:
@@ -6276,8 +6103,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: SmartSense
     cves:
@@ -6306,8 +6132,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Workload Manager
     cves:
@@ -6336,8 +6161,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Workload XM (SaaS)
     cves:
@@ -6366,8 +6190,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudera
     product: Workload XM
     cves:
@@ -6397,8 +6220,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: CloudFlare
     product: ''
     cves:
@@ -6427,8 +6249,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudian HyperStore
     product: ''
     cves:
@@ -6457,8 +6278,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudogu
     product: Ecosystem
     cves:
@@ -6488,8 +6308,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudogu
     product: SCM-Manager
     cves:
@@ -6518,8 +6337,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cloudron
     product: ''
     cves:
@@ -6548,8 +6366,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Clover
     product: ''
     cves:
@@ -6578,8 +6395,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Code42
     product: Code42 App
     cves:
@@ -6609,7 +6425,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-22T00:00:00'
   - vendor: Code42
     product: Crashplan
@@ -6642,7 +6457,6 @@ software:
       an updated Crashplan client. Possibly prior versions affected.
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: CodeBeamer
     product: ''
@@ -6672,8 +6486,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Codesys
     product: ''
     cves:
@@ -6702,8 +6515,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cohesity
     product: ''
     cves:
@@ -6732,8 +6544,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: CommVault
     product: ''
     cves:
@@ -6762,8 +6573,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Concourse
     product: Concourse
     cves:
@@ -6792,8 +6602,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: ConcreteCMS.com
     product: ''
     cves:
@@ -6822,8 +6631,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Confluent
     product: Confluent Cloud
     cves:
@@ -6853,7 +6661,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Confluent
     product: Confluent Platform
@@ -6884,7 +6691,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Confluent
     product: Confluent for Kubernetes
@@ -6915,7 +6721,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Confluent
     product: Confluent Kafka Connectors
@@ -6946,7 +6751,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Confluent
     product: Confluent ElasticSearch Sink Connector
@@ -6977,7 +6781,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Confluent
     product: Confluent Google DataProc Sink Connector
@@ -7008,7 +6811,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Confluent
     product: Confluent Splunk Sink Connector
@@ -7039,7 +6841,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Confluent
     product: Confluent HDFS 2 Sink Connector
@@ -7070,7 +6871,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Confluent
     product: Confluent HDFS 3 Sink Connector
@@ -7101,7 +6901,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Confluent
     product: Confluent VMWare Tanzu GemFire Sink Connector
@@ -7132,7 +6931,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Connect2id
     product: ''
@@ -7162,8 +6960,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: ConnectWise
     product: ''
     cves:
@@ -7192,8 +6989,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: ContrastSecurity
     product: ''
     cves:
@@ -7222,8 +7018,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: ControlUp
     product: ''
     cves:
@@ -7252,10 +7047,9 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: COPADATA
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7278,12 +7072,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.copadata.com/en/support-services/knowledge-base-faq/pare-products-in-the-zenon-product-family-affect-4921/
+      - https://www.copadata.com/fileadmin/user_upload/faq/files/InformationReport_CVE_2021_44228.pdf
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-06T00:00:00'
   - vendor: CouchBase
     product: ''
     cves:
@@ -7312,8 +7105,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: CPanel
     product: ''
     cves:
@@ -7342,8 +7134,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Cradlepoint
     product: ''
     cves:
@@ -7372,8 +7163,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: Crestron
     product: ''
     cves:
@@ -7402,7 +7192,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: CrushFTP
     product: ''
@@ -7432,8 +7221,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: CryptShare
     product: ''
     cves:
@@ -7462,8 +7250,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: CyberArk
     product: Privileged Threat Analytics (PTA)
     cves:
@@ -7494,7 +7281,6 @@ software:
     references:
       - This advisory is available to customers only and has not been reviewed by
         CISA.
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: Cybereason
     product: ''
@@ -7524,8 +7310,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
   - vendor: CyberRes
     product: ''
     cves:
@@ -7554,6 +7339,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:23+00:00'
+    last_updated: '2022-01-07T17:30:33+00:00'
 ...

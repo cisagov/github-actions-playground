@@ -1,5 +1,8 @@
 ---
 version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: I-Net software
     product: ''
@@ -29,8 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: I2P
     product: ''
     cves:
@@ -59,8 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: IBA-AG
     product: ''
     cves:
@@ -89,8 +90,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Ibexa
     product: ''
     cves:
@@ -119,8 +119,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: IBM
     product: BigFix Compliance
     cves:
@@ -148,8 +147,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: IBM
     product: BigFix Inventory
     cves:
@@ -180,8 +178,7 @@ software:
       of log4j is included. Version is included in the name of the library.
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:25+00:00'
+    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: IBM
     product: Analytics Engine
     cves:
@@ -210,7 +207,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: App Configuration
@@ -240,7 +236,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: App Connect
@@ -270,7 +265,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: App ID
@@ -300,7 +294,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Application Gateway
@@ -330,7 +323,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Aspera Endpoint
@@ -360,7 +352,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Aspera Enterprise
@@ -390,7 +381,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Aspera fasp.io
@@ -420,7 +410,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Aspera
@@ -450,7 +439,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Bare Metal Servers
@@ -480,7 +468,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Block Storage
@@ -510,7 +497,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Block Storage for VPC
@@ -540,7 +526,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Block Storage Snapshots for VPC
@@ -570,7 +555,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Case Manager
@@ -600,7 +584,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Certificate Manager
@@ -630,7 +613,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Client VPN for VPC
@@ -660,7 +642,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Cloud Activity Tracker
@@ -690,7 +671,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Cloud Backup
@@ -720,7 +700,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Cloud Monitoring
@@ -750,7 +729,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Cloud Object Storage
@@ -780,7 +758,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Cloud Object Storage
@@ -810,7 +787,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Cloudant
@@ -840,7 +816,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Code Engine
@@ -870,7 +845,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Cognos Command Center
@@ -900,7 +874,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Cognos Controller
@@ -931,7 +904,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Cognos Integration Server
@@ -961,7 +933,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Compose Enterprise
@@ -991,7 +962,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Compose for Elasticsearch
@@ -1021,7 +991,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Compose for etcd
@@ -1051,7 +1020,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Compose for MongoDB
@@ -1081,7 +1049,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Compose for MySQL
@@ -1111,7 +1078,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Compose for PostgreSQL
@@ -1141,7 +1107,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Compose for RabbitMQ
@@ -1171,7 +1136,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Compose for Redis
@@ -1201,7 +1165,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Compose for RethinkDB
@@ -1231,7 +1194,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Compose for ScyllaDB
@@ -1261,7 +1223,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Container Registry
@@ -1291,7 +1252,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Container Security Services
@@ -1321,7 +1281,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Content Delivery Network
@@ -1351,7 +1310,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Continuous Delivery
@@ -1381,7 +1339,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Copy Services Manager
@@ -1411,7 +1368,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Databases for DataStax
@@ -1441,7 +1397,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Databases for EDB
@@ -1471,7 +1426,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Databases for Elasticsearch
@@ -1501,7 +1455,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Databases for etcd
@@ -1531,7 +1484,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Databases for MongoDB
@@ -1561,7 +1513,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Databases for PostgreSQL
@@ -1591,7 +1542,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Databases for Redis
@@ -1621,7 +1571,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Datapower Gateway
@@ -1651,7 +1600,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Dedicated Host for VPC
@@ -1681,7 +1629,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Direct Link Connect
@@ -1711,7 +1658,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Direct Link Connect on Classic
@@ -1741,7 +1687,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Direct Link Dedicated (2.0)
@@ -1771,7 +1716,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Direct Link Dedicated Hosting on Classic
@@ -1801,7 +1745,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Direct Link Dedicated on Classic
@@ -1831,7 +1774,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Direct Link Exchange on Classic
@@ -1861,7 +1803,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: DNS Services
@@ -1891,7 +1832,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Emptoris Contract Management
@@ -1921,7 +1861,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Emptoris Program Management
@@ -1951,7 +1890,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Emptoris Sourcing
@@ -1981,7 +1919,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Emptoris Spend Analysis
@@ -2011,7 +1948,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Emptoris Supplier Lifecycle Management
@@ -2041,7 +1977,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Enterprise Tape Controller Model C07 (3592) (ETC)
@@ -2071,7 +2006,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Event Notifications
@@ -2101,7 +2035,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Event Streams
@@ -2131,7 +2064,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: File Storage
@@ -2161,7 +2093,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Flash System 900 (& 840)
@@ -2191,7 +2122,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Flow Logs for VPC
@@ -2221,7 +2151,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Functions
@@ -2251,7 +2180,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: GSKit
@@ -2281,7 +2209,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Guardium S-TAP for Data Sets on z/OS
@@ -2311,7 +2238,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Guardium S-TAP for DB2 on z/OS
@@ -2341,7 +2267,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Guardium S-TAP for IMS on z/OS
@@ -2371,7 +2296,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Hyper Protect Crypto Services
@@ -2401,7 +2325,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Hyper Protect DBaaS for MongoDB
@@ -2431,7 +2354,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Hyper Protect DBaaS for PostgreSQL
@@ -2461,7 +2383,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Hyper Protect Virtual Server
@@ -2491,7 +2412,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: i2 Analyst’s Notebook
@@ -2521,7 +2441,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: i2 Base
@@ -2551,7 +2470,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM Application Runtime Expert for i
@@ -2581,7 +2499,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM Backup, Recovery and Media Services for i
@@ -2611,7 +2528,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM Db2 Mirror for i
@@ -2641,7 +2557,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM HTTP Server
@@ -2671,7 +2586,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM i Access Family
@@ -2701,7 +2615,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM i Portfolio of products under the Group SWMA
@@ -2731,7 +2644,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM PowerHA System Mirror for i
@@ -2761,7 +2673,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM Sterling Connect:Direct Browser User Interface
@@ -2791,7 +2702,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM Sterling Connect:Direct File Agent
@@ -2824,7 +2734,6 @@ software:
       - '[https://www.ibm.com/support/pages/node/6526688](https://www.ibm.com/support/pages/node/6526688),
         [https://www.ibm.com/support/pages/node/6528324](https://www.ibm.com/support/pages/node/6528324),
         [https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/)'
-    reporter: cisagov
     last_updated: '2021-12-20T00:00:00'
   - vendor: IBM
     product: IBM Sterling Connect:Direct for HP NonStop
@@ -2854,7 +2763,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM Sterling Connect:Direct for i5/OS
@@ -2884,7 +2792,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM Sterling Connect:Direct for OpenVMS
@@ -2914,7 +2821,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM Sterling Connect:Express for Microsoft Windows
@@ -2944,7 +2850,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM Sterling Connect:Express for UNIX
@@ -2974,7 +2879,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: IBM Sterling Connect:Express for z/OS
@@ -3004,7 +2908,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Instana Agent
@@ -3035,7 +2938,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-14T00:00:00'
   - vendor: IBM
     product: Internet Services
@@ -3065,7 +2967,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Key Lifecyle Manager for z/OS
@@ -3095,7 +2996,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Key Protect
@@ -3125,7 +3025,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Knowledge Studio
@@ -3155,7 +3054,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Kubernetes Service
@@ -3185,7 +3083,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Load Balancer for VPC
@@ -3215,7 +3112,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Log Analysis
@@ -3245,7 +3141,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Managed VMware Service
@@ -3275,7 +3170,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Management Extender for VMware vCenter
@@ -3304,8 +3198,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: IBM
     product: Mass Data Migration
     cves:
@@ -3334,7 +3227,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Maximo EAM SaaS
@@ -3364,7 +3256,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Message Hub
@@ -3394,7 +3285,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: MQ Appliance
@@ -3424,7 +3314,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: MQ on IBM Cloud
@@ -3454,7 +3343,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Natural Language Understanding
@@ -3484,7 +3372,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: OmniFind Text Search Server for DB2 for i
@@ -3514,7 +3401,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: OPENBMC
@@ -3544,7 +3430,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Planning Analytics Workspace
@@ -3575,7 +3460,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Power HMC
@@ -3606,7 +3490,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: PowerSC
@@ -3636,7 +3519,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: PowerVM Hypervisor
@@ -3666,7 +3548,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: PowerVM VIOS
@@ -3696,7 +3577,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: QRadar Advisor
@@ -3726,7 +3606,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Qradar Network Threat Analytics
@@ -3756,7 +3635,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: QRadar SIEM
@@ -3786,7 +3664,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Quantum Services
@@ -3816,7 +3693,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Rational Developer for AIX and Linux
@@ -3846,7 +3722,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Rational Developer for i
@@ -3876,7 +3751,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Red Hat OpenShift on IBM Cloud
@@ -3906,7 +3780,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Resilient
@@ -3935,8 +3808,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: IBM
     product: Robotic Process Automation
     cves:
@@ -3965,7 +3837,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: SAN Volume Controller and Storwize Family
@@ -3995,7 +3866,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Satellite Infrastructure Service
@@ -4025,7 +3895,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Schematics
@@ -4055,7 +3924,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Secrets Manager
@@ -4085,7 +3953,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Secure Gateway
@@ -4115,7 +3982,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Server Automation
@@ -4144,8 +4010,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: IBM
     product: Spectrum Archive Library Edition
     cves:
@@ -4174,7 +4039,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Spectrum Discover
@@ -4204,7 +4068,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Spectrum Protect Client Management Service
@@ -4234,7 +4097,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: 'Spectrum Protect for Databases: Data Protection for Oracle'
@@ -4264,7 +4126,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: 'Spectrum Protect for Databases: Data Protection for SQL'
@@ -4294,7 +4155,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Spectrum Protect for Enterprise Resource Planning
@@ -4324,7 +4184,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: 'Spectrum Protect for Mail: Data Protection for Domino'
@@ -4354,7 +4213,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: 'Spectrum Protect for Mail: Data Protection for Exchange'
@@ -4384,7 +4242,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Spectrum Protect for Workstations
@@ -4414,7 +4271,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Spectrum Protect for z/OS USS Client and API
@@ -4444,7 +4300,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Spectrum Protect Plus Db2 Agent
@@ -4474,7 +4329,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Spectrum Protect Plus Exchange Agent
@@ -4504,7 +4358,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Spectrum Protect Plus File Systems Agent
@@ -4534,7 +4387,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Spectrum Protect Plus MongoDB Agent
@@ -4564,7 +4416,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Spectrum Protect Plus O365 Agent
@@ -4594,7 +4445,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Spectrum Protect Server
@@ -4624,7 +4474,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Spectrum Protect Snapshot for UNIX
@@ -4654,7 +4503,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Spectrum Protect Snapshot for UNIX
@@ -4684,7 +4532,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: SQL Query
@@ -4714,7 +4561,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Gentran
@@ -4744,7 +4590,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Order Management
@@ -4774,7 +4619,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Transformation Extender Pack for ACORD
@@ -4804,7 +4648,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Transformation Extender Pack for Financial Services
@@ -4834,7 +4677,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Transformation Extender Pack for FIX
@@ -4864,7 +4706,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Transformation Extender Pack for NACHA
@@ -4894,7 +4735,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Transformation Extender Pack for PeopleSoft
@@ -4924,7 +4764,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Transformation Extender Pack for SAP R/3
@@ -4954,7 +4793,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Transformation Extender Pack for SEPA
@@ -4984,7 +4822,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Transformation Extender Pack for Siebel
@@ -5014,7 +4851,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Transformation Extender Pack for SWIFT
@@ -5044,7 +4880,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Transformation Extender Packs for EDI
@@ -5074,7 +4909,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Transformation Extender Packs for Healthcare
@@ -5104,7 +4938,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Sterling Transformation Extender Trading Manager
@@ -5134,7 +4967,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Storage TS1160
@@ -5164,7 +4996,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Storage TS2280
@@ -5194,7 +5025,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Storage TS2900 Library
@@ -5224,7 +5054,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Storage TS3100-TS3200 Library
@@ -5254,7 +5083,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Storage TS4500 Library
@@ -5284,7 +5112,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Storage Virtualization Engine TS7700
@@ -5314,7 +5141,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Tape System Library Manager
@@ -5344,7 +5170,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: TDMF for zOS
@@ -5374,7 +5199,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Total Storage Service Console (TSSC) / TS4500 IMC
@@ -5404,7 +5228,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Transit Gateway
@@ -5434,7 +5257,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Tririga Anywhere
@@ -5464,7 +5286,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: TS4300
@@ -5494,7 +5315,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Urbancode Deploy
@@ -5524,7 +5344,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Virtual Private Cloud
@@ -5554,7 +5373,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Virtual Server for Classic
@@ -5584,7 +5402,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Virtualization Management Interface
@@ -5614,7 +5431,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: VMware Solutions
@@ -5644,7 +5460,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: VMware vCenter Server
@@ -5674,7 +5489,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: VMware vSphere
@@ -5704,7 +5518,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: VPN for VPC
@@ -5734,7 +5547,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: vRealize Operations and Log Insight
@@ -5764,7 +5576,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
     product: Workload Automation
@@ -5794,7 +5605,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-15T00:00:00'
   - vendor: ICONICS
     product: All
@@ -5824,7 +5634,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-21T00:00:00'
   - vendor: IFS
     product: ''
@@ -5854,8 +5663,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: IGEL
     product: ''
     cves:
@@ -5884,8 +5692,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Ignite Realtime
     product: ''
     cves:
@@ -5914,8 +5721,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: iGrafx
     product: ''
     cves:
@@ -5944,8 +5750,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Illuminated Cloud
     product: ''
     cves:
@@ -5974,8 +5779,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Illumio
     product: C-VEN
     cves:
@@ -6004,7 +5808,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Illumio
     product: CLI
@@ -6034,7 +5837,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Illumio
     product: CloudSecure
@@ -6064,7 +5866,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Illumio
     product: Core on-premise PCE
@@ -6094,7 +5895,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Illumio
     product: Core SaaS PCE
@@ -6124,7 +5924,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Illumio
     product: Edge SaaS PCE
@@ -6154,7 +5953,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Illumio
     product: Edge-CrowdStrike
@@ -6184,7 +5982,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Illumio
     product: Flowlink
@@ -6214,7 +6011,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Illumio
     product: Kubelink
@@ -6244,7 +6040,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Illumio
     product: NEN
@@ -6274,7 +6069,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Illumio
     product: QRadar App
@@ -6304,7 +6098,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Illumio
     product: Splunk App
@@ -6334,7 +6127,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Illumio
     product: VEN
@@ -6364,7 +6156,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: IManage
     product: ''
@@ -6394,8 +6185,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Imperva
     product: ''
     cves:
@@ -6424,8 +6214,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Inductive Automation
     product: ''
     cves:
@@ -6454,8 +6243,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: IndustrialDefender
     product: ''
     cves:
@@ -6484,8 +6272,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: infinidat
     product: ''
     cves:
@@ -6514,8 +6301,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: InfluxData
     product: ''
     cves:
@@ -6544,8 +6330,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Infoblox
     product: ''
     cves:
@@ -6574,8 +6359,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Informatica
     product: ''
     cves:
@@ -6604,8 +6388,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Instana
     product: ''
     cves:
@@ -6634,8 +6417,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Instructure
     product: ''
     cves:
@@ -6664,8 +6446,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Intel
     product: Audio Development Kit
     cves:
@@ -6694,7 +6475,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Intel
     product: Datacenter Manager
@@ -6724,7 +6504,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Intel
     product: oneAPI sample browser plugin for Eclipse
@@ -6754,7 +6533,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Intel
     product: System Debugger
@@ -6784,7 +6562,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Intel
     product: Secure Device Onboard
@@ -6814,7 +6591,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Intel
     product: Genomics Kernel Library
@@ -6844,7 +6620,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Intel
     product: System Studio
@@ -6874,7 +6649,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Intel
     product: Computer Vision Annotation Tool maintained by Intel
@@ -6904,7 +6678,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Intel
     product: Sensor Solution Firmware Development Kit
@@ -6934,7 +6707,6 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-16T00:00:00'
   - vendor: Internet Systems Consortium(ISC)
     product: ISC DHCP, aka dhcpd
@@ -6965,7 +6737,6 @@ software:
     notes: no JAVA Code
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Internet Systems Consortium(ISC)
     product: Kea DHCP
@@ -6996,7 +6767,6 @@ software:
     notes: no JAVA Code
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: Internet Systems Consortium(ISC)
     product: BIND 9
@@ -7027,7 +6797,6 @@ software:
     notes: no JAVA Code
     references:
       - ''
-    reporter: cisagov
     last_updated: '2021-12-17T00:00:00'
   - vendor: InterSystems
     product: ''
@@ -7057,8 +6826,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Intland
     product: codebeamer
     cves:
@@ -7090,8 +6858,7 @@ software:
       and [21.09](https://codebeamer.com/cb/wiki/19418497), but not yet for [21.04](https://codebeamer.com/cb/wiki/16937839)
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: IPRO
     product: Netgovern
     cves:
@@ -7119,8 +6886,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: iRedMail
     product: ''
     cves:
@@ -7149,8 +6915,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Ironnet
     product: ''
     cves:
@@ -7179,8 +6944,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: ISLONLINE
     product: ''
     cves:
@@ -7209,8 +6973,7 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Ivanti
     product: ''
     cves:
@@ -7239,6 +7002,5 @@ software:
     notes: ''
     references:
       - ''
-    reporter: cisagov
-    last_updated: '2022-01-01T09:24:26+00:00'
+    last_updated: '2022-01-07T17:30:36+00:00'
 ...
