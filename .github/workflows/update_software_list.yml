@@ -71,7 +71,7 @@ jobs:
       - name: Update the comprehensive cisagov YAML file
         run: normalize-yml --cisagov-format data/cisagov_*.yml > data/cisagov.yml
       - name: Generate a normalized YAML file from all source YAML files
-        run: normalize-yml data/cisagov.yml > normalized.yml
+        run: normalize-yml data/cisagov.yml data/NCSC-NL.yml > normalized.yml
       - name: Generate a Markdown table from the normalized YAML file
         run: yml2md normalized.yml > table_data.md
       - name: Generate a new software list from the updated data
