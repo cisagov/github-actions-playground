@@ -28,10 +28,10 @@ software:
       fixed_versions: []
       unaffected_versions: 1.0, 2.0
   vendor_links:
-  - https://www.google.com/
+    - https://www.google.com/
   notes: Testing notes section here.
   references:
-  - ''
+    - ''
   last_updated: 1/10/2022
  - vendor: Tableau
     product: Tableau Server
