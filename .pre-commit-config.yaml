@@ -103,12 +103,12 @@ repos:
     hooks:
       - id: pyupgrade
 
-  # Ansible hooks
-  - repo: https://github.com/ansible-community/ansible-lint
-    rev: v5.2.1
-    hooks:
-      - id: ansible-lint
-      # files: molecule/default/playbook.yml
+  # # Ansible hooks
+  # - repo: https://github.com/ansible-community/ansible-lint
+  #   rev: v5.2.1
+  #   hooks:
+  #     - id: ansible-lint
+  #     files: molecule/default/playbook.yml
 
   # Terraform hooks
   - repo: https://github.com/antonbabenko/pre-commit-terraform
