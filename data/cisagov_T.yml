@@ -4,7 +4,7 @@ owners:
   - name: cisagov
     url: https://github.com/cisagov/log4j-affected-db
 software:
- - vendor: Test Vendor
+  - vendor: Test Vendor
   product: Test Product
   cves:
     cve-2021-4104:
@@ -33,7 +33,7 @@ software:
   references:
     - ''
   last_updated: 1/10/2022
- - vendor: Tableau
+  - vendor: Tableau
     product: Tableau Server
     cves:
       cve-2021-4104:
