@@ -5,34 +5,34 @@ owners:
     url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: Test Vendor
-  product: Test Product
-  cves:
-    cve-2021-4104:
-      investigated: ''
-      affected_versions: []
-      fixed_versions: []
-      unaffected_versions: []
-    cve-2021-44228:
-      investigated: ''
-      affected_versions: 1.0
-      fixed_versions: 2.0
-      unaffected_versions: []
-    cve-2021-45046:
-      investigated: ''
-      affected_versions: []
-      fixed_versions: []
-      unaffected_versions: []
-    cve-2021-45105:
-      investigated: ''
-      affected_versions: []
-      fixed_versions: []
-      unaffected_versions: 1.0, 2.0
-  vendor_links:
-    - https://www.google.com/
-  notes: Testing notes section here.
-  references:
-    - ''
-  last_updated: 1/10/2022
+    product: Test Product
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: ''
+        affected_versions: '1.0'
+        fixed_versions: '2.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.google.com/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-01-10'
   - vendor: Tableau
     product: Tableau Server
     cves:
