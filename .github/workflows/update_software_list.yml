@@ -68,10 +68,16 @@ jobs:
         run: pip install --upgrade --requirement config/requirements.txt
       - name: Create the branch for test validation
         run: git switch --create ${{ needs.setup.outputs.testing_branch }}
+      - name: Normalize individual cisagov_* YAML files
+        run: |
+          for file in data/cisagov_*yml; do \
+            normalize-yml --cisagov-format "$file" > "$file".tmp; \
+            mv --force "$file".tmp "$file"; \
+          done
       - name: Update the comprehensive cisagov YAML file
         run: normalize-yml --cisagov-format data/cisagov_*.yml > data/cisagov.yml
       - name: Generate a normalized YAML file from all source YAML files
-        run: normalize-yml data/cisagov.yml data/NCSC-NL.yml > normalized.yml
+        run: normalize-yml data/cisagov.yml > normalized.yml
       - name: Generate a Markdown table from the normalized YAML file
         run: yml2md normalized.yml > table_data.md
       - name: Generate a new software list from the updated data
@@ -80,11 +86,11 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: ${{ needs.setup.outputs.testing_branch }}
-          commit_message: Update the software list
+          commit_message: Normalize YAML files and update the software list
           commit_user_name: ${{ needs.setup.outputs.git_user }}
           commit_user_email: ${{ needs.setup.outputs.git_email }}
           commit_author: ${{ needs.setup.outputs.git_author }}
-          file_pattern: SOFTWARE-LIST.md data/cisagov.yml
+          file_pattern: SOFTWARE-LIST.md data/cisagov*.yml
   merge_list_update:
     runs-on: ubuntu-latest
     needs:
