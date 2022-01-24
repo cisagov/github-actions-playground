@@ -6242,35 +6242,6 @@ software:
     references:
       - ''
     last_updated: '2022-01-07T17:30:32+00:00'
-  - vendor: BeyondTrust Bomgar
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: BeyondTrust
     product: Privilege Management Cloud
     cves:
@@ -6361,6 +6332,35 @@ software:
     references:
       - ''
     last_updated: '2021-12-17T00:00:00'
+  - vendor: BeyondTrust Bomgar
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-07T17:30:32+00:00'
   - vendor: BioMerieux
     product: ''
     cves:
@@ -27459,34 +27459,6 @@ software:
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
-  - vendor: ElasticSearch
-    product: all products
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Elastic
     product: Swiftype
     cves:
@@ -27516,6 +27488,34 @@ software:
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
+  - vendor: ElasticSearch
+    product: all products
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links: []
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-07T17:30:34+00:00'
   - vendor: Ellucian
     product: Admin
     cves:
@@ -38341,35 +38341,6 @@ software:
     references:
       - ''
     last_updated: '2022-01-07T17:30:35+00:00'
-  - vendor: Gravitee.io
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-07T17:30:35+00:00'
   - vendor: Gravitee
     product: Access Management
     cves:
@@ -38564,6 +38535,35 @@ software:
         fixed_versions: []
         unaffected_versions:
           - 1.4.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-07T17:30:35+00:00'
+  - vendor: Gravitee.io
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -40729,6 +40729,156 @@ software:
     references:
       - ''
     last_updated: '2022-01-07T17:30:35+00:00'
+  - vendor: HP
+    product: Teradici Cloud Access Controller
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - < v113
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: HP
+    product: Teradici EMSDK
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - < 1.0.6
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: HP
+    product: Teradici Management Console
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - < 21.10.3
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: HP
+    product: Teradici PCoIP Connection Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - < 21.03.6
+          - < 20.07.4
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: HP
+    product: Teradici PCoIP License Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
   - vendor: HPE
     product: 3PAR StoreServ Arrays
     cves:
@@ -44472,156 +44622,6 @@ software:
     references:
       - ''
     last_updated: '2021-12-12T00:00:00'
-  - vendor: HP
-    product: Teradici Cloud Access Controller
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - < v113
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: HP
-    product: Teradici EMSDK
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - < 1.0.6
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: HP
-    product: Teradici Management Console
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - < 21.10.3
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: HP
-    product: Teradici PCoIP Connection Manager
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - < 21.03.6
-          - < 20.07.4
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: HP
-    product: Teradici PCoIP License Server
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
   - vendor: Huawei
     product: ''
     cves:
@@ -56793,6 +56793,65 @@ software:
     references:
       - ''
     last_updated: '2022-01-07T17:30:36+00:00'
+  - vendor: ManageEngine
+    product: AD SelfService Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - Build 6.1 build 6114
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links: []
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-27T00:00:00'
+  - vendor: ManageEngine
+    product: Servicedesk Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 11305 and below
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.manageengine.com/products/service-desk/security-response-plan.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
   - vendor: ManageEngine Zoho
     product: ''
     cves:
@@ -57182,65 +57241,6 @@ software:
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
-  - vendor: ManageEngine
-    product: AD SelfService Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - Build 6.1 build 6114
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-27T00:00:00'
-  - vendor: ManageEngine
-    product: Servicedesk Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 11305 and below
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.manageengine.com/products/service-desk/security-response-plan.html
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-15T00:00:00'
   - vendor: MariaDB
     product: ''
     cves:
@@ -65347,6 +65347,66 @@ software:
     references:
       - ''
     last_updated: '2022-01-07T17:30:38+00:00'
+  - vendor: Siemens
+    product: Affected Products
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf
+    notes: 'Siemens requests: See pdf for the complete list of affected products,
+      CSAF for automated parsing of data'
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Siemens
+    product: Affected Products
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cert-portal.siemens.com/productcert/pdf/ssa-501673.pdf
+    notes: 'Siemens requests: See pdf for the complete list of affected products,
+      CSAF for automated parsing of data'
+    references:
+      - ''
+    last_updated: '2021-12-19T00:00:00'
   - vendor: Siemens Energy
     product: Affected Products
     cves:
@@ -66465,66 +66525,6 @@ software:
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
-  - vendor: Siemens
-    product: Affected Products
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf
-    notes: 'Siemens requests: See pdf for the complete list of affected products,
-      CSAF for automated parsing of data'
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: Siemens
-    product: Affected Products
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://cert-portal.siemens.com/productcert/pdf/ssa-501673.pdf
-    notes: 'Siemens requests: See pdf for the complete list of affected products,
-      CSAF for automated parsing of data'
-    references:
-      - ''
-    last_updated: '2021-12-19T00:00:00'
   - vendor: Sierra Wireless
     product: ''
     cves:
@@ -69505,35 +69505,6 @@ software:
     references:
       - ''
     last_updated: '2022-01-07T17:30:38+00:00'
-  - vendor: Spring Boot
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-07T17:30:38+00:00'
   - vendor: Spring
     product: Spring Boot
     cves:
@@ -69561,6 +69532,35 @@ software:
       - https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot
     notes: Spring Boot users are only affected by this vulnerability if they have
       switched the default logging system to Log4J2
+    references:
+      - ''
+    last_updated: '2022-01-07T17:30:38+00:00'
+  - vendor: Spring Boot
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-07T17:30:38+00:00'

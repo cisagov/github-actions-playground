@@ -1369,35 +1369,6 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
-    product: Leap
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://download.nutanix.com/alerts/Security_Advisory_0023.pdf
-    notes: Saas-Based Procuct.  See Advisory.
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: Nutanix
     product: LCM
     cves:
       cve-2021-4104:
@@ -1424,6 +1395,35 @@ software:
     vendor_links:
       - https://download.nutanix.com/alerts/Security_Advisory_0023.pdf
     notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Nutanix
+    product: Leap
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://download.nutanix.com/alerts/Security_Advisory_0023.pdf
+    notes: Saas-Based Procuct.  See Advisory.
     references:
       - ''
     last_updated: '2021-12-20T00:00:00'

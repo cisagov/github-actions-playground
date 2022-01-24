@@ -63,6 +63,35 @@ software:
       - ''
     last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: ManageEngine
+    product: AD SelfService Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - Build 6.1 build 6114
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links: []
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-27T00:00:00'
+  - vendor: ManageEngine
     product: Servicedesk Plus
     cves:
       cve-2021-4104:
@@ -92,35 +121,6 @@ software:
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
-  - vendor: ManageEngine
-    product: AD SelfService Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - Build 6.1 build 6114
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-27T00:00:00'
   - vendor: ManageEngine Zoho
     product: ''
     cves:
@@ -150,6 +150,36 @@ software:
     references:
       - ''
     last_updated: '2022-01-07T17:30:36+00:00'
+  - vendor: ManageEngine Zoho
+    product: ADAudit Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions:
+          - On-Prem
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
     product: ADManager Plus
     cves:
@@ -181,7 +211,37 @@ software:
       - ''
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
-    product: ADAudit Plus
+    product: Analytics Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions:
+          - On-Prem
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: ManageEngine Zoho
+    product: Cloud Security Plus
     cves:
       cve-2021-4104:
         investigated: false
@@ -242,66 +302,6 @@ software:
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
     product: EventLog Analyzer
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - On-Prem
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: ManageEngine Zoho
-    product: M365 Manager Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - On-Prem
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: ManageEngine Zoho
-    product: RecoveryManager Plus
     cves:
       cve-2021-4104:
         investigated: false
@@ -421,7 +421,7 @@ software:
       - ''
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
-    product: Cloud Security Plus
+    product: M365 Manager Plus
     cves:
       cve-2021-4104:
         investigated: false
@@ -481,7 +481,7 @@ software:
       - ''
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
-    product: Analytics Plus
+    product: RecoveryManager Plus
     cves:
       cve-2021-4104:
         investigated: false
@@ -938,7 +938,7 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
-    product: ePolicy Orchestrator Application Server (ePO)
+    product: Enterprise Security Manager (ESM)
     cves:
       cve-2021-4104:
         investigated: false
@@ -949,7 +949,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 5.10 CU11
+          - 11.5.3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -991,6 +991,36 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links: []
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: McAfee
+    product: ePolicy Orchestrator Application Server (ePO)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 5.10 CU11
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://kc.mcafee.com/agent/index?page=content&id=SB10377
     notes: ''
     references:
       - ''
@@ -1276,34 +1306,6 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
-    product: McAfee Security for Microsoft SharePoint (MSMS)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: McAfee
     product: McAfee Security for Microsoft Exchange (MSME)
     cves:
       cve-2021-4104:
@@ -1332,7 +1334,7 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
-    product: Enterprise Security Manager (ESM)
+    product: McAfee Security for Microsoft SharePoint (MSMS)
     cves:
       cve-2021-4104:
         investigated: false
@@ -1340,10 +1342,9 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: true
+        investigated: false
         affected_versions: []
-        fixed_versions:
-          - 11.5.3
+        fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1355,8 +1356,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
-    vendor_links:
-      - https://kc.mcafee.com/agent/index?page=content&id=SB10377
+    vendor_links: []
     notes: ''
     references:
       - ''
@@ -1678,35 +1678,6 @@ software:
       - ''
     last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Microsoft
-    product: Azure Application Gateway
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-07T17:30:36+00:00'
-  - vendor: Microsoft
     product: Azure API Gateway
     cves:
       cve-2021-4104:
@@ -1736,7 +1707,7 @@ software:
       - ''
     last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Microsoft
-    product: Azure Data lake store java
+    product: Azure Application Gateway
     cves:
       cve-2021-4104:
         investigated: false
@@ -1744,9 +1715,8 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - < 2.3.10
+        investigated: false
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -1760,7 +1730,7 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310
+      - https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/
     notes: ''
     references:
       - ''
@@ -1796,7 +1766,7 @@ software:
       - ''
     last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Microsoft
-    product: Azure DevOps Server
+    product: Azure Data lake store java
     cves:
       cve-2021-4104:
         investigated: false
@@ -1806,7 +1776,36 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 2019.0 - 2020.1
+          - < 2.3.10
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-07T17:30:36+00:00'
+  - vendor: Microsoft
+    product: Azure DevOps
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -1826,7 +1825,7 @@ software:
       - ''
     last_updated: '2022-01-07T17:30:36+00:00'
   - vendor: Microsoft
-    product: Azure DevOps
+    product: Azure DevOps Server
     cves:
       cve-2021-4104:
         investigated: false
@@ -1834,8 +1833,9 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - 2019.0 - 2020.1
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2694,7 +2694,7 @@ software:
       - ''
     last_updated: '2022-01-07T17:30:37+00:00'
   - vendor: Mulesoft
-    product: Mule Runtime
+    product: Anypoint Studio
     cves:
       cve-2021-4104:
         investigated: false
@@ -2704,8 +2704,37 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 3.x
-          - 4.x
+          - 7.x
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021
+    notes: This advisory is available to account holders only and has not been reviewed
+      by CISA.
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Mulesoft
+    product: Cloudhub
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2757,37 +2786,7 @@ software:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: Mulesoft
-    product: Cloudhub
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021
-    notes: This advisory is available to account holders only and has not been reviewed
-      by CISA.
-    references:
-      - ''
-    last_updated: '2021-12-15T00:00:00'
-  - vendor: Mulesoft
-    product: Anypoint Studio
+    product: Mule Runtime
     cves:
       cve-2021-4104:
         investigated: false
@@ -2797,7 +2796,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 7.x
+          - 3.x
+          - 4.x
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
