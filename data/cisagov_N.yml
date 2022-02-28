@@ -32,7 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nagios
     product: ''
     cves:
@@ -61,7 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: NAKIVO
     product: ''
     cves:
@@ -90,33 +90,36 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: National Instruments
     product: OptimalPlus
     cves:
       cve-2021-4104:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - Vertica
+          - Cloudera
+          - Logstash
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
       - https://www.ni.com/en-us/support/documentation/supplemental/21/ni-response-to-apache-log4j-vulnerability-.html
-    notes: (Limited to deployments running Veritas, Cloudera, or Logstash) Contact
+    notes: (Limited to deployments running Vertica, Cloudera, or Logstash) Contact
       Technical Support
     references:
       - ''
@@ -132,7 +135,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - Version >4.2
+          - '>4.2'
           - <4..2.12
         fixed_versions: []
         unaffected_versions: []
@@ -179,7 +182,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Netcup
     product: ''
     cves:
@@ -208,7 +211,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: NetGate PFSense
     product: ''
     cves:
@@ -237,7 +240,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Netwrix
     product: ''
     cves:
@@ -266,7 +269,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: New Relic
     product: Containerized Private Minion (CPM)
     cves:
@@ -357,7 +360,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nextflow
     product: Nextflow
     cves:
@@ -416,36 +419,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
-  - vendor: NI (National Instruments)
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.ni.com/en-us/support/documentation/supplemental/21/ni-response-to-apache-log4j-vulnerability-.html
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:54+00:00'
   - vendor: Nice Software (AWS) EnginFRAME
     product: ''
     cves:
@@ -474,7 +448,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: NinjaRMM
     product: ''
     cves:
@@ -504,7 +478,7 @@ software:
       by CISA
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nomachine
     product: ''
     cves:
@@ -533,7 +507,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: NoviFlow
     product: ''
     cves:
@@ -562,7 +536,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nulab
     product: Backlog
     cves:
@@ -592,7 +566,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nulab
     product: Backlog Enterprise (On-premises)
     cves:
@@ -622,7 +596,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nulab
     product: Cacoo
     cves:
@@ -652,7 +626,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nulab
     product: Cacoo Enterprise (On-premises)
     cves:
@@ -682,7 +656,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nulab
     product: Typetalk
     cves:
@@ -712,7 +686,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nutanix
     product: AHV
     cves:
@@ -1784,7 +1758,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: NXLog
     product: ''
     cves:
@@ -1813,5 +1787,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-07T17:30:37+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...

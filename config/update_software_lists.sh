@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# This script is used to do the following:
+# - Normalize each of the data/cisagov_*.yml files.
+# - Update the comprehensive data/cisagov.yml file.
+# - Generate the softwarelists/software_list_*.md files from the respective
+#   data/cisagov_*.yml file.
+
 set -o nounset
 set -o errexit
 set -o pipefail
