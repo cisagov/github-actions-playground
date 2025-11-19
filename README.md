@@ -1,6 +1,8 @@
 # github-actions-playground #
 
 [![GitHub Build Status](https://github.com/cisagov/github-actions-playground/workflows/build/badge.svg)](https://github.com/cisagov/github-actions-playground/actions)
+[![License](https://img.shields.io/github/license/cisagov/github-actions-playground)](https://spdx.org/licenses/)
+[![CodeQL](https://github.com/cisagov/github-actions-playground/workflows/CodeQL/badge.svg)](https://github.com/cisagov/github-actions-playground/actions/workflows/codeql-analysis.yml)
 
 This repository serves as a playground for testing the functionality of
 [GitHub Actions](https://github.com/features/actions).
